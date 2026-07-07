@@ -1,0 +1,91 @@
+ocr_id,restaurant_id,restaurant_name,raw_ocr_text
+OCR001,RES001,Phở Bếp Nhà,"Khoai tây chiên .... 85.585 VND
+Bánh flan .... 52.942 VND
+Pho bò tái .... 80.397 VND
+Bun chả .... 100.845 VND
+Gỏi cuốn .... 67.781 VND"
+OCR002,RES002,Bún Chả Phố Cổ,"Pho bò tái .... 85.382 VND
+Bánh flan .... 47.434 VND
+Bun chả .... 97.965 VND
+Khoai tây chiên .... 63.906 VND
+Mì Quảng gà .... 82.810 VND"
+OCR003,RES003,Cơm Tấm Sài Gòn Xưa,"Com tấm sườn .... 95.055 VND
+Bun chả .... 107.848 VND
+Nước suối .... 20.053 VND
+Pho bò tái .... 90.467 VND
+Gỏi cuốn .... 69.600 VND"
+OCR004,RES004,Nhà Hàng Biển Xanh,"Mực hấp gừng .... 180.120 VND
+Lẩu hải sản .... 432.848 VND
+Trà đào cam sả .... 62.701 VND
+Cá nướng giấy bạc .... 277.971 VND
+Nước suối .... 20.066 VND"
+OCR005,RES005,Mộc Vegan Bistro,"Com sen chay .... 112.164 VND
+Nước suối .... 20.561 VND
+Gỏi cuốn chay .... 60.487 VND
+Khoai tây chiên .... 74.805 VND
+Bun Huế chay .... 85.279 VND"
+OCR006,RES006,Gà Nướng Lá Chanh,"Bun chả .... 107.640 VND
+Mì Quảng gà .... 81.184 VND
+Pho bò tái .... 98.936 VND
+Com tấm sườn .... 116.764 VND
+Trà đào cam sả .... 62.995 VND"
+OCR007,RES007,Hải Sản Sóng Vàng,"Lẩu hải sản .... 343.923 VND
+Khoai tây chiên .... 71.170 VND
+Bánh flan .... 41.943 VND
+Tôm nướng muối ớt .... 255.154 VND
+Mực hấp gừng .... 221.160 VND"
+OCR008,RES008,The Coffee & Brunch,"Bánh mì gà halal .... 65.693 VND
+Cà ri bò halal .... 159.527 VND
+Nước suối .... 20.266 VND
+Khoai tây chiên .... 74.668 VND
+Com gà halal .... 126.825 VND"
+OCR009,RES009,Lẩu Nấm An Nhiên,"Lẩu hải sản .... 324.002 VND
+Trà đào cam sả .... 51.409 VND
+Cá nướng giấy bạc .... 291.609 VND
+Tôm nướng muối ớt .... 258.308 VND
+Khoai tây chiên .... 80.660 VND"
+OCR010,RES010,Pizza Roma,"Pizza Margherita .... 207.965 VND
+Bánh flan .... 45.691 VND
+Nước suối .... 24.778 VND
+Tiramisu .... 110.064 VND
+Pasta Carbonara .... 232.378 VND"
+OCR011,RES011,Sushi Sakura,"Tempura tôm .... 145.470 VND
+Sushi cá hồi .... 263.093 VND
+Nước suối .... 22.601 VND
+Ramen tonkotsu .... 215.244 VND
+Trà đào cam sả .... 63.026 VND"
+OCR012,RES012,Bánh Mì Corner,"Lẩu nấm chay .... 204.541 VND
+Nước suối .... 20.158 VND
+Bánh flan .... 55.388 VND
+Bun Huế chay .... 86.768 VND
+Gỏi cuốn chay .... 67.900 VND"
+OCR013,RES013,Quán Chay Sen Trắng,"Lẩu nấm chay .... 260.077 VND
+Gỏi cuốn chay .... 73.344 VND
+Com sen chay .... 99.819 VND
+Bun Huế chay .... 88.926 VND
+Bánh flan .... 47.746 VND"
+OCR014,RES014,Rooftop Garden Dining,"Trà đào cam sả .... 55.329 VND
+Gỏi cuốn chay .... 69.964 VND
+Bun Huế chay .... 93.739 VND
+Nước suối .... 20.262 VND
+Com sen chay .... 102.473 VND"
+OCR015,RES015,BBQ Street House,"Trà đào cam sả .... 61.937 VND
+Mực hấp gừng .... 193.945 VND
+Cá nướng giấy bạc .... 247.728 VND
+Tôm nướng muối ớt .... 262.040 VND
+Lẩu hải sản .... 370.092 VND"
+OCR016,RES016,Bún Bò Cố Đô,"Trà đào cam sả .... 51.298 VND
+Bun chả .... 101.681 VND
+Khoai tây chiên .... 68.247 VND
+Gỏi cuốn .... 61.717 VND
+Mì Quảng gà .... 75.578 VND"
+OCR017,RES017,Café Trứng 1980,"Khoai tây chiên .... 71.925 VND
+Canh kimchi .... 137.099 VND
+Thịt nướng Hàn Quốc .... 386.155 VND
+Trà đào cam sả .... 64.588 VND
+Bibimbap .... 172.430 VND"
+OCR018,RES018,Nhà Hàng Gia Đình Việt,"Tôm nướng muối ớt .... 257.246 VND
+Mực hấp gừng .... 212.479 VND
+Bánh flan .... 53.363 VND
+Lẩu hải sản .... 327.567 VND
+Nước suối .... 20.617 VND"
