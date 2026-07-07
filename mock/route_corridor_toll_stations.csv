@@ -1,0 +1,3 @@
+toll_station_id,toll_station_name,corridor_id,latitude,longitude,progress_km_from_origin,note
+TOLL_M01,Trạm thu phí VETC Hải Dương (mock),hanoi-halong,20.94,106.33,60,"Vị trí minh hoạ gần TP. Hải Dương trên tuyến QL5/cao tốc Hà Nội - Hải Phòng - Hạ Long, không phải toạ độ trạm thu phí thật"
+TOLL_M02,Trạm thu phí VETC Uông Bí (mock),hanoi-halong,21.03,106.77,115,"Vị trí minh hoạ gần Uông Bí trên tuyến QL18, không phải toạ độ trạm thu phí thật"

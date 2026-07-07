@@ -1,0 +1,29 @@
+{
+  "corridors": [
+    {
+      "corridorId": "hanoi-halong",
+      "label": "Hà Nội → Hạ Long",
+      "note": "Minh hoạ cho demo VETC — cao tốc Hà Nội - Hải Phòng - Hạ Long có trạm thu phí không dừng thật. Toạ độ waypoint là ước lượng cho demo, không phải dữ liệu định tuyến chính xác.",
+      "origin": {
+        "label": "Hà Nội (Hoàn Kiếm)",
+        "lat": 21.040388,
+        "lon": 105.844615,
+        "sourceRestaurantId": "RES001"
+      },
+      "destination": {
+        "label": "Hạ Long (Bãi Cháy)",
+        "lat": 20.97621,
+        "lon": 107.085937,
+        "sourceRestaurantId": "RES005"
+      },
+      "polyline": [
+        { "lat": 21.040388, "lon": 105.844615, "progressKm": 0 },
+        { "lat": 20.94, "lon": 106.33, "progressKm": 60 },
+        { "lat": 21.03, "lon": 106.77, "progressKm": 115 },
+        { "lat": 20.97621, "lon": 107.085937, "progressKm": 155 }
+      ],
+      "tollStationsFile": "route_corridor_toll_stations.csv",
+      "restStopRestaurantsFile": "route_corridor_restaurants.csv"
+    }
+  ]
+}
