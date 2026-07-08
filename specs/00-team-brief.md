@@ -63,9 +63,7 @@ nhiều điều kiện cùng lúc.
 
 ### 1.5 User stories & use case cụ thể (dùng thẳng cho pitch deck)
 
-Mỗi story dùng **nhân vật + dữ liệu thật trong dataset** (tên quán, thành phố, amenities thật) — không
-phải nhân vật hư cấu chung chung, để giám khảo thấy ngay hệ thống chạy trên data thật chứ không phải
-demo giả lập.
+Mỗi story dùng **nhân vật + dữ liệu thật trong dataset** (tên quán, thành phố, amenities thật)
 
 ---
 
