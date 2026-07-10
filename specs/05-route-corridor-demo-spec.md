@@ -5,6 +5,15 @@
 > Module 1, không xây engine mới). Nếu bí giờ, đây là thứ **cắt đầu tiên**, trước cả Module 4.
 > Xem quyết định cập nhật ở `00-team-brief.md` mục 3 và `CLAUDE.md` mục 4.
 
+> **CẬP NHẬT 10/7 (hack day) — ĐÃ BUILD, LỆCH SPEC NÀY THEO HƯỚNG TỐT HƠN:** phần dưới đây (mục 2-4)
+> mô tả kế hoạch mock hoàn toàn — lý do là lo route engine thật tốn 4-6h. Thực tế API production của
+> Tasco (Valhalla + Pelias) đã sẵn sàng và gọi được ngay trong ngày hack, nên bản build thật dùng **API
+> thật cho toàn bộ phần địa lý** (tuyến đường, toạ độ trạm, quán ăn, detour) — chỉ còn mô phỏng đúng 1
+> thứ: sự kiện xe qua trạm. `mock/route_corridor_*` ở mục 2 KHÔNG còn được đọc. Nguyên tắc cách ly dữ
+> liệu ở mục 4/6/7 bên dưới **vẫn giữ nguyên tinh thần** (đã có test tự động thực thi). Endpoint contract
+> ở mục 3 **vẫn đúng** — server thật implement đúng shape này. Tài liệu chính xác cho bản đã build:
+> `module5/README.md`. Phần còn lại của file này giữ nguyên làm hồ sơ lý do quyết định gốc.
+
 ## 0. Vì sao module này tồn tại (bối cảnh quyết định)
 
 Quyết định gốc là cắt hẳn route layer vì: (a) 0/15 câu benchmark liên quan route, (b) 30 quán rải
