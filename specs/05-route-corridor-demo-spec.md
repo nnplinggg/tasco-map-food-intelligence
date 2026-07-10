@@ -14,6 +14,20 @@
 > ở mục 3 **vẫn đúng** — server thật implement đúng shape này. Tài liệu chính xác cho bản đã build:
 > `module5/README.md`. Phần còn lại của file này giữ nguyên làm hồ sơ lý do quyết định gốc.
 
+> **CẬP NHẬT 10/7 (bản 2) — SỬA CÂU CHUYỆN + THÊM MEAL-WINDOW GATING:** bản build đầu tiên gợi ý quán
+> **mỗi lần** xe qua trạm, bất kể giờ giấc → vừa phiền (pop-up vô điều kiện) vừa **không thật sự khác
+> Google Maps** (GPS geofence của GG Maps xấp xỉ được "biết bạn gần trạm"; toll-crossing KHÔNG phải bí
+> mật dữ liệu VETC — bỏ cách bán đó). Sửa 2 điểm: **(1)** endpoint nhận `?atHour=` (đồng hồ chuyến đi,
+> mô phỏng như sự kiện qua trạm) và **chỉ đẩy trong khung giờ bữa ăn** (sáng 6–9h, trưa 11–13h, tối
+> 18–20h, khuya 22–2h); ngoài khung → `push:false`, `results:[]` (im lặng, chỉ badge). **(2)** `meta`
+> ghi rõ **differentiator trung thực**: *route-aware (quán phía trước, detour thật) + lọc bãi đỗ ô
+> tô/hợp gia đình (structured amenity GG Maps VN thiếu) + đẩy chủ động đúng bữa vì tài xế đang lái* —
+> KHÔNG bán "biết xe qua trạm". Lưu ý: POI dọc tuyến lấy từ nearby-search thật nên **không có
+> `opening_hours`** → gate theo *khung giờ bữa* (đồng hồ chuyến đi), không theo giờ mở cửa từng quán.
+> **Đã cân nhắc & LOẠI hướng "trạm sạc EV/thời gian chờ sạc":** nghe hay nhưng **zero data/API** trong
+> hackathon (chỉ xuất hiện đúng 1 lần ở mục 0 dưới đây, trong lý do *không* mock nó) → phải mock 100%,
+> đổi persona sang xe điện, đúng thứ CLAUDE.md đã quyết không làm. Chi tiết đã build: `module5/README.md`.
+
 ## 0. Vì sao module này tồn tại (bối cảnh quyết định)
 
 Quyết định gốc là cắt hẳn route layer vì: (a) 0/15 câu benchmark liên quan route, (b) 30 quán rải

@@ -137,15 +137,21 @@ Mỗi story dùng **nhân vật + dữ liệu thật trong dataset** (tên quán
 - **Trước:** phải tấp vào lề, mở Google Maps, gõ "nhà hàng gần đây", nhận về danh sách chung chung —
   không biết có bãi đỗ xe cho ô tô không, có phù hợp trẻ em không — mất tập trung và mất thời gian giữa
   chuyến đi.
-- **Sau:** ngay tại thời điểm xe qua trạm thu phí (Trạm QL10, Cầu Bạch Đằng, hoặc Đồng Đăng — cả 3 nằm
-  đúng trên tuyến Hà Nội → Hạ Long thật), hệ thống tự gợi ý quán ăn phía trước — vd sau trạm Cầu Bạch
-  Đằng là **14 Pizza Halong**, chỉ +4 phút detour — kèm số liệu detour thật (route API tính 2 lần:
-  baseline vs có điểm dừng), không cần tự gõ tìm kiếm.
-- **Vì sao thuyết phục:** đây là khoảnh khắc **chỉ Tasco/VETC có được** — Google Maps và Foody không
-  biết chính xác lúc nào xe bạn vừa trả phí qua trạm. **Cập nhật 10/7:** khác dự tính ban đầu, toàn bộ
-  phần địa lý (tuyến đường, toạ độ trạm, quán ăn, detour) giờ lấy từ **API Tasco Maps production thật**,
-  không phải mock — chỉ riêng thời điểm "xe qua trạm" là mô phỏng (gắn nhãn rõ trên UI). Chi tiết:
-  `module5/README.md`.
+- **Sau:** đúng vào **khung giờ bữa ăn** (trưa 11–13h / tối 18–20h / khuya…), khi xe vừa qua một trạm
+  thu phí (Trạm QL10, Cầu Bạch Đằng, hoặc Đồng Đăng — cả 3 nằm đúng trên tuyến Hà Nội → Hạ Long thật),
+  hệ thống chủ động gợi ý quán ăn **phía trước trên tuyến** (không quay đầu) — vd sau trạm Cầu Bạch Đằng
+  là **14 Pizza Halong**, chỉ +4 phút detour — đã lọc sẵn **có bãi đỗ ô tô + hợp gia đình**, kèm số liệu
+  detour thật (route API tính 2 lần: baseline vs có điểm dừng). Ngoài khung giờ bữa: **im lặng** (chỉ 1
+  badge nhỏ, bấm mới xem) — không pop-up phiền.
+- **Vì sao thuyết phục — differentiator trung thực (KHÔNG bán "bí mật giao dịch VETC"):** trạm thu phí
+  chỉ là **cái đồng hồ bấm giờ** tiện lợi để chọn *thời điểm* đẩy — GPS geofence của Google Maps xấp xỉ
+  được việc "biết bạn gần trạm", nên đừng thổi phồng chỗ đó. Giá trị thật nằm ở **giao của 3 thứ Google
+  Maps VN làm kém**: (a) **hiểu hướng tuyến** → chỉ gợi quán phía trước, detour thấp (Valhalla route API
+  thật, không phải bán kính quanh điểm); (b) **structured amenity ô tô/gia đình** (bãi đỗ, hợp trẻ em)
+  mà GG Maps VN gần như không có; (c) **đẩy chủ động đúng bữa** vì tài xế đang lái, tay bận, không tra
+  cứu được. **Cập nhật 10/7:** toàn bộ phần địa lý (tuyến, toạ độ trạm, quán ăn, detour) lấy từ **API
+  Tasco Maps production thật**; chỉ **thời điểm xe qua trạm + đồng hồ chuyến đi (giờ bữa ăn)** là mô
+  phỏng (gắn nhãn rõ trên UI). Chi tiết: `module5/README.md`.
 
 ---
 

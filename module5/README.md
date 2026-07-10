@@ -1,8 +1,13 @@
 # Module 5 — VETC Route Corridor Demo (Hà Nội → Hạ Long)
 
-Demo minh hoạ lợi thế hạ tầng của Tasco/VETC: **vì app biết xe vừa qua trạm thu
-phí trên hành trình đang chạy, nó gợi ý được điểm dừng ăn uống phù hợp phía
-trước — điều Google Maps không làm được vì không biết trước lộ trình của bạn.**
+Demo minh hoạ lợi thế hạ tầng của Tasco/VETC. **Differentiator trung thực (KHÔNG
+bán "app biết bí mật lúc xe qua trạm" — GPS geofence của Google Maps xấp xỉ được
+việc đó):** giá trị nằm ở **giao của 3 thứ GG Maps VN làm kém** — (1) **hiểu
+hướng tuyến** → chỉ gợi quán *phía trước*, detour thấp (route API thật, không
+phải bán kính quanh điểm); (2) **structured amenity ô tô/gia đình** (bãi đỗ, hợp
+trẻ em) mà GG Maps VN gần như không có; (3) **đẩy chủ động đúng bữa** vì tài xế
+đang lái, tay bận, không tra cứu được. Trạm thu phí chỉ là **cái đồng hồ bấm giờ**
+tiện lợi để chọn *thời điểm* đẩy — ngoài khung giờ bữa ăn, hệ thống **im lặng**.
 
 ## Chạy demo
 
@@ -13,7 +18,9 @@ node module5/scripts/build_corridor.js
 # 2. chạy demo — KHÔNG cần mạng, replay từ cache
 node module5/server.js
 # → http://localhost:8790          (UI demo)
-# → http://localhost:8790/v1/route/rest-stops?corridorId=hanoi-halong&currentProgressKm=55
+# → http://localhost:8790/v1/route/rest-stops?corridorId=hanoi-halong&currentProgressKm=80&atHour=12
+#   atHour = đồng hồ chuyến đi (mô phỏng). Chỉ đẩy trong khung giờ bữa (6-9/11-13/18-20/22-2);
+#   ngoài khung → push:false, results:[] (im lặng, chỉ badge). Mặc định atHour=12 (trưa).
 
 # 3. tests (hình học, engine, honesty, cách ly dữ liệu)
 node module5/test/run_tests.js
@@ -33,6 +40,7 @@ Không có dependency nào ngoài Node ≥ 18. Cache đã commit sẵn trong
 | Tên địa danh khi xe di chuyển | `GET /v1/reverse-geocoding` | **THẬT** |
 | Xếp hạng quán | Engine Module 1 (`lib/module1_engine.js`, công thức spec 01 §4) | **THẬT (code thuần, tái lập 100%)** |
 | **Sự kiện xe qua trạm** (`gate_name, timestamp, lat, lon, vehicle_class`) | Đồng hồ demo phát khi xe hoạt hình chạm km của trạm | **MÔ PHỎNG** — nhãn "TÍN HIỆU QUA TRẠM: MÔ PHỎNG" luôn hiển thị trên UI |
+| **Đồng hồ chuyến đi (giờ bữa ăn)** — quyết định push/im lặng | Tham số request `?atHour=` (mặc định 12h) | **MÔ PHỎNG** — trong sản phẩm thật lấy từ giờ thực + trạng thái chuyến đi |
 | Rating/độ phổ biến của quán ven đường | API không cung cấp → engine dùng giá trị trung tính có tài liệu (rating 3.5, popularity 50); tiện ích "Bãi đỗ xe" kiểm tra qua API parking trong 400 m, không có thì suy luận theo loại hình quán và **gắn nhãn ≈ (suy luận)** trên UI | trung thực từng field, xem `provenance` trong bundle |
 
 Không có toạ độ, tuyến đường, hay con số detour nào được bịa hay hardcode.
