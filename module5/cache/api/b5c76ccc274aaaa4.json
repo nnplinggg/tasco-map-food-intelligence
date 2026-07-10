@@ -1,0 +1,78 @@
+{
+ "label": "reverse-geocoding",
+ "key": "GET https://tasco-maps.dnpwater.vn/geocode/v1/reverse?point.lat=20.976949602193958&point.lon=107.01744220975489&size=1 ",
+ "cachedAt": "2026-07-10T10:52:31.579Z",
+ "response": {
+  "geocoding": {
+   "version": "0.2",
+   "attribution": "http://tasco-maps.dnpwater.vn/attribution",
+   "query": {
+    "size": 1,
+    "private": false,
+    "point.lat": 20.976949602193958,
+    "point.lon": 107.01744220975489,
+    "boundary.circle.lat": 20.976949602193958,
+    "boundary.circle.lon": 107.01744220975489,
+    "lang": {
+     "name": "English",
+     "iso6391": "en",
+     "iso6393": "eng",
+     "via": "default",
+     "defaulted": true
+    },
+    "querySize": 2
+   },
+   "warnings": [
+    "invalid language provided via header"
+   ],
+   "engine": {
+    "name": "Pelias",
+    "author": "Mapzen",
+    "version": "1.0"
+   },
+   "timestamp": 1783680751628
+  },
+  "type": "FeatureCollection",
+  "features": [
+   {
+    "type": "Feature",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      107.017742,
+      20.976957
+     ]
+    },
+    "properties": {
+     "id": "node/5495085822",
+     "gid": "openstreetmap:address:node/5495085822",
+     "layer": "address",
+     "source": "openstreetmap",
+     "source_id": "node/5495085822",
+     "country_code": "VN",
+     "name": "146 Giếng Đáy",
+     "housenumber": "146",
+     "street": "Giếng Đáy",
+     "confidence": 0.8,
+     "distance": 0.031,
+     "accuracy": "point",
+     "country": "Vietnam",
+     "country_gid": "whosonfirst:country:85632763",
+     "country_a": "VNM",
+     "region": "Quang Ninh",
+     "region_gid": "whosonfirst:region:85680583",
+     "region_a": "QN",
+     "county": "Ha Long",
+     "county_gid": "whosonfirst:county:1108781111",
+     "label": "146 Giếng Đáy, QN, Vietnam"
+    }
+   }
+  ],
+  "bbox": [
+   107.017742,
+   20.976957,
+   107.017742,
+   20.976957
+  ]
+ }
+}

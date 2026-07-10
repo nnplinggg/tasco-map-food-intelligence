@@ -1,0 +1,67 @@
+{
+ "label": "reverse-geocoding",
+ "key": "GET https://tasco-maps.dnpwater.vn/geocode/v1/reverse?point.lat=20.841137836443217&point.lon=106.7567165464062&size=1 ",
+ "cachedAt": "2026-07-10T10:52:28.480Z",
+ "response": {
+  "geocoding": {
+   "version": "0.2",
+   "attribution": "http://tasco-maps.dnpwater.vn/attribution",
+   "query": {
+    "size": 1,
+    "private": false,
+    "point.lat": 20.841137836443217,
+    "point.lon": 106.7567165464062,
+    "boundary.circle.lat": 20.841137836443217,
+    "boundary.circle.lon": 106.7567165464062,
+    "lang": {
+     "name": "English",
+     "iso6391": "en",
+     "iso6393": "eng",
+     "via": "default",
+     "defaulted": true
+    },
+    "querySize": 2
+   },
+   "warnings": [
+    "invalid language provided via header"
+   ],
+   "engine": {
+    "name": "Pelias",
+    "author": "Mapzen",
+    "version": "1.0"
+   },
+   "timestamp": 1783680748529
+  },
+  "type": "FeatureCollection",
+  "features": [
+   {
+    "type": "Feature",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      106.755615,
+      20.842686
+     ]
+    },
+    "properties": {
+     "id": "node/13452848401",
+     "gid": "openstreetmap:venue:node/13452848401",
+     "layer": "venue",
+     "source": "openstreetmap",
+     "source_id": "node/13452848401",
+     "name": "A1 Mạc Thái Tổ",
+     "confidence": 0.7,
+     "distance": 0.207,
+     "accuracy": "point",
+     "label": "A1 Mạc Thái Tổ"
+    }
+   }
+  ],
+  "bbox": [
+   106.755615,
+   20.842686,
+   106.755615,
+   20.842686
+  ]
+ }
+}

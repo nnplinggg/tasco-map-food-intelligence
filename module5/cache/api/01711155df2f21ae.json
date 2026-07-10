@@ -1,0 +1,83 @@
+{
+ "label": "reverse-geocoding",
+ "key": "GET https://tasco-maps.dnpwater.vn/geocode/v1/reverse?point.lat=21.03402698309175&point.lon=105.87486319100327&size=1 ",
+ "cachedAt": "2026-07-10T10:52:18.929Z",
+ "response": {
+  "geocoding": {
+   "version": "0.2",
+   "attribution": "http://tasco-maps.dnpwater.vn/attribution",
+   "query": {
+    "size": 1,
+    "private": false,
+    "point.lat": 21.03402698309175,
+    "point.lon": 105.87486319100327,
+    "boundary.circle.lat": 21.03402698309175,
+    "boundary.circle.lon": 105.87486319100327,
+    "lang": {
+     "name": "English",
+     "iso6391": "en",
+     "iso6393": "eng",
+     "via": "default",
+     "defaulted": true
+    },
+    "querySize": 2
+   },
+   "warnings": [
+    "invalid language provided via header"
+   ],
+   "engine": {
+    "name": "Pelias",
+    "author": "Mapzen",
+    "version": "1.0"
+   },
+   "timestamp": 1783680738976
+  },
+  "type": "FeatureCollection",
+  "features": [
+   {
+    "type": "Feature",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      105.875529,
+      21.033996
+     ]
+    },
+    "properties": {
+     "id": "polyline:168402",
+     "gid": "openstreetmap:street:polyline:168402",
+     "layer": "street",
+     "source": "openstreetmap",
+     "source_id": "polyline:168402",
+     "country_code": "VN",
+     "name": "Ngõ 277 Phố Lâm Du",
+     "street": "Ngõ 277 Phố Lâm Du",
+     "confidence": 0.8,
+     "distance": 0.069,
+     "accuracy": "centroid",
+     "country": "Vietnam",
+     "country_gid": "whosonfirst:country:85632763",
+     "country_a": "VNM",
+     "region": "Ha Noi",
+     "region_gid": "whosonfirst:region:85680653",
+     "region_a": "HI",
+     "county": "Long Bien",
+     "county_gid": "whosonfirst:county:1108780791",
+     "label": "Ngõ 277 Phố Lâm Du, HI, Vietnam"
+    },
+    "bbox": [
+     105.875446,
+     21.033873,
+     105.875612,
+     21.034119
+    ]
+   }
+  ],
+  "bbox": [
+   105.875446,
+   21.033873,
+   105.875612,
+   21.034119
+  ]
+ }
+}

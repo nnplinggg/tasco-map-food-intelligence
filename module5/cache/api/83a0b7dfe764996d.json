@@ -1,0 +1,73 @@
+{
+ "label": "reverse-geocoding",
+ "key": "GET https://tasco-maps.dnpwater.vn/geocode/v1/reverse?point.lat=20.957814559363246&point.lon=107.07078936320208&size=1 ",
+ "cachedAt": "2026-07-10T10:50:38.087Z",
+ "response": {
+  "geocoding": {
+   "version": "0.2",
+   "attribution": "http://tasco-maps.dnpwater.vn/attribution",
+   "query": {
+    "size": 1,
+    "private": false,
+    "point.lat": 20.957814559363246,
+    "point.lon": 107.07078936320208,
+    "boundary.circle.lat": 20.957814559363246,
+    "boundary.circle.lon": 107.07078936320208,
+    "lang": {
+     "name": "English",
+     "iso6391": "en",
+     "iso6393": "eng",
+     "via": "default",
+     "defaulted": true
+    },
+    "querySize": 2
+   },
+   "warnings": [
+    "invalid language provided via header"
+   ],
+   "engine": {
+    "name": "Pelias",
+    "author": "Mapzen",
+    "version": "1.0"
+   },
+   "timestamp": 1783680638139
+  },
+  "type": "FeatureCollection",
+  "features": [
+   {
+    "type": "Feature",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      107.070313,
+      20.958442
+     ]
+    },
+    "properties": {
+     "id": "way/1493177377",
+     "gid": "openstreetmap:venue:way/1493177377",
+     "layer": "venue",
+     "source": "openstreetmap",
+     "source_id": "way/1493177377",
+     "name": "Cầu dẫn số 5",
+     "confidence": 0.8,
+     "distance": 0.086,
+     "accuracy": "point",
+     "label": "Cầu dẫn số 5"
+    },
+    "bbox": [
+     107.0697694,
+     20.958144,
+     107.0707627,
+     20.9587374
+    ]
+   }
+  ],
+  "bbox": [
+   107.0697694,
+   20.958144,
+   107.0707627,
+   20.9587374
+  ]
+ }
+}

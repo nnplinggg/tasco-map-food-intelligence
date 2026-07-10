@@ -1,0 +1,74 @@
+{
+ "label": "reverse-geocoding",
+ "key": "GET https://tasco-maps.dnpwater.vn/geocode/v1/reverse?point.lat=20.953050202026542&point.lon=106.91238332811483&size=1 ",
+ "cachedAt": "2026-07-10T10:52:30.304Z",
+ "response": {
+  "geocoding": {
+   "version": "0.2",
+   "attribution": "http://tasco-maps.dnpwater.vn/attribution",
+   "query": {
+    "size": 1,
+    "private": false,
+    "point.lat": 20.953050202026542,
+    "point.lon": 106.91238332811483,
+    "boundary.circle.lat": 20.953050202026542,
+    "boundary.circle.lon": 106.91238332811483,
+    "lang": {
+     "name": "English",
+     "iso6391": "en",
+     "iso6393": "eng",
+     "via": "default",
+     "defaulted": true
+    },
+    "querySize": 2
+   },
+   "warnings": [
+    "invalid language provided via header"
+   ],
+   "engine": {
+    "name": "Pelias",
+    "author": "Mapzen",
+    "version": "1.0"
+   },
+   "timestamp": 1783680750355
+  },
+  "type": "FeatureCollection",
+  "features": [
+   {
+    "type": "Feature",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      106.90978,
+      20.952942
+     ]
+    },
+    "properties": {
+     "id": "polyline:2657",
+     "gid": "openstreetmap:street:polyline:2657",
+     "layer": "street",
+     "source": "openstreetmap",
+     "source_id": "polyline:2657",
+     "name": "Cầu Bình Hương",
+     "street": "Cầu Bình Hương",
+     "confidence": 0.6,
+     "distance": 0.271,
+     "accuracy": "centroid",
+     "label": "Cầu Bình Hương"
+    },
+    "bbox": [
+     106.906586,
+     20.952638,
+     106.909784,
+     20.953019
+    ]
+   }
+  ],
+  "bbox": [
+   106.906586,
+   20.952638,
+   106.909784,
+   20.953019
+  ]
+ }
+}

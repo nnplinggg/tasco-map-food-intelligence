@@ -1,0 +1,84 @@
+{
+ "label": "nearby-search",
+ "key": "GET https://tasco-maps.dnpwater.vn/geocode/v1/nearby?point.lat=20.953823&point.lon=106.971923&boundary.circle.radius=0.4&size=3&categories=transport ",
+ "cachedAt": "2026-07-10T10:47:26.117Z",
+ "response": {
+  "geocoding": {
+   "version": "0.2",
+   "attribution": "http://tasco-maps.dnpwater.vn/attribution",
+   "query": {
+    "size": 3,
+    "private": false,
+    "point.lat": 20.953823,
+    "point.lon": 106.971923,
+    "boundary.circle.radius": 0.4,
+    "boundary.circle.lat": 20.953823,
+    "boundary.circle.lon": 106.971923,
+    "categories": [
+     "transport"
+    ],
+    "lang": {
+     "name": "English",
+     "iso6391": "en",
+     "iso6393": "eng",
+     "via": "default",
+     "defaulted": true
+    },
+    "querySize": 20
+   },
+   "warnings": [
+    "invalid language provided via header"
+   ],
+   "engine": {
+    "name": "Pelias",
+    "author": "Mapzen",
+    "version": "1.0"
+   },
+   "timestamp": 1783680446171
+  },
+  "type": "FeatureCollection",
+  "features": [
+   {
+    "type": "Feature",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      106.969137,
+      20.954957
+     ]
+    },
+    "properties": {
+     "id": "node/13901596407",
+     "gid": "openstreetmap:venue:node/13901596407",
+     "layer": "venue",
+     "source": "openstreetmap",
+     "source_id": "node/13901596407",
+     "country_code": "VN",
+     "name": "Văn phòng bán hàng Vinhomes Hạ Long Xanh",
+     "confidence": 0.6,
+     "distance": 0.316,
+     "accuracy": "point",
+     "country": "Vietnam",
+     "country_gid": "whosonfirst:country:85632763",
+     "country_a": "VNM",
+     "region": "Quang Ninh",
+     "region_gid": "whosonfirst:region:85680583",
+     "region_a": "QN",
+     "county": "Ha Long",
+     "county_gid": "whosonfirst:county:1108781111",
+     "label": "Văn phòng bán hàng Vinhomes Hạ Long Xanh, QN, Vietnam",
+     "category": [
+      "transport",
+      "transport:public"
+     ]
+    }
+   }
+  ],
+  "bbox": [
+   106.969137,
+   20.954957,
+   106.969137,
+   20.954957
+  ]
+ }
+}

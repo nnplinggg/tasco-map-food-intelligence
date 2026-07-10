@@ -1,0 +1,82 @@
+{
+ "label": "reverse-geocoding",
+ "key": "GET https://tasco-maps.dnpwater.vn/geocode/v1/reverse?point.lat=20.77057569500801&point.lon=106.60869325474927&size=1 ",
+ "cachedAt": "2026-07-10T10:52:26.622Z",
+ "response": {
+  "geocoding": {
+   "version": "0.2",
+   "attribution": "http://tasco-maps.dnpwater.vn/attribution",
+   "query": {
+    "size": 1,
+    "private": false,
+    "point.lat": 20.77057569500801,
+    "point.lon": 106.60869325474927,
+    "boundary.circle.lat": 20.77057569500801,
+    "boundary.circle.lon": 106.60869325474927,
+    "lang": {
+     "name": "English",
+     "iso6391": "en",
+     "iso6393": "eng",
+     "via": "default",
+     "defaulted": true
+    },
+    "querySize": 2
+   },
+   "warnings": [
+    "invalid language provided via header"
+   ],
+   "engine": {
+    "name": "Pelias",
+    "author": "Mapzen",
+    "version": "1.0"
+   },
+   "timestamp": 1783680746670
+  },
+  "type": "FeatureCollection",
+  "features": [
+   {
+    "type": "Feature",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      106.610045,
+      20.770681
+     ]
+    },
+    "properties": {
+     "id": "way/1434866736",
+     "gid": "openstreetmap:venue:way/1434866736",
+     "layer": "venue",
+     "source": "openstreetmap",
+     "source_id": "way/1434866736",
+     "country_code": "VN",
+     "name": "Cầu Mỹ Đức",
+     "confidence": 0.7,
+     "distance": 0.141,
+     "accuracy": "point",
+     "country": "Vietnam",
+     "country_gid": "whosonfirst:country:85632763",
+     "country_a": "VNM",
+     "region": "Hai Phong",
+     "region_gid": "whosonfirst:region:85680645",
+     "region_a": "HP",
+     "county": "An Lao",
+     "county_gid": "whosonfirst:county:1108781281",
+     "label": "Cầu Mỹ Đức, HP, Vietnam"
+    },
+    "bbox": [
+     106.6098283,
+     20.7705677,
+     106.6102643,
+     20.770795
+    ]
+   }
+  ],
+  "bbox": [
+   106.6098283,
+   20.7705677,
+   106.6102643,
+   20.770795
+  ]
+ }
+}

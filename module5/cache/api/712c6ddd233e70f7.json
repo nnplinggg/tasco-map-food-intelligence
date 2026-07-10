@@ -1,0 +1,74 @@
+{
+ "label": "reverse-geocoding",
+ "key": "GET https://tasco-maps.dnpwater.vn/geocode/v1/reverse?point.lat=20.78987845890033&point.lon=106.7516518744989&size=1 ",
+ "cachedAt": "2026-07-10T10:52:27.966Z",
+ "response": {
+  "geocoding": {
+   "version": "0.2",
+   "attribution": "http://tasco-maps.dnpwater.vn/attribution",
+   "query": {
+    "size": 1,
+    "private": false,
+    "point.lat": 20.78987845890033,
+    "point.lon": 106.7516518744989,
+    "boundary.circle.lat": 20.78987845890033,
+    "boundary.circle.lon": 106.7516518744989,
+    "lang": {
+     "name": "English",
+     "iso6391": "en",
+     "iso6393": "eng",
+     "via": "default",
+     "defaulted": true
+    },
+    "querySize": 2
+   },
+   "warnings": [
+    "invalid language provided via header"
+   ],
+   "engine": {
+    "name": "Pelias",
+    "author": "Mapzen",
+    "version": "1.0"
+   },
+   "timestamp": 1783680748014
+  },
+  "type": "FeatureCollection",
+  "features": [
+   {
+    "type": "Feature",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      106.748979,
+      20.786348
+     ]
+    },
+    "properties": {
+     "id": "polyline:193582",
+     "gid": "openstreetmap:street:polyline:193582",
+     "layer": "street",
+     "source": "openstreetmap",
+     "source_id": "polyline:193582",
+     "name": "Đường cao tốc Hà Nội - Hải Phòng",
+     "street": "Đường cao tốc Hà Nội - Hải Phòng",
+     "confidence": 0.6,
+     "distance": 0.481,
+     "accuracy": "centroid",
+     "label": "Đường cao tốc Hà Nội - Hải Phòng"
+    },
+    "bbox": [
+     106.746719,
+     20.784727,
+     106.753218,
+     20.842659
+    ]
+   }
+  ],
+  "bbox": [
+   106.746719,
+   20.784727,
+   106.753218,
+   20.842659
+  ]
+ }
+}

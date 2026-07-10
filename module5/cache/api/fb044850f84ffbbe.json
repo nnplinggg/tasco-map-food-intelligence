@@ -1,0 +1,85 @@
+{
+ "label": "reverse-geocoding",
+ "key": "GET https://tasco-maps.dnpwater.vn/geocode/v1/reverse?point.lat=20.83614069071591&point.lon=106.75126684210282&size=1 ",
+ "cachedAt": "2026-07-10T10:50:37.533Z",
+ "response": {
+  "geocoding": {
+   "version": "0.2",
+   "attribution": "http://tasco-maps.dnpwater.vn/attribution",
+   "query": {
+    "size": 1,
+    "private": false,
+    "point.lat": 20.83614069071591,
+    "point.lon": 106.75126684210282,
+    "boundary.circle.lat": 20.83614069071591,
+    "boundary.circle.lon": 106.75126684210282,
+    "lang": {
+     "name": "English",
+     "iso6391": "en",
+     "iso6393": "eng",
+     "via": "default",
+     "defaulted": true
+    },
+    "querySize": 2
+   },
+   "warnings": [
+    "invalid language provided via header"
+   ],
+   "engine": {
+    "name": "Pelias",
+    "author": "Mapzen",
+    "version": "1.0"
+   },
+   "timestamp": 1783680637584
+  },
+  "type": "FeatureCollection",
+  "features": [
+   {
+    "type": "Feature",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      106.754324,
+      20.839327
+     ]
+    },
+    "properties": {
+     "id": "polyline:2750",
+     "gid": "openstreetmap:street:polyline:2750",
+     "layer": "street",
+     "source": "openstreetmap",
+     "source_id": "polyline:2750",
+     "country_code": "VN",
+     "name": "Cầu Bạch Đằng",
+     "street": "Cầu Bạch Đằng",
+     "confidence": 0.6,
+     "distance": 0.476,
+     "accuracy": "centroid",
+     "country": "Vietnam",
+     "country_gid": "whosonfirst:country:85632763",
+     "country_a": "VNM",
+     "region": "Hai Phong",
+     "region_gid": "whosonfirst:region:85680645",
+     "region_a": "HP",
+     "county": "Le Chan",
+     "county_gid": "whosonfirst:county:1108781265",
+     "locality": "Haiphong",
+     "locality_gid": "whosonfirst:locality:890440107",
+     "label": "Cầu Bạch Đằng, Haiphong, HP, Vietnam"
+    },
+    "bbox": [
+     106.754266,
+     20.839268,
+     106.776571,
+     20.856502
+    ]
+   }
+  ],
+  "bbox": [
+   106.754266,
+   20.839268,
+   106.776571,
+   20.856502
+  ]
+ }
+}

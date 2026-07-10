@@ -1,0 +1,83 @@
+{
+ "label": "reverse-geocoding",
+ "key": "GET https://tasco-maps.dnpwater.vn/geocode/v1/reverse?point.lat=20.772987407223464&point.lon=106.720572750384&size=1 ",
+ "cachedAt": "2026-07-10T10:50:37.419Z",
+ "response": {
+  "geocoding": {
+   "version": "0.2",
+   "attribution": "http://tasco-maps.dnpwater.vn/attribution",
+   "query": {
+    "size": 1,
+    "private": false,
+    "point.lat": 20.772987407223464,
+    "point.lon": 106.720572750384,
+    "boundary.circle.lat": 20.772987407223464,
+    "boundary.circle.lon": 106.720572750384,
+    "lang": {
+     "name": "English",
+     "iso6391": "en",
+     "iso6393": "eng",
+     "via": "default",
+     "defaulted": true
+    },
+    "querySize": 2
+   },
+   "warnings": [
+    "invalid language provided via header"
+   ],
+   "engine": {
+    "name": "Pelias",
+    "author": "Mapzen",
+    "version": "1.0"
+   },
+   "timestamp": 1783680637467
+  },
+  "type": "FeatureCollection",
+  "features": [
+   {
+    "type": "Feature",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      106.718824,
+      20.774142
+     ]
+    },
+    "properties": {
+     "id": "polyline:177804",
+     "gid": "openstreetmap:street:polyline:177804",
+     "layer": "street",
+     "source": "openstreetmap",
+     "source_id": "polyline:177804",
+     "country_code": "VN",
+     "name": "Phố Hoà Nghĩa",
+     "street": "Phố Hoà Nghĩa",
+     "confidence": 0.7,
+     "distance": 0.223,
+     "accuracy": "centroid",
+     "country": "Vietnam",
+     "country_gid": "whosonfirst:country:85632763",
+     "country_a": "VNM",
+     "region": "Hai Phong",
+     "region_gid": "whosonfirst:region:85680645",
+     "region_a": "HP",
+     "county": "Duong Kinh",
+     "county_gid": "whosonfirst:county:1108781273",
+     "label": "Phố Hoà Nghĩa, HP, Vietnam"
+    },
+    "bbox": [
+     106.717084,
+     20.771584,
+     106.719422,
+     20.77993
+    ]
+   }
+  ],
+  "bbox": [
+   106.717084,
+   20.771584,
+   106.719422,
+   20.77993
+  ]
+ }
+}

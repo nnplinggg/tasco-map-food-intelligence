@@ -1,0 +1,83 @@
+{
+ "label": "reverse-geocoding",
+ "key": "GET https://tasco-maps.dnpwater.vn/geocode/v1/reverse?point.lat=21.00182144556293&point.lon=105.92743901615225&size=1 ",
+ "cachedAt": "2026-07-10T10:52:19.568Z",
+ "response": {
+  "geocoding": {
+   "version": "0.2",
+   "attribution": "http://tasco-maps.dnpwater.vn/attribution",
+   "query": {
+    "size": 1,
+    "private": false,
+    "point.lat": 21.00182144556293,
+    "point.lon": 105.92743901615225,
+    "boundary.circle.lat": 21.00182144556293,
+    "boundary.circle.lon": 105.92743901615225,
+    "lang": {
+     "name": "English",
+     "iso6391": "en",
+     "iso6393": "eng",
+     "via": "default",
+     "defaulted": true
+    },
+    "querySize": 2
+   },
+   "warnings": [
+    "invalid language provided via header"
+   ],
+   "engine": {
+    "name": "Pelias",
+    "author": "Mapzen",
+    "version": "1.0"
+   },
+   "timestamp": 1783680739617
+  },
+  "type": "FeatureCollection",
+  "features": [
+   {
+    "type": "Feature",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      105.92818,
+      21.001185
+     ]
+    },
+    "properties": {
+     "id": "polyline:2636",
+     "gid": "openstreetmap:street:polyline:2636",
+     "layer": "street",
+     "source": "openstreetmap",
+     "source_id": "polyline:2636",
+     "country_code": "VN",
+     "name": "Cầu Bây",
+     "street": "Cầu Bây",
+     "confidence": 0.7,
+     "distance": 0.105,
+     "accuracy": "centroid",
+     "country": "Vietnam",
+     "country_gid": "whosonfirst:country:85632763",
+     "country_a": "VNM",
+     "region": "Ha Noi",
+     "region_gid": "whosonfirst:region:85680653",
+     "region_a": "HI",
+     "county": "Gia Lam",
+     "county_gid": "whosonfirst:county:1108780809",
+     "label": "Cầu Bây, HI, Vietnam"
+    },
+    "bbox": [
+     105.92813,
+     21.000769,
+     105.928509,
+     21.0013
+    ]
+   }
+  ],
+  "bbox": [
+   105.92813,
+   21.000769,
+   105.928509,
+   21.0013
+  ]
+ }
+}

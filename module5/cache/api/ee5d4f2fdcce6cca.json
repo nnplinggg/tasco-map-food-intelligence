@@ -1,0 +1,80 @@
+{
+ "label": "reverse-geocoding",
+ "key": "GET https://tasco-maps.dnpwater.vn/geocode/v1/reverse?point.lat=21.029670236495473&point.lon=105.85729632295428&size=1 ",
+ "cachedAt": "2026-07-10T10:52:18.610Z",
+ "response": {
+  "geocoding": {
+   "version": "0.2",
+   "attribution": "http://tasco-maps.dnpwater.vn/attribution",
+   "query": {
+    "size": 1,
+    "private": false,
+    "point.lat": 21.029670236495473,
+    "point.lon": 105.85729632295428,
+    "boundary.circle.lat": 21.029670236495473,
+    "boundary.circle.lon": 105.85729632295428,
+    "lang": {
+     "name": "English",
+     "iso6391": "en",
+     "iso6393": "eng",
+     "via": "default",
+     "defaulted": true
+    },
+    "querySize": 2
+   },
+   "warnings": [
+    "invalid language provided via header"
+   ],
+   "engine": {
+    "name": "Pelias",
+    "author": "Mapzen",
+    "version": "1.0"
+   },
+   "timestamp": 1783680738659
+  },
+  "type": "FeatureCollection",
+  "features": [
+   {
+    "type": "Feature",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      105.857111,
+      21.029458
+     ]
+    },
+    "properties": {
+     "id": "way/481822477",
+     "gid": "openstreetmap:address:way/481822477",
+     "layer": "address",
+     "source": "openstreetmap",
+     "source_id": "way/481822477",
+     "country_code": "VN",
+     "name": "194 Đường Trần Quang Khải",
+     "housenumber": "194",
+     "street": "Đường Trần Quang Khải",
+     "confidence": 0.8,
+     "distance": 0.03,
+     "accuracy": "point",
+     "country": "Vietnam",
+     "country_gid": "whosonfirst:country:85632763",
+     "country_a": "VNM",
+     "region": "Ha Noi",
+     "region_gid": "whosonfirst:region:85680653",
+     "region_a": "HI",
+     "county": "Hoan Kiem",
+     "county_gid": "whosonfirst:county:1108780787",
+     "locality": "Hanoi",
+     "locality_gid": "whosonfirst:locality:421177479",
+     "label": "194 Đường Trần Quang Khải, Hanoi, HI, Vietnam"
+    }
+   }
+  ],
+  "bbox": [
+   105.857111,
+   21.029458,
+   105.857111,
+   21.029458
+  ]
+ }
+}

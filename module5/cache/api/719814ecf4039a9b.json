@@ -1,0 +1,83 @@
+{
+ "label": "reverse-geocoding",
+ "key": "GET https://tasco-maps.dnpwater.vn/geocode/v1/reverse?point.lat=21.01411245940343&point.lon=105.91616098050842&size=1 ",
+ "cachedAt": "2026-07-10T10:50:36.106Z",
+ "response": {
+  "geocoding": {
+   "version": "0.2",
+   "attribution": "http://tasco-maps.dnpwater.vn/attribution",
+   "query": {
+    "size": 1,
+    "private": false,
+    "point.lat": 21.01411245940343,
+    "point.lon": 105.91616098050842,
+    "boundary.circle.lat": 21.01411245940343,
+    "boundary.circle.lon": 105.91616098050842,
+    "lang": {
+     "name": "English",
+     "iso6391": "en",
+     "iso6393": "eng",
+     "via": "default",
+     "defaulted": true
+    },
+    "querySize": 2
+   },
+   "warnings": [
+    "invalid language provided via header"
+   ],
+   "engine": {
+    "name": "Pelias",
+    "author": "Mapzen",
+    "version": "1.0"
+   },
+   "timestamp": 1783680636156
+  },
+  "type": "FeatureCollection",
+  "features": [
+   {
+    "type": "Feature",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      105.91709,
+      21.015169
+     ]
+    },
+    "properties": {
+     "id": "polyline:48843",
+     "gid": "openstreetmap:street:polyline:48843",
+     "layer": "street",
+     "source": "openstreetmap",
+     "source_id": "polyline:48843",
+     "country_code": "VN",
+     "name": "Ngách 197/318/3/7",
+     "street": "Ngách 197/318/3/7",
+     "confidence": 0.7,
+     "distance": 0.152,
+     "accuracy": "centroid",
+     "country": "Vietnam",
+     "country_gid": "whosonfirst:country:85632763",
+     "country_a": "VNM",
+     "region": "Ha Noi",
+     "region_gid": "whosonfirst:region:85680653",
+     "region_a": "HI",
+     "county": "Long Bien",
+     "county_gid": "whosonfirst:county:1108780791",
+     "label": "Ngách 197/318/3/7, HI, Vietnam"
+    },
+    "bbox": [
+     105.916668,
+     21.014779,
+     105.919103,
+     21.017338
+    ]
+   }
+  ],
+  "bbox": [
+   105.916668,
+   21.014779,
+   105.919103,
+   21.017338
+  ]
+ }
+}

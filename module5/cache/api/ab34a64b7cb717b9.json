@@ -1,0 +1,82 @@
+{
+ "label": "reverse-geocoding",
+ "key": "GET https://tasco-maps.dnpwater.vn/geocode/v1/reverse?point.lat=20.864004773575484&point.lon=106.78642170704835&size=1 ",
+ "cachedAt": "2026-07-10T10:52:28.829Z",
+ "response": {
+  "geocoding": {
+   "version": "0.2",
+   "attribution": "http://tasco-maps.dnpwater.vn/attribution",
+   "query": {
+    "size": 1,
+    "private": false,
+    "point.lat": 20.864004773575484,
+    "point.lon": 106.78642170704835,
+    "boundary.circle.lat": 20.864004773575484,
+    "boundary.circle.lon": 106.78642170704835,
+    "lang": {
+     "name": "English",
+     "iso6391": "en",
+     "iso6393": "eng",
+     "via": "default",
+     "defaulted": true
+    },
+    "querySize": 2
+   },
+   "warnings": [
+    "invalid language provided via header"
+   ],
+   "engine": {
+    "name": "Pelias",
+    "author": "Mapzen",
+    "version": "1.0"
+   },
+   "timestamp": 1783680748878
+  },
+  "type": "FeatureCollection",
+  "features": [
+   {
+    "type": "Feature",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      106.7848,
+      20.862845
+     ]
+    },
+    "properties": {
+     "id": "way/1091279924",
+     "gid": "openstreetmap:venue:way/1091279924",
+     "layer": "venue",
+     "source": "openstreetmap",
+     "source_id": "way/1091279924",
+     "country_code": "VN",
+     "name": "Trạm Thu phí Cầu Bạch Đằng",
+     "confidence": 0.7,
+     "distance": 0.212,
+     "accuracy": "point",
+     "country": "Vietnam",
+     "country_gid": "whosonfirst:country:85632763",
+     "country_a": "VNM",
+     "region": "Quang Ninh",
+     "region_gid": "whosonfirst:region:85680583",
+     "region_a": "QN",
+     "county": "Quảng Yên",
+     "county_gid": "whosonfirst:county:1108781137",
+     "label": "Trạm Thu phí Cầu Bạch Đằng, QN, Vietnam"
+    },
+    "bbox": [
+     106.7845873,
+     20.8626305,
+     106.7850126,
+     20.8630602
+    ]
+   }
+  ],
+  "bbox": [
+   106.7845873,
+   20.8626305,
+   106.7850126,
+   20.8630602
+  ]
+ }
+}

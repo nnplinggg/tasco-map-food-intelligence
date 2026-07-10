@@ -1,0 +1,83 @@
+{
+ "label": "reverse-geocoding",
+ "key": "GET https://tasco-maps.dnpwater.vn/geocode/v1/reverse?point.lat=20.90065223561477&point.lon=106.82313558156817&size=1 ",
+ "cachedAt": "2026-07-10T10:52:29.311Z",
+ "response": {
+  "geocoding": {
+   "version": "0.2",
+   "attribution": "http://tasco-maps.dnpwater.vn/attribution",
+   "query": {
+    "size": 1,
+    "private": false,
+    "point.lat": 20.90065223561477,
+    "point.lon": 106.82313558156817,
+    "boundary.circle.lat": 20.90065223561477,
+    "boundary.circle.lon": 106.82313558156817,
+    "lang": {
+     "name": "English",
+     "iso6391": "en",
+     "iso6393": "eng",
+     "via": "default",
+     "defaulted": true
+    },
+    "querySize": 2
+   },
+   "warnings": [
+    "invalid language provided via header"
+   ],
+   "engine": {
+    "name": "Pelias",
+    "author": "Mapzen",
+    "version": "1.0"
+   },
+   "timestamp": 1783680749362
+  },
+  "type": "FeatureCollection",
+  "features": [
+   {
+    "type": "Feature",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      106.823059,
+      20.900717
+     ]
+    },
+    "properties": {
+     "id": "polyline:193669",
+     "gid": "openstreetmap:street:polyline:193669",
+     "layer": "street",
+     "source": "openstreetmap",
+     "source_id": "polyline:193669",
+     "country_code": "VN",
+     "name": "Đường cao tốc Hải Phòng - Móng Cái",
+     "street": "Đường cao tốc Hải Phòng - Móng Cái",
+     "confidence": 0.8,
+     "distance": 0.011,
+     "accuracy": "centroid",
+     "country": "Vietnam",
+     "country_gid": "whosonfirst:country:85632763",
+     "country_a": "VNM",
+     "region": "Quang Ninh",
+     "region_gid": "whosonfirst:region:85680583",
+     "region_a": "QN",
+     "county": "Quảng Yên",
+     "county_gid": "whosonfirst:county:1108781137",
+     "label": "Đường cao tốc Hải Phòng - Móng Cái, QN, Vietnam"
+    },
+    "bbox": [
+     106.801432,
+     20.881111,
+     106.823133,
+     20.900763
+    ]
+   }
+  ],
+  "bbox": [
+   106.801432,
+   20.881111,
+   106.823133,
+   20.900763
+  ]
+ }
+}

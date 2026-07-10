@@ -1,0 +1,73 @@
+{
+ "label": "reverse-geocoding",
+ "key": "GET https://tasco-maps.dnpwater.vn/geocode/v1/reverse?point.lat=20.953866882309697&point.lon=106.92390622193055&size=1 ",
+ "cachedAt": "2026-07-10T10:52:30.412Z",
+ "response": {
+  "geocoding": {
+   "version": "0.2",
+   "attribution": "http://tasco-maps.dnpwater.vn/attribution",
+   "query": {
+    "size": 1,
+    "private": false,
+    "point.lat": 20.953866882309697,
+    "point.lon": 106.92390622193055,
+    "boundary.circle.lat": 20.953866882309697,
+    "boundary.circle.lon": 106.92390622193055,
+    "lang": {
+     "name": "English",
+     "iso6391": "en",
+     "iso6393": "eng",
+     "via": "default",
+     "defaulted": true
+    },
+    "querySize": 2
+   },
+   "warnings": [
+    "invalid language provided via header"
+   ],
+   "engine": {
+    "name": "Pelias",
+    "author": "Mapzen",
+    "version": "1.0"
+   },
+   "timestamp": 1783680750461
+  },
+  "type": "FeatureCollection",
+  "features": [
+   {
+    "type": "Feature",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      106.924071,
+      20.95281
+     ]
+    },
+    "properties": {
+     "id": "way/677873806",
+     "gid": "openstreetmap:venue:way/677873806",
+     "layer": "venue",
+     "source": "openstreetmap",
+     "source_id": "way/677873806",
+     "name": "Sông Hốt",
+     "confidence": 0.7,
+     "distance": 0.119,
+     "accuracy": "point",
+     "label": "Sông Hốt"
+    },
+    "bbox": [
+     106.9199109,
+     20.9474327,
+     106.9243955,
+     20.9590351
+    ]
+   }
+  ],
+  "bbox": [
+   106.9199109,
+   20.9474327,
+   106.9243955,
+   20.9590351
+  ]
+ }
+}

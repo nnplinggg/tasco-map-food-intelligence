@@ -1,0 +1,83 @@
+{
+ "label": "reverse-geocoding",
+ "key": "GET https://tasco-maps.dnpwater.vn/geocode/v1/reverse?point.lat=21.018282162982004&point.lon=105.91250898633474&size=1 ",
+ "cachedAt": "2026-07-10T10:52:19.320Z",
+ "response": {
+  "geocoding": {
+   "version": "0.2",
+   "attribution": "http://tasco-maps.dnpwater.vn/attribution",
+   "query": {
+    "size": 1,
+    "private": false,
+    "point.lat": 21.018282162982004,
+    "point.lon": 105.91250898633474,
+    "boundary.circle.lat": 21.018282162982004,
+    "boundary.circle.lon": 105.91250898633474,
+    "lang": {
+     "name": "English",
+     "iso6391": "en",
+     "iso6393": "eng",
+     "via": "default",
+     "defaulted": true
+    },
+    "querySize": 2
+   },
+   "warnings": [
+    "invalid language provided via header"
+   ],
+   "engine": {
+    "name": "Pelias",
+    "author": "Mapzen",
+    "version": "1.0"
+   },
+   "timestamp": 1783680739368
+  },
+  "type": "FeatureCollection",
+  "features": [
+   {
+    "type": "Feature",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      105.912108,
+      21.018061
+     ]
+    },
+    "properties": {
+     "id": "polyline:169159",
+     "gid": "openstreetmap:street:polyline:169159",
+     "layer": "street",
+     "source": "openstreetmap",
+     "source_id": "polyline:169159",
+     "country_code": "VN",
+     "name": "Ngõ 318 Phố Ngọc Trì",
+     "street": "Ngõ 318 Phố Ngọc Trì",
+     "confidence": 0.8,
+     "distance": 0.048,
+     "accuracy": "centroid",
+     "country": "Vietnam",
+     "country_gid": "whosonfirst:country:85632763",
+     "country_a": "VNM",
+     "region": "Ha Noi",
+     "region_gid": "whosonfirst:region:85680653",
+     "region_a": "HI",
+     "county": "Long Bien",
+     "county_gid": "whosonfirst:county:1108780791",
+     "label": "Ngõ 318 Phố Ngọc Trì, HI, Vietnam"
+    },
+    "bbox": [
+     105.911776,
+     21.017773,
+     105.912447,
+     21.018342
+    ]
+   }
+  ],
+  "bbox": [
+   105.911776,
+   21.017773,
+   105.912447,
+   21.018342
+  ]
+ }
+}

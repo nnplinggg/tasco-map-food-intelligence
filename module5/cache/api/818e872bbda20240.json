@@ -1,0 +1,83 @@
+{
+ "label": "reverse-geocoding",
+ "key": "GET https://tasco-maps.dnpwater.vn/geocode/v1/reverse?point.lat=20.933416518335846&point.lon=106.8681708756935&size=1 ",
+ "cachedAt": "2026-07-10T10:52:29.843Z",
+ "response": {
+  "geocoding": {
+   "version": "0.2",
+   "attribution": "http://tasco-maps.dnpwater.vn/attribution",
+   "query": {
+    "size": 1,
+    "private": false,
+    "point.lat": 20.933416518335846,
+    "point.lon": 106.8681708756935,
+    "boundary.circle.lat": 20.933416518335846,
+    "boundary.circle.lon": 106.8681708756935,
+    "lang": {
+     "name": "English",
+     "iso6391": "en",
+     "iso6393": "eng",
+     "via": "default",
+     "defaulted": true
+    },
+    "querySize": 2
+   },
+   "warnings": [
+    "invalid language provided via header"
+   ],
+   "engine": {
+    "name": "Pelias",
+    "author": "Mapzen",
+    "version": "1.0"
+   },
+   "timestamp": 1783680749893
+  },
+  "type": "FeatureCollection",
+  "features": [
+   {
+    "type": "Feature",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      106.868072,
+      20.928926
+     ]
+    },
+    "properties": {
+     "id": "polyline:1105",
+     "gid": "openstreetmap:street:polyline:1105",
+     "layer": "street",
+     "source": "openstreetmap",
+     "source_id": "polyline:1105",
+     "country_code": "VN",
+     "name": "Bùi Xá",
+     "street": "Bùi Xá",
+     "confidence": 0.6,
+     "distance": 0.5,
+     "accuracy": "centroid",
+     "country": "Vietnam",
+     "country_gid": "whosonfirst:country:85632763",
+     "country_a": "VNM",
+     "region": "Quang Ninh",
+     "region_gid": "whosonfirst:region:85680583",
+     "region_a": "QN",
+     "county": "Quảng Yên",
+     "county_gid": "whosonfirst:county:1108781137",
+     "label": "Bùi Xá, QN, Vietnam"
+    },
+    "bbox": [
+     106.864031,
+     20.928594,
+     106.872084,
+     20.929004
+    ]
+   }
+  ],
+  "bbox": [
+   106.864031,
+   20.928594,
+   106.872084,
+   20.929004
+  ]
+ }
+}

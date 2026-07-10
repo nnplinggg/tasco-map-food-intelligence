@@ -1,0 +1,82 @@
+{
+ "label": "reverse-geocoding",
+ "key": "GET https://tasco-maps.dnpwater.vn/geocode/v1/reverse?point.lat=20.76937863168469&point.lon=106.62783758782794&size=1 ",
+ "cachedAt": "2026-07-10T10:52:26.804Z",
+ "response": {
+  "geocoding": {
+   "version": "0.2",
+   "attribution": "http://tasco-maps.dnpwater.vn/attribution",
+   "query": {
+    "size": 1,
+    "private": false,
+    "point.lat": 20.76937863168469,
+    "point.lon": 106.62783758782794,
+    "boundary.circle.lat": 20.76937863168469,
+    "boundary.circle.lon": 106.62783758782794,
+    "lang": {
+     "name": "English",
+     "iso6391": "en",
+     "iso6393": "eng",
+     "via": "default",
+     "defaulted": true
+    },
+    "querySize": 2
+   },
+   "warnings": [
+    "invalid language provided via header"
+   ],
+   "engine": {
+    "name": "Pelias",
+    "author": "Mapzen",
+    "version": "1.0"
+   },
+   "timestamp": 1783680746855
+  },
+  "type": "FeatureCollection",
+  "features": [
+   {
+    "type": "Feature",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      106.673654,
+      20.736634
+     ]
+    },
+    "properties": {
+     "id": "1108781275",
+     "gid": "whosonfirst:county:1108781275",
+     "layer": "county",
+     "source": "whosonfirst",
+     "source_id": "1108781275",
+     "country_code": "VN",
+     "name": "Kien Thuy",
+     "confidence": 0.5,
+     "distance": 6.003,
+     "accuracy": "centroid",
+     "country": "Vietnam",
+     "country_gid": "whosonfirst:country:85632763",
+     "country_a": "VNM",
+     "region": "Hai Phong",
+     "region_gid": "whosonfirst:region:85680645",
+     "region_a": "HP",
+     "county": "Kien Thuy",
+     "county_gid": "whosonfirst:county:1108781275",
+     "label": "Kien Thuy, HP, Vietnam"
+    },
+    "bbox": [
+     106.601268,
+     20.685389,
+     106.73874,
+     20.793524
+    ]
+   }
+  ],
+  "bbox": [
+   106.601268,
+   20.685389,
+   106.73874,
+   20.793524
+  ]
+ }
+}

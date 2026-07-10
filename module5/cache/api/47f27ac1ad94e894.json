@@ -1,0 +1,76 @@
+{
+ "label": "reverse-geocoding",
+ "key": "GET https://tasco-maps.dnpwater.vn/geocode/v1/reverse?point.lat=20.796154364792343&point.lon=106.54325375464337&size=1 ",
+ "cachedAt": "2026-07-10T10:52:25.967Z",
+ "response": {
+  "geocoding": {
+   "version": "0.2",
+   "attribution": "http://tasco-maps.dnpwater.vn/attribution",
+   "query": {
+    "size": 1,
+    "private": false,
+    "point.lat": 20.796154364792343,
+    "point.lon": 106.54325375464337,
+    "boundary.circle.lat": 20.796154364792343,
+    "boundary.circle.lon": 106.54325375464337,
+    "lang": {
+     "name": "English",
+     "iso6391": "en",
+     "iso6393": "eng",
+     "via": "default",
+     "defaulted": true
+    },
+    "querySize": 2
+   },
+   "warnings": [
+    "invalid language provided via header"
+   ],
+   "engine": {
+    "name": "Pelias",
+    "author": "Mapzen",
+    "version": "1.0"
+   },
+   "timestamp": 1783680746015
+  },
+  "type": "FeatureCollection",
+  "features": [
+   {
+    "type": "Feature",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      106.548783,
+      20.794014
+     ]
+    },
+    "properties": {
+     "id": "node/9931521267",
+     "gid": "openstreetmap:venue:node/9931521267",
+     "layer": "venue",
+     "source": "openstreetmap",
+     "source_id": "node/9931521267",
+     "country_code": "VN",
+     "name": "Trạm dửng nghỉ V77 Hải phòng",
+     "confidence": 0.6,
+     "distance": 0.623,
+     "accuracy": "point",
+     "country": "Vietnam",
+     "country_gid": "whosonfirst:country:85632763",
+     "country_a": "VNM",
+     "region": "Hai Phong",
+     "region_gid": "whosonfirst:region:85680645",
+     "region_a": "HP",
+     "county": "An Lao",
+     "county_gid": "whosonfirst:county:1108781281",
+     "label": "Trạm dửng nghỉ V77 Hải phòng, HP, Vietnam"
+    }
+   }
+  ],
+  "bbox": [
+   106.548783,
+   20.794014,
+   106.548783,
+   20.794014
+  ]
+ }
+}

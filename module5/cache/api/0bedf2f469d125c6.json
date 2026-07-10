@@ -1,0 +1,91 @@
+{
+ "label": "nearby-search",
+ "key": "GET https://tasco-maps.dnpwater.vn/geocode/v1/nearby?point.lat=20.926167719514716&point.lon=106.85267613686163&boundary.circle.radius=6&size=20&categories=food ",
+ "cachedAt": "2026-07-10T10:52:32.353Z",
+ "response": {
+  "geocoding": {
+   "version": "0.2",
+   "attribution": "http://tasco-maps.dnpwater.vn/attribution",
+   "query": {
+    "size": 20,
+    "private": false,
+    "point.lat": 20.926167719514716,
+    "point.lon": 106.85267613686163,
+    "boundary.circle.radius": 5,
+    "boundary.circle.lat": 20.926167719514716,
+    "boundary.circle.lon": 106.85267613686163,
+    "categories": [
+     "food"
+    ],
+    "lang": {
+     "name": "English",
+     "iso6391": "en",
+     "iso6393": "eng",
+     "via": "default",
+     "defaulted": true
+    },
+    "querySize": 40
+   },
+   "warnings": [
+    "invalid language provided via header"
+   ],
+   "engine": {
+    "name": "Pelias",
+    "author": "Mapzen",
+    "version": "1.0"
+   },
+   "timestamp": 1783680752404
+  },
+  "type": "FeatureCollection",
+  "features": [
+   {
+    "type": "Feature",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      106.825253,
+      20.93934
+     ]
+    },
+    "properties": {
+     "id": "way/1342579348",
+     "gid": "openstreetmap:venue:way/1342579348",
+     "layer": "venue",
+     "source": "openstreetmap",
+     "source_id": "way/1342579348",
+     "country_code": "VN",
+     "name": "Chợ Rộc",
+     "street": "Phố Chợ Rộc",
+     "confidence": 0.5,
+     "distance": 3.206,
+     "accuracy": "point",
+     "country": "Vietnam",
+     "country_gid": "whosonfirst:country:85632763",
+     "country_a": "VNM",
+     "region": "Quang Ninh",
+     "region_gid": "whosonfirst:region:85680583",
+     "region_a": "QN",
+     "county": "Quảng Yên",
+     "county_gid": "whosonfirst:county:1108781137",
+     "label": "Chợ Rộc, QN, Vietnam",
+     "category": [
+      "food",
+      "retail"
+     ]
+    },
+    "bbox": [
+     106.8248836,
+     20.9389415,
+     106.8256723,
+     20.939606
+    ]
+   }
+  ],
+  "bbox": [
+   106.8248836,
+   20.9389415,
+   106.8256723,
+   20.939606
+  ]
+ }
+}

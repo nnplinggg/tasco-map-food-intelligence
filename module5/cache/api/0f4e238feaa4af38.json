@@ -1,0 +1,83 @@
+{
+ "label": "reverse-geocoding",
+ "key": "GET https://tasco-maps.dnpwater.vn/geocode/v1/reverse?point.lat=20.992071725393572&point.lon=106.97603470500776&size=1 ",
+ "cachedAt": "2026-07-10T10:52:31.096Z",
+ "response": {
+  "geocoding": {
+   "version": "0.2",
+   "attribution": "http://tasco-maps.dnpwater.vn/attribution",
+   "query": {
+    "size": 1,
+    "private": false,
+    "point.lat": 20.992071725393572,
+    "point.lon": 106.97603470500776,
+    "boundary.circle.lat": 20.992071725393572,
+    "boundary.circle.lon": 106.97603470500776,
+    "lang": {
+     "name": "English",
+     "iso6391": "en",
+     "iso6393": "eng",
+     "via": "default",
+     "defaulted": true
+    },
+    "querySize": 2
+   },
+   "warnings": [
+    "invalid language provided via header"
+   ],
+   "engine": {
+    "name": "Pelias",
+    "author": "Mapzen",
+    "version": "1.0"
+   },
+   "timestamp": 1783680751147
+  },
+  "type": "FeatureCollection",
+  "features": [
+   {
+    "type": "Feature",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      106.977254,
+      20.993722
+     ]
+    },
+    "properties": {
+     "id": "polyline:2728",
+     "gid": "openstreetmap:street:polyline:2728",
+     "layer": "street",
+     "source": "openstreetmap",
+     "source_id": "polyline:2728",
+     "country_code": "VN",
+     "name": "Cầu Bút Xê",
+     "street": "Cầu Bút Xê",
+     "confidence": 0.7,
+     "distance": 0.223,
+     "accuracy": "centroid",
+     "country": "Vietnam",
+     "country_gid": "whosonfirst:country:85632763",
+     "country_a": "VNM",
+     "region": "Quang Ninh",
+     "region_gid": "whosonfirst:region:85680583",
+     "region_a": "QN",
+     "county": "Ha Long",
+     "county_gid": "whosonfirst:county:1108781111",
+     "label": "Cầu Bút Xê, QN, Vietnam"
+    },
+    "bbox": [
+     106.977025,
+     20.993551,
+     106.977346,
+     20.993728
+    ]
+   }
+  ],
+  "bbox": [
+   106.977025,
+   20.993551,
+   106.977346,
+   20.993728
+  ]
+ }
+}

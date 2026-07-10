@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tasco Maps — Hành trình Hà Nội → Hạ Long (Module 5)</title>
+<style>
+  :root {
+    --asphalt: #101418;
+    --panel: #171d23;
+    --panel-2: #1c242c;
+    --road: #2a3138;
+    --edge: #343d46;
+    --lane: #e8b54d;          /* lane-paint amber — the one accent */
+    --lane-dim: #a8842f;
+    --ink: #efeae0;           /* headlight white */
+    --steel: #8a97a5;
+    --steel-dim: #5c6874;
+    --ok: #efeae0;
+    --display: "Avenir Next Condensed", "Arial Narrow", "Helvetica Neue", sans-serif;
+    --mono: ui-monospace, "SF Mono", Menlo, monospace;
+    --body: -apple-system, "Segoe UI", Roboto, sans-serif;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html, body { background: var(--asphalt); color: var(--ink); font-family: var(--body); }
+  body { min-height: 100vh; display: flex; flex-direction: column; }
+
+  /* ── header ─────────────────────────────────────────── */
+  header {
+    display: flex; align-items: center; gap: 16px; flex-wrap: wrap;
+    padding: 14px 22px; border-bottom: 1px solid var(--edge);
+  }
+  .brand { font-family: var(--display); font-weight: 600; font-size: 22px; letter-spacing: .06em; text-transform: uppercase; }
+  .brand em { font-style: normal; color: var(--lane); }
+  .route-title { font-family: var(--display); font-size: 20px; letter-spacing: .04em; color: var(--steel); }
+  .route-title b { color: var(--ink); font-weight: 600; }
+  .chips { display: flex; gap: 8px; margin-left: auto; flex-wrap: wrap; }
+  .chip {
+    font-family: var(--mono); font-size: 10.5px; letter-spacing: .05em;
+    padding: 4px 9px; border-radius: 3px; border: 1px solid var(--edge); color: var(--steel);
+  }
+  .chip.real { border-color: var(--steel-dim); }
+  .chip.real::before { content: "●"; color: var(--ink); margin-right: 6px; }
+  .chip.sim { border-color: var(--lane-dim); color: var(--lane); }
+  .chip.sim::before { content: "◌"; margin-right: 6px; }
+  .controls { display: flex; gap: 6px; }
+  .controls button {
+    font-family: var(--display); font-size: 14px; letter-spacing: .08em; text-transform: uppercase;
+    background: var(--panel); color: var(--ink); border: 1px solid var(--edge);
+    padding: 6px 14px; border-radius: 3px; cursor: pointer;
+  }
+  .controls button:hover { border-color: var(--lane-dim); }
+  .controls button:focus-visible { outline: 2px solid var(--lane); outline-offset: 2px; }
+  .controls button[aria-pressed="true"] { color: var(--lane); border-color: var(--lane-dim); }
+
+  /* ── map ────────────────────────────────────────────── */
+  .map-wrap { position: relative; border-bottom: 1px solid var(--edge); background:
+    radial-gradient(ellipse 90% 120% at 50% -10%, #151b21 0%, var(--asphalt) 70%); }
+  svg { display: block; width: 100%; height: auto; }
+  .place-now {
+    position: absolute; left: 22px; bottom: 14px;
+    font-family: var(--mono); font-size: 11px; color: var(--steel); letter-spacing: .04em;
+  }
+  .place-now b { color: var(--ink); font-weight: 500; }
+  .map-note { position: absolute; right: 22px; bottom: 14px; font-family: var(--mono); font-size: 10px; color: var(--steel-dim); }
+
+  /* ── progress strip ─────────────────────────────────── */
+  .progress-strip { padding: 10px 22px 14px; border-bottom: 1px solid var(--edge); }
+  .progress-meta { display: flex; justify-content: space-between; font-family: var(--mono); font-size: 11px; color: var(--steel); margin-bottom: 7px; }
+  .progress-meta .odo { color: var(--lane); font-size: 13px; }
+  .bar { position: relative; height: 6px; background: var(--road); border-radius: 3px; }
+  .bar-fill { position: absolute; inset: 0 auto 0 0; width: 0%; background: var(--lane); border-radius: 3px; }
+  .bar-gate { position: absolute; top: -5px; width: 2px; height: 16px; background: var(--steel-dim); }
+  .bar-gate.hit { background: var(--lane); }
+
+  /* ── main grid ──────────────────────────────────────── */
+  main { display: grid; grid-template-columns: 1fr 1.25fr 1fr; gap: 1px; background: var(--edge); flex: 1; }
+  main > section { background: var(--asphalt); padding: 18px 20px; min-width: 0; }
+  h2 {
+    font-family: var(--display); font-size: 14px; font-weight: 600;
+    letter-spacing: .14em; text-transform: uppercase; color: var(--steel); margin-bottom: 12px;
+  }
+  h2 .tag { font-family: var(--mono); font-size: 9.5px; letter-spacing: .05em; color: var(--lane);
+    border: 1px solid var(--lane-dim); border-radius: 3px; padding: 2px 6px; margin-left: 8px; vertical-align: 2px; }
+
+  /* ledger */
+  .trip-need { font-size: 13px; color: var(--steel); line-height: 1.55; padding: 10px 12px;
+    background: var(--panel); border-radius: 4px; margin-bottom: 14px; }
+  .trip-need b { color: var(--ink); font-weight: 600; }
+  .ledger { font-family: var(--mono); font-size: 11.5px; line-height: 1.5; }
+  .ledger-row { display: grid; grid-template-columns: 52px 1fr; gap: 10px; padding: 8px 10px;
+    border-left: 2px solid var(--lane); background: var(--panel); border-radius: 0 4px 4px 0; margin-bottom: 8px;
+    animation: rowIn .35s ease-out; }
+  .ledger-row .t { color: var(--lane); }
+  .ledger-row .g { color: var(--ink); }
+  .ledger-row .d { color: var(--steel-dim); grid-column: 2; font-size: 10.5px; }
+  .ledger-empty { color: var(--steel-dim); font-family: var(--mono); font-size: 11px; padding: 8px 2px; }
+  @keyframes rowIn { from { opacity: 0; transform: translateX(-6px); } }
+
+  /* suggestion card — the signature moment */
+  .stop-card { border: 1px solid var(--lane-dim); border-radius: 6px; overflow: hidden;
+    animation: cardIn .45s cubic-bezier(.2,.8,.3,1); }
+  .stop-card .head { background: var(--lane); color: #17130a; padding: 8px 14px;
+    font-family: var(--display); font-weight: 600; font-size: 13px; letter-spacing: .12em; text-transform: uppercase;
+    display: flex; justify-content: space-between; }
+  .stop-card .head .gate { font-family: var(--mono); font-size: 10px; letter-spacing: .03em; font-weight: 400; align-self: center; }
+  .stop-card .body { padding: 14px; background: var(--panel); }
+  .stop-name { font-family: var(--display); font-size: 26px; font-weight: 600; line-height: 1.1; margin-bottom: 2px; }
+  .stop-addr { font-size: 11.5px; color: var(--steel); margin-bottom: 12px; }
+  .fit { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 14px; }
+  .fit span { font-size: 11px; padding: 3px 8px; border-radius: 3px; background: var(--panel-2);
+    border: 1px solid var(--edge); color: var(--ink); }
+  .fit span.inferred { color: var(--steel); border-style: dashed; }
+  .detour { display: flex; gap: 22px; align-items: baseline; border-top: 1px dashed var(--edge); padding-top: 12px; }
+  .detour .num { font-family: var(--display); font-size: 34px; font-weight: 600; color: var(--lane); }
+  .detour .num small { font-size: 15px; color: var(--steel); font-weight: 400; margin-left: 3px; }
+  .detour-note { font-family: var(--mono); font-size: 10px; color: var(--steel-dim); margin-top: 8px; line-height: 1.5; }
+  .stop-empty { color: var(--steel-dim); font-size: 13px; padding: 24px 4px; line-height: 1.6; }
+  @keyframes cardIn { from { opacity: 0; transform: translateY(10px); } }
+  .alt { margin-top: 14px; }
+  .alt-row { display: flex; justify-content: space-between; gap: 10px; font-size: 12px; color: var(--steel);
+    padding: 6px 2px; border-bottom: 1px solid var(--panel-2); }
+  .alt-row b { color: var(--ink); font-weight: 500; }
+  .alt-row .mono { font-family: var(--mono); font-size: 11px; white-space: nowrap; }
+
+  /* right column */
+  .prov { font-size: 12px; color: var(--steel); line-height: 1.6; margin-bottom: 16px; }
+  .prov ul { list-style: none; }
+  .prov li { padding: 5px 0 5px 20px; position: relative; border-bottom: 1px solid var(--panel-2); }
+  .prov li::before { content: "●"; position: absolute; left: 2px; color: var(--ink); font-size: 9px; top: 8px; }
+  .prov li.sim::before { content: "◌"; color: var(--lane); }
+  .prov li.sim { color: var(--lane); }
+  .privacy { font-size: 11.5px; color: var(--steel); line-height: 1.65; background: var(--panel);
+    border-radius: 4px; padding: 12px 14px; }
+  .privacy b { color: var(--ink); font-weight: 600; }
+
+  @media (max-width: 980px) { main { grid-template-columns: 1fr; } }
+  @media (prefers-reduced-motion: reduce) {
+    .ledger-row, .stop-card { animation: none; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="brand">Tasco <em>Maps</em></div>
+  <div class="route-title" id="routeTitle">—</div>
+  <div class="chips">
+    <span class="chip real">TUYẾN ĐƯỜNG · TRẠM · QUÁN ĂN · DETOUR: API THẬT</span>
+    <span class="chip sim">TÍN HIỆU QUA TRẠM: MÔ PHỎNG (SIMULATED VETC)</span>
+  </div>
+  <div class="controls">
+    <button id="btnPlay" aria-pressed="false">▶ Chạy</button>
+    <button id="btnSpeed" aria-pressed="false">2×</button>
+    <button id="btnReset">↺ Lại</button>
+  </div>
+</header>
+
+<div class="map-wrap">
+  <svg id="map" viewBox="0 0 1200 320" role="img" aria-label="Bản đồ tuyến Hà Nội – Hạ Long"></svg>
+  <div class="place-now" id="placeNow"></div>
+  <div class="map-note">hình học tuyến: POST /v1/route (Valhalla production)</div>
+</div>
+
+<div class="progress-strip">
+  <div class="progress-meta">
+    <span class="odo" id="odo">km 0.0</span>
+    <span id="eta">—</span>
+  </div>
+  <div class="bar" id="bar"><div class="bar-fill" id="barFill"></div></div>
+</div>
+
+<main>
+  <section>
+    <h2>Tín hiệu VETC <span class="tag">MÔ PHỎNG — mock toll signal</span></h2>
+    <div class="trip-need" id="tripNeed"></div>
+    <div class="ledger" id="ledger"><div class="ledger-empty">Chưa qua trạm nào. Xe đang chạy…</div></div>
+  </section>
+
+  <section>
+    <h2>Gợi ý điểm dừng</h2>
+    <div id="stopSlot">
+      <div class="stop-empty">Khi xe qua trạm thu phí, hệ thống sẽ gợi ý điểm dừng phù hợp phía trước —
+      dùng đúng engine lọc &amp; xếp hạng của Module 1, dữ liệu quán và detour từ Tasco Maps API thật.</div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Nguồn dữ liệu</h2>
+    <div class="prov"><ul id="provList"></ul></div>
+    <div class="privacy" id="privacy">
+      <b>Ghi chú riêng tư (bản production):</b> tín hiệu qua trạm chỉ dùng dạng
+      <b>tổng hợp &amp; ẩn danh</b>; áp ngưỡng cụm tối thiểu <b>N ≥ 5 xe</b> mỗi ô lưới + khung giờ
+      (dưới ngưỡng thì loại bỏ); <b>không lưu quỹ đạo cá nhân</b>; tuân thủ
+      <b>Nghị định 13/2023/NĐ-CP</b> về bảo vệ dữ liệu cá nhân.
+    </div>
+  </section>
+</main>
+
+<script>
+(async function () {
+  const bundle = await (await fetch('/api/corridor')).json();
+  const C = bundle.corridor;
+  const gates = bundle.gates;
+
+  document.getElementById('routeTitle').innerHTML =
+    `<b>${C.label}</b> · ${C.totalKm} km · ~${C.totalMinutes} phút`;
+  document.getElementById('tripNeed').innerHTML =
+    `Ngữ cảnh chuyến đi: <b>${bundle.tripContext.label}</b> — đưa vào engine Module 1 làm FilterSpec
+     (segments: ${bundle.tripContext.segments.join(', ')}; amenities: ${bundle.tripContext.amenities.join(', ')}).`;
+
+  const provList = document.getElementById('provList');
+  for (const r of bundle.meta.real) provList.insertAdjacentHTML('beforeend', `<li>${r}</li>`);
+  for (const m of bundle.meta.mocked) provList.insertAdjacentHTML('beforeend', `<li class="sim">${m} — mô phỏng</li>`);
+
+  // ── geometry (mirror of lib/geometry.js, display-only) ──
+  const line = C.polyline.map(([lat, lon]) => ({ lat, lon }));
+  const R = 6371008.8, rad = d => d * Math.PI / 180;
+  function dist(a, b) {
+    const dLat = rad(b.lat - a.lat), dLon = rad(b.lon - a.lon);
+    const h = Math.sin(dLat/2)**2 + Math.cos(rad(a.lat)) * Math.cos(rad(b.lat)) * Math.sin(dLon/2)**2;
+    return 2 * R * Math.asin(Math.sqrt(h));
+  }
+  const cum = [0];
+  for (let i = 1; i < line.length; i++) cum.push(cum[i-1] + dist(line[i-1], line[i]));
+  const totalM = cum[cum.length - 1];
+  function pointAt(m) {
+    if (m <= 0) return line[0];
+    if (m >= totalM) return line[line.length - 1];
+    let lo = 0, hi = cum.length - 1;
+    while (lo + 1 < hi) { const mid = (lo + hi) >> 1; (cum[mid] <= m ? lo = mid : hi = mid); }
+    const t = (m - cum[lo]) / (cum[lo+1] - cum[lo] || 1);
+    return { lat: line[lo].lat + t * (line[lo+1].lat - line[lo].lat),
+             lon: line[lo].lon + t * (line[lo+1].lon - line[lo].lon) };
+  }
+
+  // ── projection to SVG ──
+  const W = 1200, H = 320, PAD = 46;
+  const midLat = line.reduce((s, p) => s + p.lat, 0) / line.length;
+  const kx = Math.cos(rad(midLat));
+  const xs = line.map(p => p.lon * kx), ys = line.map(p => p.lat);
+  const gatePts = gates.map(g => g.coordinates);
+  for (const p of gatePts) { xs.push(p.lon * kx); ys.push(p.lat); }
+  const minX = Math.min(...xs), maxX = Math.max(...xs);
+  const minY = Math.min(...ys), maxY = Math.max(...ys);
+  const scale = Math.min((W - 2*PAD) / (maxX - minX), (H - 2*PAD) / (maxY - minY));
+  const ox = (W - (maxX - minX) * scale) / 2, oy = (H - (maxY - minY) * scale) / 2;
+  const px = p => ({ x: ox + (p.lon * kx - minX) * scale,
+                     y: H - (oy + (p.lat - minY) * scale) });
+
+  const svg = document.getElementById('map');
+  const NS = 'http://www.w3.org/2000/svg';
+  const el = (tag, attrs, parent) => {
+    const n = document.createElementNS(NS, tag);
+    for (const k in attrs) n.setAttribute(k, attrs[k]);
+    (parent || svg).appendChild(n); return n;
+  };
+  const path = line.map((p, i) => (i ? 'L' : 'M') + px(p).x.toFixed(1) + ' ' + px(p).y.toFixed(1)).join('');
+
+  // the road: casing → asphalt fill → dashed lane line
+  el('path', { d: path, fill: 'none', stroke: '#000', 'stroke-width': 11, 'stroke-linecap': 'round', opacity: .55 });
+  el('path', { d: path, fill: 'none', stroke: 'var(--road)', 'stroke-width': 8, 'stroke-linecap': 'round' });
+  el('path', { d: path, fill: 'none', stroke: '#cfc9bd', 'stroke-width': 1.1, 'stroke-dasharray': '7 9', opacity: .8 });
+
+  // origin / destination signs
+  function endSign(p, label, anchor) {
+    const q = px(p);
+    el('circle', { cx: q.x, cy: q.y, r: 4.5, fill: 'var(--ink)' });
+    el('text', { x: q.x, y: q.y - 12, 'text-anchor': anchor, fill: 'var(--ink)',
+      'font-family': 'var(--display)', 'font-size': 15, 'letter-spacing': '.06em' }).textContent = label;
+  }
+  endSign(C.origin, 'HÀ NỘI', 'start');
+  endSign(C.destination, 'HẠ LONG', 'end');
+
+  // toll gates: amber barrier tick across the road at snapped point, marker at REAL coords
+  const gateEls = gates.map((g, i) => {
+    const q = px(g.snapped);
+    const grp = el('g', { opacity: .95 });
+    el('line', { x1: q.x, y1: q.y - 9, x2: q.x, y2: q.y + 9, stroke: 'var(--lane)', 'stroke-width': 3,
+      'stroke-dasharray': '3 2' , transform: `rotate(90 ${q.x} ${q.y})` }, grp);
+    el('rect', { x: q.x - 5, y: q.y - 5, width: 10, height: 10, fill: 'var(--asphalt)',
+      stroke: 'var(--lane)', 'stroke-width': 1.6, transform: `rotate(45 ${q.x} ${q.y})` }, grp);
+    const ty = i % 2 ? q.y + 26 : q.y - 18;
+    el('text', { x: q.x, y: ty, 'text-anchor': 'middle', fill: 'var(--steel)',
+      'font-family': 'var(--mono)', 'font-size': 9.5 }, grp).textContent = g.name;
+    return grp;
+  });
+
+  // suggestion pins (hidden until their gate fires)
+  const pinEls = gates.map(g => {
+    if (!g.suggestion) return null;
+    const q = px(g.suggestion.poi.coordinates);
+    const grp = el('g', { opacity: 0 });
+    el('circle', { cx: q.x, cy: q.y, r: 5, fill: 'var(--lane)' }, grp);
+    el('circle', { cx: q.x, cy: q.y, r: 9, fill: 'none', stroke: 'var(--lane)', 'stroke-width': 1, opacity: .5 }, grp);
+    el('text', { x: q.x + 12, y: q.y + 4, fill: 'var(--ink)', 'font-family': 'var(--display)', 'font-size': 13 }, grp)
+      .textContent = g.suggestion.poi.name;
+    return grp;
+  });
+
+  // car: headlight glow + dot
+  const carGlow = el('circle', { r: 14, fill: 'var(--lane)', opacity: .18 });
+  const car = el('circle', { r: 5.5, fill: 'var(--lane)', stroke: '#17130a', 'stroke-width': 1.5 });
+
+  // progress bar gate ticks
+  const bar = document.getElementById('bar');
+  const gateTicks = gates.map(g => {
+    const t = document.createElement('div');
+    t.className = 'bar-gate';
+    t.style.left = (g.progressKm / C.totalKm * 100) + '%';
+    bar.appendChild(t); return t;
+  });
+
+  // ── animation & events ──
+  const DURATION = 75000; // 75 s at 1× for the full trip
+  let playing = false, speed = 1, progressM = 0, lastTs = null;
+  const fired = new Set();
+  const fmt = n => n.toLocaleString('vi-VN');
+
+  function gateEvent(g) {
+    // The ONLY mocked element: the toll-crossing trigger.
+    const ev = {
+      gate_name: g.name,
+      timestamp: new Date().toISOString(),
+      lat: g.coordinates.lat, lon: g.coordinates.lon,
+      vehicle_class: 'loại 1 (xe < 12 chỗ)',
+    };
+    const ledger = document.getElementById('ledger');
+    if (fired.size === 0) ledger.innerHTML = '';
+    ledger.insertAdjacentHTML('afterbegin', `
+      <div class="ledger-row">
+        <span class="t">${ev.timestamp.slice(11, 19)}</span>
+        <span class="g">${ev.gate_name}</span>
+        <span class="d">lat ${ev.lat.toFixed(5)} · lon ${ev.lon.toFixed(5)} · ${ev.vehicle_class} · km ${g.progressKm}</span>
+      </div>`);
+    showSuggestion(g);
+  }
+
+  function fitChips(s) {
+    const chips = [];
+    for (const seg of s.matched.segments) chips.push(`<span>✓ ${seg}</span>`);
+    for (const am of s.matched.amenities) {
+      const verified = (s.poi.provenance || []).some(p => p.field === am && p.verified);
+      chips.push(`<span class="${verified ? '' : 'inferred'}">${verified ? '✓' : '≈'} ${am}</span>`);
+    }
+    if (/nhanh/.test(s.poi.known_strengths || '')) chips.push('<span>✓ phục vụ nhanh</span>');
+    return chips.join('');
+  }
+
+  function detourText(d) {
+    const min = Math.max(0, Math.round(d.detourSeconds / 60));
+    const km = d.detourMeters < 200 ? '≈0' : '+' + (d.detourMeters / 1000).toFixed(1);
+    return { min: (min === 0 ? '≈0' : '+' + min), km };
+  }
+
+  function showSuggestion(g) {
+    const slot = document.getElementById('stopSlot');
+    if (!g.suggestion) {
+      slot.innerHTML = `<div class="stop-empty">Không có quán phù hợp trong cửa sổ 40 km phía trước trạm ${g.name} —
+        hệ thống trả lời trung thực thay vì bịa kết quả.</div>`;
+      return;
+    }
+    const s = g.suggestion;
+    const d = detourText(s.detour);
+    const alts = (g.alternatives || []).map(a => {
+      const ad = detourText(a.detour);
+      return `<div class="alt-row"><b>${a.poi.name}</b>
+        <span class="mono">${ad.min} phút · ${ad.km} km · score ${a.score}</span></div>`;
+    }).join('');
+    slot.innerHTML = `
+      <div class="stop-card">
+        <div class="head"><span>Điểm dừng phía trước</span><span class="gate">sau ${g.name}</span></div>
+        <div class="body">
+          <div class="stop-name">${s.poi.name}</div>
+          <div class="stop-addr">${s.poi.address} · km ${s.poi.progressKm} trên tuyến · lệch tuyến ${fmt(s.poi.offRouteMeters)} m · score ${s.score}</div>
+          <div class="fit">${fitChips(s)}</div>
+          <div class="detour">
+            <span class="num">${d.min}<small>phút</small></span>
+            <span class="num">${d.km}<small>km</small></span>
+          </div>
+          <div class="detour-note">detour = (${(s.detour.withStopMeters/1000).toFixed(1)} km / ${Math.round(s.detour.withStopSeconds/60)} phút có điểm dừng)
+            − (${(s.detour.baselineMeters/1000).toFixed(1)} km / ${Math.round(s.detour.baselineSeconds/60)} phút baseline)
+            · tính qua route API (baseline vs with-stop) · ✓ xác minh API · ≈ suy luận</div>
+          ${alts ? `<div class="alt">${alts}</div>` : ''}
+        </div>
+      </div>`;
+  }
+
+  function placeNameAt(km) {
+    let best = null;
+    for (const p of bundle.placeNames) if (p.name && p.progressKm <= km + 6) best = p;
+    return best ? best.name.split(',').slice(0, 2).join(',') : '—';
+  }
+
+  function render() {
+    const p = pointAt(progressM), q = px(p);
+    car.setAttribute('cx', q.x); car.setAttribute('cy', q.y);
+    carGlow.setAttribute('cx', q.x); carGlow.setAttribute('cy', q.y);
+    const km = progressM / 1000;
+    document.getElementById('odo').textContent = 'km ' + km.toFixed(1);
+    document.getElementById('barFill').style.width = (progressM / totalM * 100) + '%';
+    const remainMin = Math.max(0, Math.round(C.totalMinutes * (1 - progressM / totalM)));
+    document.getElementById('eta').textContent =
+      remainMin > 0 ? `còn ${(C.totalKm - km).toFixed(0)} km · ~${remainMin} phút tới Hạ Long` : 'Đã đến Hạ Long';
+    document.getElementById('placeNow').innerHTML = `đang qua: <b>${placeNameAt(km)}</b> <span style="color:var(--steel-dim)">(reverse-geocoding)</span>`;
+    gates.forEach((g, i) => {
+      if (km >= g.progressKm && !fired.has(i)) {
+        fired.add(i);
+        gateTicks[i].classList.add('hit');
+        gateEls[i].setAttribute('opacity', 1);
+        if (pinEls[i]) pinEls[i].setAttribute('opacity', 1);
+        gateEvent(g);
+      }
+    });
+  }
+
+  function tick(ts) {
+    if (!playing) return;
+    if (lastTs != null) progressM = Math.min(totalM, progressM + (ts - lastTs) / DURATION * totalM * speed);
+    lastTs = ts;
+    render();
+    if (progressM < totalM) requestAnimationFrame(tick);
+    else { playing = false; btnPlay.textContent = '▶ Chạy'; btnPlay.setAttribute('aria-pressed', 'false'); }
+  }
+
+  const btnPlay = document.getElementById('btnPlay');
+  btnPlay.onclick = () => {
+    playing = !playing;
+    btnPlay.textContent = playing ? '❚❚ Dừng' : '▶ Chạy';
+    btnPlay.setAttribute('aria-pressed', String(playing));
+    lastTs = null;
+    if (playing) requestAnimationFrame(tick);
+  };
+  const btnSpeed = document.getElementById('btnSpeed');
+  btnSpeed.onclick = () => {
+    speed = speed === 1 ? 2 : 1;
+    btnSpeed.setAttribute('aria-pressed', String(speed === 2));
+  };
+  document.getElementById('btnReset').onclick = () => {
+    progressM = 0; fired.clear(); lastTs = null;
+    gateTicks.forEach(t => t.classList.remove('hit'));
+    pinEls.forEach(p => p && p.setAttribute('opacity', 0));
+    document.getElementById('ledger').innerHTML = '<div class="ledger-empty">Chưa qua trạm nào. Xe đang chạy…</div>';
+    document.getElementById('stopSlot').innerHTML = '<div class="stop-empty">Khi xe qua trạm thu phí, hệ thống sẽ gợi ý điểm dừng phù hợp phía trước.</div>';
+    render();
+  };
+
+  render();
+})();
+</script>
+</body>
+</html>

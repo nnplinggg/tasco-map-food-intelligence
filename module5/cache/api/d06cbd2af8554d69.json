@@ -1,0 +1,193 @@
+{
+ "label": "reverse-geocoding",
+ "key": "GET https://tasco-maps.dnpwater.vn/geocode/v1/reverse?point.lat=20.771211237073768&point.lon=106.71512363170221&size=1 ",
+ "cachedAt": "2026-07-10T10:52:27.602Z",
+ "response": {
+  "geocoding": {
+   "version": "0.2",
+   "attribution": "http://tasco-maps.dnpwater.vn/attribution",
+   "query": {
+    "size": 1,
+    "private": false,
+    "point.lat": 20.771211237073768,
+    "point.lon": 106.71512363170221,
+    "boundary.circle.lat": 20.771211237073768,
+    "boundary.circle.lon": 106.71512363170221,
+    "lang": {
+     "name": "English",
+     "iso6391": "en",
+     "iso6393": "eng",
+     "via": "default",
+     "defaulted": true
+    },
+    "querySize": 2
+   },
+   "warnings": [
+    "invalid language provided via header"
+   ],
+   "engine": {
+    "name": "Pelias",
+    "author": "Mapzen",
+    "version": "1.0"
+   },
+   "timestamp": 1783680747649
+  },
+  "type": "FeatureCollection",
+  "features": [
+   {
+    "type": "Feature",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      106.71311,
+      20.77026
+     ]
+    },
+    "properties": {
+     "id": "toll:ttp-cuoi-tuyen-hp-di-do-son-hai-phong-20-77026-106-71311",
+     "gid": "tasco:venue:toll:ttp-cuoi-tuyen-hp-di-do-son-hai-phong-20-77026-106-71311",
+     "layer": "venue",
+     "source": "tasco",
+     "source_id": "toll:ttp-cuoi-tuyen-hp-di-do-son-hai-phong-20-77026-106-71311",
+     "country_code": "VN",
+     "name": "TTP Cuối tuyến HP - Đi Đồ Sơn, Hải Phòng",
+     "street": "ĐCT04, Hoà Nghĩa, Dương Kinh, Hải Phòng, Việt Nam",
+     "confidence": 0.7,
+     "distance": 0.235,
+     "accuracy": "point",
+     "country": "Việt Nam",
+     "country_gid": "tasco:country:VNM",
+     "country_a": "VN",
+     "region": "Hai Phong",
+     "region_gid": "whosonfirst:region:85680645",
+     "region_a": "HP",
+     "county": "Duong Kinh",
+     "county_gid": "whosonfirst:county:1108781273",
+     "label": "TTP Cuối tuyến HP - Đi Đồ Sơn, Hải Phòng, HP, Việt Nam",
+     "addendum": {
+      "tasco": {
+       "category": "toll_etc",
+       "address": "ĐCT04, Hoà Nghĩa, Dương Kinh, Hải Phòng, Việt Nam",
+       "source": "tasco",
+       "status": "active",
+       "pricing_info": "Có bảng giá vé lượt, vé tháng, vé quý",
+       "pricing_detail": [
+        {
+         "Name": "Vé Lượt",
+         "Prices": [
+          {
+           "Name": "Xe < 12 chỗ, xe tải < 2 tấn; xe buýt công cộng: Cuối tuyến HP <-> Đầu tuyến HN",
+           "Price": "190000"
+          },
+          {
+           "Name": "Xe < 12 chỗ, xe tải < 2 tấn; xe buýt công cộng: Cuối tuyến HP <-> QL39 Hưng Yên",
+           "Price": "150000"
+          },
+          {
+           "Name": "Xe < 12 chỗ, xe tải < 2 tấn; xe buýt công cộng: Cuối tuyến HP <-> QL38B Hải Dương",
+           "Price": "90000"
+          },
+          {
+           "Name": "Xe < 12 chỗ, xe tải < 2 tấn; xe buýt công cộng: Cuối tuyến HP <-> QL10 Hải Phòng",
+           "Price": "40000"
+          },
+          {
+           "Name": "Xe < 12 chỗ, xe tải < 2 tấn; xe buýt công cộng: Cuối tuyến HP <-> Đình Vũ",
+           "Price": "50000"
+          },
+          {
+           "Name": "Xe 12-30 chỗ; xe tải 2 đến <4 tấn: Cuối tuyến HP <-> Đầu tuyến HN",
+           "Price": "250000"
+          },
+          {
+           "Name": "Xe 12-30 chỗ; xe tải 2 đến <4 tấn: Cuối tuyến HP <-> QL39 Hưng Yên",
+           "Price": "200000"
+          },
+          {
+           "Name": "Xe 12-30 chỗ; xe tải 2 đến <4 tấn: Cuối tuyến HP <-> QL38B Hải Dương",
+           "Price": "120000"
+          },
+          {
+           "Name": "Xe 12-30 chỗ; xe tải 2 đến <4 tấn: Cuối tuyến HP <-> QL10 Hải Phòng",
+           "Price": "60000"
+          },
+          {
+           "Name": "Xe 12-30 chỗ; xe tải 2 đến <4 tấn: Cuối tuyến HP <-> Đình Vũ",
+           "Price": "70000"
+          },
+          {
+           "Name": "Xe >= 31 chỗ; xe tải 4 đến <10 tấn: Cuối tuyến HP <-> Đầu tuyến HN",
+           "Price": "320000"
+          },
+          {
+           "Name": "Xe >= 31 chỗ; xe tải 4 đến <10 tấn: Cuối tuyến HP <-> QL39 Hưng Yên",
+           "Price": "250000"
+          },
+          {
+           "Name": "Xe >= 31 chỗ; xe tải 4 đến <10 tấn: Cuối tuyến HP <-> QL38B Hải Dương",
+           "Price": "150000"
+          },
+          {
+           "Name": "Xe >= 31 chỗ; xe tải 4 đến <10 tấn: Cuối tuyến HP <-> QL10 Hải Phòng",
+           "Price": "70000"
+          },
+          {
+           "Name": "Xe >= 31 chỗ; xe tải 4 đến <10 tấn: Cuối tuyến HP <-> Đình Vũ",
+           "Price": "90000"
+          },
+          {
+           "Name": "Xe tải 10 đến <18 tấn; xe Container 20 fit: Cuối tuyến HP <-> Đầu tuyến HN",
+           "Price": "510000"
+          },
+          {
+           "Name": "Xe tải 10 đến <18 tấn; xe Container 20 fit: Cuối tuyến HP <-> QL39 Hưng Yên",
+           "Price": "400000"
+          },
+          {
+           "Name": "Xe tải 10 đến <18 tấn; xe Container 20 fit: Cuối tuyến HP <-> QL38B Hải Dương",
+           "Price": "250000"
+          },
+          {
+           "Name": "Xe tải 10 đến <18 tấn; xe Container 20 fit: Cuối tuyến HP <-> QL10 Hải Phòng",
+           "Price": "110000"
+          },
+          {
+           "Name": "Xe tải 10 đến <18 tấn; xe Container 20 fit: Cuối tuyến HP <-> Đình Vũ",
+           "Price": "150000"
+          },
+          {
+           "Name": "Xe tải >= 18 tấn; xe Container 40 fit: Cuối tuyến HP <-> Đầu tuyến HN",
+           "Price": "700000"
+          },
+          {
+           "Name": "Xe tải >= 18 tấn; xe Container 40 fit: Cuối tuyến HP <-> QL39 Hưng Yên",
+           "Price": "550000"
+          },
+          {
+           "Name": "Xe tải >= 18 tấn; xe Container 40 fit: Cuối tuyến HP <-> QL38B Hải Dương",
+           "Price": "340000"
+          },
+          {
+           "Name": "Xe tải >= 18 tấn; xe Container 40 fit: Cuối tuyến HP <-> QL10 Hải Phòng",
+           "Price": "160000"
+          },
+          {
+           "Name": "Xe tải >= 18 tấn; xe Container 40 fit: Cuối tuyến HP <-> Đình Vũ",
+           "Price": "210000"
+          }
+         ]
+        }
+       ]
+      }
+     }
+    }
+   }
+  ],
+  "bbox": [
+   106.71311,
+   20.77026,
+   106.71311,
+   20.77026
+  ]
+ }
+}

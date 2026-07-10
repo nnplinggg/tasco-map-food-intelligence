@@ -1,0 +1,83 @@
+{
+ "label": "reverse-geocoding",
+ "key": "GET https://tasco-maps.dnpwater.vn/geocode/v1/reverse?point.lat=20.974782998800098&point.lon=107.0271977578444&size=1 ",
+ "cachedAt": "2026-07-10T10:52:31.651Z",
+ "response": {
+  "geocoding": {
+   "version": "0.2",
+   "attribution": "http://tasco-maps.dnpwater.vn/attribution",
+   "query": {
+    "size": 1,
+    "private": false,
+    "point.lat": 20.974782998800098,
+    "point.lon": 107.0271977578444,
+    "boundary.circle.lat": 20.974782998800098,
+    "boundary.circle.lon": 107.0271977578444,
+    "lang": {
+     "name": "English",
+     "iso6391": "en",
+     "iso6393": "eng",
+     "via": "default",
+     "defaulted": true
+    },
+    "querySize": 2
+   },
+   "warnings": [
+    "invalid language provided via header"
+   ],
+   "engine": {
+    "name": "Pelias",
+    "author": "Mapzen",
+    "version": "1.0"
+   },
+   "timestamp": 1783680751700
+  },
+  "type": "FeatureCollection",
+  "features": [
+   {
+    "type": "Feature",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      107.027034,
+      20.975219
+     ]
+    },
+    "properties": {
+     "id": "polyline:194263",
+     "gid": "openstreetmap:street:polyline:194263",
+     "layer": "street",
+     "source": "openstreetmap",
+     "source_id": "polyline:194263",
+     "country_code": "VN",
+     "name": "Đường Cái Lân",
+     "street": "Đường Cái Lân",
+     "confidence": 0.8,
+     "distance": 0.051,
+     "accuracy": "centroid",
+     "country": "Vietnam",
+     "country_gid": "whosonfirst:country:85632763",
+     "country_a": "VNM",
+     "region": "Quang Ninh",
+     "region_gid": "whosonfirst:region:85680583",
+     "region_a": "QN",
+     "county": "Ha Long",
+     "county_gid": "whosonfirst:county:1108781111",
+     "label": "Đường Cái Lân, QN, Vietnam"
+    },
+    "bbox": [
+     107.026743,
+     20.974984,
+     107.027302,
+     20.975426
+    ]
+   }
+  ],
+  "bbox": [
+   107.026743,
+   20.974984,
+   107.027302,
+   20.975426
+  ]
+ }
+}

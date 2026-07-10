@@ -1,0 +1,85 @@
+{
+ "label": "reverse-geocoding",
+ "key": "GET https://tasco-maps.dnpwater.vn/geocode/v1/reverse?point.lat=20.80397580576077&point.lon=106.75220911284123&size=1 ",
+ "cachedAt": "2026-07-10T10:52:28.111Z",
+ "response": {
+  "geocoding": {
+   "version": "0.2",
+   "attribution": "http://tasco-maps.dnpwater.vn/attribution",
+   "query": {
+    "size": 1,
+    "private": false,
+    "point.lat": 20.80397580576077,
+    "point.lon": 106.75220911284123,
+    "boundary.circle.lat": 20.80397580576077,
+    "boundary.circle.lon": 106.75220911284123,
+    "lang": {
+     "name": "English",
+     "iso6391": "en",
+     "iso6393": "eng",
+     "via": "default",
+     "defaulted": true
+    },
+    "querySize": 2
+   },
+   "warnings": [
+    "invalid language provided via header"
+   ],
+   "engine": {
+    "name": "Pelias",
+    "author": "Mapzen",
+    "version": "1.0"
+   },
+   "timestamp": 1783680748160
+  },
+  "type": "FeatureCollection",
+  "features": [
+   {
+    "type": "Feature",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      106.749914,
+      20.801865
+     ]
+    },
+    "properties": {
+     "id": "polyline:7222",
+     "gid": "openstreetmap:street:polyline:7222",
+     "layer": "street",
+     "source": "openstreetmap",
+     "source_id": "polyline:7222",
+     "country_code": "VN",
+     "name": "Cầu vượt Tràng Cát",
+     "street": "Cầu vượt Tràng Cát",
+     "confidence": 0.6,
+     "distance": 0.335,
+     "accuracy": "centroid",
+     "country": "Vietnam",
+     "country_gid": "whosonfirst:country:85632763",
+     "country_a": "VNM",
+     "region": "Hai Phong",
+     "region_gid": "whosonfirst:region:85680645",
+     "region_a": "HP",
+     "county": "Le Chan",
+     "county_gid": "whosonfirst:county:1108781265",
+     "locality": "Haiphong",
+     "locality_gid": "whosonfirst:locality:890440107",
+     "label": "Cầu vượt Tràng Cát, Haiphong, HP, Vietnam"
+    },
+    "bbox": [
+     106.749902,
+     20.801803,
+     106.754655,
+     20.802479
+    ]
+   }
+  ],
+  "bbox": [
+   106.749902,
+   20.801803,
+   106.754655,
+   20.802479
+  ]
+ }
+}

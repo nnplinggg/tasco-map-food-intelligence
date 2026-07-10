@@ -1,0 +1,81 @@
+{
+ "label": "reverse-geocoding",
+ "key": "GET https://tasco-maps.dnpwater.vn/geocode/v1/reverse?point.lat=20.97040560658665&point.lon=107.03686084267112&size=1 ",
+ "cachedAt": "2026-07-10T10:52:31.759Z",
+ "response": {
+  "geocoding": {
+   "version": "0.2",
+   "attribution": "http://tasco-maps.dnpwater.vn/attribution",
+   "query": {
+    "size": 1,
+    "private": false,
+    "point.lat": 20.97040560658665,
+    "point.lon": 107.03686084267112,
+    "boundary.circle.lat": 20.97040560658665,
+    "boundary.circle.lon": 107.03686084267112,
+    "lang": {
+     "name": "English",
+     "iso6391": "en",
+     "iso6393": "eng",
+     "via": "default",
+     "defaulted": true
+    },
+    "querySize": 2
+   },
+   "warnings": [
+    "invalid language provided via header"
+   ],
+   "engine": {
+    "name": "Pelias",
+    "author": "Mapzen",
+    "version": "1.0"
+   },
+   "timestamp": 1783680751809
+  },
+  "type": "FeatureCollection",
+  "features": [
+   {
+    "type": "Feature",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      107.03786,
+      20.970917
+     ]
+    },
+    "properties": {
+     "id": "node/4753071962",
+     "gid": "openstreetmap:venue:node/4753071962",
+     "layer": "venue",
+     "source": "openstreetmap",
+     "source_id": "node/4753071962",
+     "country_code": "VN",
+     "name": "Petrolimex",
+     "confidence": 0.7,
+     "distance": 0.118,
+     "accuracy": "point",
+     "country": "Vietnam",
+     "country_gid": "whosonfirst:country:85632763",
+     "country_a": "VNM",
+     "region": "Quang Ninh",
+     "region_gid": "whosonfirst:region:85680583",
+     "region_a": "QN",
+     "county": "Ha Long",
+     "county_gid": "whosonfirst:county:1108781111",
+     "label": "Petrolimex, QN, Vietnam",
+     "addendum": {
+      "osm": {
+       "brand": "Petrolimex"
+      }
+     }
+    }
+   }
+  ],
+  "bbox": [
+   107.03786,
+   20.970917,
+   107.03786,
+   20.970917
+  ]
+ }
+}

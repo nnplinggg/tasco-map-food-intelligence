@@ -1,0 +1,82 @@
+{
+ "label": "reverse-geocoding",
+ "key": "GET https://tasco-maps.dnpwater.vn/geocode/v1/reverse?point.lat=20.883998688153756&point.lon=106.00044992546944&size=1 ",
+ "cachedAt": "2026-07-10T10:52:20.854Z",
+ "response": {
+  "geocoding": {
+   "version": "0.2",
+   "attribution": "http://tasco-maps.dnpwater.vn/attribution",
+   "query": {
+    "size": 1,
+    "private": false,
+    "point.lat": 20.883998688153756,
+    "point.lon": 106.00044992546944,
+    "boundary.circle.lat": 20.883998688153756,
+    "boundary.circle.lon": 106.00044992546944,
+    "lang": {
+     "name": "English",
+     "iso6391": "en",
+     "iso6393": "eng",
+     "via": "default",
+     "defaulted": true
+    },
+    "querySize": 2
+   },
+   "warnings": [
+    "invalid language provided via header"
+   ],
+   "engine": {
+    "name": "Pelias",
+    "author": "Mapzen",
+    "version": "1.0"
+   },
+   "timestamp": 1783680740904
+  },
+  "type": "FeatureCollection",
+  "features": [
+   {
+    "type": "Feature",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      106.001117,
+      20.883234
+     ]
+    },
+    "properties": {
+     "id": "way/1435815735",
+     "gid": "openstreetmap:venue:way/1435815735",
+     "layer": "venue",
+     "source": "openstreetmap",
+     "source_id": "way/1435815735",
+     "country_code": "VN",
+     "name": "Cầu Việt Cường",
+     "confidence": 0.7,
+     "distance": 0.11,
+     "accuracy": "point",
+     "country": "Vietnam",
+     "country_gid": "whosonfirst:country:85632763",
+     "country_a": "VNM",
+     "region": "Hung Yen",
+     "region_gid": "whosonfirst:region:85680649",
+     "region_a": "HY",
+     "county": "Yen My",
+     "county_gid": "whosonfirst:county:1108781299",
+     "label": "Cầu Việt Cường, HY, Vietnam"
+    },
+    "bbox": [
+     106.0008998,
+     20.8830545,
+     106.0013294,
+     20.8834114
+    ]
+   }
+  ],
+  "bbox": [
+   106.0008998,
+   20.8830545,
+   106.0013294,
+   20.8834114
+  ]
+ }
+}

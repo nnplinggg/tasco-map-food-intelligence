@@ -1,0 +1,272 @@
+{
+ "label": "geocoding",
+ "key": "GET https://tasco-maps.dnpwater.vn/geocode/v1/search?text=Tr%E1%BA%A1m+thu+ph%C3%AD+s%E1%BB%91+1+Qu%E1%BB%91c+l%E1%BB%99+5&size=3&focus.point.lat=20.95&focus.point.lon=106.4&layers=venue ",
+ "cachedAt": "2026-07-10T10:43:13.937Z",
+ "response": {
+  "geocoding": {
+   "version": "0.2",
+   "attribution": "http://tasco-maps.dnpwater.vn/attribution",
+   "query": {
+    "text": "Trạm thu phí số 1 Quốc lộ 5",
+    "size": 3,
+    "layers": [
+     "venue"
+    ],
+    "private": false,
+    "focus.point.lat": 20.95,
+    "focus.point.lon": 106.4,
+    "lang": {
+     "name": "English",
+     "iso6391": "en",
+     "iso6393": "eng",
+     "via": "default",
+     "defaulted": true
+    },
+    "querySize": 20,
+    "parser": "libpostal",
+    "parsed_text": {
+     "query": "trạm thu phí số 1",
+     "street": "quốc lộ 5"
+    }
+   },
+   "warnings": [
+    "invalid language provided via header"
+   ],
+   "engine": {
+    "name": "Pelias",
+    "author": "Mapzen",
+    "version": "1.0"
+   },
+   "timestamp": 1783680193993
+  },
+  "type": "FeatureCollection",
+  "features": [
+   {
+    "type": "Feature",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      106.01255,
+      20.949355
+     ]
+    },
+    "properties": {
+     "id": "toll:tram-thu-phi-so-1-ql5-hung-yen-20-949355-106-01255",
+     "gid": "tasco:venue:toll:tram-thu-phi-so-1-ql5-hung-yen-20-949355-106-01255",
+     "layer": "venue",
+     "source": "tasco",
+     "source_id": "toll:tram-thu-phi-so-1-ql5-hung-yen-20-949355-106-01255",
+     "country_code": "VN",
+     "name": "Trạm Thu phí Số 1 - QL5 - Hưng Yên",
+     "street": "QL5, Trưng Trắc, Văn Lâm, Hưng Yên, Việt Nam",
+     "confidence": 1,
+     "match_type": "exact",
+     "distance": 40.28,
+     "accuracy": "point",
+     "country": "Việt Nam",
+     "country_gid": "tasco:country:VNM",
+     "country_a": "VN",
+     "region": "Hung Yen",
+     "region_gid": "whosonfirst:region:85680649",
+     "region_a": "HY",
+     "county": "Van Lam",
+     "county_gid": "whosonfirst:county:1108781295",
+     "label": "Trạm Thu phí Số 1 - QL5 - Hưng Yên, HY, Việt Nam",
+     "addendum": {
+      "tasco": {
+       "category": "toll_etc",
+       "address": "QL5, Trưng Trắc, Văn Lâm, Hưng Yên, Việt Nam",
+       "source": "tasco",
+       "status": "active",
+       "pricing_info": "Có bảng giá vé lượt, vé tháng, vé quý",
+       "pricing_detail": [
+        {
+         "Name": "Vé Lượt",
+         "Prices": [
+          {
+           "Name": "Xe < 12 chỗ, xe tải < 2 tấn; xe buýt công cộng",
+           "Price": "40000"
+          },
+          {
+           "Name": "Xe 12-30 chỗ; xe tải 2 đến <4 tấn",
+           "Price": "55000"
+          },
+          {
+           "Name": "Xe >= 31 chỗ; xe tải 4 đến <10 tấn",
+           "Price": "75000"
+          },
+          {
+           "Name": "Xe tải 10 đến <18 tấn; xe Container 20 fit",
+           "Price": "125000"
+          },
+          {
+           "Name": "Xe tải >= 18 tấn; xe Container 40 fit",
+           "Price": "180000"
+          }
+         ]
+        },
+        {
+         "Name": "Vé Tháng",
+         "Prices": [
+          {
+           "Name": "Xe < 12 chỗ, xe tải < 2 tấn; xe buýt công cộng",
+           "Price": "1200000"
+          },
+          {
+           "Name": "Xe 12-30 chỗ; xe tải 2 đến <4 tấn",
+           "Price": "1650000"
+          },
+          {
+           "Name": "Xe >= 31 chỗ; xe tải 4 đến <10 tấn",
+           "Price": "2250000"
+          },
+          {
+           "Name": "Xe tải 10 đến <18 tấn; xe Container 20 fit",
+           "Price": "3750000"
+          },
+          {
+           "Name": "Xe tải >= 18 tấn; xe Container 40 fit",
+           "Price": "5400000"
+          }
+         ]
+        },
+        {
+         "Name": "Vé Quý",
+         "Prices": [
+          {
+           "Name": "Xe < 12 chỗ, xe tải < 2 tấn; xe buýt công cộng",
+           "Price": "3240000"
+          },
+          {
+           "Name": "Xe 12-30 chỗ; xe tải 2 đến <4 tấn",
+           "Price": "4455000"
+          },
+          {
+           "Name": "Xe >= 31 chỗ; xe tải 4 đến <10 tấn",
+           "Price": "6075000"
+          },
+          {
+           "Name": "Xe tải 10 đến <18 tấn; xe Container 20 fit",
+           "Price": "10125000"
+          },
+          {
+           "Name": "Xe tải >= 18 tấn; xe Container 40 fit",
+           "Price": "14580000"
+          }
+         ]
+        }
+       ]
+      }
+     }
+    }
+   },
+   {
+    "type": "Feature",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      106.013355,
+      20.949236
+     ]
+    },
+    "properties": {
+     "id": "node/12751100890",
+     "gid": "openstreetmap:venue:node/12751100890",
+     "layer": "venue",
+     "source": "openstreetmap",
+     "source_id": "node/12751100890",
+     "country_code": "VN",
+     "name": "Trạm điều hành - Trạm thu phí số 1 Quốc lộ 5",
+     "confidence": 1,
+     "match_type": "exact",
+     "distance": 40.196,
+     "accuracy": "point",
+     "country": "Vietnam",
+     "country_gid": "whosonfirst:country:85632763",
+     "country_a": "VNM",
+     "region": "Hung Yen",
+     "region_gid": "whosonfirst:region:85680649",
+     "region_a": "HY",
+     "county": "Van Lam",
+     "county_gid": "whosonfirst:county:1108781295",
+     "label": "Trạm điều hành - Trạm thu phí số 1 Quốc lộ 5, HY, Vietnam"
+    }
+   },
+   {
+    "type": "Feature",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      106.72528,
+      11.221832
+     ]
+    },
+    "properties": {
+     "id": "toll:tram-thu-phi-so-1-dt741-11-2218317-106-7252796",
+     "gid": "tasco:venue:toll:tram-thu-phi-so-1-dt741-11-2218317-106-7252796",
+     "layer": "venue",
+     "source": "tasco",
+     "source_id": "toll:tram-thu-phi-so-1-dt741-11-2218317-106-7252796",
+     "country_code": "VN",
+     "name": "Trạm thu phí Số 1 DT741",
+     "street": "ĐT741, Phước Hoà, Phú Giáo, Bình Dương, Việt Nam",
+     "confidence": 1,
+     "match_type": "exact",
+     "distance": 1083.492,
+     "accuracy": "point",
+     "country": "Việt Nam",
+     "country_gid": "tasco:country:VNM",
+     "country_a": "VN",
+     "region": "Bin Duong",
+     "region_gid": "whosonfirst:region:85680735",
+     "region_a": "BI",
+     "county": "Phu Giao",
+     "county_gid": "whosonfirst:county:1108781959",
+     "label": "Trạm thu phí Số 1 DT741, BI, Việt Nam",
+     "addendum": {
+      "tasco": {
+       "category": "toll_etc",
+       "address": "ĐT741, Phước Hoà, Phú Giáo, Bình Dương, Việt Nam",
+       "source": "tasco",
+       "status": "active",
+       "pricing_info": "Có bảng giá vé lượt, vé tháng, vé quý",
+       "pricing_detail": [
+        {
+         "Name": "Vé Lượt",
+         "Prices": [
+          {
+           "Name": "Xe < 12 chỗ, xe tải < 2 tấn; xe buýt công cộng",
+           "Price": "15000"
+          },
+          {
+           "Name": "Xe 12-30 chỗ; xe tải 2 đến <4 tấn",
+           "Price": "40000"
+          },
+          {
+           "Name": "Xe >= 31 chỗ; xe tải 4 đến <10 tấn",
+           "Price": "50000"
+          },
+          {
+           "Name": "Xe tải 10 đến <18 tấn; xe Container 20 fit",
+           "Price": "80000"
+          },
+          {
+           "Name": "Xe tải >= 18 tấn; xe Container 40 fit",
+           "Price": "100000"
+          }
+         ]
+        }
+       ]
+      }
+     }
+    }
+   }
+  ],
+  "bbox": [
+   106.01255,
+   11.221832,
+   106.72528,
+   20.949355
+  ]
+ }
+}

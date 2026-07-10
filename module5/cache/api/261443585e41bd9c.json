@@ -1,0 +1,83 @@
+{
+ "label": "reverse-geocoding",
+ "key": "GET https://tasco-maps.dnpwater.vn/geocode/v1/reverse?point.lat=20.8017875364237&point.lon=106.52911161910654&size=1 ",
+ "cachedAt": "2026-07-10T10:50:37.141Z",
+ "response": {
+  "geocoding": {
+   "version": "0.2",
+   "attribution": "http://tasco-maps.dnpwater.vn/attribution",
+   "query": {
+    "size": 1,
+    "private": false,
+    "point.lat": 20.8017875364237,
+    "point.lon": 106.52911161910654,
+    "boundary.circle.lat": 20.8017875364237,
+    "boundary.circle.lon": 106.52911161910654,
+    "lang": {
+     "name": "English",
+     "iso6391": "en",
+     "iso6393": "eng",
+     "via": "default",
+     "defaulted": true
+    },
+    "querySize": 2
+   },
+   "warnings": [
+    "invalid language provided via header"
+   ],
+   "engine": {
+    "name": "Pelias",
+    "author": "Mapzen",
+    "version": "1.0"
+   },
+   "timestamp": 1783680637191
+  },
+  "type": "FeatureCollection",
+  "features": [
+   {
+    "type": "Feature",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      106.527108,
+      20.802691
+     ]
+    },
+    "properties": {
+     "id": "polyline:1389",
+     "gid": "openstreetmap:street:polyline:1389",
+     "layer": "street",
+     "source": "openstreetmap",
+     "source_id": "polyline:1389",
+     "country_code": "VN",
+     "name": "C",
+     "street": "C",
+     "confidence": 0.7,
+     "distance": 0.231,
+     "accuracy": "centroid",
+     "country": "Vietnam",
+     "country_gid": "whosonfirst:country:85632763",
+     "country_a": "VNM",
+     "region": "Hai Phong",
+     "region_gid": "whosonfirst:region:85680645",
+     "region_a": "HP",
+     "county": "An Lao",
+     "county_gid": "whosonfirst:county:1108781281",
+     "label": "C, HP, Vietnam"
+    },
+    "bbox": [
+     106.526723,
+     20.801706,
+     106.527587,
+     20.803635
+    ]
+   }
+  ],
+  "bbox": [
+   106.526723,
+   20.801706,
+   106.527587,
+   20.803635
+  ]
+ }
+}

@@ -1,0 +1,113 @@
+{
+ "label": "reverse-geocoding",
+ "key": "GET https://tasco-maps.dnpwater.vn/geocode/v1/reverse?point.lat=20.77359702606204&point.lon=106.72238256221199&size=1 ",
+ "cachedAt": "2026-07-10T10:52:27.674Z",
+ "response": {
+  "geocoding": {
+   "version": "0.2",
+   "attribution": "http://tasco-maps.dnpwater.vn/attribution",
+   "query": {
+    "size": 1,
+    "private": false,
+    "point.lat": 20.77359702606204,
+    "point.lon": 106.72238256221199,
+    "boundary.circle.lat": 20.77359702606204,
+    "boundary.circle.lon": 106.72238256221199,
+    "lang": {
+     "name": "English",
+     "iso6391": "en",
+     "iso6393": "eng",
+     "via": "default",
+     "defaulted": true
+    },
+    "querySize": 2
+   },
+   "warnings": [
+    "invalid language provided via header"
+   ],
+   "engine": {
+    "name": "Pelias",
+    "author": "Mapzen",
+    "version": "1.0"
+   },
+   "timestamp": 1783680747724
+  },
+  "type": "FeatureCollection",
+  "features": [
+   {
+    "type": "Feature",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      106.723946,
+      20.776034
+     ]
+    },
+    "properties": {
+     "id": "toll:tram-thu-phi-duong-kinh-tl353-20-776034-106-723946",
+     "gid": "tasco:venue:toll:tram-thu-phi-duong-kinh-tl353-20-776034-106-723946",
+     "layer": "venue",
+     "source": "tasco",
+     "source_id": "toll:tram-thu-phi-duong-kinh-tl353-20-776034-106-723946",
+     "country_code": "VN",
+     "name": "Trạm thu phí Dương Kinh - TL353",
+     "street": "Hải Thành, Dương Kinh, Hải Phòng, Việt Nam",
+     "confidence": 0.6,
+     "distance": 0.316,
+     "accuracy": "point",
+     "country": "Việt Nam",
+     "country_gid": "tasco:country:VNM",
+     "country_a": "VN",
+     "region": "Hai Phong",
+     "region_gid": "whosonfirst:region:85680645",
+     "region_a": "HP",
+     "county": "Duong Kinh",
+     "county_gid": "whosonfirst:county:1108781273",
+     "label": "Trạm thu phí Dương Kinh - TL353, HP, Việt Nam",
+     "addendum": {
+      "tasco": {
+       "category": "toll_etc",
+       "address": "Hải Thành, Dương Kinh, Hải Phòng, Việt Nam",
+       "source": "tasco",
+       "status": "active",
+       "pricing_info": "Có bảng giá vé lượt, vé tháng, vé quý",
+       "pricing_detail": [
+        {
+         "Name": "Vé Lượt",
+         "Prices": [
+          {
+           "Name": "Xe < 12 chỗ, xe tải < 2 tấn; xe buýt công cộng",
+           "Price": "10000"
+          },
+          {
+           "Name": "Xe 12-30 chỗ; xe tải 2 đến <4 tấn",
+           "Price": "15000"
+          },
+          {
+           "Name": "Xe >= 31 chỗ; xe tải 4 đến <10 tấn",
+           "Price": "20000"
+          },
+          {
+           "Name": "Xe tải 10 đến <18 tấn; xe Container 20 fit",
+           "Price": "40000"
+          },
+          {
+           "Name": "Xe tải >= 18 tấn; xe Container 40 fit",
+           "Price": "60000"
+          }
+         ]
+        }
+       ]
+      }
+     }
+    }
+   }
+  ],
+  "bbox": [
+   106.723946,
+   20.776034,
+   106.723946,
+   20.776034
+  ]
+ }
+}

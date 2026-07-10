@@ -1,0 +1,83 @@
+{
+ "label": "reverse-geocoding",
+ "key": "GET https://tasco-maps.dnpwater.vn/geocode/v1/reverse?point.lat=21.03199873509415&point.lon=105.87804595398141&size=1 ",
+ "cachedAt": "2026-07-10T10:52:18.966Z",
+ "response": {
+  "geocoding": {
+   "version": "0.2",
+   "attribution": "http://tasco-maps.dnpwater.vn/attribution",
+   "query": {
+    "size": 1,
+    "private": false,
+    "point.lat": 21.03199873509415,
+    "point.lon": 105.87804595398141,
+    "boundary.circle.lat": 21.03199873509415,
+    "boundary.circle.lon": 105.87804595398141,
+    "lang": {
+     "name": "English",
+     "iso6391": "en",
+     "iso6393": "eng",
+     "via": "default",
+     "defaulted": true
+    },
+    "querySize": 2
+   },
+   "warnings": [
+    "invalid language provided via header"
+   ],
+   "engine": {
+    "name": "Pelias",
+    "author": "Mapzen",
+    "version": "1.0"
+   },
+   "timestamp": 1783680739016
+  },
+  "type": "FeatureCollection",
+  "features": [
+   {
+    "type": "Feature",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      105.878255,
+      21.032429
+     ]
+    },
+    "properties": {
+     "id": "polyline:169891",
+     "gid": "openstreetmap:street:polyline:169891",
+     "layer": "street",
+     "source": "openstreetmap",
+     "source_id": "polyline:169891",
+     "country_code": "VN",
+     "name": "Ngõ 371 Đường Lâm Du",
+     "street": "Ngõ 371 Đường Lâm Du",
+     "confidence": 0.8,
+     "distance": 0.053,
+     "accuracy": "centroid",
+     "country": "Vietnam",
+     "country_gid": "whosonfirst:country:85632763",
+     "country_a": "VNM",
+     "region": "Ha Noi",
+     "region_gid": "whosonfirst:region:85680653",
+     "region_a": "HI",
+     "county": "Long Bien",
+     "county_gid": "whosonfirst:county:1108780791",
+     "label": "Ngõ 371 Đường Lâm Du, HI, Vietnam"
+    },
+    "bbox": [
+     105.878129,
+     21.03221,
+     105.878381,
+     21.032648
+    ]
+   }
+  ],
+  "bbox": [
+   105.878129,
+   21.03221,
+   105.878381,
+   21.032648
+  ]
+ }
+}

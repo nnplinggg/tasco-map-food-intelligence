@@ -1,0 +1,82 @@
+{
+ "label": "reverse-geocoding",
+ "key": "GET https://tasco-maps.dnpwater.vn/geocode/v1/reverse?point.lat=20.845886338280465&point.lon=106.04541086017595&size=1 ",
+ "cachedAt": "2026-07-10T10:52:21.404Z",
+ "response": {
+  "geocoding": {
+   "version": "0.2",
+   "attribution": "http://tasco-maps.dnpwater.vn/attribution",
+   "query": {
+    "size": 1,
+    "private": false,
+    "point.lat": 20.845886338280465,
+    "point.lon": 106.04541086017595,
+    "boundary.circle.lat": 20.845886338280465,
+    "boundary.circle.lon": 106.04541086017595,
+    "lang": {
+     "name": "English",
+     "iso6391": "en",
+     "iso6393": "eng",
+     "via": "default",
+     "defaulted": true
+    },
+    "querySize": 2
+   },
+   "warnings": [
+    "invalid language provided via header"
+   ],
+   "engine": {
+    "name": "Pelias",
+    "author": "Mapzen",
+    "version": "1.0"
+   },
+   "timestamp": 1783680741453
+  },
+  "type": "FeatureCollection",
+  "features": [
+   {
+    "type": "Feature",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      106.016706,
+      20.876707
+     ]
+    },
+    "properties": {
+     "id": "1108781299",
+     "gid": "whosonfirst:county:1108781299",
+     "layer": "county",
+     "source": "whosonfirst",
+     "source_id": "1108781299",
+     "country_code": "VN",
+     "name": "Yen My",
+     "confidence": 0.5,
+     "distance": 4.548,
+     "accuracy": "centroid",
+     "country": "Vietnam",
+     "country_gid": "whosonfirst:country:85632763",
+     "country_a": "VNM",
+     "region": "Hung Yen",
+     "region_gid": "whosonfirst:region:85680649",
+     "region_a": "HY",
+     "county": "Yen My",
+     "county_gid": "whosonfirst:county:1108781299",
+     "label": "Yen My, HY, Vietnam"
+    },
+    "bbox": [
+     105.941557,
+     20.80454,
+     106.084873,
+     20.927145
+    ]
+   }
+  ],
+  "bbox": [
+   105.941557,
+   20.80454,
+   106.084873,
+   20.927145
+  ]
+ }
+}

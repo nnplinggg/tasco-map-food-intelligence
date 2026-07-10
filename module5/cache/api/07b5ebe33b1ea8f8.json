@@ -1,0 +1,77 @@
+{
+ "label": "reverse-geocoding",
+ "key": "GET https://tasco-maps.dnpwater.vn/geocode/v1/reverse?point.lat=20.941296125382387&point.lon=106.88105742978401&size=1 ",
+ "cachedAt": "2026-07-10T10:50:37.778Z",
+ "response": {
+  "geocoding": {
+   "version": "0.2",
+   "attribution": "http://tasco-maps.dnpwater.vn/attribution",
+   "query": {
+    "size": 1,
+    "private": false,
+    "point.lat": 20.941296125382387,
+    "point.lon": 106.88105742978401,
+    "boundary.circle.lat": 20.941296125382387,
+    "boundary.circle.lon": 106.88105742978401,
+    "lang": {
+     "name": "English",
+     "iso6391": "en",
+     "iso6393": "eng",
+     "via": "default",
+     "defaulted": true
+    },
+    "querySize": 2
+   },
+   "warnings": [
+    "invalid language provided via header"
+   ],
+   "engine": {
+    "name": "Pelias",
+    "author": "Mapzen",
+    "version": "1.0"
+   },
+   "timestamp": 1783680637829
+  },
+  "type": "FeatureCollection",
+  "features": [
+   {
+    "type": "Feature",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      106.887264,
+      20.940937
+     ]
+    },
+    "properties": {
+     "id": "way/1467932672",
+     "gid": "openstreetmap:venue:way/1467932672",
+     "layer": "venue",
+     "source": "openstreetmap",
+     "source_id": "way/1467932672",
+     "country_code": "VN",
+     "name": "Sông Bến Giang",
+     "confidence": 0.6,
+     "distance": 0.647,
+     "accuracy": "point",
+     "country": "Vietnam",
+     "country_gid": "whosonfirst:country:85632763",
+     "country_a": "VNM",
+     "label": "Sông Bến Giang, Vietnam"
+    },
+    "bbox": [
+     106.8866389,
+     20.940014,
+     106.8878898,
+     20.9418605
+    ]
+   }
+  ],
+  "bbox": [
+   106.8866389,
+   20.940014,
+   106.8878898,
+   20.9418605
+  ]
+ }
+}

@@ -1,0 +1,83 @@
+{
+ "label": "reverse-geocoding",
+ "key": "GET https://tasco-maps.dnpwater.vn/geocode/v1/reverse?point.lat=20.809724371964045&point.lon=106.50764303509128&size=1 ",
+ "cachedAt": "2026-07-10T10:52:25.626Z",
+ "response": {
+  "geocoding": {
+   "version": "0.2",
+   "attribution": "http://tasco-maps.dnpwater.vn/attribution",
+   "query": {
+    "size": 1,
+    "private": false,
+    "point.lat": 20.809724371964045,
+    "point.lon": 106.50764303509128,
+    "boundary.circle.lat": 20.809724371964045,
+    "boundary.circle.lon": 106.50764303509128,
+    "lang": {
+     "name": "English",
+     "iso6391": "en",
+     "iso6393": "eng",
+     "via": "default",
+     "defaulted": true
+    },
+    "querySize": 2
+   },
+   "warnings": [
+    "invalid language provided via header"
+   ],
+   "engine": {
+    "name": "Pelias",
+    "author": "Mapzen",
+    "version": "1.0"
+   },
+   "timestamp": 1783680745675
+  },
+  "type": "FeatureCollection",
+  "features": [
+   {
+    "type": "Feature",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      106.503335,
+      20.808686
+     ]
+    },
+    "properties": {
+     "id": "polyline:107842",
+     "gid": "openstreetmap:street:polyline:107842",
+     "layer": "street",
+     "source": "openstreetmap",
+     "source_id": "polyline:107842",
+     "country_code": "VN",
+     "name": "Đường Đê",
+     "street": "Đường Đê",
+     "confidence": 0.6,
+     "distance": 0.463,
+     "accuracy": "centroid",
+     "country": "Vietnam",
+     "country_gid": "whosonfirst:country:85632763",
+     "country_a": "VNM",
+     "region": "Hai Duong",
+     "region_gid": "whosonfirst:region:85680637",
+     "region_a": "HD",
+     "county": "Thanh Ha",
+     "county_gid": "whosonfirst:county:1108781245",
+     "label": "Đường Đê, HD, Vietnam"
+    },
+    "bbox": [
+     106.440081,
+     20.801859,
+     106.512859,
+     20.878439
+    ]
+   }
+  ],
+  "bbox": [
+   106.440081,
+   20.801859,
+   106.512859,
+   20.878439
+  ]
+ }
+}

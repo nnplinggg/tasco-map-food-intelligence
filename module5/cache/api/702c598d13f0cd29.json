@@ -1,0 +1,532 @@
+{
+ "label": "nearby-search",
+ "key": "GET https://tasco-maps.dnpwater.vn/geocode/v1/nearby?point.lat=20.770588739538567&point.lon=106.6067696415337&boundary.circle.radius=6&size=20&categories=food ",
+ "cachedAt": "2026-07-10T10:46:24.330Z",
+ "response": {
+  "geocoding": {
+   "version": "0.2",
+   "attribution": "http://tasco-maps.dnpwater.vn/attribution",
+   "query": {
+    "size": 20,
+    "private": false,
+    "point.lat": 20.770588739538567,
+    "point.lon": 106.6067696415337,
+    "boundary.circle.radius": 5,
+    "boundary.circle.lat": 20.770588739538567,
+    "boundary.circle.lon": 106.6067696415337,
+    "categories": [
+     "food"
+    ],
+    "lang": {
+     "name": "English",
+     "iso6391": "en",
+     "iso6393": "eng",
+     "via": "default",
+     "defaulted": true
+    },
+    "querySize": 40
+   },
+   "warnings": [
+    "invalid language provided via header"
+   ],
+   "engine": {
+    "name": "Pelias",
+    "author": "Mapzen",
+    "version": "1.0"
+   },
+   "timestamp": 1783680384378
+  },
+  "type": "FeatureCollection",
+  "features": [
+   {
+    "type": "Feature",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      106.621411,
+      20.788351
+     ]
+    },
+    "properties": {
+     "id": "node/13227020601",
+     "gid": "openstreetmap:venue:node/13227020601",
+     "layer": "venue",
+     "source": "openstreetmap",
+     "source_id": "node/13227020601",
+     "country_code": "VN",
+     "name": "Chợ Phù Lưu",
+     "street": "Phố Phù Lưu",
+     "confidence": 0.5,
+     "distance": 2.496,
+     "accuracy": "point",
+     "country": "Vietnam",
+     "country_gid": "whosonfirst:country:85632763",
+     "country_a": "VNM",
+     "region": "Hai Phong",
+     "region_gid": "whosonfirst:region:85680645",
+     "region_a": "HP",
+     "county": "Kien An",
+     "county_gid": "whosonfirst:county:1108781283",
+     "label": "Chợ Phù Lưu, HP, Vietnam",
+     "category": [
+      "food",
+      "retail"
+     ]
+    }
+   },
+   {
+    "type": "Feature",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      106.63207,
+      20.792421
+     ]
+    },
+    "properties": {
+     "id": "node/10660341005",
+     "gid": "openstreetmap:venue:node/10660341005",
+     "layer": "venue",
+     "source": "openstreetmap",
+     "source_id": "node/10660341005",
+     "country_code": "VN",
+     "name": "Bánh rán bà Ninh",
+     "confidence": 0.5,
+     "distance": 3.583,
+     "accuracy": "point",
+     "country": "Vietnam",
+     "country_gid": "whosonfirst:country:85632763",
+     "country_a": "VNM",
+     "region": "Hai Phong",
+     "region_gid": "whosonfirst:region:85680645",
+     "region_a": "HP",
+     "county": "Kien An",
+     "county_gid": "whosonfirst:county:1108781283",
+     "label": "Bánh rán bà Ninh, HP, Vietnam",
+     "category": [
+      "food",
+      "retail"
+     ]
+    }
+   },
+   {
+    "type": "Feature",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      106.628202,
+      20.799447
+     ]
+    },
+    "properties": {
+     "id": "node/12866241201",
+     "gid": "openstreetmap:venue:node/12866241201",
+     "layer": "venue",
+     "source": "openstreetmap",
+     "source_id": "node/12866241201",
+     "country_code": "VN",
+     "name": "Phở bò gia truyền Nam Định",
+     "housenumber": "115",
+     "street": "Phố Nguyễn Lương Bằng",
+     "confidence": 0.5,
+     "distance": 3.911,
+     "accuracy": "point",
+     "country": "Vietnam",
+     "country_gid": "whosonfirst:country:85632763",
+     "country_a": "VNM",
+     "region": "Hai Phong",
+     "region_gid": "whosonfirst:region:85680645",
+     "region_a": "HP",
+     "county": "Kien An",
+     "county_gid": "whosonfirst:county:1108781283",
+     "label": "Phở bò gia truyền Nam Định, HP, Vietnam",
+     "category": [
+      "food",
+      "retail",
+      "nightlife"
+     ],
+     "addendum": {
+      "osm": {
+       "phone": "0824715945"
+      }
+     }
+    }
+   },
+   {
+    "type": "Feature",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      106.626706,
+      20.801644
+     ]
+    },
+    "properties": {
+     "id": "node/12813271402",
+     "gid": "openstreetmap:venue:node/12813271402",
+     "layer": "venue",
+     "source": "openstreetmap",
+     "source_id": "node/12813271402",
+     "country_code": "VN",
+     "name": "Chợ Gò Công",
+     "street": "Phố Nguyễn Lương Bằng",
+     "confidence": 0.5,
+     "distance": 4.032,
+     "accuracy": "point",
+     "country": "Vietnam",
+     "country_gid": "whosonfirst:country:85632763",
+     "country_a": "VNM",
+     "region": "Hai Phong",
+     "region_gid": "whosonfirst:region:85680645",
+     "region_a": "HP",
+     "county": "Kien An",
+     "county_gid": "whosonfirst:county:1108781283",
+     "label": "Chợ Gò Công, HP, Vietnam",
+     "category": [
+      "food",
+      "retail"
+     ]
+    }
+   },
+   {
+    "type": "Feature",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      106.624321,
+      20.803807
+     ]
+    },
+    "properties": {
+     "id": "node/10669431105",
+     "gid": "openstreetmap:venue:node/10669431105",
+     "layer": "venue",
+     "source": "openstreetmap",
+     "source_id": "node/10669431105",
+     "country_code": "VN",
+     "name": "Bún cá cay Cậu Đoành",
+     "confidence": 0.5,
+     "distance": 4.124,
+     "accuracy": "point",
+     "country": "Vietnam",
+     "country_gid": "whosonfirst:country:85632763",
+     "country_a": "VNM",
+     "region": "Hai Phong",
+     "region_gid": "whosonfirst:region:85680645",
+     "region_a": "HP",
+     "county": "Kien An",
+     "county_gid": "whosonfirst:county:1108781283",
+     "label": "Bún cá cay Cậu Đoành, HP, Vietnam",
+     "category": [
+      "food",
+      "retail"
+     ]
+    }
+   },
+   {
+    "type": "Feature",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      106.625228,
+      20.803625
+     ]
+    },
+    "properties": {
+     "id": "node/12799006101",
+     "gid": "openstreetmap:venue:node/12799006101",
+     "layer": "venue",
+     "source": "openstreetmap",
+     "source_id": "node/12799006101",
+     "country_code": "VN",
+     "name": "Ngọt Coffee Hải Phòng",
+     "confidence": 0.5,
+     "distance": 4.149,
+     "accuracy": "point",
+     "country": "Vietnam",
+     "country_gid": "whosonfirst:country:85632763",
+     "country_a": "VNM",
+     "region": "Hai Phong",
+     "region_gid": "whosonfirst:region:85680645",
+     "region_a": "HP",
+     "county": "Kien An",
+     "county_gid": "whosonfirst:county:1108781283",
+     "label": "Ngọt Coffee Hải Phòng, HP, Vietnam",
+     "category": [
+      "food",
+      "retail"
+     ]
+    }
+   },
+   {
+    "type": "Feature",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      106.625992,
+      20.803368
+     ]
+    },
+    "properties": {
+     "id": "node/12798987701",
+     "gid": "openstreetmap:venue:node/12798987701",
+     "layer": "venue",
+     "source": "openstreetmap",
+     "source_id": "node/12798987701",
+     "country_code": "VN",
+     "name": "Jollibee",
+     "confidence": 0.5,
+     "distance": 4.161,
+     "accuracy": "point",
+     "country": "Vietnam",
+     "country_gid": "whosonfirst:country:85632763",
+     "country_a": "VNM",
+     "region": "Hai Phong",
+     "region_gid": "whosonfirst:region:85680645",
+     "region_a": "HP",
+     "county": "Kien An",
+     "county_gid": "whosonfirst:county:1108781283",
+     "label": "Jollibee, HP, Vietnam",
+     "category": [
+      "food",
+      "retail",
+      "food:burger"
+     ],
+     "addendum": {
+      "osm": {
+       "brand": "Jollibee",
+       "website": "https://jollibee.com.vn/",
+       "opening_hours": "Mo-Su 09:00-21:00"
+      }
+     }
+    }
+   },
+   {
+    "type": "Feature",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      106.624794,
+      20.804007
+     ]
+    },
+    "properties": {
+     "id": "way/1395877691",
+     "gid": "openstreetmap:venue:way/1395877691",
+     "layer": "venue",
+     "source": "openstreetmap",
+     "source_id": "way/1395877691",
+     "country_code": "VN",
+     "name": "Trà Cúc Trang Tít",
+     "housenumber": "30",
+     "street": "Phố Phan Đăng Lưu",
+     "confidence": 0.5,
+     "distance": 4.166,
+     "accuracy": "point",
+     "country": "Vietnam",
+     "country_gid": "whosonfirst:country:85632763",
+     "country_a": "VNM",
+     "region": "Hai Phong",
+     "region_gid": "whosonfirst:region:85680645",
+     "region_a": "HP",
+     "county": "Kien An",
+     "county_gid": "whosonfirst:county:1108781283",
+     "label": "Trà Cúc Trang Tít, HP, Vietnam",
+     "category": [
+      "food",
+      "retail"
+     ],
+     "addendum": {
+      "osm": {
+       "phone": "0705822833;0934260391",
+       "opening_hours": "Mo-Su 07:30-23:00"
+      }
+     }
+    },
+    "bbox": [
+     106.6246843,
+     20.8039043,
+     106.6249035,
+     20.8041094
+    ]
+   },
+   {
+    "type": "Feature",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      106.624166,
+      20.806614
+     ]
+    },
+    "properties": {
+     "id": "node/4537730591",
+     "gid": "openstreetmap:venue:node/4537730591",
+     "layer": "venue",
+     "source": "openstreetmap",
+     "source_id": "node/4537730591",
+     "country_code": "VN",
+     "name": "Ánh Dương bakery",
+     "housenumber": "80",
+     "street": "Phan Đăng Lưu",
+     "confidence": 0.5,
+     "distance": 4.4,
+     "accuracy": "point",
+     "country": "Vietnam",
+     "country_gid": "whosonfirst:country:85632763",
+     "country_a": "VNM",
+     "region": "Hai Phong",
+     "region_gid": "whosonfirst:region:85680645",
+     "region_a": "HP",
+     "county": "Kien An",
+     "county_gid": "whosonfirst:county:1108781283",
+     "label": "Ánh Dương bakery, HP, Vietnam",
+     "category": [
+      "retail",
+      "food"
+     ],
+     "addendum": {
+      "osm": {
+       "phone": "0987787666",
+       "opening_hours": "24/7"
+      }
+     }
+    }
+   },
+   {
+    "type": "Feature",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      106.625951,
+      20.808821
+     ]
+    },
+    "properties": {
+     "id": "way/1395932813",
+     "gid": "openstreetmap:venue:way/1395932813",
+     "layer": "venue",
+     "source": "openstreetmap",
+     "source_id": "way/1395932813",
+     "country_code": "VN",
+     "name": "Nhà hàng lẩu A Lý",
+     "confidence": 0.5,
+     "distance": 4.701,
+     "accuracy": "point",
+     "country": "Vietnam",
+     "country_gid": "whosonfirst:country:85632763",
+     "country_a": "VNM",
+     "region": "Hai Phong",
+     "region_gid": "whosonfirst:region:85680645",
+     "region_a": "HP",
+     "county": "Kien An",
+     "county_gid": "whosonfirst:county:1108781283",
+     "label": "Nhà hàng lẩu A Lý, HP, Vietnam",
+     "category": [
+      "food",
+      "retail",
+      "nightlife"
+     ]
+    },
+    "bbox": [
+     106.6259093,
+     20.8087082,
+     106.625993,
+     20.8089332
+    ]
+   },
+   {
+    "type": "Feature",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      106.624151,
+      20.811905
+     ]
+    },
+    "properties": {
+     "id": "way/1393701493",
+     "gid": "openstreetmap:venue:way/1393701493",
+     "layer": "venue",
+     "source": "openstreetmap",
+     "source_id": "way/1393701493",
+     "country_code": "VN",
+     "name": "Cosy cà phê 1985s",
+     "housenumber": "318",
+     "street": "Phan Đăng Lưu",
+     "confidence": 0.5,
+     "distance": 4.942,
+     "accuracy": "point",
+     "country": "Vietnam",
+     "country_gid": "whosonfirst:country:85632763",
+     "country_a": "VNM",
+     "region": "Hai Phong",
+     "region_gid": "whosonfirst:region:85680645",
+     "region_a": "HP",
+     "county": "Kien An",
+     "county_gid": "whosonfirst:county:1108781283",
+     "label": "Cosy cà phê 1985s, HP, Vietnam",
+     "category": [
+      "food",
+      "retail"
+     ],
+     "addendum": {
+      "osm": {
+       "website": "https://cosycafe318.business.site",
+       "phone": "091 627 18 88",
+       "opening_hours": "Mo-Su 07:30-22:00"
+      }
+     }
+    },
+    "bbox": [
+     106.6239738,
+     20.811858,
+     106.6243289,
+     20.8119519
+    ]
+   },
+   {
+    "type": "Feature",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      106.623883,
+      20.812512
+     ]
+    },
+    "properties": {
+     "id": "node/12888813701",
+     "gid": "openstreetmap:venue:node/12888813701",
+     "layer": "venue",
+     "source": "openstreetmap",
+     "source_id": "node/12888813701",
+     "country_code": "VN",
+     "name": "Piajo Cafe",
+     "street": "Phố Phan Đăng Lưu",
+     "confidence": 0.5,
+     "distance": 4.995,
+     "accuracy": "point",
+     "country": "Vietnam",
+     "country_gid": "whosonfirst:country:85632763",
+     "country_a": "VNM",
+     "region": "Hai Phong",
+     "region_gid": "whosonfirst:region:85680645",
+     "region_a": "HP",
+     "county": "Kien An",
+     "county_gid": "whosonfirst:county:1108781283",
+     "label": "Piajo Cafe, HP, Vietnam",
+     "category": [
+      "food",
+      "retail"
+     ]
+    }
+   }
+  ],
+  "bbox": [
+   106.621411,
+   20.788351,
+   106.63207,
+   20.812512
+  ]
+ }
+}

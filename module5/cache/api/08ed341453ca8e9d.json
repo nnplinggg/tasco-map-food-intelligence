@@ -1,0 +1,82 @@
+{
+ "label": "reverse-geocoding",
+ "key": "GET https://tasco-maps.dnpwater.vn/geocode/v1/reverse?point.lat=20.854816665972713&point.lon=106.17934478917648&size=1 ",
+ "cachedAt": "2026-07-10T10:52:22.590Z",
+ "response": {
+  "geocoding": {
+   "version": "0.2",
+   "attribution": "http://tasco-maps.dnpwater.vn/attribution",
+   "query": {
+    "size": 1,
+    "private": false,
+    "point.lat": 20.854816665972713,
+    "point.lon": 106.17934478917648,
+    "boundary.circle.lat": 20.854816665972713,
+    "boundary.circle.lon": 106.17934478917648,
+    "lang": {
+     "name": "English",
+     "iso6391": "en",
+     "iso6393": "eng",
+     "via": "default",
+     "defaulted": true
+    },
+    "querySize": 2
+   },
+   "warnings": [
+    "invalid language provided via header"
+   ],
+   "engine": {
+    "name": "Pelias",
+    "author": "Mapzen",
+    "version": "1.0"
+   },
+   "timestamp": 1783680742641
+  },
+  "type": "FeatureCollection",
+  "features": [
+   {
+    "type": "Feature",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      106.187183,
+      20.871346
+     ]
+    },
+    "properties": {
+     "id": "1108781249",
+     "gid": "whosonfirst:county:1108781249",
+     "layer": "county",
+     "source": "whosonfirst",
+     "source_id": "1108781249",
+     "country_code": "VN",
+     "name": "Binh Giang",
+     "confidence": 0.5,
+     "distance": 2.013,
+     "accuracy": "centroid",
+     "country": "Vietnam",
+     "country_gid": "whosonfirst:country:85632763",
+     "country_a": "VNM",
+     "region": "Hai Duong",
+     "region_gid": "whosonfirst:region:85680637",
+     "region_a": "HD",
+     "county": "Binh Giang",
+     "county_gid": "whosonfirst:county:1108781249",
+     "label": "Binh Giang, HD, Vietnam"
+    },
+    "bbox": [
+     106.123914,
+     20.815561,
+     106.257853,
+     20.926597
+    ]
+   }
+  ],
+  "bbox": [
+   106.123914,
+   20.815561,
+   106.257853,
+   20.926597
+  ]
+ }
+}

@@ -1,0 +1,156 @@
+{
+ "label": "nearby-search",
+ "key": "GET https://tasco-maps.dnpwater.vn/geocode/v1/nearby?point.lat=20.95137&point.lon=105.974864&boundary.circle.radius=0.4&size=3&categories=transport ",
+ "cachedAt": "2026-07-10T10:43:14.340Z",
+ "response": {
+  "geocoding": {
+   "version": "0.2",
+   "attribution": "http://tasco-maps.dnpwater.vn/attribution",
+   "query": {
+    "size": 3,
+    "private": false,
+    "point.lat": 20.95137,
+    "point.lon": 105.974864,
+    "boundary.circle.radius": 0.4,
+    "boundary.circle.lat": 20.95137,
+    "boundary.circle.lon": 105.974864,
+    "categories": [
+     "transport"
+    ],
+    "lang": {
+     "name": "English",
+     "iso6391": "en",
+     "iso6393": "eng",
+     "via": "default",
+     "defaulted": true
+    },
+    "querySize": 20
+   },
+   "warnings": [
+    "invalid language provided via header"
+   ],
+   "engine": {
+    "name": "Pelias",
+    "author": "Mapzen",
+    "version": "1.0"
+   },
+   "timestamp": 1783680194393
+  },
+  "type": "FeatureCollection",
+  "features": [
+   {
+    "type": "Feature",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      105.975908,
+      20.951422
+     ]
+    },
+    "properties": {
+     "id": "node/11554362848",
+     "gid": "openstreetmap:venue:node/11554362848",
+     "layer": "venue",
+     "source": "openstreetmap",
+     "source_id": "node/11554362848",
+     "country_code": "VN",
+     "name": "Cầu Sóng The K Town",
+     "confidence": 0.7,
+     "distance": 0.109,
+     "accuracy": "point",
+     "country": "Vietnam",
+     "country_gid": "whosonfirst:country:85632763",
+     "country_a": "VNM",
+     "region": "Hung Yen",
+     "region_gid": "whosonfirst:region:85680649",
+     "region_a": "HY",
+     "county": "Van Lam",
+     "county_gid": "whosonfirst:county:1108781295",
+     "label": "Cầu Sóng The K Town, HY, Vietnam",
+     "category": [
+      "transport",
+      "transport:public"
+     ]
+    }
+   },
+   {
+    "type": "Feature",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      105.97489,
+      20.953483
+     ]
+    },
+    "properties": {
+     "id": "node/11556081242",
+     "gid": "openstreetmap:venue:node/11556081242",
+     "layer": "venue",
+     "source": "openstreetmap",
+     "source_id": "node/11556081242",
+     "country_code": "VN",
+     "name": "Đối diện Cổng Grand World - The Venice",
+     "confidence": 0.7,
+     "distance": 0.235,
+     "accuracy": "point",
+     "country": "Vietnam",
+     "country_gid": "whosonfirst:country:85632763",
+     "country_a": "VNM",
+     "region": "Hung Yen",
+     "region_gid": "whosonfirst:region:85680649",
+     "region_a": "HY",
+     "county": "Van Lam",
+     "county_gid": "whosonfirst:county:1108781295",
+     "label": "Đối diện Cổng Grand World - The Venice, HY, Vietnam",
+     "category": [
+      "transport",
+      "transport:public"
+     ]
+    }
+   },
+   {
+    "type": "Feature",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      105.976106,
+      20.953839
+     ]
+    },
+    "properties": {
+     "id": "node/13327545778",
+     "gid": "openstreetmap:venue:node/13327545778",
+     "layer": "venue",
+     "source": "openstreetmap",
+     "source_id": "node/13327545778",
+     "country_code": "VN",
+     "name": "Bến thuyền Gondola",
+     "confidence": 0.6,
+     "distance": 0.304,
+     "accuracy": "point",
+     "country": "Vietnam",
+     "country_gid": "whosonfirst:country:85632763",
+     "country_a": "VNM",
+     "region": "Hung Yen",
+     "region_gid": "whosonfirst:region:85680649",
+     "region_a": "HY",
+     "county": "Van Lam",
+     "county_gid": "whosonfirst:county:1108781295",
+     "label": "Bến thuyền Gondola, HY, Vietnam",
+     "category": [
+      "transport",
+      "transport:sea",
+      "transport:public",
+      "transport:station"
+     ]
+    }
+   }
+  ],
+  "bbox": [
+   105.97489,
+   20.951422,
+   105.976106,
+   20.953839
+  ]
+ }
+}

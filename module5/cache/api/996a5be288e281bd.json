@@ -1,0 +1,171 @@
+{
+ "label": "geocoding",
+ "key": "GET https://tasco-maps.dnpwater.vn/geocode/v1/search?text=Tr%E1%BA%A1m+thu+ph%C3%AD+s%E1%BB%91+2+Qu%E1%BB%91c+l%E1%BB%99+5&size=3&focus.point.lat=20.95&focus.point.lon=106.4&layers=venue ",
+ "cachedAt": "2026-07-10T10:43:13.978Z",
+ "response": {
+  "geocoding": {
+   "version": "0.2",
+   "attribution": "http://tasco-maps.dnpwater.vn/attribution",
+   "query": {
+    "text": "Trạm thu phí số 2 Quốc lộ 5",
+    "size": 3,
+    "layers": [
+     "venue"
+    ],
+    "private": false,
+    "focus.point.lat": 20.95,
+    "focus.point.lon": 106.4,
+    "lang": {
+     "name": "English",
+     "iso6391": "en",
+     "iso6393": "eng",
+     "via": "default",
+     "defaulted": true
+    },
+    "querySize": 20,
+    "parser": "libpostal",
+    "parsed_text": {
+     "query": "trạm thu phí số 2",
+     "street": "quốc lộ 5"
+    }
+   },
+   "warnings": [
+    "invalid language provided via header"
+   ],
+   "engine": {
+    "name": "Pelias",
+    "author": "Mapzen",
+    "version": "1.0"
+   },
+   "timestamp": 1783680194030
+  },
+  "type": "FeatureCollection",
+  "features": [
+   {
+    "type": "Feature",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      106.572641,
+      20.908564
+     ]
+    },
+    "properties": {
+     "id": "toll:tram-thu-phi-so-2-ql5-hai-phong-20-908564-106-572641",
+     "gid": "tasco:venue:toll:tram-thu-phi-so-2-ql5-hai-phong-20-908564-106-572641",
+     "layer": "venue",
+     "source": "tasco",
+     "source_id": "toll:tram-thu-phi-so-2-ql5-hai-phong-20-908564-106-572641",
+     "country_code": "VN",
+     "name": "Trạm Thu phí Số 2 - QL5 - Hải Phòng",
+     "street": "QL5 chợ Hỗ, An Hưng, An Dương, Hải Phòng",
+     "confidence": 1,
+     "match_type": "exact",
+     "distance": 18.533,
+     "accuracy": "point",
+     "country": "Việt Nam",
+     "country_gid": "tasco:country:VNM",
+     "country_a": "VN",
+     "region": "Hai Phong",
+     "region_gid": "whosonfirst:region:85680645",
+     "region_a": "HP",
+     "county": "An Duong",
+     "county_gid": "whosonfirst:county:1108781279",
+     "label": "Trạm Thu phí Số 2 - QL5 - Hải Phòng, HP, Việt Nam",
+     "addendum": {
+      "tasco": {
+       "category": "toll_etc",
+       "address": "QL5 chợ Hỗ, An Hưng, An Dương, Hải Phòng",
+       "source": "tasco",
+       "status": "active",
+       "pricing_info": "Có bảng giá vé lượt, vé tháng, vé quý",
+       "pricing_detail": [
+        {
+         "Name": "Vé Lượt",
+         "Prices": [
+          {
+           "Name": "Xe < 12 chỗ, xe tải < 2 tấn; xe buýt công cộng",
+           "Price": "40000"
+          },
+          {
+           "Name": "Xe 12-30 chỗ; xe tải 2 đến <4 tấn",
+           "Price": "55000"
+          },
+          {
+           "Name": "Xe >= 31 chỗ; xe tải 4 đến <10 tấn",
+           "Price": "75000"
+          },
+          {
+           "Name": "Xe tải 10 đến <18 tấn; xe Container 20 fit",
+           "Price": "125000"
+          },
+          {
+           "Name": "Xe tải >= 18 tấn; xe Container 40 fit",
+           "Price": "180000"
+          }
+         ]
+        },
+        {
+         "Name": "Vé Tháng",
+         "Prices": [
+          {
+           "Name": "Xe < 12 chỗ, xe tải < 2 tấn; xe buýt công cộng",
+           "Price": "1200000"
+          },
+          {
+           "Name": "Xe 12-30 chỗ; xe tải 2 đến <4 tấn",
+           "Price": "1650000"
+          },
+          {
+           "Name": "Xe >= 31 chỗ; xe tải 4 đến <10 tấn",
+           "Price": "2250000"
+          },
+          {
+           "Name": "Xe tải 10 đến <18 tấn; xe Container 20 fit",
+           "Price": "3750000"
+          },
+          {
+           "Name": "Xe tải >= 18 tấn; xe Container 40 fit",
+           "Price": "5400000"
+          }
+         ]
+        },
+        {
+         "Name": "Vé Quý",
+         "Prices": [
+          {
+           "Name": "Xe < 12 chỗ, xe tải < 2 tấn; xe buýt công cộng",
+           "Price": "3240000"
+          },
+          {
+           "Name": "Xe 12-30 chỗ; xe tải 2 đến <4 tấn",
+           "Price": "4455000"
+          },
+          {
+           "Name": "Xe >= 31 chỗ; xe tải 4 đến <10 tấn",
+           "Price": "6075000"
+          },
+          {
+           "Name": "Xe tải 10 đến <18 tấn; xe Container 20 fit",
+           "Price": "10125000"
+          },
+          {
+           "Name": "Xe tải >= 18 tấn; xe Container 40 fit",
+           "Price": "14580000"
+          }
+         ]
+        }
+       ]
+      }
+     }
+    }
+   }
+  ],
+  "bbox": [
+   106.572641,
+   20.908564,
+   106.572641,
+   20.908564
+  ]
+ }
+}

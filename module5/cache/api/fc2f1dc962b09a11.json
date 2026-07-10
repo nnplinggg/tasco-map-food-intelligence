@@ -1,0 +1,82 @@
+{
+ "label": "reverse-geocoding",
+ "key": "GET https://tasco-maps.dnpwater.vn/geocode/v1/reverse?point.lat=20.98898359673843&point.lon=106.99314044869536&size=1 ",
+ "cachedAt": "2026-07-10T10:52:31.284Z",
+ "response": {
+  "geocoding": {
+   "version": "0.2",
+   "attribution": "http://tasco-maps.dnpwater.vn/attribution",
+   "query": {
+    "size": 1,
+    "private": false,
+    "point.lat": 20.98898359673843,
+    "point.lon": 106.99314044869536,
+    "boundary.circle.lat": 20.98898359673843,
+    "boundary.circle.lon": 106.99314044869536,
+    "lang": {
+     "name": "English",
+     "iso6391": "en",
+     "iso6393": "eng",
+     "via": "default",
+     "defaulted": true
+    },
+    "querySize": 2
+   },
+   "warnings": [
+    "invalid language provided via header"
+   ],
+   "engine": {
+    "name": "Pelias",
+    "author": "Mapzen",
+    "version": "1.0"
+   },
+   "timestamp": 1783680751333
+  },
+  "type": "FeatureCollection",
+  "features": [
+   {
+    "type": "Feature",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      106.990827,
+      20.985564
+     ]
+    },
+    "properties": {
+     "id": "way/676796082",
+     "gid": "openstreetmap:venue:way/676796082",
+     "layer": "venue",
+     "source": "openstreetmap",
+     "source_id": "way/676796082",
+     "country_code": "VN",
+     "name": "Nghĩa trang Hà Khẩu",
+     "confidence": 0.6,
+     "distance": 0.45,
+     "accuracy": "point",
+     "country": "Vietnam",
+     "country_gid": "whosonfirst:country:85632763",
+     "country_a": "VNM",
+     "region": "Quang Ninh",
+     "region_gid": "whosonfirst:region:85680583",
+     "region_a": "QN",
+     "county": "Ha Long",
+     "county_gid": "whosonfirst:county:1108781111",
+     "label": "Nghĩa trang Hà Khẩu, QN, Vietnam"
+    },
+    "bbox": [
+     106.98717,
+     20.9835395,
+     106.9935375,
+     20.9878269
+    ]
+   }
+  ],
+  "bbox": [
+   106.98717,
+   20.9835395,
+   106.9935375,
+   20.9878269
+  ]
+ }
+}

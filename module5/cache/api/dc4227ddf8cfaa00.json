@@ -1,0 +1,83 @@
+{
+ "label": "reverse-geocoding",
+ "key": "GET https://tasco-maps.dnpwater.vn/geocode/v1/reverse?point.lat=20.96850371733631&point.lon=106.95314593718297&size=1 ",
+ "cachedAt": "2026-07-10T10:52:30.746Z",
+ "response": {
+  "geocoding": {
+   "version": "0.2",
+   "attribution": "http://tasco-maps.dnpwater.vn/attribution",
+   "query": {
+    "size": 1,
+    "private": false,
+    "point.lat": 20.96850371733631,
+    "point.lon": 106.95314593718297,
+    "boundary.circle.lat": 20.96850371733631,
+    "boundary.circle.lon": 106.95314593718297,
+    "lang": {
+     "name": "English",
+     "iso6391": "en",
+     "iso6393": "eng",
+     "via": "default",
+     "defaulted": true
+    },
+    "querySize": 2
+   },
+   "warnings": [
+    "invalid language provided via header"
+   ],
+   "engine": {
+    "name": "Pelias",
+    "author": "Mapzen",
+    "version": "1.0"
+   },
+   "timestamp": 1783680750795
+  },
+  "type": "FeatureCollection",
+  "features": [
+   {
+    "type": "Feature",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      106.948385,
+      20.965528
+     ]
+    },
+    "properties": {
+     "id": "polyline:7278",
+     "gid": "openstreetmap:street:polyline:7278",
+     "layer": "street",
+     "source": "openstreetmap",
+     "source_id": "polyline:7278",
+     "country_code": "VN",
+     "name": "Cầu Vượt Đường Sắt",
+     "street": "Cầu Vượt Đường Sắt",
+     "confidence": 0.6,
+     "distance": 0.596,
+     "accuracy": "centroid",
+     "country": "Vietnam",
+     "country_gid": "whosonfirst:country:85632763",
+     "country_a": "VNM",
+     "region": "Quang Ninh",
+     "region_gid": "whosonfirst:region:85680583",
+     "region_a": "QN",
+     "county": "Ha Long",
+     "county_gid": "whosonfirst:county:1108781111",
+     "label": "Cầu Vượt Đường Sắt, QN, Vietnam"
+    },
+    "bbox": [
+     106.948377,
+     20.965526,
+     106.950651,
+     20.967675
+    ]
+   }
+  ],
+  "bbox": [
+   106.948377,
+   20.965526,
+   106.950651,
+   20.967675
+  ]
+ }
+}

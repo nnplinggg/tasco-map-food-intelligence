@@ -1,0 +1,90 @@
+{
+ "label": "reverse-geocoding",
+ "key": "GET https://tasco-maps.dnpwater.vn/geocode/v1/reverse?point.lat=21.036651189265687&point.lon=105.85814220093935&size=1 ",
+ "cachedAt": "2026-07-10T10:52:18.727Z",
+ "response": {
+  "geocoding": {
+   "version": "0.2",
+   "attribution": "http://tasco-maps.dnpwater.vn/attribution",
+   "query": {
+    "size": 1,
+    "private": false,
+    "point.lat": 21.036651189265687,
+    "point.lon": 105.85814220093935,
+    "boundary.circle.lat": 21.036651189265687,
+    "boundary.circle.lon": 105.85814220093935,
+    "lang": {
+     "name": "English",
+     "iso6391": "en",
+     "iso6393": "eng",
+     "via": "default",
+     "defaulted": true
+    },
+    "querySize": 2
+   },
+   "warnings": [
+    "invalid language provided via header"
+   ],
+   "engine": {
+    "name": "Pelias",
+    "author": "Mapzen",
+    "version": "1.0"
+   },
+   "timestamp": 1783680738777
+  },
+  "type": "FeatureCollection",
+  "features": [
+   {
+    "type": "Feature",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      105.85819,
+      21.036734
+     ]
+    },
+    "properties": {
+     "id": "way/874082897",
+     "gid": "openstreetmap:venue:way/874082897",
+     "layer": "venue",
+     "source": "openstreetmap",
+     "source_id": "way/874082897",
+     "country_code": "VN",
+     "name": "Cầu Chương Dương",
+     "confidence": 0.8,
+     "distance": 0.01,
+     "accuracy": "point",
+     "country": "Vietnam",
+     "country_gid": "whosonfirst:country:85632763",
+     "country_a": "VNM",
+     "region": "Ha Noi",
+     "region_gid": "whosonfirst:region:85680653",
+     "region_a": "HI",
+     "county": "Hoan Kiem",
+     "county_gid": "whosonfirst:county:1108780787",
+     "locality": "Hanoi",
+     "locality_gid": "whosonfirst:locality:421177479",
+     "label": "Cầu Chương Dương, Hanoi, HI, Vietnam",
+     "addendum": {
+      "osm": {
+       "wikidata": "Q3023443",
+       "wikipedia": "vi:Cầu Chương Dương"
+      }
+     }
+    },
+    "bbox": [
+     105.8551492,
+     21.0354721,
+     105.8656954,
+     21.0397686
+    ]
+   }
+  ],
+  "bbox": [
+   105.8551492,
+   21.0354721,
+   105.8656954,
+   21.0397686
+  ]
+ }
+}

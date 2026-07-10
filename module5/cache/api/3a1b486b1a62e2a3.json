@@ -1,0 +1,82 @@
+{
+ "label": "reverse-geocoding",
+ "key": "GET https://tasco-maps.dnpwater.vn/geocode/v1/reverse?point.lat=20.966061266244367&point.lon=107.05418936231169&size=1 ",
+ "cachedAt": "2026-07-10T10:52:31.941Z",
+ "response": {
+  "geocoding": {
+   "version": "0.2",
+   "attribution": "http://tasco-maps.dnpwater.vn/attribution",
+   "query": {
+    "size": 1,
+    "private": false,
+    "point.lat": 20.966061266244367,
+    "point.lon": 107.05418936231169,
+    "boundary.circle.lat": 20.966061266244367,
+    "boundary.circle.lon": 107.05418936231169,
+    "lang": {
+     "name": "English",
+     "iso6391": "en",
+     "iso6393": "eng",
+     "via": "default",
+     "defaulted": true
+    },
+    "querySize": 2
+   },
+   "warnings": [
+    "invalid language provided via header"
+   ],
+   "engine": {
+    "name": "Pelias",
+    "author": "Mapzen",
+    "version": "1.0"
+   },
+   "timestamp": 1783680751990
+  },
+  "type": "FeatureCollection",
+  "features": [
+   {
+    "type": "Feature",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      107.053584,
+      20.966558
+     ]
+    },
+    "properties": {
+     "id": "way/1493177387",
+     "gid": "openstreetmap:venue:way/1493177387",
+     "layer": "venue",
+     "source": "openstreetmap",
+     "source_id": "way/1493177387",
+     "country_code": "VN",
+     "name": "Cầu dẫn số 1",
+     "confidence": 0.8,
+     "distance": 0.084,
+     "accuracy": "point",
+     "country": "Vietnam",
+     "country_gid": "whosonfirst:country:85632763",
+     "country_a": "VNM",
+     "region": "Quang Ninh",
+     "region_gid": "whosonfirst:region:85680583",
+     "region_a": "QN",
+     "county": "Ha Long",
+     "county_gid": "whosonfirst:county:1108781111",
+     "label": "Cầu dẫn số 1, QN, Vietnam"
+    },
+    "bbox": [
+     107.0529833,
+     20.9659791,
+     107.0543202,
+     20.9670434
+    ]
+   }
+  ],
+  "bbox": [
+   107.0529833,
+   20.9659791,
+   107.0543202,
+   20.9670434
+  ]
+ }
+}

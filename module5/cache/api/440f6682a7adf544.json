@@ -1,0 +1,83 @@
+{
+ "label": "reverse-geocoding",
+ "key": "GET https://tasco-maps.dnpwater.vn/geocode/v1/reverse?point.lat=20.86018603407167&point.lon=106.02374528119613&size=1 ",
+ "cachedAt": "2026-07-10T10:52:21.179Z",
+ "response": {
+  "geocoding": {
+   "version": "0.2",
+   "attribution": "http://tasco-maps.dnpwater.vn/attribution",
+   "query": {
+    "size": 1,
+    "private": false,
+    "point.lat": 20.86018603407167,
+    "point.lon": 106.02374528119613,
+    "boundary.circle.lat": 20.86018603407167,
+    "boundary.circle.lon": 106.02374528119613,
+    "lang": {
+     "name": "English",
+     "iso6391": "en",
+     "iso6393": "eng",
+     "via": "default",
+     "defaulted": true
+    },
+    "querySize": 2
+   },
+   "warnings": [
+    "invalid language provided via header"
+   ],
+   "engine": {
+    "name": "Pelias",
+    "author": "Mapzen",
+    "version": "1.0"
+   },
+   "timestamp": 1783680741228
+  },
+  "type": "FeatureCollection",
+  "features": [
+   {
+    "type": "Feature",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      106.023612,
+      20.860478
+     ]
+    },
+    "properties": {
+     "id": "polyline:7159",
+     "gid": "openstreetmap:street:polyline:7159",
+     "layer": "street",
+     "source": "openstreetmap",
+     "source_id": "polyline:7159",
+     "country_code": "VN",
+     "name": "Cầu vượt QL.39",
+     "street": "Cầu vượt QL.39",
+     "confidence": 0.8,
+     "distance": 0.035,
+     "accuracy": "centroid",
+     "country": "Vietnam",
+     "country_gid": "whosonfirst:country:85632763",
+     "country_a": "VNM",
+     "region": "Hung Yen",
+     "region_gid": "whosonfirst:region:85680649",
+     "region_a": "HY",
+     "county": "Yen My",
+     "county_gid": "whosonfirst:county:1108781299",
+     "label": "Cầu vượt QL.39, HY, Vietnam"
+    },
+    "bbox": [
+     106.02353,
+     20.858452,
+     106.02583,
+     20.860553
+    ]
+   }
+  ],
+  "bbox": [
+   106.02353,
+   20.858452,
+   106.02583,
+   20.860553
+  ]
+ }
+}

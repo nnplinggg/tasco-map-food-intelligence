@@ -1,0 +1,82 @@
+{
+ "label": "reverse-geocoding",
+ "key": "GET https://tasco-maps.dnpwater.vn/geocode/v1/reverse?point.lat=21.028885292067784&point.lon=105.88864183467267&size=1 ",
+ "cachedAt": "2026-07-10T10:52:19.083Z",
+ "response": {
+  "geocoding": {
+   "version": "0.2",
+   "attribution": "http://tasco-maps.dnpwater.vn/attribution",
+   "query": {
+    "size": 1,
+    "private": false,
+    "point.lat": 21.028885292067784,
+    "point.lon": 105.88864183467267,
+    "boundary.circle.lat": 21.028885292067784,
+    "boundary.circle.lon": 105.88864183467267,
+    "lang": {
+     "name": "English",
+     "iso6391": "en",
+     "iso6393": "eng",
+     "via": "default",
+     "defaulted": true
+    },
+    "querySize": 2
+   },
+   "warnings": [
+    "invalid language provided via header"
+   ],
+   "engine": {
+    "name": "Pelias",
+    "author": "Mapzen",
+    "version": "1.0"
+   },
+   "timestamp": 1783680739130
+  },
+  "type": "FeatureCollection",
+  "features": [
+   {
+    "type": "Feature",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      105.888114,
+      21.028359
+     ]
+    },
+    "properties": {
+     "id": "way/1188004490",
+     "gid": "openstreetmap:venue:way/1188004490",
+     "layer": "venue",
+     "source": "openstreetmap",
+     "source_id": "way/1188004490",
+     "country_code": "VN",
+     "name": "Chung cư Eco Smart City Cổ Linh",
+     "confidence": 0.8,
+     "distance": 0.08,
+     "accuracy": "point",
+     "country": "Vietnam",
+     "country_gid": "whosonfirst:country:85632763",
+     "country_a": "VNM",
+     "region": "Ha Noi",
+     "region_gid": "whosonfirst:region:85680653",
+     "region_a": "HI",
+     "county": "Long Bien",
+     "county_gid": "whosonfirst:county:1108780791",
+     "label": "Chung cư Eco Smart City Cổ Linh, HI, Vietnam"
+    },
+    "bbox": [
+     105.887617,
+     21.0279946,
+     105.8894404,
+     21.0288025
+    ]
+   }
+  ],
+  "bbox": [
+   105.887617,
+   21.0279946,
+   105.8894404,
+   21.0288025
+  ]
+ }
+}

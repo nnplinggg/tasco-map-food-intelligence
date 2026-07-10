@@ -1,0 +1,78 @@
+{
+ "label": "reverse-geocoding",
+ "key": "GET https://tasco-maps.dnpwater.vn/geocode/v1/reverse?point.lat=20.765186876005416&point.lon=106.68133669612813&size=1 ",
+ "cachedAt": "2026-07-10T10:52:27.315Z",
+ "response": {
+  "geocoding": {
+   "version": "0.2",
+   "attribution": "http://tasco-maps.dnpwater.vn/attribution",
+   "query": {
+    "size": 1,
+    "private": false,
+    "point.lat": 20.765186876005416,
+    "point.lon": 106.68133669612813,
+    "boundary.circle.lat": 20.765186876005416,
+    "boundary.circle.lon": 106.68133669612813,
+    "lang": {
+     "name": "English",
+     "iso6391": "en",
+     "iso6393": "eng",
+     "via": "default",
+     "defaulted": true
+    },
+    "querySize": 2
+   },
+   "warnings": [
+    "invalid language provided via header"
+   ],
+   "engine": {
+    "name": "Pelias",
+    "author": "Mapzen",
+    "version": "1.0"
+   },
+   "timestamp": 1783680747364
+  },
+  "type": "FeatureCollection",
+  "features": [
+   {
+    "type": "Feature",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      106.676592,
+      20.763678
+     ]
+    },
+    "properties": {
+     "id": "node/9687309358",
+     "gid": "openstreetmap:address:node/9687309358",
+     "layer": "address",
+     "source": "openstreetmap",
+     "source_id": "node/9687309358",
+     "country_code": "VN",
+     "name": "186 Cầu Đen",
+     "housenumber": "186",
+     "street": "Cầu Đen",
+     "confidence": 0.6,
+     "distance": 0.522,
+     "accuracy": "point",
+     "country": "Vietnam",
+     "country_gid": "whosonfirst:country:85632763",
+     "country_a": "VNM",
+     "region": "Hai Phong",
+     "region_gid": "whosonfirst:region:85680645",
+     "region_a": "HP",
+     "county": "Kien Thuy",
+     "county_gid": "whosonfirst:county:1108781275",
+     "label": "186 Cầu Đen, HP, Vietnam"
+    }
+   }
+  ],
+  "bbox": [
+   106.676592,
+   20.763678,
+   106.676592,
+   20.763678
+  ]
+ }
+}

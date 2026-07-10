@@ -1,0 +1,343 @@
+{
+ "label": "reverse-geocoding",
+ "key": "GET https://tasco-maps.dnpwater.vn/geocode/v1/reverse?point.lat=20.97649263429531&point.lon=106.9668485444369&size=1 ",
+ "cachedAt": "2026-07-10T10:52:30.942Z",
+ "response": {
+  "geocoding": {
+   "version": "0.2",
+   "attribution": "http://tasco-maps.dnpwater.vn/attribution",
+   "query": {
+    "size": 1,
+    "private": false,
+    "point.lat": 20.97649263429531,
+    "point.lon": 106.9668485444369,
+    "boundary.circle.lat": 20.97649263429531,
+    "boundary.circle.lon": 106.9668485444369,
+    "lang": {
+     "name": "English",
+     "iso6391": "en",
+     "iso6393": "eng",
+     "via": "default",
+     "defaulted": true
+    },
+    "querySize": 2
+   },
+   "warnings": [
+    "invalid language provided via header"
+   ],
+   "engine": {
+    "name": "Pelias",
+    "author": "Mapzen",
+    "version": "1.0"
+   },
+   "timestamp": 1783680750991
+  },
+  "type": "FeatureCollection",
+  "features": [
+   {
+    "type": "Feature",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      106.966007,
+      20.974528
+     ]
+    },
+    "properties": {
+     "id": "toll:tram-thu-phi-viet-hung-20-974528-106-966007",
+     "gid": "tasco:venue:toll:tram-thu-phi-viet-hung-20-974528-106-966007",
+     "layer": "venue",
+     "source": "tasco",
+     "source_id": "toll:tram-thu-phi-viet-hung-20-974528-106-966007",
+     "country_code": "VN",
+     "name": "Trạm thu phí Việt Hưng",
+     "street": "CT Hạ Long - Vân Đồn, Thành phố Hạ Long, Quảng Ninh, Việt Nam",
+     "confidence": 0.7,
+     "distance": 0.236,
+     "accuracy": "point",
+     "country": "Việt Nam",
+     "country_gid": "tasco:country:VNM",
+     "country_a": "VN",
+     "region": "Quang Ninh",
+     "region_gid": "whosonfirst:region:85680583",
+     "region_a": "QN",
+     "county": "Ha Long",
+     "county_gid": "whosonfirst:county:1108781111",
+     "label": "Trạm thu phí Việt Hưng, QN, Việt Nam",
+     "addendum": {
+      "tasco": {
+       "category": "toll_etc",
+       "address": "CT Hạ Long - Vân Đồn, Thành phố Hạ Long, Quảng Ninh, Việt Nam",
+       "source": "tasco",
+       "status": "active",
+       "pricing_info": "Có bảng giá vé lượt, vé tháng, vé quý",
+       "pricing_detail": [
+        {
+         "Name": "Vé Lượt",
+         "Prices": [
+          {
+           "Name": "Xe < 12 chỗ, xe tải < 2 tấn; xe buýt công cộng: Việt Hưng <-> Đồng Lá",
+           "Price": "65000"
+          },
+          {
+           "Name": "Xe < 12 chỗ, xe tải < 2 tấn; xe buýt công cộng: Việt Hưng <-> Cẩm Y",
+           "Price": "115000"
+          },
+          {
+           "Name": "Xe < 12 chỗ, xe tải < 2 tấn; xe buýt công cộng: Việt Hưng <-> Đoàn Kết",
+           "Price": "115000"
+          },
+          {
+           "Name": "Xe < 12 chỗ, xe tải < 2 tấn; xe buýt công cộng: Việt Hưng <-> Đồng Đăng",
+           "Price": "10000"
+          },
+          {
+           "Name": "Xe 12-30 chỗ; xe tải 2 đến <4 tấn: Việt Hưng <-> Đồng Lá",
+           "Price": "95000"
+          },
+          {
+           "Name": "Xe 12-30 chỗ; xe tải 2 đến <4 tấn: Việt Hưng <-> Cẩm Y",
+           "Price": "160000"
+          },
+          {
+           "Name": "Xe 12-30 chỗ; xe tải 2 đến <4 tấn: Việt Hưng <-> Đoàn Kết",
+           "Price": "160000"
+          },
+          {
+           "Name": "Xe 12-30 chỗ; xe tải 2 đến <4 tấn: Việt Hưng <-> Đồng Đăng",
+           "Price": "15000"
+          },
+          {
+           "Name": "Xe >= 31 chỗ; xe tải 4 đến <10 tấn: Việt Hưng <-> Đồng Lá",
+           "Price": "115000"
+          },
+          {
+           "Name": "Xe >= 31 chỗ; xe tải 4 đến <10 tấn: Việt Hưng <-> Cẩm Y",
+           "Price": "195000"
+          },
+          {
+           "Name": "Xe >= 31 chỗ; xe tải 4 đến <10 tấn: Việt Hưng <-> Đoàn Kết",
+           "Price": "195000"
+          },
+          {
+           "Name": "Xe >= 31 chỗ; xe tải 4 đến <10 tấn: Việt Hưng <-> Đồng Đăng",
+           "Price": "20000"
+          },
+          {
+           "Name": "Xe tải 10 đến <18 tấn; xe Container 20 fit: Việt Hưng <-> Đồng Lá",
+           "Price": "190000"
+          },
+          {
+           "Name": "Xe tải 10 đến <18 tấn; xe Container 20 fit: Việt Hưng <-> Cẩm Y",
+           "Price": "320000"
+          },
+          {
+           "Name": "Xe tải 10 đến <18 tấn; xe Container 20 fit: Việt Hưng <-> Đoàn Kết",
+           "Price": "320000"
+          },
+          {
+           "Name": "Xe tải 10 đến <18 tấn; xe Container 20 fit: Việt Hưng <-> Đồng Đăng",
+           "Price": "35000"
+          },
+          {
+           "Name": "Xe tải >= 18 tấn; xe Container 40 fit: Việt Hưng <-> Đồng Lá",
+           "Price": "260000"
+          },
+          {
+           "Name": "Xe tải >= 18 tấn; xe Container 40 fit: Việt Hưng <-> Cẩm Y",
+           "Price": "435000"
+          },
+          {
+           "Name": "Xe tải >= 18 tấn; xe Container 40 fit: Việt Hưng <-> Đoàn Kết",
+           "Price": "435000"
+          },
+          {
+           "Name": "Xe tải >= 18 tấn; xe Container 40 fit: Việt Hưng <-> Đồng Đăng",
+           "Price": "45000"
+          }
+         ]
+        },
+        {
+         "Name": "Vé Tháng",
+         "Prices": [
+          {
+           "Name": "Xe < 12 chỗ, xe tải < 2 tấn; xe buýt công cộng: Việt Hưng <-> Đồng Lá",
+           "Price": "1950000"
+          },
+          {
+           "Name": "Xe < 12 chỗ, xe tải < 2 tấn; xe buýt công cộng: Việt Hưng <-> Cẩm Y",
+           "Price": "3450000"
+          },
+          {
+           "Name": "Xe < 12 chỗ, xe tải < 2 tấn; xe buýt công cộng: Việt Hưng <-> Đoàn Kết",
+           "Price": "3450000"
+          },
+          {
+           "Name": "Xe < 12 chỗ, xe tải < 2 tấn; xe buýt công cộng: Việt Hưng <-> Đồng Đăng",
+           "Price": "300000"
+          },
+          {
+           "Name": "Xe 12-30 chỗ; xe tải 2 đến <4 tấn: Việt Hưng <-> Đồng Lá",
+           "Price": "2850000"
+          },
+          {
+           "Name": "Xe 12-30 chỗ; xe tải 2 đến <4 tấn: Việt Hưng <-> Cẩm Y",
+           "Price": "4800000"
+          },
+          {
+           "Name": "Xe 12-30 chỗ; xe tải 2 đến <4 tấn: Việt Hưng <-> Đoàn Kết",
+           "Price": "4800000"
+          },
+          {
+           "Name": "Xe 12-30 chỗ; xe tải 2 đến <4 tấn: Việt Hưng <-> Đồng Đăng",
+           "Price": "450000"
+          },
+          {
+           "Name": "Xe >= 31 chỗ; xe tải 4 đến <10 tấn: Việt Hưng <-> Đồng Lá",
+           "Price": "3450000"
+          },
+          {
+           "Name": "Xe >= 31 chỗ; xe tải 4 đến <10 tấn: Việt Hưng <-> Cẩm Y",
+           "Price": "5850000"
+          },
+          {
+           "Name": "Xe >= 31 chỗ; xe tải 4 đến <10 tấn: Việt Hưng <-> Đoàn Kết",
+           "Price": "5850000"
+          },
+          {
+           "Name": "Xe >= 31 chỗ; xe tải 4 đến <10 tấn: Việt Hưng <-> Đồng Đăng",
+           "Price": "600000"
+          },
+          {
+           "Name": "Xe tải 10 đến <18 tấn; xe Container 20 fit: Việt Hưng <-> Đồng Lá",
+           "Price": "5700000"
+          },
+          {
+           "Name": "Xe tải 10 đến <18 tấn; xe Container 20 fit: Việt Hưng <-> Cẩm Y",
+           "Price": "9600000"
+          },
+          {
+           "Name": "Xe tải 10 đến <18 tấn; xe Container 20 fit: Việt Hưng <-> Đoàn Kết",
+           "Price": "9600000"
+          },
+          {
+           "Name": "Xe tải 10 đến <18 tấn; xe Container 20 fit: Việt Hưng <-> Đồng Đăng",
+           "Price": "1050000"
+          },
+          {
+           "Name": "Xe tải >= 18 tấn; xe Container 40 fit: Việt Hưng <-> Đồng Lá",
+           "Price": "7800000"
+          },
+          {
+           "Name": "Xe tải >= 18 tấn; xe Container 40 fit: Việt Hưng <-> Cẩm Y",
+           "Price": "13050000"
+          },
+          {
+           "Name": "Xe tải >= 18 tấn; xe Container 40 fit: Việt Hưng <-> Đoàn Kết",
+           "Price": "13050000"
+          },
+          {
+           "Name": "Xe tải >= 18 tấn; xe Container 40 fit: Việt Hưng <-> Đồng Đăng",
+           "Price": "1350000"
+          }
+         ]
+        },
+        {
+         "Name": "Vé Quý",
+         "Prices": [
+          {
+           "Name": "Xe < 12 chỗ, xe tải < 2 tấn; xe buýt công cộng: Việt Hưng <-> Đồng Lá",
+           "Price": "5265000"
+          },
+          {
+           "Name": "Xe < 12 chỗ, xe tải < 2 tấn; xe buýt công cộng: Việt Hưng <-> Cẩm Y",
+           "Price": "9315000"
+          },
+          {
+           "Name": "Xe < 12 chỗ, xe tải < 2 tấn; xe buýt công cộng: Việt Hưng <-> Đoàn Kết",
+           "Price": "9315000"
+          },
+          {
+           "Name": "Xe < 12 chỗ, xe tải < 2 tấn; xe buýt công cộng: Việt Hưng <-> Đồng Đăng",
+           "Price": "810000"
+          },
+          {
+           "Name": "Xe 12-30 chỗ; xe tải 2 đến <4 tấn: Việt Hưng <-> Đồng Lá",
+           "Price": "7695000"
+          },
+          {
+           "Name": "Xe 12-30 chỗ; xe tải 2 đến <4 tấn: Việt Hưng <-> Cẩm Y",
+           "Price": "12960000"
+          },
+          {
+           "Name": "Xe 12-30 chỗ; xe tải 2 đến <4 tấn: Việt Hưng <-> Đoàn Kết",
+           "Price": "12960000"
+          },
+          {
+           "Name": "Xe 12-30 chỗ; xe tải 2 đến <4 tấn: Việt Hưng <-> Đồng Đăng",
+           "Price": "1215000"
+          },
+          {
+           "Name": "Xe >= 31 chỗ; xe tải 4 đến <10 tấn: Việt Hưng <-> Đồng Lá",
+           "Price": "9315000"
+          },
+          {
+           "Name": "Xe >= 31 chỗ; xe tải 4 đến <10 tấn: Việt Hưng <-> Cẩm Y",
+           "Price": "15795000"
+          },
+          {
+           "Name": "Xe >= 31 chỗ; xe tải 4 đến <10 tấn: Việt Hưng <-> Đoàn Kết",
+           "Price": "15795000"
+          },
+          {
+           "Name": "Xe >= 31 chỗ; xe tải 4 đến <10 tấn: Việt Hưng <-> Đồng Đăng",
+           "Price": "1620000"
+          },
+          {
+           "Name": "Xe tải 10 đến <18 tấn; xe Container 20 fit: Việt Hưng <-> Đồng Lá",
+           "Price": "15390000"
+          },
+          {
+           "Name": "Xe tải 10 đến <18 tấn; xe Container 20 fit: Việt Hưng <-> Cẩm Y",
+           "Price": "25920000"
+          },
+          {
+           "Name": "Xe tải 10 đến <18 tấn; xe Container 20 fit: Việt Hưng <-> Đoàn Kết",
+           "Price": "25920000"
+          },
+          {
+           "Name": "Xe tải 10 đến <18 tấn; xe Container 20 fit: Việt Hưng <-> Đồng Đăng",
+           "Price": "2835000"
+          },
+          {
+           "Name": "Xe tải >= 18 tấn; xe Container 40 fit: Việt Hưng <-> Đồng Lá",
+           "Price": "21060000"
+          },
+          {
+           "Name": "Xe tải >= 18 tấn; xe Container 40 fit: Việt Hưng <-> Cẩm Y",
+           "Price": "35235000"
+          },
+          {
+           "Name": "Xe tải >= 18 tấn; xe Container 40 fit: Việt Hưng <-> Đoàn Kết",
+           "Price": "35235000"
+          },
+          {
+           "Name": "Xe tải >= 18 tấn; xe Container 40 fit: Việt Hưng <-> Đồng Đăng",
+           "Price": "3645000"
+          }
+         ]
+        }
+       ]
+      }
+     }
+    }
+   }
+  ],
+  "bbox": [
+   106.966007,
+   20.974528,
+   106.966007,
+   20.974528
+  ]
+ }
+}

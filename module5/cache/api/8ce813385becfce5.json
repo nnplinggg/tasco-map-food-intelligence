@@ -1,0 +1,83 @@
+{
+ "label": "reverse-geocoding",
+ "key": "GET https://tasco-maps.dnpwater.vn/geocode/v1/reverse?point.lat=20.862534741913365&point.lon=106.2515808710715&size=1 ",
+ "cachedAt": "2026-07-10T10:50:36.739Z",
+ "response": {
+  "geocoding": {
+   "version": "0.2",
+   "attribution": "http://tasco-maps.dnpwater.vn/attribution",
+   "query": {
+    "size": 1,
+    "private": false,
+    "point.lat": 20.862534741913365,
+    "point.lon": 106.2515808710715,
+    "boundary.circle.lat": 20.862534741913365,
+    "boundary.circle.lon": 106.2515808710715,
+    "lang": {
+     "name": "English",
+     "iso6391": "en",
+     "iso6393": "eng",
+     "via": "default",
+     "defaulted": true
+    },
+    "querySize": 2
+   },
+   "warnings": [
+    "invalid language provided via header"
+   ],
+   "engine": {
+    "name": "Pelias",
+    "author": "Mapzen",
+    "version": "1.0"
+   },
+   "timestamp": 1783680636791
+  },
+  "type": "FeatureCollection",
+  "features": [
+   {
+    "type": "Feature",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      106.250696,
+      20.862585
+     ]
+    },
+    "properties": {
+     "id": "polyline:193648",
+     "gid": "openstreetmap:street:polyline:193648",
+     "layer": "street",
+     "source": "openstreetmap",
+     "source_id": "polyline:193648",
+     "country_code": "VN",
+     "name": "Đường cao tốc Hà Nội-Hải Phòng",
+     "street": "Đường cao tốc Hà Nội-Hải Phòng",
+     "confidence": 0.8,
+     "distance": 0.092,
+     "accuracy": "centroid",
+     "country": "Vietnam",
+     "country_gid": "whosonfirst:country:85632763",
+     "country_a": "VNM",
+     "region": "Hai Duong",
+     "region_gid": "whosonfirst:region:85680637",
+     "region_a": "HD",
+     "county": "Binh Giang",
+     "county_gid": "whosonfirst:county:1108781249",
+     "label": "Đường cao tốc Hà Nội-Hải Phòng, HD, Vietnam"
+    },
+    "bbox": [
+     106.13781,
+     20.851762,
+     106.250727,
+     20.862702
+    ]
+   }
+  ],
+  "bbox": [
+   106.13781,
+   20.851762,
+   106.250727,
+   20.862702
+  ]
+ }
+}

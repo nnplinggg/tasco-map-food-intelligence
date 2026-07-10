@@ -1,0 +1,82 @@
+{
+ "label": "reverse-geocoding",
+ "key": "GET https://tasco-maps.dnpwater.vn/geocode/v1/reverse?point.lat=20.861381712763244&point.lon=106.28598118835357&size=1 ",
+ "cachedAt": "2026-07-10T10:52:23.561Z",
+ "response": {
+  "geocoding": {
+   "version": "0.2",
+   "attribution": "http://tasco-maps.dnpwater.vn/attribution",
+   "query": {
+    "size": 1,
+    "private": false,
+    "point.lat": 20.861381712763244,
+    "point.lon": 106.28598118835357,
+    "boundary.circle.lat": 20.861381712763244,
+    "boundary.circle.lon": 106.28598118835357,
+    "lang": {
+     "name": "English",
+     "iso6391": "en",
+     "iso6393": "eng",
+     "via": "default",
+     "defaulted": true
+    },
+    "querySize": 2
+   },
+   "warnings": [
+    "invalid language provided via header"
+   ],
+   "engine": {
+    "name": "Pelias",
+    "author": "Mapzen",
+    "version": "1.0"
+   },
+   "timestamp": 1783680743612
+  },
+  "type": "FeatureCollection",
+  "features": [
+   {
+    "type": "Feature",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      106.29012,
+      20.86268
+     ]
+    },
+    "properties": {
+     "id": "way/990627639",
+     "gid": "openstreetmap:venue:way/990627639",
+     "layer": "venue",
+     "source": "openstreetmap",
+     "source_id": "way/990627639",
+     "country_code": "VN",
+     "name": "Kênh Thạch Khôi - Đoàn Thượng",
+     "confidence": 0.6,
+     "distance": 0.454,
+     "accuracy": "point",
+     "country": "Vietnam",
+     "country_gid": "whosonfirst:country:85632763",
+     "country_a": "VNM",
+     "region": "Hai Duong",
+     "region_gid": "whosonfirst:region:85680637",
+     "region_a": "HD",
+     "county": "Gia Loc",
+     "county_gid": "whosonfirst:county:1108781251",
+     "label": "Kênh Thạch Khôi - Đoàn Thượng, HD, Vietnam"
+    },
+    "bbox": [
+     106.289577,
+     20.8611449,
+     106.2903682,
+     20.8640471
+    ]
+   }
+  ],
+  "bbox": [
+   106.289577,
+   20.8611449,
+   106.2903682,
+   20.8640471
+  ]
+ }
+}

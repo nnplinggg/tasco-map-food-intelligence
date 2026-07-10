@@ -1,0 +1,82 @@
+{
+ "label": "reverse-geocoding",
+ "key": "GET https://tasco-maps.dnpwater.vn/geocode/v1/reverse?point.lat=20.825002949113&point.lon=106.46445507311346&size=1 ",
+ "cachedAt": "2026-07-10T10:52:25.221Z",
+ "response": {
+  "geocoding": {
+   "version": "0.2",
+   "attribution": "http://tasco-maps.dnpwater.vn/attribution",
+   "query": {
+    "size": 1,
+    "private": false,
+    "point.lat": 20.825002949113,
+    "point.lon": 106.46445507311346,
+    "boundary.circle.lat": 20.825002949113,
+    "boundary.circle.lon": 106.46445507311346,
+    "lang": {
+     "name": "English",
+     "iso6391": "en",
+     "iso6393": "eng",
+     "via": "default",
+     "defaulted": true
+    },
+    "querySize": 2
+   },
+   "warnings": [
+    "invalid language provided via header"
+   ],
+   "engine": {
+    "name": "Pelias",
+    "author": "Mapzen",
+    "version": "1.0"
+   },
+   "timestamp": 1783680745269
+  },
+  "type": "FeatureCollection",
+  "features": [
+   {
+    "type": "Feature",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      106.430855,
+      20.894777
+     ]
+    },
+    "properties": {
+     "id": "1108781245",
+     "gid": "whosonfirst:county:1108781245",
+     "layer": "county",
+     "source": "whosonfirst",
+     "source_id": "1108781245",
+     "country_code": "VN",
+     "name": "Thanh Ha",
+     "confidence": 0.5,
+     "distance": 8.517,
+     "accuracy": "centroid",
+     "country": "Vietnam",
+     "country_gid": "whosonfirst:country:85632763",
+     "country_a": "VNM",
+     "region": "Hai Duong",
+     "region_gid": "whosonfirst:region:85680637",
+     "region_a": "HD",
+     "county": "Thanh Ha",
+     "county_gid": "whosonfirst:county:1108781245",
+     "label": "Thanh Ha, HD, Vietnam"
+    },
+    "bbox": [
+     106.342524,
+     20.795064,
+     106.514968,
+     20.978317
+    ]
+   }
+  ],
+  "bbox": [
+   106.342524,
+   20.795064,
+   106.514968,
+   20.978317
+  ]
+ }
+}

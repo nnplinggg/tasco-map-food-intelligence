@@ -1,0 +1,85 @@
+{
+ "label": "reverse-geocoding",
+ "key": "GET https://tasco-maps.dnpwater.vn/geocode/v1/reverse?point.lat=20.96072470832455&point.lon=107.06414092791213&size=1 ",
+ "cachedAt": "2026-07-10T10:52:32.047Z",
+ "response": {
+  "geocoding": {
+   "version": "0.2",
+   "attribution": "http://tasco-maps.dnpwater.vn/attribution",
+   "query": {
+    "size": 1,
+    "private": false,
+    "point.lat": 20.96072470832455,
+    "point.lon": 107.06414092791213,
+    "boundary.circle.lat": 20.96072470832455,
+    "boundary.circle.lon": 107.06414092791213,
+    "lang": {
+     "name": "English",
+     "iso6391": "en",
+     "iso6393": "eng",
+     "via": "default",
+     "defaulted": true
+    },
+    "querySize": 2
+   },
+   "warnings": [
+    "invalid language provided via header"
+   ],
+   "engine": {
+    "name": "Pelias",
+    "author": "Mapzen",
+    "version": "1.0"
+   },
+   "timestamp": 1783680752098
+  },
+  "type": "FeatureCollection",
+  "features": [
+   {
+    "type": "Feature",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      107.062754,
+      20.960357
+     ]
+    },
+    "properties": {
+     "id": "node/12998779901",
+     "gid": "openstreetmap:address:node/12998779901",
+     "layer": "address",
+     "source": "openstreetmap",
+     "source_id": "node/12998779901",
+     "country_code": "VN",
+     "name": "1 Đường Hạ Long",
+     "housenumber": "1",
+     "street": "Đường Hạ Long",
+     "confidence": 0.7,
+     "distance": 0.15,
+     "accuracy": "point",
+     "country": "Vietnam",
+     "country_gid": "whosonfirst:country:85632763",
+     "country_a": "VNM",
+     "region": "Quang Ninh",
+     "region_gid": "whosonfirst:region:85680583",
+     "region_a": "QN",
+     "county": "Ha Long",
+     "county_gid": "whosonfirst:county:1108781111",
+     "label": "1 Đường Hạ Long, QN, Vietnam",
+     "addendum": {
+      "osm": {
+       "website": "https://buffetsenadong.vn",
+       "phone": "+84832981666",
+       "opening_hours": "Mo-Su 11:00-14:00, Mo-Su 17:30-21:30"
+      }
+     }
+    }
+   }
+  ],
+  "bbox": [
+   107.062754,
+   20.960357,
+   107.062754,
+   20.960357
+  ]
+ }
+}

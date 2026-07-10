@@ -1,0 +1,83 @@
+{
+ "label": "reverse-geocoding",
+ "key": "GET https://tasco-maps.dnpwater.vn/geocode/v1/reverse?point.lat=20.92762012586591&point.lon=105.97361126027188&size=1 ",
+ "cachedAt": "2026-07-10T10:52:20.397Z",
+ "response": {
+  "geocoding": {
+   "version": "0.2",
+   "attribution": "http://tasco-maps.dnpwater.vn/attribution",
+   "query": {
+    "size": 1,
+    "private": false,
+    "point.lat": 20.92762012586591,
+    "point.lon": 105.97361126027188,
+    "boundary.circle.lat": 20.92762012586591,
+    "boundary.circle.lon": 105.97361126027188,
+    "lang": {
+     "name": "English",
+     "iso6391": "en",
+     "iso6393": "eng",
+     "via": "default",
+     "defaulted": true
+    },
+    "querySize": 2
+   },
+   "warnings": [
+    "invalid language provided via header"
+   ],
+   "engine": {
+    "name": "Pelias",
+    "author": "Mapzen",
+    "version": "1.0"
+   },
+   "timestamp": 1783680740446
+  },
+  "type": "FeatureCollection",
+  "features": [
+   {
+    "type": "Feature",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      105.975119,
+      20.924887
+     ]
+    },
+    "properties": {
+     "id": "polyline:193591",
+     "gid": "openstreetmap:street:polyline:193591",
+     "layer": "street",
+     "source": "openstreetmap",
+     "source_id": "polyline:193591",
+     "country_code": "VN",
+     "name": "Đường cao tốc Hà Nội - Hải Phòng",
+     "street": "Đường cao tốc Hà Nội - Hải Phòng",
+     "confidence": 0.6,
+     "distance": 0.342,
+     "accuracy": "centroid",
+     "country": "Vietnam",
+     "country_gid": "whosonfirst:country:85632763",
+     "country_a": "VNM",
+     "region": "Hung Yen",
+     "region_gid": "whosonfirst:region:85680649",
+     "region_a": "HY",
+     "county": "Van Giang",
+     "county_gid": "whosonfirst:county:1108781297",
+     "label": "Đường cao tốc Hà Nội - Hải Phòng, HY, Vietnam"
+    },
+    "bbox": [
+     105.972956,
+     20.894212,
+     105.993677,
+     20.928898
+    ]
+   }
+  ],
+  "bbox": [
+   105.972956,
+   20.894212,
+   105.993677,
+   20.928898
+  ]
+ }
+}

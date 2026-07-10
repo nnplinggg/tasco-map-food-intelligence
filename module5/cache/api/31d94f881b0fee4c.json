@@ -1,0 +1,82 @@
+{
+ "label": "reverse-geocoding",
+ "key": "GET https://tasco-maps.dnpwater.vn/geocode/v1/reverse?point.lat=20.856223199590175&point.lon=106.31624191406009&size=1 ",
+ "cachedAt": "2026-07-10T10:52:23.820Z",
+ "response": {
+  "geocoding": {
+   "version": "0.2",
+   "attribution": "http://tasco-maps.dnpwater.vn/attribution",
+   "query": {
+    "size": 1,
+    "private": false,
+    "point.lat": 20.856223199590175,
+    "point.lon": 106.31624191406009,
+    "boundary.circle.lat": 20.856223199590175,
+    "boundary.circle.lon": 106.31624191406009,
+    "lang": {
+     "name": "English",
+     "iso6391": "en",
+     "iso6393": "eng",
+     "via": "default",
+     "defaulted": true
+    },
+    "querySize": 2
+   },
+   "warnings": [
+    "invalid language provided via header"
+   ],
+   "engine": {
+    "name": "Pelias",
+    "author": "Mapzen",
+    "version": "1.0"
+   },
+   "timestamp": 1783680743869
+  },
+  "type": "FeatureCollection",
+  "features": [
+   {
+    "type": "Feature",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      106.28687,
+      20.850837
+     ]
+    },
+    "properties": {
+     "id": "1108781251",
+     "gid": "whosonfirst:county:1108781251",
+     "layer": "county",
+     "source": "whosonfirst",
+     "source_id": "1108781251",
+     "country_code": "VN",
+     "name": "Gia Loc",
+     "confidence": 0.5,
+     "distance": 3.114,
+     "accuracy": "centroid",
+     "country": "Vietnam",
+     "country_gid": "whosonfirst:country:85632763",
+     "country_a": "VNM",
+     "region": "Hai Duong",
+     "region_gid": "whosonfirst:region:85680637",
+     "region_a": "HD",
+     "county": "Gia Loc",
+     "county_gid": "whosonfirst:county:1108781251",
+     "label": "Gia Loc, HD, Vietnam"
+    },
+    "bbox": [
+     106.237882,
+     20.776524,
+     106.350958,
+     20.919841
+    ]
+   }
+  ],
+  "bbox": [
+   106.237882,
+   20.776524,
+   106.350958,
+   20.919841
+  ]
+ }
+}

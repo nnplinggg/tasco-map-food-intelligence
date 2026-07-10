@@ -1,0 +1,79 @@
+{
+ "label": "reverse-geocoding",
+ "key": "GET https://tasco-maps.dnpwater.vn/geocode/v1/reverse?point.lat=20.850375066829965&point.lon=106.76852037165443&size=1 ",
+ "cachedAt": "2026-07-10T10:52:28.618Z",
+ "response": {
+  "geocoding": {
+   "version": "0.2",
+   "attribution": "http://tasco-maps.dnpwater.vn/attribution",
+   "query": {
+    "size": 1,
+    "private": false,
+    "point.lat": 20.850375066829965,
+    "point.lon": 106.76852037165443,
+    "boundary.circle.lat": 20.850375066829965,
+    "boundary.circle.lon": 106.76852037165443,
+    "lang": {
+     "name": "English",
+     "iso6391": "en",
+     "iso6393": "eng",
+     "via": "default",
+     "defaulted": true
+    },
+    "querySize": 2
+   },
+   "warnings": [
+    "invalid language provided via header"
+   ],
+   "engine": {
+    "name": "Pelias",
+    "author": "Mapzen",
+    "version": "1.0"
+   },
+   "timestamp": 1783680748667
+  },
+  "type": "FeatureCollection",
+  "features": [
+   {
+    "type": "Feature",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      106.765388,
+      20.84783
+     ]
+    },
+    "properties": {
+     "id": "way/897406815",
+     "gid": "openstreetmap:venue:way/897406815",
+     "layer": "venue",
+     "source": "openstreetmap",
+     "source_id": "way/897406815",
+     "name": "Cầu Bạch Đằng",
+     "confidence": 0.6,
+     "distance": 0.432,
+     "accuracy": "point",
+     "label": "Cầu Bạch Đằng",
+     "addendum": {
+      "osm": {
+       "wikidata": "Q61132595",
+       "wikipedia": "vi:Cầu Bạch Đằng"
+      }
+     }
+    },
+    "bbox": [
+     106.7542578,
+     20.8392698,
+     106.7766021,
+     20.8565334
+    ]
+   }
+  ],
+  "bbox": [
+   106.7542578,
+   20.8392698,
+   106.7766021,
+   20.8565334
+  ]
+ }
+}

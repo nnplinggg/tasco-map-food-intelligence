@@ -1,0 +1,78 @@
+{
+ "label": "reverse-geocoding",
+ "key": "GET https://tasco-maps.dnpwater.vn/geocode/v1/reverse?point.lat=20.79326280469569&point.lon=106.75291888360685&size=1 ",
+ "cachedAt": "2026-07-10T10:52:28.001Z",
+ "response": {
+  "geocoding": {
+   "version": "0.2",
+   "attribution": "http://tasco-maps.dnpwater.vn/attribution",
+   "query": {
+    "size": 1,
+    "private": false,
+    "point.lat": 20.79326280469569,
+    "point.lon": 106.75291888360685,
+    "boundary.circle.lat": 20.79326280469569,
+    "boundary.circle.lon": 106.75291888360685,
+    "lang": {
+     "name": "English",
+     "iso6391": "en",
+     "iso6393": "eng",
+     "via": "default",
+     "defaulted": true
+    },
+    "querySize": 2
+   },
+   "warnings": [
+    "invalid language provided via header"
+   ],
+   "engine": {
+    "name": "Pelias",
+    "author": "Mapzen",
+    "version": "1.0"
+   },
+   "timestamp": 1783680748051
+  },
+  "type": "FeatureCollection",
+  "features": [
+   {
+    "type": "Feature",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      106.756646,
+      20.787505
+     ]
+    },
+    "properties": {
+     "id": "way/1188537312",
+     "gid": "openstreetmap:venue:way/1188537312",
+     "layer": "venue",
+     "source": "openstreetmap",
+     "source_id": "way/1188537312",
+     "name": "Khu đô thị Tràng Cát",
+     "confidence": 0.6,
+     "distance": 0.749,
+     "accuracy": "point",
+     "label": "Khu đô thị Tràng Cát",
+     "addendum": {
+      "osm": {
+       "operator": "Kinh Bắc"
+      }
+     }
+    },
+    "bbox": [
+     106.7485368,
+     20.7814426,
+     106.7652952,
+     20.7959063
+    ]
+   }
+  ],
+  "bbox": [
+   106.7485368,
+   20.7814426,
+   106.7652952,
+   20.7959063
+  ]
+ }
+}

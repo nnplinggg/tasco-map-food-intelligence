@@ -1,0 +1,83 @@
+{
+ "label": "reverse-geocoding",
+ "key": "GET https://tasco-maps.dnpwater.vn/geocode/v1/reverse?point.lat=20.853016894123567&point.lon=106.36131784481604&size=1 ",
+ "cachedAt": "2026-07-10T10:52:24.249Z",
+ "response": {
+  "geocoding": {
+   "version": "0.2",
+   "attribution": "http://tasco-maps.dnpwater.vn/attribution",
+   "query": {
+    "size": 1,
+    "private": false,
+    "point.lat": 20.853016894123567,
+    "point.lon": 106.36131784481604,
+    "boundary.circle.lat": 20.853016894123567,
+    "boundary.circle.lon": 106.36131784481604,
+    "lang": {
+     "name": "English",
+     "iso6391": "en",
+     "iso6393": "eng",
+     "via": "default",
+     "defaulted": true
+    },
+    "querySize": 2
+   },
+   "warnings": [
+    "invalid language provided via header"
+   ],
+   "engine": {
+    "name": "Pelias",
+    "author": "Mapzen",
+    "version": "1.0"
+   },
+   "timestamp": 1783680744298
+  },
+  "type": "FeatureCollection",
+  "features": [
+   {
+    "type": "Feature",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      106.365866,
+      20.851376
+     ]
+    },
+    "properties": {
+     "id": "polyline:193590",
+     "gid": "openstreetmap:street:polyline:193590",
+     "layer": "street",
+     "source": "openstreetmap",
+     "source_id": "polyline:193590",
+     "country_code": "VN",
+     "name": "Đường cao tốc Hà Nội - Hải Phòng",
+     "street": "Đường cao tốc Hà Nội - Hải Phòng",
+     "confidence": 0.6,
+     "distance": 0.507,
+     "accuracy": "centroid",
+     "country": "Vietnam",
+     "country_gid": "whosonfirst:country:85632763",
+     "country_a": "VNM",
+     "region": "Hai Duong",
+     "region_gid": "whosonfirst:region:85680637",
+     "region_a": "HD",
+     "county": "Tu Ky",
+     "county_gid": "whosonfirst:county:1108781255",
+     "label": "Đường cao tốc Hà Nội - Hải Phòng, HD, Vietnam"
+    },
+    "bbox": [
+     106.34194,
+     20.851331,
+     106.365965,
+     20.858579
+    ]
+   }
+  ],
+  "bbox": [
+   106.34194,
+   20.851331,
+   106.365965,
+   20.858579
+  ]
+ }
+}

@@ -1,0 +1,74 @@
+{
+ "label": "reverse-geocoding",
+ "key": "GET https://tasco-maps.dnpwater.vn/geocode/v1/reverse?point.lat=20.955420705569903&point.lon=107.0706997965532&size=1 ",
+ "cachedAt": "2026-07-10T10:52:32.156Z",
+ "response": {
+  "geocoding": {
+   "version": "0.2",
+   "attribution": "http://tasco-maps.dnpwater.vn/attribution",
+   "query": {
+    "size": 1,
+    "private": false,
+    "point.lat": 20.955420705569903,
+    "point.lon": 107.0706997965532,
+    "boundary.circle.lat": 20.955420705569903,
+    "boundary.circle.lon": 107.0706997965532,
+    "lang": {
+     "name": "English",
+     "iso6391": "en",
+     "iso6393": "eng",
+     "via": "default",
+     "defaulted": true
+    },
+    "querySize": 2
+   },
+   "warnings": [
+    "invalid language provided via header"
+   ],
+   "engine": {
+    "name": "Pelias",
+    "author": "Mapzen",
+    "version": "1.0"
+   },
+   "timestamp": 1783680752205
+  },
+  "type": "FeatureCollection",
+  "features": [
+   {
+    "type": "Feature",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      107.070326,
+      20.955628
+     ]
+    },
+    "properties": {
+     "id": "polyline:108160",
+     "gid": "openstreetmap:street:polyline:108160",
+     "layer": "street",
+     "source": "openstreetmap",
+     "source_id": "polyline:108160",
+     "name": "Đường Đặng Bá Hát",
+     "street": "Đường Đặng Bá Hát",
+     "confidence": 0.8,
+     "distance": 0.045,
+     "accuracy": "centroid",
+     "label": "Đường Đặng Bá Hát"
+    },
+    "bbox": [
+     107.068572,
+     20.952697,
+     107.074228,
+     20.958567
+    ]
+   }
+  ],
+  "bbox": [
+   107.068572,
+   20.952697,
+   107.074228,
+   20.958567
+  ]
+ }
+}

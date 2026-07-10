@@ -1,0 +1,242 @@
+{
+ "label": "geocoding",
+ "key": "GET https://tasco-maps.dnpwater.vn/geocode/v1/search?text=Tr%E1%BA%A1m+thu+ph%C3%AD+Qu%E1%BB%91c+l%E1%BB%99+5&size=3&focus.point.lat=20.95&focus.point.lon=106.4&layers=venue ",
+ "cachedAt": "2026-07-10T10:43:13.888Z",
+ "response": {
+  "geocoding": {
+   "version": "0.2",
+   "attribution": "http://tasco-maps.dnpwater.vn/attribution",
+   "query": {
+    "text": "Trạm thu phí Quốc lộ 5",
+    "size": 3,
+    "layers": [
+     "venue"
+    ],
+    "private": false,
+    "focus.point.lat": 20.95,
+    "focus.point.lon": 106.4,
+    "lang": {
+     "name": "English",
+     "iso6391": "en",
+     "iso6393": "eng",
+     "via": "default",
+     "defaulted": true
+    },
+    "querySize": 20,
+    "parser": "libpostal",
+    "parsed_text": {
+     "query": "trạm thu phí",
+     "street": "quốc lộ 5"
+    }
+   },
+   "warnings": [
+    "invalid language provided via header"
+   ],
+   "engine": {
+    "name": "Pelias",
+    "author": "Mapzen",
+    "version": "1.0"
+   },
+   "timestamp": 1783680193938
+  },
+  "type": "FeatureCollection",
+  "features": [
+   {
+    "type": "Feature",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      106.74603,
+      10.977772
+     ]
+    },
+    "properties": {
+     "id": "node/4120119892",
+     "gid": "openstreetmap:venue:node/4120119892",
+     "layer": "venue",
+     "source": "openstreetmap",
+     "source_id": "node/4120119892",
+     "country_code": "VN",
+     "name": "Trạm thu phí miếu ông cù",
+     "street": "Tỉnh lộ 743",
+     "confidence": 1,
+     "match_type": "exact",
+     "distance": 1110.719,
+     "accuracy": "point",
+     "country": "Vietnam",
+     "country_gid": "whosonfirst:country:85632763",
+     "country_a": "VNM",
+     "region": "Bin Duong",
+     "region_gid": "whosonfirst:region:85680735",
+     "region_a": "BI",
+     "county": "Thuan An",
+     "county_gid": "whosonfirst:county:1108781965",
+     "label": "Trạm thu phí miếu ông cù, BI, Vietnam"
+    }
+   },
+   {
+    "type": "Feature",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      106.276579,
+      21.116612
+     ]
+    },
+    "properties": {
+     "id": "toll:tram-thu-phi-pha-lai-21-116612-106-27657898",
+     "gid": "tasco:venue:toll:tram-thu-phi-pha-lai-21-116612-106-27657898",
+     "layer": "venue",
+     "source": "tasco",
+     "source_id": "toll:tram-thu-phi-pha-lai-21-116612-106-27657898",
+     "country_code": "VN",
+     "name": "Trạm thu phí Phả Lại",
+     "street": "KM23+890, QL18, Đức Long, Quế Võ, Bắc Ninh, Việt Nam",
+     "confidence": 1,
+     "match_type": "exact",
+     "distance": 22.549,
+     "accuracy": "point",
+     "country": "Việt Nam",
+     "country_gid": "tasco:country:VNM",
+     "country_a": "VN",
+     "region": "Bac Ninh",
+     "region_gid": "whosonfirst:region:85680659",
+     "region_a": "BN",
+     "county": "Que Vo",
+     "county_gid": "whosonfirst:county:1108781221",
+     "label": "Trạm thu phí Phả Lại, BN, Việt Nam",
+     "addendum": {
+      "tasco": {
+       "category": "toll_etc",
+       "address": "KM23+890, QL18, Đức Long, Quế Võ, Bắc Ninh, Việt Nam",
+       "source": "tasco",
+       "status": "active",
+       "pricing_info": "Có bảng giá vé lượt, vé tháng, vé quý",
+       "pricing_detail": [
+        {
+         "Name": "Vé Lượt",
+         "Prices": [
+          {
+           "Name": "Xe < 12 chỗ, xe tải < 2 tấn; xe buýt công cộng",
+           "Price": "35000"
+          },
+          {
+           "Name": "Xe 12-30 chỗ; xe tải 2 đến <4 tấn",
+           "Price": "50000"
+          },
+          {
+           "Name": "Xe >= 31 chỗ; xe tải 4 đến <10 tấn",
+           "Price": "75000"
+          },
+          {
+           "Name": "Xe tải 10 đến <18 tấn; xe Container 20 fit",
+           "Price": "120000"
+          },
+          {
+           "Name": "Xe tải >= 18 tấn; xe Container 40 fit",
+           "Price": "180000"
+          }
+         ]
+        },
+        {
+         "Name": "Vé Tháng",
+         "Prices": [
+          {
+           "Name": "Xe < 12 chỗ, xe tải < 2 tấn; xe buýt công cộng",
+           "Price": "1050000"
+          },
+          {
+           "Name": "Xe 12-30 chỗ; xe tải 2 đến <4 tấn",
+           "Price": "1500000"
+          },
+          {
+           "Name": "Xe >= 31 chỗ; xe tải 4 đến <10 tấn",
+           "Price": "2250000"
+          },
+          {
+           "Name": "Xe tải 10 đến <18 tấn; xe Container 20 fit",
+           "Price": "3600000"
+          },
+          {
+           "Name": "Xe tải >= 18 tấn; xe Container 40 fit",
+           "Price": "5400000"
+          }
+         ]
+        },
+        {
+         "Name": "Vé Quý",
+         "Prices": [
+          {
+           "Name": "Xe < 12 chỗ, xe tải < 2 tấn; xe buýt công cộng",
+           "Price": "2835000"
+          },
+          {
+           "Name": "Xe 12-30 chỗ; xe tải 2 đến <4 tấn",
+           "Price": "4050000"
+          },
+          {
+           "Name": "Xe >= 31 chỗ; xe tải 4 đến <10 tấn",
+           "Price": "6075000"
+          },
+          {
+           "Name": "Xe tải 10 đến <18 tấn; xe Container 20 fit",
+           "Price": "9720000"
+          },
+          {
+           "Name": "Xe tải >= 18 tấn; xe Container 40 fit",
+           "Price": "14580000"
+          }
+         ]
+        }
+       ]
+      }
+     }
+    }
+   },
+   {
+    "type": "Feature",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      106.523145,
+      20.799373
+     ]
+    },
+    "properties": {
+     "id": "way/1483838042",
+     "gid": "openstreetmap:venue:way/1483838042",
+     "layer": "venue",
+     "source": "openstreetmap",
+     "source_id": "way/1483838042",
+     "country_code": "VN",
+     "name": "Trạm Thu phí Quốc lộ 10",
+     "confidence": 1,
+     "match_type": "exact",
+     "distance": 21.1,
+     "accuracy": "point",
+     "country": "Vietnam",
+     "country_gid": "whosonfirst:country:85632763",
+     "country_a": "VNM",
+     "region": "Hai Phong",
+     "region_gid": "whosonfirst:region:85680645",
+     "region_a": "HP",
+     "county": "An Lao",
+     "county_gid": "whosonfirst:county:1108781281",
+     "label": "Trạm Thu phí Quốc lộ 10, HP, Vietnam"
+    },
+    "bbox": [
+     106.522882,
+     20.7991839,
+     106.5234056,
+     20.799553
+    ]
+   }
+  ],
+  "bbox": [
+   106.276579,
+   10.977772,
+   106.74603,
+   21.116612
+  ]
+ }
+}

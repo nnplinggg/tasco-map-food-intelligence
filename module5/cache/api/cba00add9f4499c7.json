@@ -1,0 +1,76 @@
+{
+ "label": "reverse-geocoding",
+ "key": "GET https://tasco-maps.dnpwater.vn/geocode/v1/reverse?point.lat=20.847198426952563&point.lon=106.09137985684231&size=1 ",
+ "cachedAt": "2026-07-10T10:52:21.803Z",
+ "response": {
+  "geocoding": {
+   "version": "0.2",
+   "attribution": "http://tasco-maps.dnpwater.vn/attribution",
+   "query": {
+    "size": 1,
+    "private": false,
+    "point.lat": 20.847198426952563,
+    "point.lon": 106.09137985684231,
+    "boundary.circle.lat": 20.847198426952563,
+    "boundary.circle.lon": 106.09137985684231,
+    "lang": {
+     "name": "English",
+     "iso6391": "en",
+     "iso6393": "eng",
+     "via": "default",
+     "defaulted": true
+    },
+    "querySize": 2
+   },
+   "warnings": [
+    "invalid language provided via header"
+   ],
+   "engine": {
+    "name": "Pelias",
+    "author": "Mapzen",
+    "version": "1.0"
+   },
+   "timestamp": 1783680741853
+  },
+  "type": "FeatureCollection",
+  "features": [
+   {
+    "type": "Feature",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      106.091377,
+      20.850139
+     ]
+    },
+    "properties": {
+     "id": "node/4886839621",
+     "gid": "openstreetmap:venue:node/4886839621",
+     "layer": "venue",
+     "source": "openstreetmap",
+     "source_id": "node/4886839621",
+     "country_code": "VN",
+     "name": "Bảo Làn",
+     "confidence": 0.6,
+     "distance": 0.327,
+     "accuracy": "point",
+     "country": "Vietnam",
+     "country_gid": "whosonfirst:country:85632763",
+     "country_a": "VNM",
+     "region": "Hung Yen",
+     "region_gid": "whosonfirst:region:85680649",
+     "region_a": "HY",
+     "county": "An Thi",
+     "county_gid": "whosonfirst:county:1108781303",
+     "label": "Bảo Làn, HY, Vietnam"
+    }
+   }
+  ],
+  "bbox": [
+   106.091377,
+   20.850139,
+   106.091377,
+   20.850139
+  ]
+ }
+}

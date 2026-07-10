@@ -1,0 +1,67 @@
+{
+ "label": "reverse-geocoding",
+ "key": "GET https://tasco-maps.dnpwater.vn/geocode/v1/reverse?point.lat=20.959355127069482&point.lon=107.06770299194683&size=1 ",
+ "cachedAt": "2026-07-10T10:52:32.083Z",
+ "response": {
+  "geocoding": {
+   "version": "0.2",
+   "attribution": "http://tasco-maps.dnpwater.vn/attribution",
+   "query": {
+    "size": 1,
+    "private": false,
+    "point.lat": 20.959355127069482,
+    "point.lon": 107.06770299194683,
+    "boundary.circle.lat": 20.959355127069482,
+    "boundary.circle.lon": 107.06770299194683,
+    "lang": {
+     "name": "English",
+     "iso6391": "en",
+     "iso6393": "eng",
+     "via": "default",
+     "defaulted": true
+    },
+    "querySize": 2
+   },
+   "warnings": [
+    "invalid language provided via header"
+   ],
+   "engine": {
+    "name": "Pelias",
+    "author": "Mapzen",
+    "version": "1.0"
+   },
+   "timestamp": 1783680752132
+  },
+  "type": "FeatureCollection",
+  "features": [
+   {
+    "type": "Feature",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      107.067295,
+      20.958094
+     ]
+    },
+    "properties": {
+     "id": "node/839480851",
+     "gid": "openstreetmap:venue:node/839480851",
+     "layer": "venue",
+     "source": "openstreetmap",
+     "source_id": "node/839480851",
+     "name": "Old Hon Gai Ferry Terminal",
+     "confidence": 0.7,
+     "distance": 0.147,
+     "accuracy": "point",
+     "label": "Old Hon Gai Ferry Terminal"
+    }
+   }
+  ],
+  "bbox": [
+   107.067295,
+   20.958094,
+   107.067295,
+   20.958094
+  ]
+ }
+}

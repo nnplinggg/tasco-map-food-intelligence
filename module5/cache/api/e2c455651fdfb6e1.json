@@ -1,0 +1,82 @@
+{
+ "label": "reverse-geocoding",
+ "key": "GET https://tasco-maps.dnpwater.vn/geocode/v1/reverse?point.lat=20.952000764016887&point.lon=107.07293677028595&size=1 ",
+ "cachedAt": "2026-07-10T10:52:32.230Z",
+ "response": {
+  "geocoding": {
+   "version": "0.2",
+   "attribution": "http://tasco-maps.dnpwater.vn/attribution",
+   "query": {
+    "size": 1,
+    "private": false,
+    "point.lat": 20.952000764016887,
+    "point.lon": 107.07293677028595,
+    "boundary.circle.lat": 20.952000764016887,
+    "boundary.circle.lon": 107.07293677028595,
+    "lang": {
+     "name": "English",
+     "iso6391": "en",
+     "iso6393": "eng",
+     "via": "default",
+     "defaulted": true
+    },
+    "querySize": 2
+   },
+   "warnings": [
+    "invalid language provided via header"
+   ],
+   "engine": {
+    "name": "Pelias",
+    "author": "Mapzen",
+    "version": "1.0"
+   },
+   "timestamp": 1783680752278
+  },
+  "type": "FeatureCollection",
+  "features": [
+   {
+    "type": "Feature",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      107.073395,
+      20.952367
+     ]
+    },
+    "properties": {
+     "id": "relation/19672612",
+     "gid": "openstreetmap:venue:relation/19672612",
+     "layer": "venue",
+     "source": "openstreetmap",
+     "source_id": "relation/19672612",
+     "country_code": "VN",
+     "name": "Cục Thuế tỉnh Quảng Ninh",
+     "confidence": 0.8,
+     "distance": 0.063,
+     "accuracy": "point",
+     "country": "Vietnam",
+     "country_gid": "whosonfirst:country:85632763",
+     "country_a": "VNM",
+     "region": "Quang Ninh",
+     "region_gid": "whosonfirst:region:85680583",
+     "region_a": "QN",
+     "county": "Ha Long",
+     "county_gid": "whosonfirst:county:1108781111",
+     "label": "Cục Thuế tỉnh Quảng Ninh, QN, Vietnam"
+    },
+    "bbox": [
+     107.0733225,
+     20.9520317,
+     107.0734674,
+     20.952703
+    ]
+   }
+  ],
+  "bbox": [
+   107.0733225,
+   20.9520317,
+   107.0734674,
+   20.952703
+  ]
+ }
+}

@@ -1,0 +1,588 @@
+{
+ "label": "geocoding",
+ "key": "GET https://tasco-maps.dnpwater.vn/geocode/v1/search?text=Tr%E1%BA%A1m+thu+ph%C3%AD+%C4%90%E1%BA%A1i+Y%C3%AAn&size=3&focus.point.lat=20.95&focus.point.lon=106.4&layers=venue ",
+ "cachedAt": "2026-07-10T10:43:14.117Z",
+ "response": {
+  "geocoding": {
+   "version": "0.2",
+   "attribution": "http://tasco-maps.dnpwater.vn/attribution",
+   "query": {
+    "text": "Trạm thu phí Đại Yên",
+    "size": 3,
+    "layers": [
+     "venue"
+    ],
+    "private": false,
+    "focus.point.lat": 20.95,
+    "focus.point.lon": 106.4,
+    "lang": {
+     "name": "English",
+     "iso6391": "en",
+     "iso6393": "eng",
+     "via": "default",
+     "defaulted": true
+    },
+    "querySize": 20,
+    "parser": "pelias",
+    "parsed_text": {
+     "subject": "Trạm thu phí Đại Yên"
+    }
+   },
+   "warnings": [
+    "invalid language provided via header"
+   ],
+   "engine": {
+    "name": "Pelias",
+    "author": "Mapzen",
+    "version": "1.0"
+   },
+   "timestamp": 1783680194171
+  },
+  "type": "FeatureCollection",
+  "features": [
+   {
+    "type": "Feature",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      106.903267,
+      20.986353
+     ]
+    },
+    "properties": {
+     "id": "toll:tram-thu-phi-dai-yen-20-986353-106-903267",
+     "gid": "tasco:venue:toll:tram-thu-phi-dai-yen-20-986353-106-903267",
+     "layer": "venue",
+     "source": "tasco",
+     "source_id": "toll:tram-thu-phi-dai-yen-20-986353-106-903267",
+     "country_code": "VN",
+     "name": "Trạm thu phí Đại Yên",
+     "street": "QL18, Phường Đại Yên,Thành phố Hạ Long, Tình Quảng Ninh",
+     "confidence": 1,
+     "match_type": "exact",
+     "distance": 52.47,
+     "accuracy": "point",
+     "country": "Việt Nam",
+     "country_gid": "tasco:country:VNM",
+     "country_a": "VN",
+     "region": "Quang Ninh",
+     "region_gid": "whosonfirst:region:85680583",
+     "region_a": "QN",
+     "county": "Ha Long",
+     "county_gid": "whosonfirst:county:1108781111",
+     "label": "Trạm thu phí Đại Yên, QN, Việt Nam",
+     "addendum": {
+      "tasco": {
+       "category": "toll_etc",
+       "address": "QL18, Phường Đại Yên,Thành phố Hạ Long, Tình Quảng Ninh",
+       "source": "tasco",
+       "status": "active",
+       "pricing_info": "Có bảng giá vé lượt, vé tháng, vé quý",
+       "pricing_detail": [
+        {
+         "Name": "Vé Lượt",
+         "Prices": [
+          {
+           "Name": "Xe < 12 chỗ, xe tải < 2 tấn; xe buýt công cộng",
+           "Price": "30000"
+          },
+          {
+           "Name": "Xe 12-30 chỗ; xe tải 2 đến <4 tấn",
+           "Price": "40000"
+          },
+          {
+           "Name": "Xe >= 31 chỗ; xe tải 4 đến <10 tấn",
+           "Price": "50000"
+          },
+          {
+           "Name": "Xe tải 10 đến <18 tấn; xe Container 20 fit",
+           "Price": "80000"
+          },
+          {
+           "Name": "Xe tải >= 18 tấn; xe Container 40 fit",
+           "Price": "160000"
+          }
+         ]
+        },
+        {
+         "Name": "Vé Tháng",
+         "Prices": [
+          {
+           "Name": "Xe < 12 chỗ, xe tải < 2 tấn; xe buýt công cộng",
+           "Price": "900000"
+          },
+          {
+           "Name": "Xe 12-30 chỗ; xe tải 2 đến <4 tấn",
+           "Price": "1200000"
+          },
+          {
+           "Name": "Xe >= 31 chỗ; xe tải 4 đến <10 tấn",
+           "Price": "1500000"
+          },
+          {
+           "Name": "Xe tải 10 đến <18 tấn; xe Container 20 fit",
+           "Price": "2400000"
+          },
+          {
+           "Name": "Xe tải >= 18 tấn; xe Container 40 fit",
+           "Price": "4800000"
+          }
+         ]
+        },
+        {
+         "Name": "Vé Quý",
+         "Prices": [
+          {
+           "Name": "Xe < 12 chỗ, xe tải < 2 tấn; xe buýt công cộng",
+           "Price": "2400000"
+          },
+          {
+           "Name": "Xe 12-30 chỗ; xe tải 2 đến <4 tấn",
+           "Price": "3250000"
+          },
+          {
+           "Name": "Xe >= 31 chỗ; xe tải 4 đến <10 tấn",
+           "Price": "4050000"
+          },
+          {
+           "Name": "Xe tải 10 đến <18 tấn; xe Container 20 fit",
+           "Price": "6500000"
+          },
+          {
+           "Name": "Xe tải >= 18 tấn; xe Container 40 fit",
+           "Price": "12950000"
+          }
+         ]
+        }
+       ]
+      }
+     }
+    }
+   },
+   {
+    "type": "Feature",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      106.049017,
+      20.658926
+     ]
+    },
+    "properties": {
+     "id": "toll:tram-thu-phi-yen-lenh-20-658926-106-049017",
+     "gid": "tasco:venue:toll:tram-thu-phi-yen-lenh-20-658926-106-049017",
+     "layer": "venue",
+     "source": "tasco",
+     "source_id": "toll:tram-thu-phi-yen-lenh-20-658926-106-049017",
+     "country_code": "VN",
+     "name": "Trạm thu phí Yên Lệnh",
+     "street": "Đường Chu Mạnh Chinh, phường Lam Sơn, Tp Hưng Yên, Hưng Yên",
+     "confidence": 1,
+     "match_type": "exact",
+     "distance": 48.825,
+     "accuracy": "point",
+     "country": "Việt Nam",
+     "country_gid": "tasco:country:VNM",
+     "country_a": "VN",
+     "region": "Hung Yen",
+     "region_gid": "whosonfirst:region:85680649",
+     "region_a": "HY",
+     "county": "Hung Yen",
+     "county_gid": "whosonfirst:county:1108781293",
+     "label": "Trạm thu phí Yên Lệnh, HY, Việt Nam",
+     "addendum": {
+      "tasco": {
+       "category": "toll_etc",
+       "address": "Đường Chu Mạnh Chinh, phường Lam Sơn, Tp Hưng Yên, Hưng Yên",
+       "source": "tasco",
+       "status": "active",
+       "pricing_info": "Có bảng giá vé lượt, vé tháng, vé quý",
+       "pricing_detail": [
+        {
+         "Name": "Vé Lượt",
+         "Prices": [
+          {
+           "Name": "Xe < 12 chỗ, xe tải < 2 tấn; xe buýt công cộng",
+           "Price": "30000"
+          },
+          {
+           "Name": "Xe 12-30 chỗ; xe tải 2 đến <4 tấn",
+           "Price": "40000"
+          },
+          {
+           "Name": "Xe >= 31 chỗ; xe tải 4 đến <10 tấn",
+           "Price": "65000"
+          },
+          {
+           "Name": "Xe tải 10 đến <18 tấn; xe Container 20 fit",
+           "Price": "105000"
+          },
+          {
+           "Name": "Xe tải >= 18 tấn; xe Container 40 fit",
+           "Price": "160000"
+          }
+         ]
+        },
+        {
+         "Name": "Vé Tháng",
+         "Prices": [
+          {
+           "Name": "Xe < 12 chỗ, xe tải < 2 tấn; xe buýt công cộng",
+           "Price": "900000"
+          },
+          {
+           "Name": "Xe 12-30 chỗ; xe tải 2 đến <4 tấn",
+           "Price": "1200000"
+          },
+          {
+           "Name": "Xe >= 31 chỗ; xe tải 4 đến <10 tấn",
+           "Price": "1950000"
+          },
+          {
+           "Name": "Xe tải 10 đến <18 tấn; xe Container 20 fit",
+           "Price": "3150000"
+          },
+          {
+           "Name": "Xe tải >= 18 tấn; xe Container 40 fit",
+           "Price": "4800000"
+          }
+         ]
+        },
+        {
+         "Name": "Vé Quý",
+         "Prices": [
+          {
+           "Name": "Xe < 12 chỗ, xe tải < 2 tấn; xe buýt công cộng",
+           "Price": "2430000"
+          },
+          {
+           "Name": "Xe 12-30 chỗ; xe tải 2 đến <4 tấn",
+           "Price": "3240000"
+          },
+          {
+           "Name": "Xe >= 31 chỗ; xe tải 4 đến <10 tấn",
+           "Price": "5265000"
+          },
+          {
+           "Name": "Xe tải 10 đến <18 tấn; xe Container 20 fit",
+           "Price": "8505000"
+          },
+          {
+           "Name": "Xe tải >= 18 tấn; xe Container 40 fit",
+           "Price": "12960000"
+          }
+         ]
+        }
+       ]
+      }
+     }
+    }
+   },
+   {
+    "type": "Feature",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      105.91944,
+      20.70228
+     ]
+    },
+    "properties": {
+     "id": "toll:tram-thu-phi-dai-xuyen-tram-cu-20-70228-105-91944",
+     "gid": "tasco:venue:toll:tram-thu-phi-dai-xuyen-tram-cu-20-70228-105-91944",
+     "layer": "venue",
+     "source": "tasco",
+     "source_id": "toll:tram-thu-phi-dai-xuyen-tram-cu-20-70228-105-91944",
+     "country_code": "VN",
+     "name": "Trạm thu phí Đại Xuyên (Trạm cũ)",
+     "street": "Đại Xuyên, Phú Xuyên, Hà Nội, Việt Nam",
+     "confidence": 1,
+     "match_type": "exact",
+     "distance": 57.101,
+     "accuracy": "point",
+     "country": "Việt Nam",
+     "country_gid": "tasco:country:VNM",
+     "country_a": "VN",
+     "region": "Ha Noi",
+     "region_gid": "whosonfirst:region:85680653",
+     "region_a": "HI",
+     "county": "Phu Xuyen",
+     "county_gid": "whosonfirst:county:1108780843",
+     "label": "Trạm thu phí Đại Xuyên (Trạm cũ), HI, Việt Nam",
+     "addendum": {
+      "tasco": {
+       "category": "toll_etc",
+       "address": "Đại Xuyên, Phú Xuyên, Hà Nội, Việt Nam",
+       "source": "tasco",
+       "status": "active",
+       "pricing_info": "Có bảng giá vé lượt, vé tháng, vé quý",
+       "pricing_detail": [
+        {
+         "Name": "Vé Lượt",
+         "Prices": [
+          {
+           "Name": "Xe < 12 chỗ, xe tải < 2 tấn; xe buýt công cộng: Đại Xuyên <-> Pháp Vân",
+           "Price": "35000"
+          },
+          {
+           "Name": "Xe < 12 chỗ, xe tải < 2 tấn; xe buýt công cộng: Đại Xuyên <-> Thường Tín",
+           "Price": "20000"
+          },
+          {
+           "Name": "Xe < 12 chỗ, xe tải < 2 tấn; xe buýt công cộng: Đại Xuyên <-> Vạn Điểm",
+           "Price": "10000"
+          },
+          {
+           "Name": "Xe < 12 chỗ, xe tải < 2 tấn; xe buýt công cộng: Đại Xuyên <-> Vực Vòng",
+           "Price": "15000"
+          },
+          {
+           "Name": "Xe < 12 chỗ, xe tải < 2 tấn; xe buýt công cộng: Đại Xuyên <-> Liêm Tuyền",
+           "Price": "30000"
+          },
+          {
+           "Name": "Xe < 12 chỗ, xe tải < 2 tấn; xe buýt công cộng: Đại Xuyên <-> Cao Bồ",
+           "Price": "70000"
+          },
+          {
+           "Name": "Xe 12-30 chỗ; xe tải 2 đến <4 tấn: Đại Xuyên <-> Pháp Vân",
+           "Price": "45000"
+          },
+          {
+           "Name": "Xe 12-30 chỗ; xe tải 2 đến <4 tấn: Đại Xuyên <-> Thường Tín",
+           "Price": "30000"
+          },
+          {
+           "Name": "Xe 12-30 chỗ; xe tải 2 đến <4 tấn: Đại Xuyên <-> Vạn Điểm",
+           "Price": "10000"
+          },
+          {
+           "Name": "Xe 12-30 chỗ; xe tải 2 đến <4 tấn: Đại Xuyên <-> Vực Vòng",
+           "Price": "20000"
+          },
+          {
+           "Name": "Xe 12-30 chỗ; xe tải 2 đến <4 tấn: Đại Xuyên <-> Liêm Tuyền",
+           "Price": "40000"
+          },
+          {
+           "Name": "Xe 12-30 chỗ; xe tải 2 đến <4 tấn: Đại Xuyên <-> Cao Bồ",
+           "Price": "100000"
+          },
+          {
+           "Name": "Xe >= 31 chỗ; xe tải 4 đến <10 tấn: Đại Xuyên <-> Pháp Vân",
+           "Price": "55000"
+          },
+          {
+           "Name": "Xe >= 31 chỗ; xe tải 4 đến <10 tấn: Đại Xuyên <-> Thường Tín",
+           "Price": "40000"
+          },
+          {
+           "Name": "Xe >= 31 chỗ; xe tải 4 đến <10 tấn: Đại Xuyên <-> Vạn Điểm",
+           "Price": "15000"
+          },
+          {
+           "Name": "Xe >= 31 chỗ; xe tải 4 đến <10 tấn: Đại Xuyên <-> Vực Vòng",
+           "Price": "30000"
+          },
+          {
+           "Name": "Xe >= 31 chỗ; xe tải 4 đến <10 tấn: Đại Xuyên <-> Liêm Tuyền",
+           "Price": "60000"
+          },
+          {
+           "Name": "Xe >= 31 chỗ; xe tải 4 đến <10 tấn: Đại Xuyên <-> Cao Bồ",
+           "Price": "140000"
+          },
+          {
+           "Name": "Xe tải 10 đến <18 tấn; xe Container 20 fit: Đại Xuyên <-> Pháp Vân",
+           "Price": "85000"
+          },
+          {
+           "Name": "Xe tải 10 đến <18 tấn; xe Container 20 fit: Đại Xuyên <-> Thường Tín",
+           "Price": "55000"
+          },
+          {
+           "Name": "Xe tải 10 đến <18 tấn; xe Container 20 fit: Đại Xuyên <-> Vạn Điểm",
+           "Price": "20000"
+          },
+          {
+           "Name": "Xe tải 10 đến <18 tấn; xe Container 20 fit: Đại Xuyên <-> Vực Vòng",
+           "Price": "30000"
+          },
+          {
+           "Name": "Xe tải 10 đến <18 tấn; xe Container 20 fit: Đại Xuyên <-> Liêm Tuyền",
+           "Price": "60000"
+          },
+          {
+           "Name": "Xe tải 10 đến <18 tấn; xe Container 20 fit: Đại Xuyên <-> Cao Bồ",
+           "Price": "140000"
+          },
+          {
+           "Name": "Xe tải >= 18 tấn; xe Container 40 fit: Đại Xuyên <-> Pháp Vân",
+           "Price": "130000"
+          },
+          {
+           "Name": "Xe tải >= 18 tấn; xe Container 40 fit: Đại Xuyên <-> Thường Tín",
+           "Price": "85000"
+          },
+          {
+           "Name": "Xe tải >= 18 tấn; xe Container 40 fit: Đại Xuyên <-> Vạn Điểm",
+           "Price": "30000"
+          },
+          {
+           "Name": "Xe tải >= 18 tấn; xe Container 40 fit: Đại Xuyên <-> Vực Vòng",
+           "Price": "45000"
+          },
+          {
+           "Name": "Xe tải >= 18 tấn; xe Container 40 fit: Đại Xuyên <-> Liêm Tuyền",
+           "Price": "90000"
+          },
+          {
+           "Name": "Xe tải >= 18 tấn; xe Container 40 fit: Đại Xuyên <-> Cao Bồ",
+           "Price": "210000"
+          }
+         ]
+        },
+        {
+         "Name": "Vé Tháng",
+         "Prices": [
+          {
+           "Name": "Xe < 12 chỗ, xe tải < 2 tấn; xe buýt công cộng: Đại Xuyên <-> Pháp Vân",
+           "Price": "1050000"
+          },
+          {
+           "Name": "Xe < 12 chỗ, xe tải < 2 tấn; xe buýt công cộng: Đại Xuyên <-> Thường Tín",
+           "Price": "600000"
+          },
+          {
+           "Name": "Xe < 12 chỗ, xe tải < 2 tấn; xe buýt công cộng: Đại Xuyên <-> Vạn Điểm",
+           "Price": "300000"
+          },
+          {
+           "Name": "Xe 12-30 chỗ; xe tải 2 đến <4 tấn: Đại Xuyên <-> Pháp Vân",
+           "Price": "1350000"
+          },
+          {
+           "Name": "Xe 12-30 chỗ; xe tải 2 đến <4 tấn: Đại Xuyên <-> Thường Tín",
+           "Price": "900000"
+          },
+          {
+           "Name": "Xe 12-30 chỗ; xe tải 2 đến <4 tấn: Đại Xuyên <-> Vạn Điểm",
+           "Price": "300000"
+          },
+          {
+           "Name": "Xe >= 31 chỗ; xe tải 4 đến <10 tấn: Đại Xuyên <-> Pháp Vân",
+           "Price": "1650000"
+          },
+          {
+           "Name": "Xe >= 31 chỗ; xe tải 4 đến <10 tấn: Đại Xuyên <-> Thường Tín",
+           "Price": "1200000"
+          },
+          {
+           "Name": "Xe >= 31 chỗ; xe tải 4 đến <10 tấn: Đại Xuyên <-> Vạn Điểm",
+           "Price": "450000"
+          },
+          {
+           "Name": "Xe tải 10 đến <18 tấn; xe Container 20 fit: Đại Xuyên <-> Pháp Vân",
+           "Price": "2550000"
+          },
+          {
+           "Name": "Xe tải 10 đến <18 tấn; xe Container 20 fit: Đại Xuyên <-> Thường Tín",
+           "Price": "1650000"
+          },
+          {
+           "Name": "Xe tải 10 đến <18 tấn; xe Container 20 fit: Đại Xuyên <-> Vạn Điểm",
+           "Price": "600000"
+          },
+          {
+           "Name": "Xe tải >= 18 tấn; xe Container 40 fit: Đại Xuyên <-> Pháp Vân",
+           "Price": "3900000"
+          },
+          {
+           "Name": "Xe tải >= 18 tấn; xe Container 40 fit: Đại Xuyên <-> Thường Tín",
+           "Price": "2550000"
+          },
+          {
+           "Name": "Xe tải >= 18 tấn; xe Container 40 fit: Đại Xuyên <-> Vạn Điểm",
+           "Price": "900000"
+          }
+         ]
+        },
+        {
+         "Name": "Vé Quý",
+         "Prices": [
+          {
+           "Name": "Xe < 12 chỗ, xe tải < 2 tấn; xe buýt công cộng: Đại Xuyên <-> Pháp Vân",
+           "Price": "2835000"
+          },
+          {
+           "Name": "Xe < 12 chỗ, xe tải < 2 tấn; xe buýt công cộng: Đại Xuyên <-> Thường Tín",
+           "Price": "1620000"
+          },
+          {
+           "Name": "Xe < 12 chỗ, xe tải < 2 tấn; xe buýt công cộng: Đại Xuyên <-> Vạn Điểm",
+           "Price": "810000"
+          },
+          {
+           "Name": "Xe 12-30 chỗ; xe tải 2 đến <4 tấn: Đại Xuyên <-> Pháp Vân",
+           "Price": "3645000"
+          },
+          {
+           "Name": "Xe 12-30 chỗ; xe tải 2 đến <4 tấn: Đại Xuyên <-> Thường Tín",
+           "Price": "2430000"
+          },
+          {
+           "Name": "Xe 12-30 chỗ; xe tải 2 đến <4 tấn: Đại Xuyên <-> Vạn Điểm",
+           "Price": "810000"
+          },
+          {
+           "Name": "Xe >= 31 chỗ; xe tải 4 đến <10 tấn: Đại Xuyên <-> Pháp Vân",
+           "Price": "4455000"
+          },
+          {
+           "Name": "Xe >= 31 chỗ; xe tải 4 đến <10 tấn: Đại Xuyên <-> Thường Tín",
+           "Price": "3240000"
+          },
+          {
+           "Name": "Xe >= 31 chỗ; xe tải 4 đến <10 tấn: Đại Xuyên <-> Vạn Điểm",
+           "Price": "1215000"
+          },
+          {
+           "Name": "Xe tải 10 đến <18 tấn; xe Container 20 fit: Đại Xuyên <-> Pháp Vân",
+           "Price": "6885000"
+          },
+          {
+           "Name": "Xe tải 10 đến <18 tấn; xe Container 20 fit: Đại Xuyên <-> Thường Tín",
+           "Price": "4455000"
+          },
+          {
+           "Name": "Xe tải 10 đến <18 tấn; xe Container 20 fit: Đại Xuyên <-> Vạn Điểm",
+           "Price": "1620000"
+          },
+          {
+           "Name": "Xe tải >= 18 tấn; xe Container 40 fit: Đại Xuyên <-> Pháp Vân",
+           "Price": "10530000"
+          },
+          {
+           "Name": "Xe tải >= 18 tấn; xe Container 40 fit: Đại Xuyên <-> Thường Tín",
+           "Price": "6885000"
+          },
+          {
+           "Name": "Xe tải >= 18 tấn; xe Container 40 fit: Đại Xuyên <-> Vạn Điểm",
+           "Price": "2430000"
+          }
+         ]
+        }
+       ]
+      }
+     }
+    }
+   }
+  ],
+  "bbox": [
+   105.91944,
+   20.658926,
+   106.903267,
+   20.986353
+  ]
+ }
+}

@@ -1,0 +1,73 @@
+{
+ "label": "reverse-geocoding",
+ "key": "GET https://tasco-maps.dnpwater.vn/geocode/v1/reverse?point.lat=20.954136574600824&point.lon=106.9277474006462&size=1 ",
+ "cachedAt": "2026-07-10T10:52:30.446Z",
+ "response": {
+  "geocoding": {
+   "version": "0.2",
+   "attribution": "http://tasco-maps.dnpwater.vn/attribution",
+   "query": {
+    "size": 1,
+    "private": false,
+    "point.lat": 20.954136574600824,
+    "point.lon": 106.9277474006462,
+    "boundary.circle.lat": 20.954136574600824,
+    "boundary.circle.lon": 106.9277474006462,
+    "lang": {
+     "name": "English",
+     "iso6391": "en",
+     "iso6393": "eng",
+     "via": "default",
+     "defaulted": true
+    },
+    "querySize": 2
+   },
+   "warnings": [
+    "invalid language provided via header"
+   ],
+   "engine": {
+    "name": "Pelias",
+    "author": "Mapzen",
+    "version": "1.0"
+   },
+   "timestamp": 1783680750497
+  },
+  "type": "FeatureCollection",
+  "features": [
+   {
+    "type": "Feature",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      106.928599,
+      20.955435
+     ]
+    },
+    "properties": {
+     "id": "way/1466166973",
+     "gid": "openstreetmap:venue:way/1466166973",
+     "layer": "venue",
+     "source": "openstreetmap",
+     "source_id": "way/1466166973",
+     "name": "Sông Hang Cua",
+     "confidence": 0.7,
+     "distance": 0.169,
+     "accuracy": "point",
+     "label": "Sông Hang Cua"
+    },
+    "bbox": [
+     106.9243204,
+     20.9548768,
+     106.9327156,
+     20.9554432
+    ]
+   }
+  ],
+  "bbox": [
+   106.9243204,
+   20.9548768,
+   106.9327156,
+   20.9554432
+  ]
+ }
+}

@@ -1,0 +1,83 @@
+{
+ "label": "reverse-geocoding",
+ "key": "GET https://tasco-maps.dnpwater.vn/geocode/v1/reverse?point.lat=20.815031718022055&point.lon=106.4933363503734&size=1 ",
+ "cachedAt": "2026-07-10T10:52:25.479Z",
+ "response": {
+  "geocoding": {
+   "version": "0.2",
+   "attribution": "http://tasco-maps.dnpwater.vn/attribution",
+   "query": {
+    "size": 1,
+    "private": false,
+    "point.lat": 20.815031718022055,
+    "point.lon": 106.4933363503734,
+    "boundary.circle.lat": 20.815031718022055,
+    "boundary.circle.lon": 106.4933363503734,
+    "lang": {
+     "name": "English",
+     "iso6391": "en",
+     "iso6393": "eng",
+     "via": "default",
+     "defaulted": true
+    },
+    "querySize": 2
+   },
+   "warnings": [
+    "invalid language provided via header"
+   ],
+   "engine": {
+    "name": "Pelias",
+    "author": "Mapzen",
+    "version": "1.0"
+   },
+   "timestamp": 1783680745529
+  },
+  "type": "FeatureCollection",
+  "features": [
+   {
+    "type": "Feature",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      106.499746,
+      20.813398
+     ]
+    },
+    "properties": {
+     "id": "polyline:188750",
+     "gid": "openstreetmap:street:polyline:188750",
+     "layer": "street",
+     "source": "openstreetmap",
+     "source_id": "polyline:188750",
+     "country_code": "VN",
+     "name": "Vĩnh Lập",
+     "street": "Vĩnh Lập",
+     "confidence": 0.6,
+     "distance": 0.691,
+     "accuracy": "centroid",
+     "country": "Vietnam",
+     "country_gid": "whosonfirst:country:85632763",
+     "country_a": "VNM",
+     "region": "Hai Duong",
+     "region_gid": "whosonfirst:region:85680637",
+     "region_a": "HD",
+     "county": "Thanh Ha",
+     "county_gid": "whosonfirst:county:1108781245",
+     "label": "Vĩnh Lập, HD, Vietnam"
+    },
+    "bbox": [
+     106.485754,
+     20.807938,
+     106.514525,
+     20.816183
+    ]
+   }
+  ],
+  "bbox": [
+   106.485754,
+   20.807938,
+   106.514525,
+   20.816183
+  ]
+ }
+}

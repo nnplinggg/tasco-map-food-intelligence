@@ -1,0 +1,42 @@
+{
+ "label": "nearby-search",
+ "key": "GET https://tasco-maps.dnpwater.vn/geocode/v1/nearby?point.lat=20.955972&point.lon=107.004185&boundary.circle.radius=0.4&size=3&categories=transport ",
+ "cachedAt": "2026-07-10T10:47:26.152Z",
+ "response": {
+  "geocoding": {
+   "version": "0.2",
+   "attribution": "http://tasco-maps.dnpwater.vn/attribution",
+   "query": {
+    "size": 3,
+    "private": false,
+    "point.lat": 20.955972,
+    "point.lon": 107.004185,
+    "boundary.circle.radius": 0.4,
+    "boundary.circle.lat": 20.955972,
+    "boundary.circle.lon": 107.004185,
+    "categories": [
+     "transport"
+    ],
+    "lang": {
+     "name": "English",
+     "iso6391": "en",
+     "iso6393": "eng",
+     "via": "default",
+     "defaulted": true
+    },
+    "querySize": 20
+   },
+   "warnings": [
+    "invalid language provided via header"
+   ],
+   "engine": {
+    "name": "Pelias",
+    "author": "Mapzen",
+    "version": "1.0"
+   },
+   "timestamp": 1783680446203
+  },
+  "type": "FeatureCollection",
+  "features": []
+ }
+}

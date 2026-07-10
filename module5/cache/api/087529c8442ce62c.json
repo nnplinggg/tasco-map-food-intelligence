@@ -1,0 +1,193 @@
+{
+ "label": "reverse-geocoding",
+ "key": "GET https://tasco-maps.dnpwater.vn/geocode/v1/reverse?point.lat=20.859286173067424&point.lon=106.29731001425463&size=1 ",
+ "cachedAt": "2026-07-10T10:52:23.673Z",
+ "response": {
+  "geocoding": {
+   "version": "0.2",
+   "attribution": "http://tasco-maps.dnpwater.vn/attribution",
+   "query": {
+    "size": 1,
+    "private": false,
+    "point.lat": 20.859286173067424,
+    "point.lon": 106.29731001425463,
+    "boundary.circle.lat": 20.859286173067424,
+    "boundary.circle.lon": 106.29731001425463,
+    "lang": {
+     "name": "English",
+     "iso6391": "en",
+     "iso6393": "eng",
+     "via": "default",
+     "defaulted": true
+    },
+    "querySize": 2
+   },
+   "warnings": [
+    "invalid language provided via header"
+   ],
+   "engine": {
+    "name": "Pelias",
+    "author": "Mapzen",
+    "version": "1.0"
+   },
+   "timestamp": 1783680743722
+  },
+  "type": "FeatureCollection",
+  "features": [
+   {
+    "type": "Feature",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      106.29443,
+      20.856755
+     ]
+    },
+    "properties": {
+     "id": "toll:ttp-quoc-lo-38b-nut-giao-hai-duong-20-856755-106-29443",
+     "gid": "tasco:venue:toll:ttp-quoc-lo-38b-nut-giao-hai-duong-20-856755-106-29443",
+     "layer": "venue",
+     "source": "tasco",
+     "source_id": "toll:ttp-quoc-lo-38b-nut-giao-hai-duong-20-856755-106-29443",
+     "country_code": "VN",
+     "name": "TTP Quốc lộ 38B - Nút giao Hải Dương",
+     "street": "Toàn Thắng, Gia Lộc, Hải Dương, Việt Nam",
+     "confidence": 0.6,
+     "distance": 0.411,
+     "accuracy": "point",
+     "country": "Việt Nam",
+     "country_gid": "tasco:country:VNM",
+     "country_a": "VN",
+     "region": "Hai Duong",
+     "region_gid": "whosonfirst:region:85680637",
+     "region_a": "HD",
+     "county": "Gia Loc",
+     "county_gid": "whosonfirst:county:1108781251",
+     "label": "TTP Quốc lộ 38B - Nút giao Hải Dương, HD, Việt Nam",
+     "addendum": {
+      "tasco": {
+       "category": "toll_etc",
+       "address": "Toàn Thắng, Gia Lộc, Hải Dương, Việt Nam",
+       "source": "tasco",
+       "status": "active",
+       "pricing_info": "Có bảng giá vé lượt, vé tháng, vé quý",
+       "pricing_detail": [
+        {
+         "Name": "Vé Lượt",
+         "Prices": [
+          {
+           "Name": "Xe < 12 chỗ, xe tải < 2 tấn; xe buýt công cộng: QL38B Hải Dương <-> Đầu tuyến HN",
+           "Price": "100000"
+          },
+          {
+           "Name": "Xe < 12 chỗ, xe tải < 2 tấn; xe buýt công cộng: QL38B Hải Dương <-> CQL39 Hưng Yên",
+           "Price": "50000"
+          },
+          {
+           "Name": "Xe < 12 chỗ, xe tải < 2 tấn; xe buýt công cộng: QL38B Hải Dương <-> QL10 Hải Phòng",
+           "Price": "50000"
+          },
+          {
+           "Name": "Xe < 12 chỗ, xe tải < 2 tấn; xe buýt công cộng: QL38B Hải Dương <-> Cuối tuyến HP",
+           "Price": "90000"
+          },
+          {
+           "Name": "Xe < 12 chỗ, xe tải < 2 tấn; xe buýt công cộng: QL38B Hải Dương <-> Đình Vũ",
+           "Price": "110000"
+          },
+          {
+           "Name": "Xe 12-30 chỗ; xe tải 2 đến <4 tấn: QL38B Hải Dương <-> Đầu tuyến HN",
+           "Price": "130000"
+          },
+          {
+           "Name": "Xe 12-30 chỗ; xe tải 2 đến <4 tấn: QL38B Hải Dương <-> QL39 Hưng Yên",
+           "Price": "70000"
+          },
+          {
+           "Name": "Xe 12-30 chỗ; xe tải 2 đến <4 tấn: QL38B Hải Dương <-> QL10 Hải Phòng",
+           "Price": "70000"
+          },
+          {
+           "Name": "Xe 12-30 chỗ; xe tải 2 đến <4 tấn: QL38B Hải Dương <-> Cuối tuyến HP",
+           "Price": "120000"
+          },
+          {
+           "Name": "Xe 12-30 chỗ; xe tải 2 đến <4 tấn: QL38B Hải Dương <-> Đình Vũ",
+           "Price": "150000"
+          },
+          {
+           "Name": "Xe >= 31 chỗ; xe tải 4 đến <10 tấn: QL38B Hải Dương <-> Đầu tuyến HN",
+           "Price": "160000"
+          },
+          {
+           "Name": "Xe >= 31 chỗ; xe tải 4 đến <10 tấn: QL38B Hải Dương <-> QL39 Hưng Yên",
+           "Price": "90000"
+          },
+          {
+           "Name": "Xe >= 31 chỗ; xe tải 4 đến <10 tấn: QL38B Hải Dương <-> QL10 Hải Phòng",
+           "Price": "80000"
+          },
+          {
+           "Name": "Xe >= 31 chỗ; xe tải 4 đến <10 tấn: QL38B Hải Dương <-> Cuối tuyến HP",
+           "Price": "150000"
+          },
+          {
+           "Name": "Xe >= 31 chỗ; xe tải 4 đến <10 tấn: QL38B Hải Dương <-> Đình Vũ",
+           "Price": "180000"
+          },
+          {
+           "Name": "Xe tải 10 đến <18 tấn; xe Container 20 fit: QL38B Hải Dương <-> Đầu tuyến HN",
+           "Price": "260000"
+          },
+          {
+           "Name": "Xe tải 10 đến <18 tấn; xe Container 20 fit: QL38B Hải Dương <-> QL39 Hưng Yên",
+           "Price": "150000"
+          },
+          {
+           "Name": "Xe tải 10 đến <18 tấn; xe Container 20 fit: QL38B Hải Dương <-> QL10 Hải Phòng",
+           "Price": "130000"
+          },
+          {
+           "Name": "Xe tải 10 đến <18 tấn; xe Container 20 fit: QL38B Hải Dương <-> Cuối tuyến HP",
+           "Price": "250000"
+          },
+          {
+           "Name": "Xe tải 10 đến <18 tấn; xe Container 20 fit: QL38B Hải Dương <-> Đình Vũ",
+           "Price": "290000"
+          },
+          {
+           "Name": "Xe tải >= 18 tấn; xe Container 40 fit: QL38B Hải Dương <-> Đầu tuyến HN",
+           "Price": "360000"
+          },
+          {
+           "Name": "Xe tải >= 18 tấn; xe Container 40 fit: QL38B Hải Dương <-> QL39 Hưng Yên",
+           "Price": "200000"
+          },
+          {
+           "Name": "Xe tải >= 18 tấn; xe Container 40 fit: QL38B Hải Dương <-> QL10 Hải Phòng",
+           "Price": "180000"
+          },
+          {
+           "Name": "Xe tải >= 18 tấn; xe Container 40 fit: QL38B Hải Dương <-> Cuối tuyến HP",
+           "Price": "340000"
+          },
+          {
+           "Name": "Xe tải >= 18 tấn; xe Container 40 fit: QL38B Hải Dương <-> Đình Vũ",
+           "Price": "380000"
+          }
+         ]
+        }
+       ]
+      }
+     }
+    }
+   }
+  ],
+  "bbox": [
+   106.29443,
+   20.856755,
+   106.29443,
+   20.856755
+  ]
+ }
+}

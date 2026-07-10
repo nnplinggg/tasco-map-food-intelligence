@@ -1,0 +1,83 @@
+{
+ "label": "reverse-geocoding",
+ "key": "GET https://tasco-maps.dnpwater.vn/geocode/v1/reverse?point.lat=20.772380225941685&point.lon=106.71876198523218&size=1 ",
+ "cachedAt": "2026-07-10T10:52:27.638Z",
+ "response": {
+  "geocoding": {
+   "version": "0.2",
+   "attribution": "http://tasco-maps.dnpwater.vn/attribution",
+   "query": {
+    "size": 1,
+    "private": false,
+    "point.lat": 20.772380225941685,
+    "point.lon": 106.71876198523218,
+    "boundary.circle.lat": 20.772380225941685,
+    "boundary.circle.lon": 106.71876198523218,
+    "lang": {
+     "name": "English",
+     "iso6391": "en",
+     "iso6393": "eng",
+     "via": "default",
+     "defaulted": true
+    },
+    "querySize": 2
+   },
+   "warnings": [
+    "invalid language provided via header"
+   ],
+   "engine": {
+    "name": "Pelias",
+    "author": "Mapzen",
+    "version": "1.0"
+   },
+   "timestamp": 1783680747689
+  },
+  "type": "FeatureCollection",
+  "features": [
+   {
+    "type": "Feature",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      106.718051,
+      20.773701
+     ]
+    },
+    "properties": {
+     "id": "polyline:164490",
+     "gid": "openstreetmap:street:polyline:164490",
+     "layer": "street",
+     "source": "openstreetmap",
+     "source_id": "polyline:164490",
+     "country_code": "VN",
+     "name": "Ngõ 126 Đường Hòa Nghĩa",
+     "street": "Ngõ 126 Đường Hòa Nghĩa",
+     "confidence": 0.7,
+     "distance": 0.165,
+     "accuracy": "centroid",
+     "country": "Vietnam",
+     "country_gid": "whosonfirst:country:85632763",
+     "country_a": "VNM",
+     "region": "Hai Phong",
+     "region_gid": "whosonfirst:region:85680645",
+     "region_a": "HP",
+     "county": "Duong Kinh",
+     "county_gid": "whosonfirst:county:1108781273",
+     "label": "Ngõ 126 Đường Hòa Nghĩa, HP, Vietnam"
+    },
+    "bbox": [
+     106.717121,
+     20.773537,
+     106.718883,
+     20.773943
+    ]
+   }
+  ],
+  "bbox": [
+   106.717121,
+   20.773537,
+   106.718883,
+   20.773943
+  ]
+ }
+}

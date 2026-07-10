@@ -1,0 +1,431 @@
+{
+ "label": "geocoding",
+ "key": "GET https://tasco-maps.dnpwater.vn/geocode/v1/search?text=tr%E1%BA%A1m+thu+ph%C3%AD&size=10&focus.point.lat=20.830603377246486&focus.point.lon=106.4482050252892&layers=venue ",
+ "cachedAt": "2026-07-10T10:44:52.729Z",
+ "response": {
+  "geocoding": {
+   "version": "0.2",
+   "attribution": "http://tasco-maps.dnpwater.vn/attribution",
+   "query": {
+    "text": "trạm thu phí",
+    "size": 10,
+    "layers": [
+     "venue"
+    ],
+    "private": false,
+    "focus.point.lat": 20.830603377246486,
+    "focus.point.lon": 106.4482050252892,
+    "lang": {
+     "name": "English",
+     "iso6391": "en",
+     "iso6393": "eng",
+     "via": "default",
+     "defaulted": true
+    },
+    "querySize": 20,
+    "parser": "pelias",
+    "parsed_text": {
+     "subject": "trạm thu phí"
+    }
+   },
+   "warnings": [
+    "invalid language provided via header"
+   ],
+   "engine": {
+    "name": "Pelias",
+    "author": "Mapzen",
+    "version": "1.0"
+   },
+   "timestamp": 1783680292780
+  },
+  "type": "FeatureCollection",
+  "features": [
+   {
+    "type": "Feature",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      106.258952,
+      21.316125
+     ]
+    },
+    "properties": {
+     "id": "way/1482591106",
+     "gid": "openstreetmap:venue:way/1482591106",
+     "layer": "venue",
+     "source": "openstreetmap",
+     "source_id": "way/1482591106",
+     "country_code": "VN",
+     "name": "Trạm Thu phí Km104",
+     "confidence": 1,
+     "match_type": "exact",
+     "distance": 57.512,
+     "accuracy": "point",
+     "country": "Vietnam",
+     "country_gid": "whosonfirst:country:85632763",
+     "country_a": "VNM",
+     "region": "Bac Giang",
+     "region_gid": "whosonfirst:region:85680685",
+     "region_a": "BG",
+     "county": "Lang Giang",
+     "county_gid": "whosonfirst:county:1108781149",
+     "label": "Trạm Thu phí Km104, BG, Vietnam"
+    },
+    "bbox": [
+     106.2585788,
+     21.3156703,
+     106.2593211,
+     21.3165723
+    ]
+   },
+   {
+    "type": "Feature",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      106.627784,
+      21.686751
+     ]
+    },
+    "properties": {
+     "id": "way/1482590225",
+     "gid": "openstreetmap:venue:way/1482590225",
+     "layer": "venue",
+     "source": "openstreetmap",
+     "source_id": "way/1482590225",
+     "country_code": "VN",
+     "name": "Trạm Thu phí Km45+100",
+     "confidence": 1,
+     "match_type": "exact",
+     "distance": 97.11,
+     "accuracy": "point",
+     "country": "Vietnam",
+     "country_gid": "whosonfirst:country:85632763",
+     "country_a": "VNM",
+     "region": "Lang Son",
+     "region_gid": "whosonfirst:region:85680611",
+     "region_a": "LS",
+     "county": "Chi Lang",
+     "county_gid": "whosonfirst:county:1108781103",
+     "label": "Trạm Thu phí Km45+100, LS, Vietnam"
+    },
+    "bbox": [
+     106.6274162,
+     21.6864274,
+     106.6281682,
+     21.6870731
+    ]
+   },
+   {
+    "type": "Feature",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      105.951253,
+      20.578999
+     ]
+    },
+    "properties": {
+     "id": "way/1484976019",
+     "gid": "openstreetmap:venue:way/1484976019",
+     "layer": "venue",
+     "source": "openstreetmap",
+     "source_id": "way/1484976019",
+     "country_code": "VN",
+     "name": "Trạm Thu phí Phú Thứ",
+     "confidence": 1,
+     "match_type": "exact",
+     "distance": 58.841,
+     "accuracy": "point",
+     "country": "Vietnam",
+     "country_gid": "whosonfirst:country:85632763",
+     "country_a": "VNM",
+     "region": "Ha Nam",
+     "region_gid": "whosonfirst:region:85680671",
+     "region_a": "HM",
+     "county": "Duy Tien",
+     "county_gid": "whosonfirst:county:1108781335",
+     "label": "Trạm Thu phí Phú Thứ, HM, Vietnam"
+    },
+    "bbox": [
+     105.95116,
+     20.5789126,
+     105.951347,
+     20.5790877
+    ]
+   },
+   {
+    "type": "Feature",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      109.021124,
+      12.252604
+     ]
+    },
+    "properties": {
+     "id": "way/1482572093",
+     "gid": "openstreetmap:venue:way/1482572093",
+     "layer": "venue",
+     "source": "openstreetmap",
+     "source_id": "way/1482572093",
+     "country_code": "VN",
+     "name": "Trạm Thu phí Km5+783",
+     "confidence": 1,
+     "match_type": "exact",
+     "distance": 993.497,
+     "accuracy": "point",
+     "country": "Vietnam",
+     "country_gid": "whosonfirst:country:85632763",
+     "country_a": "VNM",
+     "region": "Khanh Hoa",
+     "region_gid": "whosonfirst:region:85680719",
+     "region_a": "KH",
+     "county": "Dien Khanh",
+     "county_gid": "whosonfirst:county:1108781731",
+     "label": "Trạm Thu phí Km5+783, KH, Vietnam"
+    },
+    "bbox": [
+     109.0208844,
+     12.2524125,
+     109.0213638,
+     12.2527991
+    ]
+   },
+   {
+    "type": "Feature",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      106.925524,
+      10.860623
+     ]
+    },
+    "properties": {
+     "id": "way/1004176875",
+     "gid": "openstreetmap:venue:way/1004176875",
+     "layer": "venue",
+     "source": "openstreetmap",
+     "source_id": "way/1004176875",
+     "country_code": "VN",
+     "name": "Trạm thu phí T1",
+     "confidence": 1,
+     "match_type": "exact",
+     "distance": 1111.026,
+     "accuracy": "point",
+     "country": "Vietnam",
+     "country_gid": "whosonfirst:country:85632763",
+     "country_a": "VNM",
+     "region": "Dong Nai",
+     "region_gid": "whosonfirst:region:85680791",
+     "region_a": "DN",
+     "county": "Bien Hoa",
+     "county_gid": "whosonfirst:county:1108781967",
+     "label": "Trạm thu phí T1, DN, Vietnam"
+    },
+    "bbox": [
+     106.9252758,
+     10.8604356,
+     106.9257934,
+     10.8608226
+    ]
+   },
+   {
+    "type": "Feature",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      106.849446,
+      10.976771
+     ]
+    },
+    "properties": {
+     "id": "way/1090402311",
+     "gid": "openstreetmap:venue:way/1090402311",
+     "layer": "venue",
+     "source": "openstreetmap",
+     "source_id": "way/1090402311",
+     "country_code": "VN",
+     "name": "Trạm thu phí 2A",
+     "confidence": 1,
+     "match_type": "exact",
+     "distance": 1097.762,
+     "accuracy": "point",
+     "country": "Vietnam",
+     "country_gid": "whosonfirst:country:85632763",
+     "country_a": "VNM",
+     "region": "Dong Nai",
+     "region_gid": "whosonfirst:region:85680791",
+     "region_a": "DN",
+     "county": "Bien Hoa",
+     "county_gid": "whosonfirst:county:1108781967",
+     "label": "Trạm thu phí 2A, DN, Vietnam"
+    },
+    "bbox": [
+     106.8493703,
+     10.976695,
+     106.84952,
+     10.9768443
+    ]
+   },
+   {
+    "type": "Feature",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      106.847696,
+      10.980255
+     ]
+    },
+    "properties": {
+     "id": "way/1090402313",
+     "gid": "openstreetmap:venue:way/1090402313",
+     "layer": "venue",
+     "source": "openstreetmap",
+     "source_id": "way/1090402313",
+     "country_code": "VN",
+     "name": "Trạm thu phí 2B",
+     "confidence": 1,
+     "match_type": "exact",
+     "distance": 1097.367,
+     "accuracy": "point",
+     "country": "Vietnam",
+     "country_gid": "whosonfirst:country:85632763",
+     "country_a": "VNM",
+     "region": "Dong Nai",
+     "region_gid": "whosonfirst:region:85680791",
+     "region_a": "DN",
+     "county": "Bien Hoa",
+     "county_gid": "whosonfirst:county:1108781967",
+     "label": "Trạm thu phí 2B, DN, Vietnam"
+    },
+    "bbox": [
+     106.847648,
+     10.9801996,
+     106.8477741,
+     10.9803132
+    ]
+   },
+   {
+    "type": "Feature",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      106.549237,
+      10.669825
+     ]
+    },
+    "properties": {
+     "id": "way/1288834243",
+     "gid": "openstreetmap:venue:way/1288834243",
+     "layer": "venue",
+     "source": "openstreetmap",
+     "source_id": "way/1288834243",
+     "country_code": "VN",
+     "name": "Trạm Thu phí 1B",
+     "confidence": 1,
+     "match_type": "exact",
+     "distance": 1131.144,
+     "accuracy": "point",
+     "country": "Vietnam",
+     "country_gid": "whosonfirst:country:85632763",
+     "country_a": "VNM",
+     "region": "Long An",
+     "region_gid": "whosonfirst:region:85680817",
+     "region_a": "LA",
+     "county": "Ben Luc",
+     "county_gid": "whosonfirst:county:1108782079",
+     "label": "Trạm Thu phí 1B, LA, Vietnam"
+    },
+    "bbox": [
+     106.5486496,
+     10.6692475,
+     106.5498245,
+     10.6704016
+    ]
+   },
+   {
+    "type": "Feature",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      106.559615,
+      10.66183
+     ]
+    },
+    "properties": {
+     "id": "way/1288834245",
+     "gid": "openstreetmap:venue:way/1288834245",
+     "layer": "venue",
+     "source": "openstreetmap",
+     "source_id": "way/1288834245",
+     "country_code": "VN",
+     "name": "Trạm Thu phí 2A",
+     "confidence": 1,
+     "match_type": "exact",
+     "distance": 1132.045,
+     "accuracy": "point",
+     "country": "Vietnam",
+     "country_gid": "whosonfirst:country:85632763",
+     "country_a": "VNM",
+     "region": "Ho Chi Minh",
+     "region_gid": "whosonfirst:region:85680809",
+     "region_a": "HC",
+     "county": "Binh Chanh",
+     "county_gid": "whosonfirst:county:1108782053",
+     "label": "Trạm Thu phí 2A, HC, Vietnam"
+    },
+    "bbox": [
+     106.5592768,
+     10.6615434,
+     106.5599529,
+     10.6621172
+    ]
+   },
+   {
+    "type": "Feature",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      106.564198,
+      10.657849
+     ]
+    },
+    "properties": {
+     "id": "way/1288834247",
+     "gid": "openstreetmap:venue:way/1288834247",
+     "layer": "venue",
+     "source": "openstreetmap",
+     "source_id": "way/1288834247",
+     "country_code": "VN",
+     "name": "Trạm Thu phí 2B",
+     "confidence": 1,
+     "match_type": "exact",
+     "distance": 1132.494,
+     "accuracy": "point",
+     "country": "Vietnam",
+     "country_gid": "whosonfirst:country:85632763",
+     "country_a": "VNM",
+     "region": "Ho Chi Minh",
+     "region_gid": "whosonfirst:region:85680809",
+     "region_a": "HC",
+     "county": "Binh Chanh",
+     "county_gid": "whosonfirst:county:1108782053",
+     "label": "Trạm Thu phí 2B, HC, Vietnam"
+    },
+    "bbox": [
+     106.5638582,
+     10.657592,
+     106.5645384,
+     10.6581056
+    ]
+   }
+  ],
+  "bbox": [
+   105.95116,
+   10.657592,
+   109.0213638,
+   21.6870731
+  ]
+ }
+}

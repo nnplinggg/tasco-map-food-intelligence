@@ -1,0 +1,82 @@
+{
+ "label": "reverse-geocoding",
+ "key": "GET https://tasco-maps.dnpwater.vn/geocode/v1/reverse?point.lat=20.97964201318764&point.lon=107.00313546490386&size=1 ",
+ "cachedAt": "2026-07-10T10:52:31.432Z",
+ "response": {
+  "geocoding": {
+   "version": "0.2",
+   "attribution": "http://tasco-maps.dnpwater.vn/attribution",
+   "query": {
+    "size": 1,
+    "private": false,
+    "point.lat": 20.97964201318764,
+    "point.lon": 107.00313546490386,
+    "boundary.circle.lat": 20.97964201318764,
+    "boundary.circle.lon": 107.00313546490386,
+    "lang": {
+     "name": "English",
+     "iso6391": "en",
+     "iso6393": "eng",
+     "via": "default",
+     "defaulted": true
+    },
+    "querySize": 2
+   },
+   "warnings": [
+    "invalid language provided via header"
+   ],
+   "engine": {
+    "name": "Pelias",
+    "author": "Mapzen",
+    "version": "1.0"
+   },
+   "timestamp": 1783680751481
+  },
+  "type": "FeatureCollection",
+  "features": [
+   {
+    "type": "Feature",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      107.001603,
+      20.981519
+     ]
+    },
+    "properties": {
+     "id": "way/676796213",
+     "gid": "openstreetmap:venue:way/676796213",
+     "layer": "venue",
+     "source": "openstreetmap",
+     "source_id": "way/676796213",
+     "country_code": "VN",
+     "name": "Trường Tiểu học Hà Khẩu",
+     "confidence": 0.6,
+     "distance": 0.263,
+     "accuracy": "point",
+     "country": "Vietnam",
+     "country_gid": "whosonfirst:country:85632763",
+     "country_a": "VNM",
+     "region": "Quang Ninh",
+     "region_gid": "whosonfirst:region:85680583",
+     "region_a": "QN",
+     "county": "Ha Long",
+     "county_gid": "whosonfirst:county:1108781111",
+     "label": "Trường Tiểu học Hà Khẩu, QN, Vietnam"
+    },
+    "bbox": [
+     107.0009994,
+     20.9811278,
+     107.0023768,
+     20.9817113
+    ]
+   }
+  ],
+  "bbox": [
+   107.0009994,
+   20.9811278,
+   107.0023768,
+   20.9817113
+  ]
+ }
+}

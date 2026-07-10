@@ -1,0 +1,38 @@
+{
+ "label": "reverse-geocoding",
+ "key": "GET https://tasco-maps.dnpwater.vn/geocode/v1/reverse?point.lat=20.920848120220406&point.lon=106.84500697706153&size=1 ",
+ "cachedAt": "2026-07-10T10:52:29.582Z",
+ "response": {
+  "geocoding": {
+   "version": "0.2",
+   "attribution": "http://tasco-maps.dnpwater.vn/attribution",
+   "query": {
+    "size": 1,
+    "private": false,
+    "point.lat": 20.920848120220406,
+    "point.lon": 106.84500697706153,
+    "boundary.circle.lat": 20.920848120220406,
+    "boundary.circle.lon": 106.84500697706153,
+    "lang": {
+     "name": "English",
+     "iso6391": "en",
+     "iso6393": "eng",
+     "via": "default",
+     "defaulted": true
+    },
+    "querySize": 2
+   },
+   "warnings": [
+    "invalid language provided via header"
+   ],
+   "engine": {
+    "name": "Pelias",
+    "author": "Mapzen",
+    "version": "1.0"
+   },
+   "timestamp": 1783680749631
+  },
+  "type": "FeatureCollection",
+  "features": []
+ }
+}

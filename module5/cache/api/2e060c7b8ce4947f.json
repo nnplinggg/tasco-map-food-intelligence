@@ -1,0 +1,83 @@
+{
+ "label": "reverse-geocoding",
+ "key": "GET https://tasco-maps.dnpwater.vn/geocode/v1/reverse?point.lat=20.943868484312816&point.lon=105.96539566378421&size=1 ",
+ "cachedAt": "2026-07-10T10:52:20.214Z",
+ "response": {
+  "geocoding": {
+   "version": "0.2",
+   "attribution": "http://tasco-maps.dnpwater.vn/attribution",
+   "query": {
+    "size": 1,
+    "private": false,
+    "point.lat": 20.943868484312816,
+    "point.lon": 105.96539566378421,
+    "boundary.circle.lat": 20.943868484312816,
+    "boundary.circle.lon": 105.96539566378421,
+    "lang": {
+     "name": "English",
+     "iso6391": "en",
+     "iso6393": "eng",
+     "via": "default",
+     "defaulted": true
+    },
+    "querySize": 2
+   },
+   "warnings": [
+    "invalid language provided via header"
+   ],
+   "engine": {
+    "name": "Pelias",
+    "author": "Mapzen",
+    "version": "1.0"
+   },
+   "timestamp": 1783680740263
+  },
+  "type": "FeatureCollection",
+  "features": [
+   {
+    "type": "Feature",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      105.96624,
+      20.94409
+     ]
+    },
+    "properties": {
+     "id": "polyline:7982",
+     "gid": "openstreetmap:street:polyline:7982",
+     "layer": "street",
+     "source": "openstreetmap",
+     "source_id": "polyline:7982",
+     "country_code": "VN",
+     "name": "Cọ Xanh 12",
+     "street": "Cọ Xanh 12",
+     "confidence": 0.8,
+     "distance": 0.091,
+     "accuracy": "centroid",
+     "country": "Vietnam",
+     "country_gid": "whosonfirst:country:85632763",
+     "country_a": "VNM",
+     "region": "Hung Yen",
+     "region_gid": "whosonfirst:region:85680649",
+     "region_a": "HY",
+     "county": "Van Giang",
+     "county_gid": "whosonfirst:county:1108781297",
+     "label": "Cọ Xanh 12, HY, Vietnam"
+    },
+    "bbox": [
+     105.96613,
+     20.944044,
+     105.966351,
+     20.944136
+    ]
+   }
+  ],
+  "bbox": [
+   105.96613,
+   20.944044,
+   105.966351,
+   20.944136
+  ]
+ }
+}

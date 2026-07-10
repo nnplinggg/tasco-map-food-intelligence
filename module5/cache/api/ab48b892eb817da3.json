@@ -1,0 +1,84 @@
+{
+ "label": "nearby-search",
+ "key": "GET https://tasco-maps.dnpwater.vn/geocode/v1/nearby?point.lat=20.95259756311786&point.lon=106.90602681010445&boundary.circle.radius=8&size=20&categories=food ",
+ "cachedAt": "2026-07-10T10:44:08.342Z",
+ "response": {
+  "geocoding": {
+   "version": "0.2",
+   "attribution": "http://tasco-maps.dnpwater.vn/attribution",
+   "query": {
+    "size": 20,
+    "private": false,
+    "point.lat": 20.95259756311786,
+    "point.lon": 106.90602681010445,
+    "boundary.circle.radius": 5,
+    "boundary.circle.lat": 20.95259756311786,
+    "boundary.circle.lon": 106.90602681010445,
+    "categories": [
+     "food"
+    ],
+    "lang": {
+     "name": "English",
+     "iso6391": "en",
+     "iso6393": "eng",
+     "via": "default",
+     "defaulted": true
+    },
+    "querySize": 40
+   },
+   "warnings": [
+    "invalid language provided via header"
+   ],
+   "engine": {
+    "name": "Pelias",
+    "author": "Mapzen",
+    "version": "1.0"
+   },
+   "timestamp": 1783680248398
+  },
+  "type": "FeatureCollection",
+  "features": [
+   {
+    "type": "Feature",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      106.951373,
+      20.95747
+     ]
+    },
+    "properties": {
+     "id": "node/9931528179",
+     "gid": "openstreetmap:venue:node/9931528179",
+     "layer": "venue",
+     "source": "openstreetmap",
+     "source_id": "node/9931528179",
+     "country_code": "VN",
+     "name": "Legend Pearl Café",
+     "confidence": 0.5,
+     "distance": 4.745,
+     "accuracy": "point",
+     "country": "Vietnam",
+     "country_gid": "whosonfirst:country:85632763",
+     "country_a": "VNM",
+     "region": "Quang Ninh",
+     "region_gid": "whosonfirst:region:85680583",
+     "region_a": "QN",
+     "county": "Ha Long",
+     "county_gid": "whosonfirst:county:1108781111",
+     "label": "Legend Pearl Café, QN, Vietnam",
+     "category": [
+      "food",
+      "retail"
+     ]
+    }
+   }
+  ],
+  "bbox": [
+   106.951373,
+   20.95747,
+   106.951373,
+   20.95747
+  ]
+ }
+}

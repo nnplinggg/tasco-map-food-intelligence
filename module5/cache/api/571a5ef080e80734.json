@@ -1,0 +1,83 @@
+{
+ "label": "reverse-geocoding",
+ "key": "GET https://tasco-maps.dnpwater.vn/geocode/v1/reverse?point.lat=20.93932427991893&point.lon=106.8778369131155&size=1 ",
+ "cachedAt": "2026-07-10T10:52:29.948Z",
+ "response": {
+  "geocoding": {
+   "version": "0.2",
+   "attribution": "http://tasco-maps.dnpwater.vn/attribution",
+   "query": {
+    "size": 1,
+    "private": false,
+    "point.lat": 20.93932427991893,
+    "point.lon": 106.8778369131155,
+    "boundary.circle.lat": 20.93932427991893,
+    "boundary.circle.lon": 106.8778369131155,
+    "lang": {
+     "name": "English",
+     "iso6391": "en",
+     "iso6393": "eng",
+     "via": "default",
+     "defaulted": true
+    },
+    "querySize": 2
+   },
+   "warnings": [
+    "invalid language provided via header"
+   ],
+   "engine": {
+    "name": "Pelias",
+    "author": "Mapzen",
+    "version": "1.0"
+   },
+   "timestamp": 1783680749997
+  },
+  "type": "FeatureCollection",
+  "features": [
+   {
+    "type": "Feature",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      106.881137,
+      20.931599
+     ]
+    },
+    "properties": {
+     "id": "polyline:196614",
+     "gid": "openstreetmap:street:polyline:196614",
+     "layer": "street",
+     "source": "openstreetmap",
+     "source_id": "polyline:196614",
+     "country_code": "VN",
+     "name": "Đường Hoàng Tân",
+     "street": "Đường Hoàng Tân",
+     "confidence": 0.6,
+     "distance": 0.926,
+     "accuracy": "centroid",
+     "country": "Vietnam",
+     "country_gid": "whosonfirst:country:85632763",
+     "country_a": "VNM",
+     "region": "Quang Ninh",
+     "region_gid": "whosonfirst:region:85680583",
+     "region_a": "QN",
+     "county": "Quảng Yên",
+     "county_gid": "whosonfirst:county:1108781137",
+     "label": "Đường Hoàng Tân, QN, Vietnam"
+    },
+    "bbox": [
+     106.880956,
+     20.931574,
+     106.881318,
+     20.931622
+    ]
+   }
+  ],
+  "bbox": [
+   106.880956,
+   20.931574,
+   106.881318,
+   20.931622
+  ]
+ }
+}

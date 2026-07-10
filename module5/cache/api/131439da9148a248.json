@@ -1,0 +1,743 @@
+{
+ "label": "route",
+ "key": "POST https://tasco-maps.dnpwater.vn/route/route {\"locations\":[{\"lat\":21.0285,\"lon\":105.8542},{\"lat\":20.95747,\"lon\":106.951373},{\"lat\":20.9509,\"lon\":107.0784}],\"costing\":\"auto\",\"directions_options\":{\"units\":\"kilometers\",\"language\":\"vi-VN\"}}",
+ "cachedAt": "2026-07-10T10:45:46.753Z",
+ "response": {
+  "trip": {
+   "locations": [
+    {
+     "type": "break",
+     "lat": 21.0285,
+     "lon": 105.8542,
+     "side_of_street": "right",
+     "original_index": 0
+    },
+    {
+     "type": "break",
+     "lat": 20.95747,
+     "lon": 106.951373,
+     "side_of_street": "right",
+     "original_index": 1
+    },
+    {
+     "type": "break",
+     "lat": 20.9509,
+     "lon": 107.0784,
+     "original_index": 2
+    }
+   ],
+   "legs": [
+    {
+     "maneuvers": [
+      {
+       "type": 2,
+       "instruction": "Lái về phía đông trên Phố Trần Nguyên Hãn.",
+       "verbal_succinct_transition_instruction": "Lái về phía đông. Rồi Rẽ trái vào Phố Ngô Quyền.",
+       "verbal_pre_transition_instruction": "Lái về phía đông trên Phố Trần Nguyên Hãn. Rồi Rẽ trái vào Phố Ngô Quyền.",
+       "verbal_post_transition_instruction": "Tiếp tục đi thêm 200 mét.",
+       "street_names": [
+        "Phố Trần Nguyên Hãn"
+       ],
+       "bearing_after": 84,
+       "time": 29.925,
+       "length": 0.249,
+       "cost": 74.345,
+       "begin_shape_index": 0,
+       "end_shape_index": 4,
+       "has_time_restrictions": true,
+       "verbal_multi_cue": true,
+       "travel_mode": "drive",
+       "travel_type": "car"
+      },
+      {
+       "type": 15,
+       "instruction": "Rẽ trái vào Phố Ngô Quyền.",
+       "verbal_transition_alert_instruction": "Rẽ trái vào Phố Ngô Quyền.",
+       "verbal_succinct_transition_instruction": "Rẽ trái. Rồi Giữ bên trái vào Phố Hàng Vôi.",
+       "verbal_pre_transition_instruction": "Rẽ trái vào Phố Ngô Quyền. Rồi Giữ bên trái vào Phố Hàng Vôi.",
+       "verbal_post_transition_instruction": "Tiếp tục đi thêm 90 mét.",
+       "street_names": [
+        "Phố Ngô Quyền"
+       ],
+       "bearing_before": 86,
+       "bearing_after": 19,
+       "time": 8.279,
+       "length": 0.085,
+       "cost": 29.388,
+       "begin_shape_index": 4,
+       "end_shape_index": 7,
+       "verbal_multi_cue": true,
+       "travel_mode": "drive",
+       "travel_type": "car"
+      },
+      {
+       "type": 16,
+       "instruction": "Giữ bên trái vào Phố Hàng Vôi.",
+       "verbal_transition_alert_instruction": "Giữ bên trái vào Phố Hàng Vôi.",
+       "verbal_succinct_transition_instruction": "Giữ bên trái.",
+       "verbal_pre_transition_instruction": "Giữ bên trái vào Phố Hàng Vôi.",
+       "verbal_post_transition_instruction": "Tiếp tục đi thêm 200 mét.",
+       "street_names": [
+        "Phố Hàng Vôi"
+       ],
+       "bearing_before": 360,
+       "bearing_after": 333,
+       "time": 17.425,
+       "length": 0.193,
+       "cost": 42.209,
+       "begin_shape_index": 7,
+       "end_shape_index": 11,
+       "travel_mode": "drive",
+       "travel_type": "car"
+      },
+      {
+       "type": 10,
+       "instruction": "Rẽ phải vào Phố Lò Sũ.",
+       "verbal_transition_alert_instruction": "Rẽ phải vào Phố Lò Sũ.",
+       "verbal_succinct_transition_instruction": "Rẽ phải. Rồi Rẽ phải vào Đường Trần Quang Khải.",
+       "verbal_pre_transition_instruction": "Rẽ phải vào Phố Lò Sũ. Rồi Rẽ phải vào Đường Trần Quang Khải.",
+       "verbal_post_transition_instruction": "Tiếp tục đi thêm 70 mét.",
+       "street_names": [
+        "Phố Lò Sũ"
+       ],
+       "bearing_before": 328,
+       "bearing_after": 102,
+       "time": 16.157,
+       "length": 0.073,
+       "cost": 36.074,
+       "begin_shape_index": 11,
+       "end_shape_index": 14,
+       "verbal_multi_cue": true,
+       "travel_mode": "drive",
+       "travel_type": "car"
+      },
+      {
+       "type": 10,
+       "instruction": "Rẽ phải vào Đường Trần Quang Khải.",
+       "verbal_transition_alert_instruction": "Rẽ phải vào Đường Trần Quang Khải.",
+       "verbal_succinct_transition_instruction": "Rẽ phải.",
+       "verbal_pre_transition_instruction": "Rẽ phải vào Đường Trần Quang Khải.",
+       "verbal_post_transition_instruction": "Tiếp tục đi thêm 200 mét.",
+       "street_names": [
+        "Đường Trần Quang Khải"
+       ],
+       "bearing_before": 85,
+       "bearing_after": 155,
+       "time": 17.034,
+       "length": 0.226,
+       "cost": 68.987,
+       "begin_shape_index": 14,
+       "end_shape_index": 20,
+       "has_time_restrictions": true,
+       "travel_mode": "drive",
+       "travel_type": "car"
+      },
+      {
+       "type": 16,
+       "instruction": "Giữ bên trái.",
+       "verbal_transition_alert_instruction": "Giữ bên trái.",
+       "verbal_succinct_transition_instruction": "Giữ bên trái. Rồi Rẽ trái vào Đường Trần Quang Khải.",
+       "verbal_pre_transition_instruction": "Giữ bên trái. Rồi Rẽ trái vào Đường Trần Quang Khải.",
+       "verbal_post_transition_instruction": "Tiếp tục đi thêm 60 mét.",
+       "bearing_before": 156,
+       "bearing_after": 127,
+       "time": 2.231,
+       "length": 0.057,
+       "cost": 2.51,
+       "begin_shape_index": 20,
+       "end_shape_index": 28,
+       "has_time_restrictions": true,
+       "verbal_multi_cue": true,
+       "travel_mode": "drive",
+       "travel_type": "car"
+      },
+      {
+       "type": 15,
+       "instruction": "Rẽ trái vào Đường Trần Quang Khải.",
+       "verbal_transition_alert_instruction": "Rẽ trái vào Đường Trần Quang Khải.",
+       "verbal_succinct_transition_instruction": "Rẽ trái.",
+       "verbal_pre_transition_instruction": "Rẽ trái vào Đường Trần Quang Khải.",
+       "verbal_post_transition_instruction": "Tiếp tục đi thêm 600 mét.",
+       "street_names": [
+        "Đường Trần Quang Khải"
+       ],
+       "bearing_before": 98,
+       "bearing_after": 336,
+       "time": 44.397,
+       "length": 0.581,
+       "cost": 69.496,
+       "begin_shape_index": 28,
+       "end_shape_index": 30,
+       "has_time_restrictions": true,
+       "travel_mode": "drive",
+       "travel_type": "car"
+      },
+      {
+       "type": 10,
+       "instruction": "Rẽ phải về hướng Cầu Chương Dương.",
+       "verbal_transition_alert_instruction": "Rẽ phải về hướng Cầu Chương Dương.",
+       "verbal_succinct_transition_instruction": "Rẽ phải về hướng Cầu Chương Dương. Rồi Giữ bên phải vào Cầu Chương Dương.",
+       "verbal_pre_transition_instruction": "Rẽ phải về hướng Cầu Chương Dương. Rồi Giữ bên phải vào Cầu Chương Dương.",
+       "verbal_post_transition_instruction": "Tiếp tục đi thêm 200 mét.",
+       "street_names": [
+        "Vòng xoay Cầu Chương Dương"
+       ],
+       "bearing_before": 336,
+       "bearing_after": 21,
+       "time": 7.988,
+       "length": 0.186,
+       "cost": 16.2,
+       "begin_shape_index": 30,
+       "end_shape_index": 38,
+       "sign": {},
+       "verbal_multi_cue": true,
+       "travel_mode": "drive",
+       "travel_type": "car"
+      },
+      {
+       "type": 9,
+       "instruction": "Giữ bên phải vào Cầu Chương Dương.",
+       "verbal_transition_alert_instruction": "Giữ bên phải vào Cầu Chương Dương.",
+       "verbal_succinct_transition_instruction": "Giữ bên phải. Rồi Giữ phải để tiếp tục đi trên Cầu Chương Dương.",
+       "verbal_pre_transition_instruction": "Giữ bên phải vào Cầu Chương Dương. Rồi Giữ phải để tiếp tục đi trên Cầu Chương Dương.",
+       "verbal_post_transition_instruction": "Tiếp tục đi thêm 20 mét.",
+       "street_names": [
+        "Cầu Chương Dương"
+       ],
+       "bearing_before": 31,
+       "bearing_after": 68,
+       "time": 1.374,
+       "length": 0.017,
+       "cost": 6.261,
+       "begin_shape_index": 38,
+       "end_shape_index": 39,
+       "verbal_multi_cue": true,
+       "travel_mode": "drive",
+       "travel_type": "car"
+      },
+      {
+       "type": 23,
+       "instruction": "Giữ phải để tiếp tục đi trên Cầu Chương Dương.",
+       "verbal_transition_alert_instruction": "Giữ phải để tiếp tục đi trên Cầu Chương Dương.",
+       "verbal_pre_transition_instruction": "Giữ phải để tiếp tục đi trên Cầu Chương Dương.",
+       "verbal_post_transition_instruction": "Tiếp tục đi thêm 1 ki-lô-mét.",
+       "street_names": [
+        "Cầu Chương Dương"
+       ],
+       "bearing_before": 68,
+       "bearing_after": 86,
+       "time": 75.86,
+       "length": 1.2,
+       "cost": 93.457,
+       "begin_shape_index": 39,
+       "end_shape_index": 47,
+       "travel_mode": "drive",
+       "travel_type": "car"
+      },
+      {
+       "type": 10,
+       "instruction": "Rẽ phải.",
+       "verbal_transition_alert_instruction": "Rẽ phải.",
+       "verbal_succinct_transition_instruction": "Rẽ phải. Rồi Giữ bên trái vào Đường Long Biên – Xuân Quan.",
+       "verbal_pre_transition_instruction": "Rẽ phải. Rồi Giữ bên trái vào Đường Long Biên – Xuân Quan.",
+       "verbal_post_transition_instruction": "Tiếp tục đi thêm 50 mét.",
+       "bearing_before": 63,
+       "bearing_after": 154,
+       "time": 3.711,
+       "length": 0.046,
+       "cost": 21.09,
+       "begin_shape_index": 47,
+       "end_shape_index": 57,
+       "verbal_multi_cue": true,
+       "travel_mode": "drive",
+       "travel_type": "car"
+      },
+      {
+       "type": 16,
+       "instruction": "Giữ bên trái vào Đường Long Biên – Xuân Quan/ĐT.195. Tiếp tục đi trên Đường Long Biên – Xuân Quan.",
+       "verbal_transition_alert_instruction": "Giữ bên trái vào Đường Long Biên – Xuân Quan.",
+       "verbal_succinct_transition_instruction": "Giữ bên trái.",
+       "verbal_pre_transition_instruction": "Giữ bên trái vào Đường Long Biên – Xuân Quan, ĐT.195.",
+       "verbal_post_transition_instruction": "Tiếp tục đi thêm 1,5 ki-lô-mét.",
+       "street_names": [
+        "Đường Long Biên – Xuân Quan"
+       ],
+       "begin_street_names": [
+        "Đường Long Biên – Xuân Quan",
+        "ĐT.195"
+       ],
+       "bearing_before": 154,
+       "bearing_after": 137,
+       "time": 95.905,
+       "length": 1.515,
+       "cost": 123.811,
+       "begin_shape_index": 57,
+       "end_shape_index": 85,
+       "travel_mode": "drive",
+       "travel_type": "car"
+      },
+      {
+       "type": 21,
+       "instruction": "Rẽ ra ngoài tại đoạn rẽ Đường Cổ Linh.",
+       "verbal_transition_alert_instruction": "Rẽ ra ngoài tại đoạn rẽ Đường Cổ Linh.",
+       "verbal_pre_transition_instruction": "Rẽ ra ngoài tại đoạn rẽ Đường Cổ Linh.",
+       "verbal_post_transition_instruction": "Tiếp tục đi thêm 2 ki-lô-mét.",
+       "street_names": [
+        "Đường Cổ Linh"
+       ],
+       "bearing_before": 125,
+       "bearing_after": 114,
+       "time": 111.934,
+       "length": 1.769,
+       "cost": 174.462,
+       "begin_shape_index": 85,
+       "end_shape_index": 134,
+       "sign": {
+        "exit_branch_elements": [
+         {
+          "text": "Đường Cổ Linh"
+         }
+        ]
+       },
+       "travel_mode": "drive",
+       "travel_type": "car"
+      },
+      {
+       "type": 24,
+       "instruction": "Giữ trái để tiếp tục đi trên Đường Cổ Linh.",
+       "verbal_transition_alert_instruction": "Giữ trái để tiếp tục đi trên Đường Cổ Linh.",
+       "verbal_pre_transition_instruction": "Giữ trái để tiếp tục đi trên Đường Cổ Linh.",
+       "verbal_post_transition_instruction": "Tiếp tục đi thêm 2,5 ki-lô-mét.",
+       "street_names": [
+        "Đường Cổ Linh"
+       ],
+       "bearing_before": 107,
+       "bearing_after": 99,
+       "time": 172.8,
+       "length": 2.698,
+       "cost": 244.512,
+       "begin_shape_index": 134,
+       "end_shape_index": 185,
+       "travel_mode": "drive",
+       "travel_type": "car"
+      },
+      {
+       "type": 24,
+       "instruction": "Giữ trái để đi vào CT.04.",
+       "verbal_transition_alert_instruction": "Giữ trái để đi vào CT.04.",
+       "verbal_pre_transition_instruction": "Giữ trái để đi vào CT.04.",
+       "verbal_post_transition_instruction": "Tiếp tục đi thêm 105 ki-lô-mét.",
+       "street_names": [
+        "CT.04"
+       ],
+       "bearing_before": 145,
+       "bearing_after": 145,
+       "time": 3208.658,
+       "length": 105.006,
+       "cost": 3190.254,
+       "begin_shape_index": 185,
+       "end_shape_index": 599,
+       "toll": true,
+       "highway": true,
+       "travel_mode": "drive",
+       "travel_type": "car"
+      },
+      {
+       "type": 20,
+       "instruction": "Rẽ vào đoạn rẽ Cầu Bạch Đằng phía phải vào CT.06.",
+       "verbal_transition_alert_instruction": "Rẽ vào đoạn rẽ Cầu Bạch Đằng ở phải.",
+       "verbal_pre_transition_instruction": "Rẽ vào đoạn rẽ Cầu Bạch Đằng phía phải vào CT.06.",
+       "verbal_post_transition_instruction": "Tiếp tục đi thêm 25 ki-lô-mét.",
+       "street_names": [
+        "CT.06"
+       ],
+       "bearing_before": 6,
+       "bearing_after": 9,
+       "time": 824.88,
+       "length": 25.057,
+       "cost": 770.549,
+       "begin_shape_index": 599,
+       "end_shape_index": 746,
+       "toll": true,
+       "highway": true,
+       "sign": {
+        "exit_number_elements": [
+         {
+          "text": "Cầu Bạch Đằng"
+         }
+        ],
+        "exit_branch_elements": [
+         {
+          "text": "CT.06",
+          "consecutive_count": 1
+         }
+        ]
+       },
+       "travel_mode": "drive",
+       "travel_type": "car"
+      },
+      {
+       "type": 20,
+       "instruction": "Rẽ ra ngoài vào đoạn rẽ Minh Khai phía phải vào QL.18 về hướng Hạ Long.",
+       "verbal_transition_alert_instruction": "Rẽ vào đoạn rẽ Minh Khai ở phải.",
+       "verbal_pre_transition_instruction": "Rẽ ra ngoài vào đoạn rẽ Minh Khai phía phải vào QL.18 về hướng Hạ Long.",
+       "verbal_post_transition_instruction": "Tiếp tục đi thêm 1 ki-lô-mét.",
+       "street_names": [
+        "QL.18",
+        "Quốc lộ 18"
+       ],
+       "bearing_before": 48,
+       "bearing_after": 53,
+       "time": 81.855,
+       "length": 1.112,
+       "cost": 94.062,
+       "begin_shape_index": 746,
+       "end_shape_index": 776,
+       "toll": true,
+       "sign": {
+        "exit_number_elements": [
+         {
+          "text": "Minh Khai"
+         }
+        ],
+        "exit_branch_elements": [
+         {
+          "text": "QL.18",
+          "consecutive_count": 1
+         }
+        ],
+        "exit_toward_elements": [
+         {
+          "text": "Hạ Long"
+         }
+        ]
+       },
+       "travel_mode": "drive",
+       "travel_type": "car"
+      },
+      {
+       "type": 5,
+       "instruction": "Điểm đến của bạn nằm ở phải.",
+       "verbal_transition_alert_instruction": "Địa điểm của bạn sẽ nằm ở phải.",
+       "verbal_pre_transition_instruction": "Điểm đến của bạn nằm ở phải.",
+       "bearing_before": 92,
+       "time": 0,
+       "length": 0,
+       "cost": 0,
+       "begin_shape_index": 776,
+       "end_shape_index": 776,
+       "travel_mode": "drive",
+       "travel_type": "car"
+      }
+     ],
+     "summary": {
+      "has_time_restrictions": true,
+      "has_toll": true,
+      "has_highway": true,
+      "has_ferry": false,
+      "min_lat": 20.765152,
+      "min_lon": 105.854164,
+      "max_lat": 21.039704,
+      "max_lon": 106.95138,
+      "time": 4720.422,
+      "length": 140.073,
+      "cost": 5057.674
+     },
+     "shape": "a}nbg@ily{hEuEqgAS_FWsF{B{|@_EwAu[kFsJ@kEpB_t@~ZuMhHkTlMt@yGaBeZSkFt[eMxCgAzw@_Y|EeBrPmGpAg@l@gElA}@|Bs@~Am@lBm@Z]|@uBg@}EogCf`Ai`DrlAwL~Dgt@hWsDnA}Cn@gEh@oEUk@UcC}CoBkHVeDHcAqKw^yAcFuE{O_Ly_@{|EooPaCmGt@{Av@yAXe@^m@NSr@}@fAsAp@s@\\_@pD}AzAaAxAqBt@oBf@{AfH}PbIgQlHyPrJgRzR{_@lPiZdJwQlh@e_AtDeGz@eBnAgC|M_WnDkHhz@a`BrVcd@rCuF~LuTvMoVzJsQbYkh@jaAsiB~Sa`@xBaEnx@uvAxWy{@rAyEfDuLxGoFlGcGtg@wg@|F}HlJgRFQp@uBpDqMxAwGlBaLtAcLRyJa@yMoEqg@c@sJTqJt@qIrCcQ~AoIbCeI`E}KhTwq@pGoS~BoNzAkK|@_GvA}Ln@oNZ_Gl@g]LiNRiYJ{H`@k|@f@_c@^}KfA}MxAwI|Jcl@zNq{@fC}NdCmOfFq[zJsm@lBkM|Gq^fCc[hKol@vIke@xG{ZdBeHlDyKrDiLfC{Hj_@ccAdL{RrRik@`b@ajA`y@iyBll@o_BnBgFnAcDx\\e{@lDoHjAwCh@yBfGaW|Fs]bJsl@h@aEfAoI|G}c@tB{JfDeKhFiMfJgOvDqDnJeKpIoKrIsKzP{RhSuU~WqYzlAqsAjCqChO{OzKwLvV_XjAeAnEsEhRoRfOyM~V_Xp`@k]fIeGv~@ur@zKsHpl@}`@`fAq{@liAydAnp@{i@fmAikApOgQbsB_jBb|@mw@paE_nDdv@uq@fgBk_B`RaPvnAiiAd[sX~xBooB|f@cc@dkIepHjEyDxkAqeArtDk~C~PqNvtAaeAl]kWblAwx@z~@uk@r_A}j@bg@sZzf@cXvgAil@lb@_Rhl@{YzuAap@~rAam@x}FkfCvz@i_@xpIitDjnBa|@zeBiv@dtDiaB`vBkbAbFaCrgEmkB|aDutAf~B}_Al~Bs{@z`DokArpGc`ChlHssCrf@eQno@kS|s@eUtl@eXra@kTbYcOb_Aaf@|m@q[pvOigHdwBwaAjIwDdo@yYpf@kW~pHcfDnk@}WhAi@vqF}fC`_Bmv@h_FsiCxyC_hBpfBgfAhK_HhlAkt@reB_eAtg@kZhpBklAdtAy|@|`FyvCt}FsnDdQwK~sC}gBz{@ik@zmAs{@n{AomAjyA}qAtnAmoAfeAehAdlCgzCvuBmaCzgDmyDt`DmpDlLgNTW|}DcrEpwBcdCn}A{hBriA_pAdi@ym@n`AueAjz@maAxlAizAlb@am@|RmY|~@yyAre@k|@jm@urApp@ifBfq@__Czg@i~Bn\\{tB~LmeAnP}{B~FuvAzAkzAc@u}AoBs_AaG_`BadA{`Oca@u{F{GojA}G}bBsB}lBQqnAj@cmAjH{pKnEkwG\\}mCwAyzB_KufD_SuyDeV{gEuOmpCu@{McZegF}ZiiGeEg{@eV}dGqDyhA_UcbH}Bmu@cN_qEeH{{BqIi{CiIcmBeKgoBiG{q@oJueB}L}yAuHiz@i]g_Eol@emH_s@mcIu[cvDgUgjC}OeaCiKswB_H}pCmAufCfI}eKpS}tQdHguHhEgwEf@ulAf@ohBmA_dBwFqnB}Io_CuSugCaMqqAsIww@{^{kCu^ykBa~@ebEib@okB}TkaAg[}bBoSgnAwa@u`DmRqtBeQmbCmKs|BsHemCyc@}fPyT{`IcXorJmTmtIeM{mEeg@auPy@iS{JgfEyAwvA]mcBfCamClD_uAfGgsAfFabA`JumArOohB~d@}jErbBwlOtGsm@ho@aoGjiAidKhsBeoRvRk}BrDqlBgAyhBoKugBaSkcCoaAatLmUiaDeNkjCiIm{CeA{~A^geBZsn@tCwtAj@wT`FgfAnLgbCnRgwBfYigCta@ehCxf@gfCb_A}tD|}@ujDdsA}|E~~Aw`GvfCugJppAu|E`w@chD`|@suEro@sbEnjBu}L|nAksIh]g{Cn_@osDjXq}Czj@gjI~bAo}Nl^_aE~WadCvZmcCbX{lBjUqvA`DkSdn@ylDx_@qmBbg@a}Bdu@y|Cl|C{cMj|Kmnd@rnCo}KxkAk_FdLsd@dmBs}Hnh@suBdGqW`dCa`Knd@qoBdgAamEjrAgjF|s@soCnq@ufCln@iyBjhB_nG~hEcmOr_@ytA`g@gjB`]urA~n@qfC~tAizFvh@_qBj]mtAhg@krB|aA{}Drq@odCtt@w|Bns@}mBxv@ykB~l@spAr~@eiB~cF{|J`dE{eIttF{uKt{FccLlmCyiFvmBkwDzjB{rD|s@saB`S_i@fPsg@lL_a@dHsWfN}m@jSeiA~Jqx@xHkw@hE}r@tBuz@pBa`BlAwsKnCalItAikKEuUTcsF?auA?auAjBmsC`DobAjEwgA`G_oAhLcfBdVmeCpe@muEze@clEfh@uzEbu@_gHh_@wvDrT{eDdJcrBxDc`Bd@gfA|CwcDvBifHdAedCjBi_Ct@kpFrHafM|@iwBn@}|AzAa~Fv@k`E@udBUgfAgBky@oBqs@oCyp@{D_y@qK_zAkL{pAi[ikCukA}kJge@ekD_O}~@i@cD_^yvBwK_n@gKoe@oYcsAco@}jC}U}iA}\\cdBgRkz@gi@}`C}e@csBgd@_nBg\\ypA{`@oyAyg@obByY_z@e[k{@we@}uAwZe{@yc@{qAyf@wtA_HiRq\\s~@}Z_{@of@ytA{]c_Awz@m}B}m@ccBi_BusEuZqr@i[un@c[qh@}]{f@yg@qn@oc@_c@qi@ad@kn@yc@up@i_@st@u]}RqH_f@_Rw~@sWo`@oHuo@kK_jAwKe~@eDer@Ogx@lBkn@dEaXxBe`AtHukBhNqr@bGok@|DajAzHuyAvLonAhJ{pQ`tA_uCdRkhA~Eo}AfDy`Bt@quBoA{i@{A_`AwBsvAiHccAqE_gAaFivB_KoiAuFw`AoFmgBgQoLwCgMaEmP_HsNkIeKsHmJaImJmJqHiJw~@qoAmAcBmRyUgTaU{c@io@o|@}hAc_BkxBwbAgrA}{@ilAgyA_pBuyFqcIg_BcdCqaBueCa`BwbC}tAgmBsZ}a@y_H{uJiQ_Vkr@m}@ml@uy@ga@ck@{OeZab@oh@}cBuoBcvBmuBsb@_`@c_BkrA_fBirA{wCm~ByuBkaBks@el@gdAqy@gaAuu@}dAcx@efA{y@k|CybCkfAa`Aiv@qt@yo@gs@e_@ae@uv@_cAq~AwuBag@aq@o{@qjAkcBk|BeVy[i`@kh@m]yd@}DeFad@uk@uDyEqb@yh@kf@ak@sJaL}kA{qAywBeaCaFsF}kAmqAao@ov@i~@ylAwWw_@s`@kk@wy@_kAun@o~@gt@mdA_n@yy@iIuKsd@uj@{e@}g@yi@_j@mg@{f@iaFg~Em`AeaA}`Ai`AuoFqlFycBubB}lAemAun@kr@ki@or@_n@a`Aeh@}`Ayl@ktAwHkSsq@{hBojAcaDuV{u@wO_f@me@epAg]_`A}Xav@iAcD_]o`Am\\c~@}CmIuUin@wb@oiAyP_e@em@iaBk^u_Aa_@m{@}x@{cBuDoH_wJcvQa[qp@qeBsfD{Wil@wbBo}C}]ig@ghB{gD}n@cbAi~@}bBim@}iA}Zop@_Xaq@wYcz@cU{x@yQ{y@aQu}@_La}@gJedAyKq}BsE{oAaFabBcMkfEub@eqN{n@{hTqFenBwN}tBoQixA_TqkAib@c~Am`@chA{Xuq@qFyL}\\yp@{h@w}@g]kg@{f@kn@g_@{l@cIkMqGuMgEwLeD_N}BcPyAkQ]eRT}Q|A{R~CiQfEiOpFqMzHwMtJkNrWqWbOyM~KkL|A_Cx@oA|EsHhTa]hQqf@vFcYxBk\\[y|@FeJPiXP{MH}F"
+    },
+    {
+     "maneuvers": [
+      {
+       "type": 2,
+       "instruction": "Lái về phía đông trên QL.18/Quốc lộ 18.",
+       "verbal_succinct_transition_instruction": "Lái về phía đông.",
+       "verbal_pre_transition_instruction": "Lái về phía đông trên QL.18, Quốc lộ 18.",
+       "verbal_post_transition_instruction": "Tiếp tục đi thêm 3 ki-lô-mét.",
+       "street_names": [
+        "QL.18",
+        "Quốc lộ 18"
+       ],
+       "bearing_after": 94,
+       "time": 191.622,
+       "length": 3.188,
+       "cost": 178.23,
+       "begin_shape_index": 0,
+       "end_shape_index": 42,
+       "toll": true,
+       "travel_mode": "drive",
+       "travel_type": "car"
+      },
+      {
+       "type": 26,
+       "instruction": "Đi vào vòng xuyến và rẽ ra tại lối rẽ thứ 2 vào QL.18/Quốc lộ 18.",
+       "verbal_transition_alert_instruction": "Đi vào vòng xuyến và rẽ ra tại lối rẽ thứ 2 vào QL.18.",
+       "verbal_succinct_transition_instruction": "Đi vào vòng xuyến và rẽ ra tại lối rẽ thứ 2.",
+       "verbal_pre_transition_instruction": "Đi vào vòng xuyến và rẽ ra tại lối rẽ thứ 2 vào QL.18, Quốc lộ 18.",
+       "bearing_before": 92,
+       "bearing_after": 102,
+       "time": 3.308,
+       "length": 0.039,
+       "cost": 8.386,
+       "begin_shape_index": 42,
+       "end_shape_index": 47,
+       "roundabout_exit_count": 2,
+       "travel_mode": "drive",
+       "travel_type": "car"
+      },
+      {
+       "type": 27,
+       "instruction": "Rẽ ra khỏi vòng xuyến vào QL.18/Quốc lộ 18.",
+       "verbal_succinct_transition_instruction": "Rẽ ra khỏi vòng xuyến.",
+       "verbal_pre_transition_instruction": "Rẽ ra khỏi vòng xuyến vào QL.18, Quốc lộ 18.",
+       "verbal_post_transition_instruction": "Tiếp tục đi thêm 2,5 ki-lô-mét.",
+       "street_names": [
+        "QL.18",
+        "Quốc lộ 18"
+       ],
+       "bearing_before": 33,
+       "bearing_after": 65,
+       "time": 143.711,
+       "length": 2.387,
+       "cost": 160.353,
+       "begin_shape_index": 47,
+       "end_shape_index": 90,
+       "travel_mode": "drive",
+       "travel_type": "car"
+      },
+      {
+       "type": 9,
+       "instruction": "Giữ bên phải vào QL.18/Đường gom QL.18. Tiếp tục đi trên QL.18.",
+       "verbal_transition_alert_instruction": "Giữ bên phải vào QL.18.",
+       "verbal_succinct_transition_instruction": "Giữ bên phải.",
+       "verbal_pre_transition_instruction": "Giữ bên phải vào QL.18, Đường gom QL.18.",
+       "verbal_post_transition_instruction": "Tiếp tục đi trên QL.18 2 ki-lô-mét nữa.",
+       "street_names": [
+        "QL.18"
+       ],
+       "begin_street_names": [
+        "QL.18",
+        "Đường gom QL.18"
+       ],
+       "bearing_before": 31,
+       "bearing_after": 60,
+       "time": 120.7,
+       "length": 2.108,
+       "cost": 143.953,
+       "begin_shape_index": 90,
+       "end_shape_index": 140,
+       "travel_mode": "drive",
+       "travel_type": "car"
+      },
+      {
+       "type": 15,
+       "instruction": "Rẽ trái vào QL.18/Ngã tư Ao Cá. Tiếp tục đi trên QL.18.",
+       "verbal_transition_alert_instruction": "Rẽ trái vào QL.18.",
+       "verbal_succinct_transition_instruction": "Rẽ trái.",
+       "verbal_pre_transition_instruction": "Rẽ trái vào QL.18, Ngã tư Ao Cá.",
+       "verbal_post_transition_instruction": "Tiếp tục đi trên QL.18 6 ki-lô-mét nữa.",
+       "street_names": [
+        "QL.18"
+       ],
+       "begin_street_names": [
+        "QL.18",
+        "Ngã tư Ao Cá"
+       ],
+       "bearing_before": 93,
+       "bearing_after": 28,
+       "time": 296.461,
+       "length": 6.438,
+       "cost": 341.863,
+       "begin_shape_index": 140,
+       "end_shape_index": 229,
+       "travel_mode": "drive",
+       "travel_type": "car"
+      },
+      {
+       "type": 12,
+       "instruction": "Rẽ phải hình chữ U vào Đường Đặng Bá Hát.",
+       "verbal_transition_alert_instruction": "Rẽ phải hình chữ U vào Đường Đặng Bá Hát.",
+       "verbal_succinct_transition_instruction": "Rẽ phải hình chữ U.",
+       "verbal_pre_transition_instruction": "Rẽ phải hình chữ U vào Đường Đặng Bá Hát.",
+       "verbal_post_transition_instruction": "Tiếp tục đi thêm 800 mét.",
+       "street_names": [
+        "Đường Đặng Bá Hát"
+       ],
+       "bearing_before": 111,
+       "bearing_after": 301,
+       "time": 55.097,
+       "length": 0.767,
+       "cost": 64.159,
+       "begin_shape_index": 229,
+       "end_shape_index": 278,
+       "travel_mode": "drive",
+       "travel_type": "car"
+      },
+      {
+       "type": 15,
+       "instruction": "Rẽ trái để tiếp tục đi trên Đường Đặng Bá Hát.",
+       "verbal_transition_alert_instruction": "Rẽ trái để tiếp tục đi trên Đường Đặng Bá Hát.",
+       "verbal_succinct_transition_instruction": "Rẽ trái.",
+       "verbal_pre_transition_instruction": "Rẽ trái để tiếp tục đi trên Đường Đặng Bá Hát.",
+       "verbal_post_transition_instruction": "Tiếp tục đi thêm 700 mét.",
+       "street_names": [
+        "Đường Đặng Bá Hát"
+       ],
+       "bearing_before": 144,
+       "bearing_after": 92,
+       "time": 49.137,
+       "length": 0.678,
+       "cost": 62.386,
+       "begin_shape_index": 278,
+       "end_shape_index": 318,
+       "travel_mode": "drive",
+       "travel_type": "car"
+      },
+      {
+       "type": 10,
+       "instruction": "Rẽ phải vào Ba Đèo.",
+       "verbal_transition_alert_instruction": "Rẽ phải vào Ba Đèo.",
+       "verbal_succinct_transition_instruction": "Rẽ phải.",
+       "verbal_pre_transition_instruction": "Rẽ phải vào Ba Đèo.",
+       "verbal_post_transition_instruction": "Tiếp tục đi thêm 200 mét.",
+       "street_names": [
+        "Ba Đèo"
+       ],
+       "bearing_before": 177,
+       "bearing_after": 262,
+       "time": 18.764,
+       "length": 0.195,
+       "cost": 31.74,
+       "begin_shape_index": 318,
+       "end_shape_index": 327,
+       "travel_mode": "drive",
+       "travel_type": "car"
+      },
+      {
+       "type": 15,
+       "instruction": "Rẽ trái vào Đường Lê Thánh Tông.",
+       "verbal_transition_alert_instruction": "Rẽ trái vào Đường Lê Thánh Tông.",
+       "verbal_succinct_transition_instruction": "Rẽ trái. Rồi Đi vào vòng xuyến và rẽ ra tại lối rẽ thứ 2 vào Đường Lê Thánh Tông.",
+       "verbal_pre_transition_instruction": "Rẽ trái vào Đường Lê Thánh Tông. Rồi Đi vào vòng xuyến và rẽ ra tại lối rẽ thứ 2 vào Đường Lê Thánh Tông.",
+       "verbal_post_transition_instruction": "Tiếp tục đi thêm 60 mét.",
+       "street_names": [
+        "Đường Lê Thánh Tông"
+       ],
+       "bearing_before": 210,
+       "bearing_after": 131,
+       "time": 5.722,
+       "length": 0.063,
+       "cost": 14.849,
+       "begin_shape_index": 327,
+       "end_shape_index": 329,
+       "verbal_multi_cue": true,
+       "travel_mode": "drive",
+       "travel_type": "car"
+      },
+      {
+       "type": 26,
+       "instruction": "Đi vào vòng xuyến và rẽ ra tại lối rẽ thứ 2 vào Đường Lê Thánh Tông.",
+       "verbal_transition_alert_instruction": "Đi vào vòng xuyến và rẽ ra tại lối rẽ thứ 2 vào Đường Lê Thánh Tông.",
+       "verbal_succinct_transition_instruction": "Đi vào vòng xuyến và rẽ ra tại lối rẽ thứ 2.",
+       "verbal_pre_transition_instruction": "Đi vào vòng xuyến và rẽ ra tại lối rẽ thứ 2 vào Đường Lê Thánh Tông.",
+       "bearing_before": 128,
+       "bearing_after": 162,
+       "time": 5.856,
+       "length": 0.039,
+       "cost": 12.565,
+       "begin_shape_index": 329,
+       "end_shape_index": 340,
+       "roundabout_exit_count": 2,
+       "travel_mode": "drive",
+       "travel_type": "car"
+      },
+      {
+       "type": 27,
+       "instruction": "Rẽ ra khỏi vòng xuyến vào Đường Lê Thánh Tông.",
+       "verbal_succinct_transition_instruction": "Rẽ ra khỏi vòng xuyến.",
+       "verbal_pre_transition_instruction": "Rẽ ra khỏi vòng xuyến vào Đường Lê Thánh Tông.",
+       "verbal_post_transition_instruction": "Tiếp tục đi thêm 600 mét.",
+       "street_names": [
+        "Đường Lê Thánh Tông"
+       ],
+       "bearing_before": 80,
+       "bearing_after": 136,
+       "time": 44.42,
+       "length": 0.597,
+       "cost": 74.756,
+       "begin_shape_index": 340,
+       "end_shape_index": 353,
+       "travel_mode": "drive",
+       "travel_type": "car"
+      },
+      {
+       "type": 15,
+       "instruction": "Rẽ trái vào Thương Mại.",
+       "verbal_transition_alert_instruction": "Rẽ trái vào Thương Mại.",
+       "verbal_succinct_transition_instruction": "Rẽ trái. Rồi, trong 90 mét nữa, Bạn sẽ tới nơi.",
+       "verbal_pre_transition_instruction": "Rẽ trái vào Thương Mại. Rồi, trong 90 mét nữa, Bạn sẽ tới nơi.",
+       "verbal_post_transition_instruction": "Tiếp tục đi thêm 90 mét.",
+       "street_names": [
+        "Thương Mại"
+       ],
+       "bearing_before": 81,
+       "bearing_after": 346,
+       "time": 11.271,
+       "length": 0.084,
+       "cost": 19.778,
+       "begin_shape_index": 353,
+       "end_shape_index": 355,
+       "verbal_multi_cue": true,
+       "travel_mode": "drive",
+       "travel_type": "car"
+      },
+      {
+       "type": 4,
+       "instruction": "Bạn đã tới nơi.",
+       "verbal_transition_alert_instruction": "Bạn sẽ tới nơi.",
+       "verbal_pre_transition_instruction": "Bạn đã tới nơi.",
+       "bearing_before": 350,
+       "time": 0,
+       "length": 0,
+       "cost": 0,
+       "begin_shape_index": 355,
+       "end_shape_index": 355,
+       "travel_mode": "drive",
+       "travel_type": "car"
+      }
+     ],
+     "summary": {
+      "has_time_restrictions": false,
+      "has_toll": true,
+      "has_highway": false,
+      "has_ferry": false,
+      "min_lat": 20.950084,
+      "min_lon": 106.95138,
+      "max_lat": 20.97615,
+      "max_lon": 107.078607,
+      "time": 946.075,
+      "length": 16.586,
+      "cost": 1113.024
+     },
+     "shape": "c|c~f@glx~jEHkH|@wMtJcy@tx@yzF|CsT|QsoAhFif@~@qg@qCoe@yIws@mAyJUgByBeQkEs]sD{g@]i`@|Bii@fIym@x{@ezErRseAdF}XrCuN~A}HtHkh@|A}Q~AkXVcXy@s[uI_lAiAsOYeFa@iHcF_|@cBiZoBc`A}B{eB~Boh@dD}Z`H{y@b@_q@BiBPsN^eDGoCm@iCmAuBqBmAaDwJgIiYiCyKsSmg@wWob@sfAylA{s@i{@_GcHcEcGyd@yp@}Yid@eMmUq@oAaJ{PsPgWwKuQeJmOiSs[eBuA_l@me@iu@ag@ebAc`@iLuC{JeCwMoDgfAqYqj@yOc]cRo]{]sUec@iH{OyVmj@mAmCsNgVmHiGaM}Fm]wJ_b@mFoUsCeL{BqJgCkGaCmK{FiJySgEoJ{K_WiCcPcFiaAkGwZoC_N{A}Pg@_CsAmYk@}LmIcbBsBca@UgEoEow@kBec@aAmTg@uL]gHgEq~@KsEcB_v@dAikADkEvGg`AlEe]p@iFvAyKlHmg@|@uInEsc@Vqg@eAsYaCuWmMgh@aEyOi@yB_JmZsCqJkE_MGQsEeMcKmZcIgQm@uAkGaNj@qAP}AG_Ba@wA_@k@e@g@uAq@}DyKgDcJmJ{ZknAknDyDyKqDiKgJ}WiLw\\}D}K{GoRuHoTsXcs@wFyTcAqCs@uDeAsSw@uO~Bab@dOss@b@sBzAsGxCcN`Lgh@vOq^nMqQ`]gZlJ_Htz@mn@n^q`@xWg_@de@yp@th@iv@tFoIzCiFjFyIdGqKh@_A|IyRhGgUlCuW\\mFCaKc@o\\_Fgj@gCe_@@aBg@uUV_XVuIn@uNLqC\\wIzBsb@v@kv@ui@u`LWoIaAym@Pid@l@mXlEaf@lE__@lByK|BgMlKeb@|Twl@vXki@jW{]tZg\\jv@ir@lf@ig@|EaH|Wa`@lv@qiA|RkX|b@qn@jhAmcBj`@ou@rNqZ~a@yaAjOsb@vNce@nNyg@~Loa@``EcuNxGkVnJm_@~EoJfBaBtC[fD~@`CtAjAtFtBdIdD`EnCbC`ElBzBnCxApFf@nGMfCu@xBsAlCmBvCqC~B{BtAwDfAaFf@qRi@yDh@yDtB}B`CuB`E{B`H{@vEe@xFEjFhBpE`F~DbIzB`IjAjCOtF{DzRmLb^cSrJs@jLb@dIZrGy@nD_BxB_B|JoRzF{ErIcCnD}B|CgC^mEQeE}D{Mm@wF~@eEbBmAvBq@zCi@zUy@tEiBtE_F~R_f@VeCSaIgCqReCaIiFiKKsBEoBRgBfBoC`IeF|GqFdF{DrD_AxEy@bBcBbBkB~AmGj@}KzBgNpCmFz@cB~CeEfC_BjHuC|X_DvFO|FQtGMv@hFQ|P}Fl^HbCFdBzAfDxBrBpOxG|OpInNyQfF_Ix@X~@F|@Kv@]l@m@^y@NaAAcAS_Ac@u@q@i@tBuCpD{CtOuMdGcGdV}UjLq[tDqPxAwKvN_v@pCye@_AmtAa@eOgA{Mmd@tHoGr@"
+    }
+   ],
+   "summary": {
+    "has_time_restrictions": true,
+    "has_toll": true,
+    "has_highway": true,
+    "has_ferry": false,
+    "min_lat": 20.765152,
+    "min_lon": 105.854164,
+    "max_lat": 21.039704,
+    "max_lon": 107.078607,
+    "time": 5666.497,
+    "length": 156.659,
+    "cost": 6170.699
+   },
+   "status_message": "Found route between points",
+   "status": 0,
+   "units": "kilometers",
+   "language": "vi-VN"
+  }
+ }
+}

@@ -1,0 +1,85 @@
+{
+ "label": "reverse-geocoding",
+ "key": "GET https://tasco-maps.dnpwater.vn/geocode/v1/reverse?point.lat=20.950195208723013&point.lon=107.07598957271328&size=1 ",
+ "cachedAt": "2026-07-10T10:52:32.266Z",
+ "response": {
+  "geocoding": {
+   "version": "0.2",
+   "attribution": "http://tasco-maps.dnpwater.vn/attribution",
+   "query": {
+    "size": 1,
+    "private": false,
+    "point.lat": 20.950195208723013,
+    "point.lon": 107.07598957271328,
+    "boundary.circle.lat": 20.950195208723013,
+    "boundary.circle.lon": 107.07598957271328,
+    "lang": {
+     "name": "English",
+     "iso6391": "en",
+     "iso6393": "eng",
+     "via": "default",
+     "defaulted": true
+    },
+    "querySize": 2
+   },
+   "warnings": [
+    "invalid language provided via header"
+   ],
+   "engine": {
+    "name": "Pelias",
+    "author": "Mapzen",
+    "version": "1.0"
+   },
+   "timestamp": 1783680752317
+  },
+  "type": "FeatureCollection",
+  "features": [
+   {
+    "type": "Feature",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      107.075786,
+      20.950647
+     ]
+    },
+    "properties": {
+     "id": "node/5229974522",
+     "gid": "openstreetmap:address:node/5229974522",
+     "layer": "address",
+     "source": "openstreetmap",
+     "source_id": "node/5229974522",
+     "country_code": "VN",
+     "name": "12 Văn Lang",
+     "housenumber": "12",
+     "street": "Văn Lang",
+     "confidence": 0.8,
+     "distance": 0.055,
+     "accuracy": "point",
+     "country": "Vietnam",
+     "country_gid": "whosonfirst:country:85632763",
+     "country_a": "VNM",
+     "region": "Quang Ninh",
+     "region_gid": "whosonfirst:region:85680583",
+     "region_a": "QN",
+     "county": "Ha Long",
+     "county_gid": "whosonfirst:county:1108781111",
+     "label": "12 Văn Lang, QN, Vietnam",
+     "addendum": {
+      "osm": {
+       "website": "https://rock-house-pizza.business.site/",
+       "phone": "+84 127 668 8844",
+       "opening_hours": "Tu-Su 07:30-22:30"
+      }
+     }
+    }
+   }
+  ],
+  "bbox": [
+   107.075786,
+   20.950647,
+   107.075786,
+   20.950647
+  ]
+ }
+}

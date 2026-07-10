@@ -1,0 +1,74 @@
+{
+ "label": "reverse-geocoding",
+ "key": "GET https://tasco-maps.dnpwater.vn/geocode/v1/reverse?point.lat=20.952499846128482&point.lon=106.90470193292693&size=1 ",
+ "cachedAt": "2026-07-10T10:52:30.231Z",
+ "response": {
+  "geocoding": {
+   "version": "0.2",
+   "attribution": "http://tasco-maps.dnpwater.vn/attribution",
+   "query": {
+    "size": 1,
+    "private": false,
+    "point.lat": 20.952499846128482,
+    "point.lon": 106.90470193292693,
+    "boundary.circle.lat": 20.952499846128482,
+    "boundary.circle.lon": 106.90470193292693,
+    "lang": {
+     "name": "English",
+     "iso6391": "en",
+     "iso6393": "eng",
+     "via": "default",
+     "defaulted": true
+    },
+    "querySize": 2
+   },
+   "warnings": [
+    "invalid language provided via header"
+   ],
+   "engine": {
+    "name": "Pelias",
+    "author": "Mapzen",
+    "version": "1.0"
+   },
+   "timestamp": 1783680750282
+  },
+  "type": "FeatureCollection",
+  "features": [
+   {
+    "type": "Feature",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      106.902478,
+      20.952294
+     ]
+    },
+    "properties": {
+     "id": "polyline:193666",
+     "gid": "openstreetmap:street:polyline:193666",
+     "layer": "street",
+     "source": "openstreetmap",
+     "source_id": "polyline:193666",
+     "name": "Đường cao tốc Hải Phòng - Móng Cái",
+     "street": "Đường cao tốc Hải Phòng - Móng Cái",
+     "confidence": 0.7,
+     "distance": 0.232,
+     "accuracy": "centroid",
+     "label": "Đường cao tốc Hải Phòng - Móng Cái"
+    },
+    "bbox": [
+     106.886822,
+     20.944907,
+     106.906594,
+     20.952794
+    ]
+   }
+  ],
+  "bbox": [
+   106.886822,
+   20.944907,
+   106.906594,
+   20.952794
+  ]
+ }
+}

@@ -1,0 +1,82 @@
+{
+ "label": "reverse-geocoding",
+ "key": "GET https://tasco-maps.dnpwater.vn/geocode/v1/reverse?point.lat=20.797814959827974&point.lon=106.53984123728301&size=1 ",
+ "cachedAt": "2026-07-10T10:52:25.928Z",
+ "response": {
+  "geocoding": {
+   "version": "0.2",
+   "attribution": "http://tasco-maps.dnpwater.vn/attribution",
+   "query": {
+    "size": 1,
+    "private": false,
+    "point.lat": 20.797814959827974,
+    "point.lon": 106.53984123728301,
+    "boundary.circle.lat": 20.797814959827974,
+    "boundary.circle.lon": 106.53984123728301,
+    "lang": {
+     "name": "English",
+     "iso6391": "en",
+     "iso6393": "eng",
+     "via": "default",
+     "defaulted": true
+    },
+    "querySize": 2
+   },
+   "warnings": [
+    "invalid language provided via header"
+   ],
+   "engine": {
+    "name": "Pelias",
+    "author": "Mapzen",
+    "version": "1.0"
+   },
+   "timestamp": 1783680745978
+  },
+  "type": "FeatureCollection",
+  "features": [
+   {
+    "type": "Feature",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      106.55889,
+      20.806719
+     ]
+    },
+    "properties": {
+     "id": "1108781281",
+     "gid": "whosonfirst:county:1108781281",
+     "layer": "county",
+     "source": "whosonfirst",
+     "source_id": "1108781281",
+     "country_code": "VN",
+     "name": "An Lao",
+     "confidence": 0.5,
+     "distance": 2.216,
+     "accuracy": "centroid",
+     "country": "Vietnam",
+     "country_gid": "whosonfirst:country:85632763",
+     "country_a": "VNM",
+     "region": "Hai Phong",
+     "region_gid": "whosonfirst:region:85680645",
+     "region_a": "HP",
+     "county": "An Lao",
+     "county_gid": "whosonfirst:county:1108781281",
+     "label": "An Lao, HP, Vietnam"
+    },
+    "bbox": [
+     106.475275,
+     20.730787,
+     106.63551,
+     20.870149
+    ]
+   }
+  ],
+  "bbox": [
+   106.475275,
+   20.730787,
+   106.63551,
+   20.870149
+  ]
+ }
+}

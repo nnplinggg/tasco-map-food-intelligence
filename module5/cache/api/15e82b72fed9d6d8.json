@@ -1,0 +1,73 @@
+{
+ "label": "reverse-geocoding",
+ "key": "GET https://tasco-maps.dnpwater.vn/geocode/v1/reverse?point.lat=20.910285571601154&point.lon=106.83454650669962&size=1 ",
+ "cachedAt": "2026-07-10T10:50:37.701Z",
+ "response": {
+  "geocoding": {
+   "version": "0.2",
+   "attribution": "http://tasco-maps.dnpwater.vn/attribution",
+   "query": {
+    "size": 1,
+    "private": false,
+    "point.lat": 20.910285571601154,
+    "point.lon": 106.83454650669962,
+    "boundary.circle.lat": 20.910285571601154,
+    "boundary.circle.lon": 106.83454650669962,
+    "lang": {
+     "name": "English",
+     "iso6391": "en",
+     "iso6393": "eng",
+     "via": "default",
+     "defaulted": true
+    },
+    "querySize": 2
+   },
+   "warnings": [
+    "invalid language provided via header"
+   ],
+   "engine": {
+    "name": "Pelias",
+    "author": "Mapzen",
+    "version": "1.0"
+   },
+   "timestamp": 1783680637753
+  },
+  "type": "FeatureCollection",
+  "features": [
+   {
+    "type": "Feature",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      106.834391,
+      20.910251
+     ]
+    },
+    "properties": {
+     "id": "way/1358288199",
+     "gid": "openstreetmap:venue:way/1358288199",
+     "layer": "venue",
+     "source": "openstreetmap",
+     "source_id": "way/1358288199",
+     "name": "Cầu Sông Chanh",
+     "confidence": 0.8,
+     "distance": 0.017,
+     "accuracy": "point",
+     "label": "Cầu Sông Chanh"
+    },
+    "bbox": [
+     106.8308183,
+     20.9068024,
+     106.8393753,
+     20.9152527
+    ]
+   }
+  ],
+  "bbox": [
+   106.8308183,
+   20.9068024,
+   106.8393753,
+   20.9152527
+  ]
+ }
+}

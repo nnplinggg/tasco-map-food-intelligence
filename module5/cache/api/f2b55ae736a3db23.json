@@ -1,0 +1,82 @@
+{
+ "label": "reverse-geocoding",
+ "key": "GET https://tasco-maps.dnpwater.vn/geocode/v1/reverse?point.lat=20.96825256047801&point.lon=106.95891406631166&size=1 ",
+ "cachedAt": "2026-07-10T10:50:37.893Z",
+ "response": {
+  "geocoding": {
+   "version": "0.2",
+   "attribution": "http://tasco-maps.dnpwater.vn/attribution",
+   "query": {
+    "size": 1,
+    "private": false,
+    "point.lat": 20.96825256047801,
+    "point.lon": 106.95891406631166,
+    "boundary.circle.lat": 20.96825256047801,
+    "boundary.circle.lon": 106.95891406631166,
+    "lang": {
+     "name": "English",
+     "iso6391": "en",
+     "iso6393": "eng",
+     "via": "default",
+     "defaulted": true
+    },
+    "querySize": 2
+   },
+   "warnings": [
+    "invalid language provided via header"
+   ],
+   "engine": {
+    "name": "Pelias",
+    "author": "Mapzen",
+    "version": "1.0"
+   },
+   "timestamp": 1783680637943
+  },
+  "type": "FeatureCollection",
+  "features": [
+   {
+    "type": "Feature",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      107.065661,
+      20.954253
+     ]
+    },
+    "properties": {
+     "id": "1108781111",
+     "gid": "whosonfirst:county:1108781111",
+     "layer": "county",
+     "source": "whosonfirst",
+     "source_id": "1108781111",
+     "country_code": "VN",
+     "name": "Ha Long",
+     "confidence": 0.5,
+     "distance": 11.206,
+     "accuracy": "centroid",
+     "country": "Vietnam",
+     "country_gid": "whosonfirst:country:85632763",
+     "country_a": "VNM",
+     "region": "Quang Ninh",
+     "region_gid": "whosonfirst:region:85680583",
+     "region_a": "QN",
+     "county": "Ha Long",
+     "county_gid": "whosonfirst:county:1108781111",
+     "label": "Ha Long, QN, Vietnam"
+    },
+    "bbox": [
+     106.883564,
+     20.737083,
+     107.300415,
+     21.032059
+    ]
+   }
+  ],
+  "bbox": [
+   106.883564,
+   20.737083,
+   107.300415,
+   21.032059
+  ]
+ }
+}

@@ -1,0 +1,82 @@
+{
+ "label": "reverse-geocoding",
+ "key": "GET https://tasco-maps.dnpwater.vn/geocode/v1/reverse?point.lat=20.982361802228805&point.lon=105.9445252389102&size=1 ",
+ "cachedAt": "2026-07-10T10:52:19.806Z",
+ "response": {
+  "geocoding": {
+   "version": "0.2",
+   "attribution": "http://tasco-maps.dnpwater.vn/attribution",
+   "query": {
+    "size": 1,
+    "private": false,
+    "point.lat": 20.982361802228805,
+    "point.lon": 105.9445252389102,
+    "boundary.circle.lat": 20.982361802228805,
+    "boundary.circle.lon": 105.9445252389102,
+    "lang": {
+     "name": "English",
+     "iso6391": "en",
+     "iso6393": "eng",
+     "via": "default",
+     "defaulted": true
+    },
+    "querySize": 2
+   },
+   "warnings": [
+    "invalid language provided via header"
+   ],
+   "engine": {
+    "name": "Pelias",
+    "author": "Mapzen",
+    "version": "1.0"
+   },
+   "timestamp": 1783680739854
+  },
+  "type": "FeatureCollection",
+  "features": [
+   {
+    "type": "Feature",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      105.944132,
+      20.980736
+     ]
+    },
+    "properties": {
+     "id": "way/1425907444",
+     "gid": "openstreetmap:venue:way/1425907444",
+     "layer": "venue",
+     "source": "openstreetmap",
+     "source_id": "way/1425907444",
+     "country_code": "VN",
+     "name": "Lăng mộ Lê Trần Cẩn",
+     "confidence": 0.7,
+     "distance": 0.186,
+     "accuracy": "point",
+     "country": "Vietnam",
+     "country_gid": "whosonfirst:country:85632763",
+     "country_a": "VNM",
+     "region": "Ha Noi",
+     "region_gid": "whosonfirst:region:85680653",
+     "region_a": "HI",
+     "county": "Gia Lam",
+     "county_gid": "whosonfirst:county:1108780809",
+     "label": "Lăng mộ Lê Trần Cẩn, HI, Vietnam"
+    },
+    "bbox": [
+     105.94403,
+     20.9805542,
+     105.9443271,
+     20.9808477
+    ]
+   }
+  ],
+  "bbox": [
+   105.94403,
+   20.9805542,
+   105.9443271,
+   20.9808477
+  ]
+ }
+}

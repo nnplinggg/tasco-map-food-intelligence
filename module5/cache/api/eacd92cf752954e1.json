@@ -1,0 +1,82 @@
+{
+ "label": "reverse-geocoding",
+ "key": "GET https://tasco-maps.dnpwater.vn/geocode/v1/reverse?point.lat=20.963258114198727&point.lon=105.95525648284391&size=1 ",
+ "cachedAt": "2026-07-10T10:52:20.032Z",
+ "response": {
+  "geocoding": {
+   "version": "0.2",
+   "attribution": "http://tasco-maps.dnpwater.vn/attribution",
+   "query": {
+    "size": 1,
+    "private": false,
+    "point.lat": 20.963258114198727,
+    "point.lon": 105.95525648284391,
+    "boundary.circle.lat": 20.963258114198727,
+    "boundary.circle.lon": 105.95525648284391,
+    "lang": {
+     "name": "English",
+     "iso6391": "en",
+     "iso6393": "eng",
+     "via": "default",
+     "defaulted": true
+    },
+    "querySize": 2
+   },
+   "warnings": [
+    "invalid language provided via header"
+   ],
+   "engine": {
+    "name": "Pelias",
+    "author": "Mapzen",
+    "version": "1.0"
+   },
+   "timestamp": 1783680740081
+  },
+  "type": "FeatureCollection",
+  "features": [
+   {
+    "type": "Feature",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      105.955102,
+      20.963832
+     ]
+    },
+    "properties": {
+     "id": "way/1435815737",
+     "gid": "openstreetmap:venue:way/1435815737",
+     "layer": "venue",
+     "source": "openstreetmap",
+     "source_id": "way/1435815737",
+     "country_code": "VN",
+     "name": "Cầu Cửu Cao",
+     "confidence": 0.8,
+     "distance": 0.066,
+     "accuracy": "point",
+     "country": "Vietnam",
+     "country_gid": "whosonfirst:country:85632763",
+     "country_a": "VNM",
+     "region": "Hung Yen",
+     "region_gid": "whosonfirst:region:85680649",
+     "region_a": "HY",
+     "county": "Van Giang",
+     "county_gid": "whosonfirst:county:1108781297",
+     "label": "Cầu Cửu Cao, HY, Vietnam"
+    },
+    "bbox": [
+     105.95456,
+     20.9627631,
+     105.9556455,
+     20.9648974
+    ]
+   }
+  ],
+  "bbox": [
+   105.95456,
+   20.9627631,
+   105.9556455,
+   20.9648974
+  ]
+ }
+}

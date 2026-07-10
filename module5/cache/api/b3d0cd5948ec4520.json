@@ -1,0 +1,833 @@
+{
+ "label": "nearby-search",
+ "key": "GET https://tasco-maps.dnpwater.vn/geocode/v1/nearby?point.lat=20.978240884280265&point.lon=107.02097778107894&boundary.circle.radius=6&size=20&categories=food ",
+ "cachedAt": "2026-07-10T10:46:24.501Z",
+ "response": {
+  "geocoding": {
+   "version": "0.2",
+   "attribution": "http://tasco-maps.dnpwater.vn/attribution",
+   "query": {
+    "size": 20,
+    "private": false,
+    "point.lat": 20.978240884280265,
+    "point.lon": 107.02097778107894,
+    "boundary.circle.radius": 5,
+    "boundary.circle.lat": 20.978240884280265,
+    "boundary.circle.lon": 107.02097778107894,
+    "categories": [
+     "food"
+    ],
+    "lang": {
+     "name": "English",
+     "iso6391": "en",
+     "iso6393": "eng",
+     "via": "default",
+     "defaulted": true
+    },
+    "querySize": 40
+   },
+   "warnings": [
+    "invalid language provided via header"
+   ],
+   "engine": {
+    "name": "Pelias",
+    "author": "Mapzen",
+    "version": "1.0"
+   },
+   "timestamp": 1783680384552
+  },
+  "type": "FeatureCollection",
+  "features": [
+   {
+    "type": "Feature",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      107.020426,
+      20.979008
+     ]
+    },
+    "properties": {
+     "id": "node/4890935584",
+     "gid": "openstreetmap:venue:node/4890935584",
+     "layer": "venue",
+     "source": "openstreetmap",
+     "source_id": "node/4890935584",
+     "country_code": "VN",
+     "name": "Quán ăn vặt Ba Sói",
+     "confidence": 0.7,
+     "distance": 0.103,
+     "accuracy": "point",
+     "country": "Vietnam",
+     "country_gid": "whosonfirst:country:85632763",
+     "country_a": "VNM",
+     "region": "Quang Ninh",
+     "region_gid": "whosonfirst:region:85680583",
+     "region_a": "QN",
+     "county": "Ha Long",
+     "county_gid": "whosonfirst:county:1108781111",
+     "label": "Quán ăn vặt Ba Sói, QN, Vietnam",
+     "category": [
+      "food",
+      "retail",
+      "nightlife"
+     ],
+     "addendum": {
+      "osm": {
+       "phone": "0904461211",
+       "opening_hours": "24/7"
+      }
+     }
+    }
+   },
+   {
+    "type": "Feature",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      107.012556,
+      20.973145
+     ]
+    },
+    "properties": {
+     "id": "node/13017062701",
+     "gid": "openstreetmap:venue:node/13017062701",
+     "layer": "venue",
+     "source": "openstreetmap",
+     "source_id": "node/13017062701",
+     "country_code": "VN",
+     "name": "An Phát",
+     "confidence": 0.5,
+     "distance": 1.043,
+     "accuracy": "point",
+     "country": "Vietnam",
+     "country_gid": "whosonfirst:country:85632763",
+     "country_a": "VNM",
+     "region": "Quang Ninh",
+     "region_gid": "whosonfirst:region:85680583",
+     "region_a": "QN",
+     "county": "Ha Long",
+     "county_gid": "whosonfirst:county:1108781111",
+     "label": "An Phát, QN, Vietnam",
+     "category": [
+      "food",
+      "retail",
+      "nightlife"
+     ]
+    }
+   },
+   {
+    "type": "Feature",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      107.021773,
+      20.959405
+     ]
+    },
+    "properties": {
+     "id": "node/6262940687",
+     "gid": "openstreetmap:venue:node/6262940687",
+     "layer": "venue",
+     "source": "openstreetmap",
+     "source_id": "node/6262940687",
+     "name": "Dung Anh bakery",
+     "housenumber": "694",
+     "street": "Hạ Long",
+     "confidence": 0.5,
+     "distance": 2.098,
+     "accuracy": "point",
+     "label": "Dung Anh bakery",
+     "category": [
+      "retail",
+      "food"
+     ],
+     "addendum": {
+      "osm": {
+       "website": "https://www.dunganhbakery.com/",
+       "phone": "0981911462"
+      }
+     }
+    }
+   },
+   {
+    "type": "Feature",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      107.018766,
+      20.959418
+     ]
+    },
+    "properties": {
+     "id": "node/995293185",
+     "gid": "openstreetmap:venue:node/995293185",
+     "layer": "venue",
+     "source": "openstreetmap",
+     "source_id": "node/995293185",
+     "name": "Cua Vàng",
+     "confidence": 0.5,
+     "distance": 2.108,
+     "accuracy": "point",
+     "label": "Cua Vàng",
+     "category": [
+      "food",
+      "retail",
+      "nightlife"
+     ]
+    }
+   },
+   {
+    "type": "Feature",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      106.99818,
+      20.980494
+     ]
+    },
+    "properties": {
+     "id": "way/676796150",
+     "gid": "openstreetmap:venue:way/676796150",
+     "layer": "venue",
+     "source": "openstreetmap",
+     "source_id": "way/676796150",
+     "country_code": "VN",
+     "name": "Chợ Hà Khẩu",
+     "confidence": 0.5,
+     "distance": 2.383,
+     "accuracy": "point",
+     "country": "Vietnam",
+     "country_gid": "whosonfirst:country:85632763",
+     "country_a": "VNM",
+     "region": "Quang Ninh",
+     "region_gid": "whosonfirst:region:85680583",
+     "region_a": "QN",
+     "county": "Ha Long",
+     "county_gid": "whosonfirst:county:1108781111",
+     "label": "Chợ Hà Khẩu, QN, Vietnam",
+     "category": [
+      "food",
+      "retail"
+     ]
+    },
+    "bbox": [
+     106.9976521,
+     20.9801298,
+     106.9986927,
+     20.9807033
+    ]
+   },
+   {
+    "type": "Feature",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      107.022653,
+      20.955726
+     ]
+    },
+    "properties": {
+     "id": "way/674641659",
+     "gid": "openstreetmap:venue:way/674641659",
+     "layer": "venue",
+     "source": "openstreetmap",
+     "source_id": "way/674641659",
+     "country_code": "VN",
+     "name": "Chợ Cái Dăm",
+     "confidence": 0.5,
+     "distance": 2.512,
+     "accuracy": "point",
+     "country": "Vietnam",
+     "country_gid": "whosonfirst:country:85632763",
+     "country_a": "VNM",
+     "region": "Quang Ninh",
+     "region_gid": "whosonfirst:region:85680583",
+     "region_a": "QN",
+     "county": "Ha Long",
+     "county_gid": "whosonfirst:county:1108781111",
+     "label": "Chợ Cái Dăm, QN, Vietnam",
+     "category": [
+      "food",
+      "retail"
+     ],
+     "addendum": {
+      "osm": {
+       "wheelchair": "yes",
+       "opening_hours": "Mo-Sa 08:00-16:00"
+      }
+     }
+    },
+    "bbox": [
+     107.0223035,
+     20.9553193,
+     107.0230017,
+     20.9561326
+    ]
+   },
+   {
+    "type": "Feature",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      107.02017,
+      20.955012
+     ]
+    },
+    "properties": {
+     "id": "way/1117849457",
+     "gid": "openstreetmap:venue:way/1117849457",
+     "layer": "venue",
+     "source": "openstreetmap",
+     "source_id": "way/1117849457",
+     "country_code": "VN",
+     "name": "Restaurant_NhaHangMAGNOLIA Stories 1",
+     "confidence": 0.5,
+     "distance": 2.587,
+     "accuracy": "point",
+     "country": "Vietnam",
+     "country_gid": "whosonfirst:country:85632763",
+     "country_a": "VNM",
+     "region": "Quang Ninh",
+     "region_gid": "whosonfirst:region:85680583",
+     "region_a": "QN",
+     "county": "Ha Long",
+     "county_gid": "whosonfirst:county:1108781111",
+     "label": "Restaurant_NhaHangMAGNOLIA Stories 1, QN, Vietnam",
+     "category": [
+      "food",
+      "retail",
+      "nightlife"
+     ]
+    },
+    "bbox": [
+     107.01988,
+     20.9547553,
+     107.0204595,
+     20.9552685
+    ]
+   },
+   {
+    "type": "Feature",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      107.024291,
+      20.954155
+     ]
+    },
+    "properties": {
+     "id": "node/6361848885",
+     "gid": "openstreetmap:venue:node/6361848885",
+     "layer": "venue",
+     "source": "openstreetmap",
+     "source_id": "node/6361848885",
+     "country_code": "VN",
+     "name": "Nhà hàng Thủy Chung",
+     "confidence": 0.5,
+     "distance": 2.703,
+     "accuracy": "point",
+     "country": "Vietnam",
+     "country_gid": "whosonfirst:country:85632763",
+     "country_a": "VNM",
+     "region": "Quang Ninh",
+     "region_gid": "whosonfirst:region:85680583",
+     "region_a": "QN",
+     "county": "Ha Long",
+     "county_gid": "whosonfirst:county:1108781111",
+     "label": "Nhà hàng Thủy Chung, QN, Vietnam",
+     "category": [
+      "food",
+      "retail"
+     ],
+     "addendum": {
+      "osm": {
+       "wheelchair": "yes"
+      }
+     }
+    }
+   },
+   {
+    "type": "Feature",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      107.023693,
+      20.954061
+     ]
+    },
+    "properties": {
+     "id": "node/5229975822",
+     "gid": "openstreetmap:venue:node/5229975822",
+     "layer": "venue",
+     "source": "openstreetmap",
+     "source_id": "node/5229975822",
+     "country_code": "VN",
+     "name": "14 Pizza Halong",
+     "housenumber": "17",
+     "street": "Lê Văn Lương",
+     "confidence": 0.5,
+     "distance": 2.706,
+     "accuracy": "point",
+     "country": "Vietnam",
+     "country_gid": "whosonfirst:country:85632763",
+     "country_a": "VNM",
+     "region": "Quang Ninh",
+     "region_gid": "whosonfirst:region:85680583",
+     "region_a": "QN",
+     "county": "Ha Long",
+     "county_gid": "whosonfirst:county:1108781111",
+     "label": "14 Pizza Halong, QN, Vietnam",
+     "category": [
+      "food",
+      "retail",
+      "nightlife"
+     ],
+     "addendum": {
+      "osm": {
+       "phone": "+84 97 343 41 14",
+       "opening_hours": "We-Mo 10:00-22:00"
+      }
+     }
+    }
+   },
+   {
+    "type": "Feature",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      107.025663,
+      20.952853
+     ]
+    },
+    "properties": {
+     "id": "node/13611818401",
+     "gid": "openstreetmap:venue:node/13611818401",
+     "layer": "venue",
+     "source": "openstreetmap",
+     "source_id": "node/13611818401",
+     "country_code": "VN",
+     "name": "Orchid Coffee",
+     "confidence": 0.5,
+     "distance": 2.868,
+     "accuracy": "point",
+     "country": "Vietnam",
+     "country_gid": "whosonfirst:country:85632763",
+     "country_a": "VNM",
+     "region": "Quang Ninh",
+     "region_gid": "whosonfirst:region:85680583",
+     "region_a": "QN",
+     "county": "Ha Long",
+     "county_gid": "whosonfirst:county:1108781111",
+     "label": "Orchid Coffee, QN, Vietnam",
+     "category": [
+      "food",
+      "retail"
+     ],
+     "addendum": {
+      "osm": {
+       "phone": "0782 223 223",
+       "opening_hours": "Mo-Su 07:30-22:30"
+      }
+     }
+    }
+   },
+   {
+    "type": "Feature",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      107.004185,
+      20.955972
+     ]
+    },
+    "properties": {
+     "id": "node/5761407821",
+     "gid": "openstreetmap:venue:node/5761407821",
+     "layer": "venue",
+     "source": "openstreetmap",
+     "source_id": "node/5761407821",
+     "name": "Quán Cà Phê Eleven Coffee",
+     "housenumber": "HO1-2",
+     "postalcode": "200000",
+     "confidence": 0.5,
+     "distance": 3.032,
+     "accuracy": "point",
+     "label": "Quán Cà Phê Eleven Coffee",
+     "category": [
+      "food",
+      "retail"
+     ],
+     "addendum": {
+      "osm": {
+       "phone": "0914954747",
+       "opening_hours": "24/7"
+      }
+     }
+    }
+   },
+   {
+    "type": "Feature",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      106.997251,
+      20.959352
+     ]
+    },
+    "properties": {
+     "id": "node/12998531401",
+     "gid": "openstreetmap:venue:node/12998531401",
+     "layer": "venue",
+     "source": "openstreetmap",
+     "source_id": "node/12998531401",
+     "country_code": "VN",
+     "name": "Vựa Hải Sản Bãi Cháy",
+     "confidence": 0.5,
+     "distance": 3.241,
+     "accuracy": "point",
+     "country": "Vietnam",
+     "country_gid": "whosonfirst:country:85632763",
+     "country_a": "VNM",
+     "region": "Quang Ninh",
+     "region_gid": "whosonfirst:region:85680583",
+     "region_a": "QN",
+     "county": "Ha Long",
+     "county_gid": "whosonfirst:county:1108781111",
+     "label": "Vựa Hải Sản Bãi Cháy, QN, Vietnam",
+     "category": [
+      "food",
+      "retail",
+      "nightlife"
+     ],
+     "addendum": {
+      "osm": {
+       "website": "https://vuahaisanbaichay.vn",
+       "phone": "0819822822"
+      }
+     }
+    }
+   },
+   {
+    "type": "Feature",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      107.023362,
+      20.948009
+     ]
+    },
+    "properties": {
+     "id": "node/12998531301",
+     "gid": "openstreetmap:venue:node/12998531301",
+     "layer": "venue",
+     "source": "openstreetmap",
+     "source_id": "node/12998531301",
+     "name": "Nhà hàng Ngọc Phương Nam 1",
+     "street": "Đỗ Sĩ Họa",
+     "confidence": 0.5,
+     "distance": 3.375,
+     "accuracy": "point",
+     "label": "Nhà hàng Ngọc Phương Nam 1",
+     "category": [
+      "food",
+      "retail",
+      "nightlife"
+     ],
+     "addendum": {
+      "osm": {
+       "website": "https://nhahangngocphuongnam.com",
+       "phone": "0335400800"
+      }
+     }
+    }
+   },
+   {
+    "type": "Feature",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      107.048286,
+      20.959383
+     ]
+    },
+    "properties": {
+     "id": "node/13200836301",
+     "gid": "openstreetmap:venue:node/13200836301",
+     "layer": "venue",
+     "source": "openstreetmap",
+     "source_id": "node/13200836301",
+     "country_code": "VN",
+     "name": "WinMart",
+     "confidence": 0.5,
+     "distance": 3.531,
+     "accuracy": "point",
+     "country": "Vietnam",
+     "country_gid": "whosonfirst:country:85632763",
+     "country_a": "VNM",
+     "region": "Quang Ninh",
+     "region_gid": "whosonfirst:region:85680583",
+     "region_a": "QN",
+     "county": "Ha Long",
+     "county_gid": "whosonfirst:county:1108781111",
+     "label": "WinMart, QN, Vietnam",
+     "category": [
+      "retail",
+      "food"
+     ],
+     "addendum": {
+      "osm": {
+       "brand": "WinMart"
+      }
+     }
+    }
+   },
+   {
+    "type": "Feature",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      107.048682,
+      20.959117
+     ]
+    },
+    "properties": {
+     "id": "node/4092067022",
+     "gid": "openstreetmap:venue:node/4092067022",
+     "layer": "venue",
+     "source": "openstreetmap",
+     "source_id": "node/4092067022",
+     "country_code": "VN",
+     "name": "Nhà Hàng Ẩm Thực Đông Nam",
+     "housenumber": "Ngã 3 dốc hải quân",
+     "street": "Hậu Cần",
+     "confidence": 0.5,
+     "distance": 3.581,
+     "accuracy": "point",
+     "country": "Vietnam",
+     "country_gid": "whosonfirst:country:85632763",
+     "country_a": "VNM",
+     "region": "Quang Ninh",
+     "region_gid": "whosonfirst:region:85680583",
+     "region_a": "QN",
+     "county": "Ha Long",
+     "county_gid": "whosonfirst:county:1108781111",
+     "label": "Nhà Hàng Ẩm Thực Đông Nam, QN, Vietnam",
+     "category": [
+      "food",
+      "retail",
+      "nightlife",
+      "food:regional"
+     ]
+    }
+   },
+   {
+    "type": "Feature",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      107.042627,
+      20.952108
+     ]
+    },
+    "properties": {
+     "id": "way/677184638",
+     "gid": "openstreetmap:venue:way/677184638",
+     "layer": "venue",
+     "source": "openstreetmap",
+     "source_id": "way/677184638",
+     "country_code": "VN",
+     "name": "Hạ Long 1",
+     "confidence": 0.5,
+     "distance": 3.678,
+     "accuracy": "point",
+     "country": "Vietnam",
+     "country_gid": "whosonfirst:country:85632763",
+     "country_a": "VNM",
+     "region": "Quang Ninh",
+     "region_gid": "whosonfirst:region:85680583",
+     "region_a": "QN",
+     "county": "Ha Long",
+     "county_gid": "whosonfirst:county:1108781111",
+     "label": "Hạ Long 1, QN, Vietnam",
+     "category": [
+      "food",
+      "retail",
+      "nightlife"
+     ]
+    },
+    "bbox": [
+     107.0423202,
+     20.9518212,
+     107.0429425,
+     20.9524149
+    ]
+   },
+   {
+    "type": "Feature",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      107.043901,
+      20.952762
+     ]
+    },
+    "properties": {
+     "id": "way/677184635",
+     "gid": "openstreetmap:venue:way/677184635",
+     "layer": "venue",
+     "source": "openstreetmap",
+     "source_id": "way/677184635",
+     "country_code": "VN",
+     "name": "Ánh Dương",
+     "confidence": 0.5,
+     "distance": 3.704,
+     "accuracy": "point",
+     "country": "Vietnam",
+     "country_gid": "whosonfirst:country:85632763",
+     "country_a": "VNM",
+     "region": "Quang Ninh",
+     "region_gid": "whosonfirst:region:85680583",
+     "region_a": "QN",
+     "county": "Ha Long",
+     "county_gid": "whosonfirst:county:1108781111",
+     "label": "Ánh Dương, QN, Vietnam",
+     "category": [
+      "food",
+      "retail",
+      "nightlife"
+     ]
+    },
+    "bbox": [
+     107.043784,
+     20.9526485,
+     107.0439721,
+     20.9528407
+    ]
+   },
+   {
+    "type": "Feature",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      107.04262,
+      20.951754
+     ]
+    },
+    "properties": {
+     "id": "way/677184641",
+     "gid": "openstreetmap:venue:way/677184641",
+     "layer": "venue",
+     "source": "openstreetmap",
+     "source_id": "way/677184641",
+     "country_code": "VN",
+     "name": "Thuận Lợi 2",
+     "confidence": 0.5,
+     "distance": 3.709,
+     "accuracy": "point",
+     "country": "Vietnam",
+     "country_gid": "whosonfirst:country:85632763",
+     "country_a": "VNM",
+     "region": "Quang Ninh",
+     "region_gid": "whosonfirst:region:85680583",
+     "region_a": "QN",
+     "county": "Ha Long",
+     "county_gid": "whosonfirst:county:1108781111",
+     "label": "Thuận Lợi 2, QN, Vietnam",
+     "category": [
+      "food",
+      "retail",
+      "nightlife"
+     ]
+    },
+    "bbox": [
+     107.0424993,
+     20.9516572,
+     107.042795,
+     20.9518864
+    ]
+   },
+   {
+    "type": "Feature",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      107.042806,
+      20.951831
+     ]
+    },
+    "properties": {
+     "id": "node/6340826420",
+     "gid": "openstreetmap:venue:node/6340826420",
+     "layer": "venue",
+     "source": "openstreetmap",
+     "source_id": "node/6340826420",
+     "country_code": "VN",
+     "name": "Coffee G8",
+     "confidence": 0.5,
+     "distance": 3.714,
+     "accuracy": "point",
+     "country": "Vietnam",
+     "country_gid": "whosonfirst:country:85632763",
+     "country_a": "VNM",
+     "region": "Quang Ninh",
+     "region_gid": "whosonfirst:region:85680583",
+     "region_a": "QN",
+     "county": "Ha Long",
+     "county_gid": "whosonfirst:county:1108781111",
+     "label": "Coffee G8, QN, Vietnam",
+     "category": [
+      "retail",
+      "food"
+     ]
+    }
+   },
+   {
+    "type": "Feature",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      107.050653,
+      20.959527
+     ]
+    },
+    "properties": {
+     "id": "node/4384812214",
+     "gid": "openstreetmap:venue:node/4384812214",
+     "layer": "venue",
+     "source": "openstreetmap",
+     "source_id": "node/4384812214",
+     "country_code": "VN",
+     "name": "G7 Mart",
+     "confidence": 0.5,
+     "distance": 3.722,
+     "accuracy": "point",
+     "country": "Vietnam",
+     "country_gid": "whosonfirst:country:85632763",
+     "country_a": "VNM",
+     "region": "Quang Ninh",
+     "region_gid": "whosonfirst:region:85680583",
+     "region_a": "QN",
+     "county": "Ha Long",
+     "county_gid": "whosonfirst:county:1108781111",
+     "label": "G7 Mart, QN, Vietnam",
+     "category": [
+      "retail",
+      "food"
+     ],
+     "addendum": {
+      "osm": {
+       "opening_hours": "Mo-Su 08:00-23:00"
+      }
+     }
+    }
+   }
+  ],
+  "bbox": [
+   106.997251,
+   20.948009,
+   107.050653,
+   20.9807033
+  ]
+ }
+}

@@ -1,0 +1,83 @@
+{
+ "label": "reverse-geocoding",
+ "key": "GET https://tasco-maps.dnpwater.vn/geocode/v1/reverse?point.lat=20.804307727113095&point.lon=106.52190324725481&size=1 ",
+ "cachedAt": "2026-07-10T10:52:25.773Z",
+ "response": {
+  "geocoding": {
+   "version": "0.2",
+   "attribution": "http://tasco-maps.dnpwater.vn/attribution",
+   "query": {
+    "size": 1,
+    "private": false,
+    "point.lat": 20.804307727113095,
+    "point.lon": 106.52190324725481,
+    "boundary.circle.lat": 20.804307727113095,
+    "boundary.circle.lon": 106.52190324725481,
+    "lang": {
+     "name": "English",
+     "iso6391": "en",
+     "iso6393": "eng",
+     "via": "default",
+     "defaulted": true
+    },
+    "querySize": 2
+   },
+   "warnings": [
+    "invalid language provided via header"
+   ],
+   "engine": {
+    "name": "Pelias",
+    "author": "Mapzen",
+    "version": "1.0"
+   },
+   "timestamp": 1783680745824
+  },
+  "type": "FeatureCollection",
+  "features": [
+   {
+    "type": "Feature",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      106.523805,
+      20.799958
+     ]
+    },
+    "properties": {
+     "id": "polyline:189755",
+     "gid": "openstreetmap:street:polyline:189755",
+     "layer": "street",
+     "source": "openstreetmap",
+     "source_id": "polyline:189755",
+     "country_code": "VN",
+     "name": "Điểm quay đầu",
+     "street": "Điểm quay đầu",
+     "confidence": 0.6,
+     "distance": 0.523,
+     "accuracy": "centroid",
+     "country": "Vietnam",
+     "country_gid": "whosonfirst:country:85632763",
+     "country_a": "VNM",
+     "region": "Hai Phong",
+     "region_gid": "whosonfirst:region:85680645",
+     "region_a": "HP",
+     "county": "An Lao",
+     "county_gid": "whosonfirst:county:1108781281",
+     "label": "Điểm quay đầu, HP, Vietnam"
+    },
+    "bbox": [
+     106.523379,
+     20.799494,
+     106.524231,
+     20.800422
+    ]
+   }
+  ],
+  "bbox": [
+   106.523379,
+   20.799494,
+   106.524231,
+   20.800422
+  ]
+ }
+}

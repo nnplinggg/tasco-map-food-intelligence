@@ -1,0 +1,193 @@
+{
+ "label": "reverse-geocoding",
+ "key": "GET https://tasco-maps.dnpwater.vn/geocode/v1/reverse?point.lat=20.93077158592411&point.lon=105.97175572447746&size=1 ",
+ "cachedAt": "2026-07-10T10:52:20.361Z",
+ "response": {
+  "geocoding": {
+   "version": "0.2",
+   "attribution": "http://tasco-maps.dnpwater.vn/attribution",
+   "query": {
+    "size": 1,
+    "private": false,
+    "point.lat": 20.93077158592411,
+    "point.lon": 105.97175572447746,
+    "boundary.circle.lat": 20.93077158592411,
+    "boundary.circle.lon": 105.97175572447746,
+    "lang": {
+     "name": "English",
+     "iso6391": "en",
+     "iso6393": "eng",
+     "via": "default",
+     "defaulted": true
+    },
+    "querySize": 2
+   },
+   "warnings": [
+    "invalid language provided via header"
+   ],
+   "engine": {
+    "name": "Pelias",
+    "author": "Mapzen",
+    "version": "1.0"
+   },
+   "timestamp": 1783680740409
+  },
+  "type": "FeatureCollection",
+  "features": [
+   {
+    "type": "Feature",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      105.971478,
+      20.931717
+     ]
+    },
+    "properties": {
+     "id": "toll:ttp-dau-tuyen-hn-hp-ttp-van-giang-20-931717-105-971478",
+     "gid": "tasco:venue:toll:ttp-dau-tuyen-hn-hp-ttp-van-giang-20-931717-105-971478",
+     "layer": "venue",
+     "source": "tasco",
+     "source_id": "toll:ttp-dau-tuyen-hn-hp-ttp-van-giang-20-931717-105-971478",
+     "country_code": "VN",
+     "name": "TTP Đầu tuyến HN-HP (TTP Văn Giang)",
+     "street": "ĐCT04, Tân Tiến, Văn Giang, Hưng Yên, Việt Nam",
+     "confidence": 0.7,
+     "distance": 0.109,
+     "accuracy": "point",
+     "country": "Việt Nam",
+     "country_gid": "tasco:country:VNM",
+     "country_a": "VN",
+     "region": "Hung Yen",
+     "region_gid": "whosonfirst:region:85680649",
+     "region_a": "HY",
+     "county": "Van Giang",
+     "county_gid": "whosonfirst:county:1108781297",
+     "label": "TTP Đầu tuyến HN-HP (TTP Văn Giang), HY, Việt Nam",
+     "addendum": {
+      "tasco": {
+       "category": "toll_etc",
+       "address": "ĐCT04, Tân Tiến, Văn Giang, Hưng Yên, Việt Nam",
+       "source": "tasco",
+       "status": "active",
+       "pricing_info": "Có bảng giá vé lượt, vé tháng, vé quý",
+       "pricing_detail": [
+        {
+         "Name": "Vé Lượt",
+         "Prices": [
+          {
+           "Name": "Xe < 12 chỗ, xe tải < 2 tấn; xe buýt công cộng: Đầu tuyến HN <-> QL39 Hưng Yên",
+           "Price": "40000"
+          },
+          {
+           "Name": "Xe < 12 chỗ, xe tải < 2 tấn; xe buýt công cộng: Đầu tuyến HN <-> QL38B Hải Dương",
+           "Price": "100000"
+          },
+          {
+           "Name": "Xe < 12 chỗ, xe tải < 2 tấn; xe buýt công cộng: Đầu tuyến HN <-> QL10 Hải Phòng",
+           "Price": "150000"
+          },
+          {
+           "Name": "Xe < 12 chỗ, xe tải < 2 tấn; xe buýt công cộng: Đầu tuyến HN <-> Cuối tuyến HP",
+           "Price": "190000"
+          },
+          {
+           "Name": "Xe < 12 chỗ, xe tải < 2 tấn; xe buýt công cộng: Đầu tuyến HN <-> Đình Vũ",
+           "Price": "210000"
+          },
+          {
+           "Name": "Xe 12-30 chỗ; xe tải 2 đến <4 tấn: Đầu tuyến HN <-> QL39 Hưng Yên",
+           "Price": "60000"
+          },
+          {
+           "Name": "Xe 12-30 chỗ; xe tải 2 đến <4 tấn: Đầu tuyến HN <-> QL38B Hải Dương",
+           "Price": "130000"
+          },
+          {
+           "Name": "Xe 12-30 chỗ; xe tải 2 đến <4 tấn: Đầu tuyến HN <-> QL10 Hải Phòng",
+           "Price": "200000"
+          },
+          {
+           "Name": "Xe 12-30 chỗ; xe tải 2 đến <4 tấn: Đầu tuyến HN <-> Cuối tuyến HP",
+           "Price": "250000"
+          },
+          {
+           "Name": "Xe 12-30 chỗ; xe tải 2 đến <4 tấn: Đầu tuyến HN <-> Đình Vũ",
+           "Price": "280000"
+          },
+          {
+           "Name": "Xe >= 31 chỗ; xe tải 4 đến <10 tấn: Đầu tuyến HN <-> QL39 Hưng Yên",
+           "Price": "70000"
+          },
+          {
+           "Name": "Xe >= 31 chỗ; xe tải 4 đến <10 tấn: Đầu tuyến HN <-> QL38B Hải Dương",
+           "Price": "160000"
+          },
+          {
+           "Name": "Xe >= 31 chỗ; xe tải 4 đến <10 tấn: Đầu tuyến HN <-> QL10 Hải Phòng",
+           "Price": "250000"
+          },
+          {
+           "Name": "Xe >= 31 chỗ; xe tải 4 đến <10 tấn: Đầu tuyến HN <-> Cuối tuyến HP",
+           "Price": "320000"
+          },
+          {
+           "Name": "Xe >= 31 chỗ; xe tải 4 đến <10 tấn: Đầu tuyến HN <-> Đình Vũ",
+           "Price": "350000"
+          },
+          {
+           "Name": "Xe tải 10 đến <18 tấn; xe Container 20 fit: Đầu tuyến HN <-> QL39 Hưng Yên",
+           "Price": "110000"
+          },
+          {
+           "Name": "Xe tải 10 đến <18 tấn; xe Container 20 fit: Đầu tuyến HN <-> QL38B Hải Dương",
+           "Price": "260000"
+          },
+          {
+           "Name": "Xe tải 10 đến <18 tấn; xe Container 20 fit: Đầu tuyến HN <-> QL10 Hải Phòng",
+           "Price": "400000"
+          },
+          {
+           "Name": "Xe tải 10 đến <18 tấn; xe Container 20 fit: Đầu tuyến HN <-> Cuối tuyến HP",
+           "Price": "510000"
+          },
+          {
+           "Name": "Xe tải 10 đến <18 tấn; xe Container 20 fit: Đầu tuyến HN <-> Đình Vũ",
+           "Price": "560000"
+          },
+          {
+           "Name": "Xe tải >= 18 tấn; xe Container 40 fit: Đầu tuyến HN <-> QL39 Hưng Yên",
+           "Price": "150000"
+          },
+          {
+           "Name": "Xe tải >= 18 tấn; xe Container 40 fit: Đầu tuyến HN <-> QL38B Hải Dương",
+           "Price": "360000"
+          },
+          {
+           "Name": "Xe tải >= 18 tấn; xe Container 40 fit: Đầu tuyến HN <-> QL10 Hải Phòng",
+           "Price": "540000"
+          },
+          {
+           "Name": "Xe tải >= 18 tấn; xe Container 40 fit: Đầu tuyến HN <-> Cuối tuyến HP",
+           "Price": "700000"
+          },
+          {
+           "Name": "Xe tải >= 18 tấn; xe Container 40 fit: Đầu tuyến HN <-> Đình Vũ",
+           "Price": "720000"
+          }
+         ]
+        }
+       ]
+      }
+     }
+    }
+   }
+  ],
+  "bbox": [
+   105.971478,
+   20.931717,
+   105.971478,
+   20.931717
+  ]
+ }
+}

@@ -1,0 +1,83 @@
+{
+ "label": "reverse-geocoding",
+ "key": "GET https://tasco-maps.dnpwater.vn/geocode/v1/reverse?point.lat=21.020818829473573&point.lon=105.90977681508028&size=1 ",
+ "cachedAt": "2026-07-10T10:52:19.281Z",
+ "response": {
+  "geocoding": {
+   "version": "0.2",
+   "attribution": "http://tasco-maps.dnpwater.vn/attribution",
+   "query": {
+    "size": 1,
+    "private": false,
+    "point.lat": 21.020818829473573,
+    "point.lon": 105.90977681508028,
+    "boundary.circle.lat": 21.020818829473573,
+    "boundary.circle.lon": 105.90977681508028,
+    "lang": {
+     "name": "English",
+     "iso6391": "en",
+     "iso6393": "eng",
+     "via": "default",
+     "defaulted": true
+    },
+    "querySize": 2
+   },
+   "warnings": [
+    "invalid language provided via header"
+   ],
+   "engine": {
+    "name": "Pelias",
+    "author": "Mapzen",
+    "version": "1.0"
+   },
+   "timestamp": 1783680739330
+  },
+  "type": "FeatureCollection",
+  "features": [
+   {
+    "type": "Feature",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      105.909638,
+      21.020505
+     ]
+    },
+    "properties": {
+     "id": "polyline:164795",
+     "gid": "openstreetmap:street:polyline:164795",
+     "layer": "street",
+     "source": "openstreetmap",
+     "source_id": "polyline:164795",
+     "country_code": "VN",
+     "name": "Ngõ 136 Phố Ngọc Trì",
+     "street": "Ngõ 136 Phố Ngọc Trì",
+     "confidence": 0.8,
+     "distance": 0.038,
+     "accuracy": "centroid",
+     "country": "Vietnam",
+     "country_gid": "whosonfirst:country:85632763",
+     "country_a": "VNM",
+     "region": "Ha Noi",
+     "region_gid": "whosonfirst:region:85680653",
+     "region_a": "HI",
+     "county": "Long Bien",
+     "county_gid": "whosonfirst:county:1108780791",
+     "label": "Ngõ 136 Phố Ngọc Trì, HI, Vietnam"
+    },
+    "bbox": [
+     105.909587,
+     21.020299,
+     105.909788,
+     21.02085
+    ]
+   }
+  ],
+  "bbox": [
+   105.909587,
+   21.020299,
+   105.909788,
+   21.02085
+  ]
+ }
+}

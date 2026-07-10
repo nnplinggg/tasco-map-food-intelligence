@@ -1,0 +1,73 @@
+{
+ "label": "reverse-geocoding",
+ "key": "GET https://tasco-maps.dnpwater.vn/geocode/v1/reverse?point.lat=20.883428502089977&point.lon=106.80351806906583&size=1 ",
+ "cachedAt": "2026-07-10T10:52:29.051Z",
+ "response": {
+  "geocoding": {
+   "version": "0.2",
+   "attribution": "http://tasco-maps.dnpwater.vn/attribution",
+   "query": {
+    "size": 1,
+    "private": false,
+    "point.lat": 20.883428502089977,
+    "point.lon": 106.80351806906583,
+    "boundary.circle.lat": 20.883428502089977,
+    "boundary.circle.lon": 106.80351806906583,
+    "lang": {
+     "name": "English",
+     "iso6391": "en",
+     "iso6393": "eng",
+     "via": "default",
+     "defaulted": true
+    },
+    "querySize": 2
+   },
+   "warnings": [
+    "invalid language provided via header"
+   ],
+   "engine": {
+    "name": "Pelias",
+    "author": "Mapzen",
+    "version": "1.0"
+   },
+   "timestamp": 1783680749100
+  },
+  "type": "FeatureCollection",
+  "features": [
+   {
+    "type": "Feature",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      106.80168,
+      20.877578
+     ]
+    },
+    "properties": {
+     "id": "way/1188229655",
+     "gid": "openstreetmap:venue:way/1188229655",
+     "layer": "venue",
+     "source": "openstreetmap",
+     "source_id": "way/1188229655",
+     "name": "Sông Rút",
+     "confidence": 0.6,
+     "distance": 0.679,
+     "accuracy": "point",
+     "label": "Sông Rút"
+    },
+    "bbox": [
+     106.7699798,
+     20.8427761,
+     106.8318548,
+     20.9119324
+    ]
+   }
+  ],
+  "bbox": [
+   106.7699798,
+   20.8427761,
+   106.8318548,
+   20.9119324
+  ]
+ }
+}

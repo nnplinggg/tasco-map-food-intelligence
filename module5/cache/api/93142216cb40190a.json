@@ -1,0 +1,42 @@
+{
+ "label": "nearby-search",
+ "key": "GET https://tasco-maps.dnpwater.vn/geocode/v1/nearby?point.lat=20.862881095810682&point.lon=106.78492279131814&boundary.circle.radius=6&size=20&categories=food ",
+ "cachedAt": "2026-07-10T10:52:32.319Z",
+ "response": {
+  "geocoding": {
+   "version": "0.2",
+   "attribution": "http://tasco-maps.dnpwater.vn/attribution",
+   "query": {
+    "size": 20,
+    "private": false,
+    "point.lat": 20.862881095810682,
+    "point.lon": 106.78492279131814,
+    "boundary.circle.radius": 5,
+    "boundary.circle.lat": 20.862881095810682,
+    "boundary.circle.lon": 106.78492279131814,
+    "categories": [
+     "food"
+    ],
+    "lang": {
+     "name": "English",
+     "iso6391": "en",
+     "iso6393": "eng",
+     "via": "default",
+     "defaulted": true
+    },
+    "querySize": 40
+   },
+   "warnings": [
+    "invalid language provided via header"
+   ],
+   "engine": {
+    "name": "Pelias",
+    "author": "Mapzen",
+    "version": "1.0"
+   },
+   "timestamp": 1783680752369
+  },
+  "type": "FeatureCollection",
+  "features": []
+ }
+}

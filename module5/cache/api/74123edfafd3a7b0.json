@@ -1,0 +1,83 @@
+{
+ "label": "reverse-geocoding",
+ "key": "GET https://tasco-maps.dnpwater.vn/geocode/v1/reverse?point.lat=20.77064461537672&point.lon=106.60099899524225&size=1 ",
+ "cachedAt": "2026-07-10T10:52:26.548Z",
+ "response": {
+  "geocoding": {
+   "version": "0.2",
+   "attribution": "http://tasco-maps.dnpwater.vn/attribution",
+   "query": {
+    "size": 1,
+    "private": false,
+    "point.lat": 20.77064461537672,
+    "point.lon": 106.60099899524225,
+    "boundary.circle.lat": 20.77064461537672,
+    "boundary.circle.lon": 106.60099899524225,
+    "lang": {
+     "name": "English",
+     "iso6391": "en",
+     "iso6393": "eng",
+     "via": "default",
+     "defaulted": true
+    },
+    "querySize": 2
+   },
+   "warnings": [
+    "invalid language provided via header"
+   ],
+   "engine": {
+    "name": "Pelias",
+    "author": "Mapzen",
+    "version": "1.0"
+   },
+   "timestamp": 1783680746597
+  },
+  "type": "FeatureCollection",
+  "features": [
+   {
+    "type": "Feature",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      106.605368,
+      20.766655
+     ]
+    },
+    "properties": {
+     "id": "polyline:180398",
+     "gid": "openstreetmap:street:polyline:180398",
+     "layer": "street",
+     "source": "openstreetmap",
+     "source_id": "polyline:180398",
+     "country_code": "VN",
+     "name": "Phố Quán Rẽ",
+     "street": "Phố Quán Rẽ",
+     "confidence": 0.6,
+     "distance": 0.636,
+     "accuracy": "centroid",
+     "country": "Vietnam",
+     "country_gid": "whosonfirst:country:85632763",
+     "country_a": "VNM",
+     "region": "Hai Phong",
+     "region_gid": "whosonfirst:region:85680645",
+     "region_a": "HP",
+     "county": "An Lao",
+     "county_gid": "whosonfirst:county:1108781281",
+     "label": "Phố Quán Rẽ, HP, Vietnam"
+    },
+    "bbox": [
+     106.590573,
+     20.758073,
+     106.614352,
+     20.780217
+    ]
+   }
+  ],
+  "bbox": [
+   106.590573,
+   20.758073,
+   106.614352,
+   20.780217
+  ]
+ }
+}

@@ -1,0 +1,82 @@
+{
+ "label": "reverse-geocoding",
+ "key": "GET https://tasco-maps.dnpwater.vn/geocode/v1/reverse?point.lat=20.96004723721326&point.lon=105.95699333765559&size=1 ",
+ "cachedAt": "2026-07-10T10:52:20.068Z",
+ "response": {
+  "geocoding": {
+   "version": "0.2",
+   "attribution": "http://tasco-maps.dnpwater.vn/attribution",
+   "query": {
+    "size": 1,
+    "private": false,
+    "point.lat": 20.96004723721326,
+    "point.lon": 105.95699333765559,
+    "boundary.circle.lat": 20.96004723721326,
+    "boundary.circle.lon": 105.95699333765559,
+    "lang": {
+     "name": "English",
+     "iso6391": "en",
+     "iso6393": "eng",
+     "via": "default",
+     "defaulted": true
+    },
+    "querySize": 2
+   },
+   "warnings": [
+    "invalid language provided via header"
+   ],
+   "engine": {
+    "name": "Pelias",
+    "author": "Mapzen",
+    "version": "1.0"
+   },
+   "timestamp": 1783680740118
+  },
+  "type": "FeatureCollection",
+  "features": [
+   {
+    "type": "Feature",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      105.954662,
+      20.96151
+     ]
+    },
+    "properties": {
+     "id": "way/1148889010",
+     "gid": "openstreetmap:venue:way/1148889010",
+     "layer": "venue",
+     "source": "openstreetmap",
+     "source_id": "way/1148889010",
+     "country_code": "VN",
+     "name": "Kênh Đông",
+     "confidence": 0.6,
+     "distance": 0.292,
+     "accuracy": "point",
+     "country": "Vietnam",
+     "country_gid": "whosonfirst:country:85632763",
+     "country_a": "VNM",
+     "region": "Hung Yen",
+     "region_gid": "whosonfirst:region:85680649",
+     "region_a": "HY",
+     "county": "Van Giang",
+     "county_gid": "whosonfirst:county:1108781297",
+     "label": "Kênh Đông, HY, Vietnam"
+    },
+    "bbox": [
+     105.9507812,
+     20.9559694,
+     105.9561939,
+     20.9681617
+    ]
+   }
+  ],
+  "bbox": [
+   105.9507812,
+   20.9559694,
+   105.9561939,
+   20.9681617
+  ]
+ }
+}

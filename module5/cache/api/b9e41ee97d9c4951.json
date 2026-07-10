@@ -1,0 +1,82 @@
+{
+ "label": "reverse-geocoding",
+ "key": "GET https://tasco-maps.dnpwater.vn/geocode/v1/reverse?point.lat=20.851680077691498&point.lon=106.13730842405955&size=1 ",
+ "cachedAt": "2026-07-10T10:50:36.576Z",
+ "response": {
+  "geocoding": {
+   "version": "0.2",
+   "attribution": "http://tasco-maps.dnpwater.vn/attribution",
+   "query": {
+    "size": 1,
+    "private": false,
+    "point.lat": 20.851680077691498,
+    "point.lon": 106.13730842405955,
+    "boundary.circle.lat": 20.851680077691498,
+    "boundary.circle.lon": 106.13730842405955,
+    "lang": {
+     "name": "English",
+     "iso6391": "en",
+     "iso6393": "eng",
+     "via": "default",
+     "defaulted": true
+    },
+    "querySize": 2
+   },
+   "warnings": [
+    "invalid language provided via header"
+   ],
+   "engine": {
+    "name": "Pelias",
+    "author": "Mapzen",
+    "version": "1.0"
+   },
+   "timestamp": 1783680636627
+  },
+  "type": "FeatureCollection",
+  "features": [
+   {
+    "type": "Feature",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      106.137365,
+      20.851799
+     ]
+    },
+    "properties": {
+     "id": "way/1435815741",
+     "gid": "openstreetmap:venue:way/1435815741",
+     "layer": "venue",
+     "source": "openstreetmap",
+     "source_id": "way/1435815741",
+     "country_code": "VN",
+     "name": "Cầu Bãi Sậy",
+     "confidence": 0.8,
+     "distance": 0.014,
+     "accuracy": "point",
+     "country": "Vietnam",
+     "country_gid": "whosonfirst:country:85632763",
+     "country_a": "VNM",
+     "region": "Hai Duong",
+     "region_gid": "whosonfirst:region:85680637",
+     "region_a": "HD",
+     "county": "Binh Giang",
+     "county_gid": "whosonfirst:county:1108781249",
+     "label": "Cầu Bãi Sậy, HD, Vietnam"
+    },
+    "bbox": [
+     106.1368609,
+     20.8516067,
+     106.1378746,
+     20.8519913
+    ]
+   }
+  ],
+  "bbox": [
+   106.1368609,
+   20.8516067,
+   106.1378746,
+   20.8519913
+  ]
+ }
+}

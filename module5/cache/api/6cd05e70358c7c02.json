@@ -1,0 +1,83 @@
+{
+ "label": "reverse-geocoding",
+ "key": "GET https://tasco-maps.dnpwater.vn/geocode/v1/reverse?point.lat=20.976118309242956&point.lon=105.94834437357733&size=1 ",
+ "cachedAt": "2026-07-10T10:52:19.882Z",
+ "response": {
+  "geocoding": {
+   "version": "0.2",
+   "attribution": "http://tasco-maps.dnpwater.vn/attribution",
+   "query": {
+    "size": 1,
+    "private": false,
+    "point.lat": 20.976118309242956,
+    "point.lon": 105.94834437357733,
+    "boundary.circle.lat": 20.976118309242956,
+    "boundary.circle.lon": 105.94834437357733,
+    "lang": {
+     "name": "English",
+     "iso6391": "en",
+     "iso6393": "eng",
+     "via": "default",
+     "defaulted": true
+    },
+    "querySize": 2
+   },
+   "warnings": [
+    "invalid language provided via header"
+   ],
+   "engine": {
+    "name": "Pelias",
+    "author": "Mapzen",
+    "version": "1.0"
+   },
+   "timestamp": 1783680739930
+  },
+  "type": "FeatureCollection",
+  "features": [
+   {
+    "type": "Feature",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      105.947519,
+      20.975026
+     ]
+    },
+    "properties": {
+     "id": "polyline:158845",
+     "gid": "openstreetmap:street:polyline:158845",
+     "layer": "street",
+     "source": "openstreetmap",
+     "source_id": "polyline:158845",
+     "country_code": "VN",
+     "name": "Ngách 24/1 đường Xuân Thụy",
+     "street": "Ngách 24/1 đường Xuân Thụy",
+     "confidence": 0.7,
+     "distance": 0.149,
+     "accuracy": "centroid",
+     "country": "Vietnam",
+     "country_gid": "whosonfirst:country:85632763",
+     "country_a": "VNM",
+     "region": "Ha Noi",
+     "region_gid": "whosonfirst:region:85680653",
+     "region_a": "HI",
+     "county": "Gia Lam",
+     "county_gid": "whosonfirst:county:1108780809",
+     "label": "Ngách 24/1 đường Xuân Thụy, HI, Vietnam"
+    },
+    "bbox": [
+     105.946737,
+     20.974043,
+     105.948331,
+     20.976026
+    ]
+   }
+  ],
+  "bbox": [
+   105.946737,
+   20.974043,
+   105.948331,
+   20.976026
+  ]
+ }
+}

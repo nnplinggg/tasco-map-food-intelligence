@@ -1,0 +1,76 @@
+{
+ "label": "reverse-geocoding",
+ "key": "GET https://tasco-maps.dnpwater.vn/geocode/v1/reverse?point.lat=20.82624748869822&point.lon=106.46084395137473&size=1 ",
+ "cachedAt": "2026-07-10T10:52:25.178Z",
+ "response": {
+  "geocoding": {
+   "version": "0.2",
+   "attribution": "http://tasco-maps.dnpwater.vn/attribution",
+   "query": {
+    "size": 1,
+    "private": false,
+    "point.lat": 20.82624748869822,
+    "point.lon": 106.46084395137473,
+    "boundary.circle.lat": 20.82624748869822,
+    "boundary.circle.lon": 106.46084395137473,
+    "lang": {
+     "name": "English",
+     "iso6391": "en",
+     "iso6393": "eng",
+     "via": "default",
+     "defaulted": true
+    },
+    "querySize": 2
+   },
+   "warnings": [
+    "invalid language provided via header"
+   ],
+   "engine": {
+    "name": "Pelias",
+    "author": "Mapzen",
+    "version": "1.0"
+   },
+   "timestamp": 1783680745228
+  },
+  "type": "FeatureCollection",
+  "features": [
+   {
+    "type": "Feature",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      106.456454,
+      20.831407
+     ]
+    },
+    "properties": {
+     "id": "node/3231373235",
+     "gid": "openstreetmap:venue:node/3231373235",
+     "layer": "venue",
+     "source": "openstreetmap",
+     "source_id": "node/3231373235",
+     "country_code": "VN",
+     "name": "UBND Xã Thanh Hồng",
+     "confidence": 0.6,
+     "distance": 0.734,
+     "accuracy": "point",
+     "country": "Vietnam",
+     "country_gid": "whosonfirst:country:85632763",
+     "country_a": "VNM",
+     "region": "Hai Duong",
+     "region_gid": "whosonfirst:region:85680637",
+     "region_a": "HD",
+     "county": "Thanh Ha",
+     "county_gid": "whosonfirst:county:1108781245",
+     "label": "UBND Xã Thanh Hồng, HD, Vietnam"
+    }
+   }
+  ],
+  "bbox": [
+   106.456454,
+   20.831407,
+   106.456454,
+   20.831407
+  ]
+ }
+}

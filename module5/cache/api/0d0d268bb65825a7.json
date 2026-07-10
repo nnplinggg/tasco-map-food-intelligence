@@ -1,0 +1,83 @@
+{
+ "label": "reverse-geocoding",
+ "key": "GET https://tasco-maps.dnpwater.vn/geocode/v1/reverse?point.lat=21.01000588028943&point.lon=105.9199072517305&size=1 ",
+ "cachedAt": "2026-07-10T10:52:19.436Z",
+ "response": {
+  "geocoding": {
+   "version": "0.2",
+   "attribution": "http://tasco-maps.dnpwater.vn/attribution",
+   "query": {
+    "size": 1,
+    "private": false,
+    "point.lat": 21.01000588028943,
+    "point.lon": 105.9199072517305,
+    "boundary.circle.lat": 21.01000588028943,
+    "boundary.circle.lon": 105.9199072517305,
+    "lang": {
+     "name": "English",
+     "iso6391": "en",
+     "iso6393": "eng",
+     "via": "default",
+     "defaulted": true
+    },
+    "querySize": 2
+   },
+   "warnings": [
+    "invalid language provided via header"
+   ],
+   "engine": {
+    "name": "Pelias",
+    "author": "Mapzen",
+    "version": "1.0"
+   },
+   "timestamp": 1783680739486
+  },
+  "type": "FeatureCollection",
+  "features": [
+   {
+    "type": "Feature",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      105.920336,
+      21.01237
+     ]
+    },
+    "properties": {
+     "id": "polyline:43550",
+     "gid": "openstreetmap:street:polyline:43550",
+     "layer": "street",
+     "source": "openstreetmap",
+     "source_id": "polyline:43550",
+     "country_code": "VN",
+     "name": "Lối Ra Thạch Bàn",
+     "street": "Lối Ra Thạch Bàn",
+     "confidence": 0.6,
+     "distance": 0.267,
+     "accuracy": "centroid",
+     "country": "Vietnam",
+     "country_gid": "whosonfirst:country:85632763",
+     "country_a": "VNM",
+     "region": "Ha Noi",
+     "region_gid": "whosonfirst:region:85680653",
+     "region_a": "HI",
+     "county": "Long Bien",
+     "county_gid": "whosonfirst:county:1108780791",
+     "label": "Lối Ra Thạch Bàn, HI, Vietnam"
+    },
+    "bbox": [
+     105.920266,
+     21.008586,
+     105.921891,
+     21.016229
+    ]
+   }
+  ],
+  "bbox": [
+   105.920266,
+   21.008586,
+   105.921891,
+   21.016229
+  ]
+ }
+}

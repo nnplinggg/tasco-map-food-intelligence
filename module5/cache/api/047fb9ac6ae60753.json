@@ -1,0 +1,73 @@
+{
+ "label": "reverse-geocoding",
+ "key": "GET https://tasco-maps.dnpwater.vn/geocode/v1/reverse?point.lat=20.91820674290464&point.lon=106.84239262679317&size=1 ",
+ "cachedAt": "2026-07-10T10:52:29.544Z",
+ "response": {
+  "geocoding": {
+   "version": "0.2",
+   "attribution": "http://tasco-maps.dnpwater.vn/attribution",
+   "query": {
+    "size": 1,
+    "private": false,
+    "point.lat": 20.91820674290464,
+    "point.lon": 106.84239262679317,
+    "boundary.circle.lat": 20.91820674290464,
+    "boundary.circle.lon": 106.84239262679317,
+    "lang": {
+     "name": "English",
+     "iso6391": "en",
+     "iso6393": "eng",
+     "via": "default",
+     "defaulted": true
+    },
+    "querySize": 2
+   },
+   "warnings": [
+    "invalid language provided via header"
+   ],
+   "engine": {
+    "name": "Pelias",
+    "author": "Mapzen",
+    "version": "1.0"
+   },
+   "timestamp": 1783680749593
+  },
+  "type": "FeatureCollection",
+  "features": [
+   {
+    "type": "Feature",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      106.836684,
+      20.91206
+     ]
+    },
+    "properties": {
+     "id": "relation/19346540",
+     "gid": "openstreetmap:venue:relation/19346540",
+     "layer": "venue",
+     "source": "openstreetmap",
+     "source_id": "relation/19346540",
+     "name": "Sông Chanh",
+     "confidence": 0.6,
+     "distance": 0.906,
+     "accuracy": "point",
+     "label": "Sông Chanh"
+    },
+    "bbox": [
+     106.7803814,
+     20.8708058,
+     106.8552487,
+     20.9353105
+    ]
+   }
+  ],
+  "bbox": [
+   106.7803814,
+   20.8708058,
+   106.8552487,
+   20.9353105
+  ]
+ }
+}

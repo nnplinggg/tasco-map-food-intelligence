@@ -1,0 +1,154 @@
+{
+ "label": "nearby-search",
+ "key": "GET https://tasco-maps.dnpwater.vn/geocode/v1/nearby?point.lat=20.803368&point.lon=106.625992&boundary.circle.radius=0.4&size=3&categories=transport ",
+ "cachedAt": "2026-07-10T10:47:25.535Z",
+ "response": {
+  "geocoding": {
+   "version": "0.2",
+   "attribution": "http://tasco-maps.dnpwater.vn/attribution",
+   "query": {
+    "size": 3,
+    "private": false,
+    "point.lat": 20.803368,
+    "point.lon": 106.625992,
+    "boundary.circle.radius": 0.4,
+    "boundary.circle.lat": 20.803368,
+    "boundary.circle.lon": 106.625992,
+    "categories": [
+     "transport"
+    ],
+    "lang": {
+     "name": "English",
+     "iso6391": "en",
+     "iso6393": "eng",
+     "via": "default",
+     "defaulted": true
+    },
+    "querySize": 20
+   },
+   "warnings": [
+    "invalid language provided via header"
+   ],
+   "engine": {
+    "name": "Pelias",
+    "author": "Mapzen",
+    "version": "1.0"
+   },
+   "timestamp": 1783680445586
+  },
+  "type": "FeatureCollection",
+  "features": [
+   {
+    "type": "Feature",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      106.624938,
+      20.803788
+     ]
+    },
+    "properties": {
+     "id": "node/13452583258",
+     "gid": "openstreetmap:venue:node/13452583258",
+     "layer": "venue",
+     "source": "openstreetmap",
+     "source_id": "node/13452583258",
+     "country_code": "VN",
+     "name": "12 Phan Đăng Lưu",
+     "confidence": 0.7,
+     "distance": 0.119,
+     "accuracy": "point",
+     "country": "Vietnam",
+     "country_gid": "whosonfirst:country:85632763",
+     "country_a": "VNM",
+     "region": "Hai Phong",
+     "region_gid": "whosonfirst:region:85680645",
+     "region_a": "HP",
+     "county": "Kien An",
+     "county_gid": "whosonfirst:county:1108781283",
+     "label": "12 Phan Đăng Lưu, HP, Vietnam",
+     "category": [
+      "transport",
+      "transport:public"
+     ]
+    }
+   },
+   {
+    "type": "Feature",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      106.627142,
+      20.802922
+     ]
+    },
+    "properties": {
+     "id": "node/13452720486",
+     "gid": "openstreetmap:venue:node/13452720486",
+     "layer": "venue",
+     "source": "openstreetmap",
+     "source_id": "node/13452720486",
+     "country_code": "VN",
+     "name": "Trước khu tập thể Ngã 5 Kiến An",
+     "confidence": 0.7,
+     "distance": 0.13,
+     "accuracy": "point",
+     "country": "Vietnam",
+     "country_gid": "whosonfirst:country:85632763",
+     "country_a": "VNM",
+     "region": "Hai Phong",
+     "region_gid": "whosonfirst:region:85680645",
+     "region_a": "HP",
+     "county": "Kien An",
+     "county_gid": "whosonfirst:county:1108781283",
+     "label": "Trước khu tập thể Ngã 5 Kiến An, HP, Vietnam",
+     "category": [
+      "transport",
+      "transport:public"
+     ]
+    }
+   },
+   {
+    "type": "Feature",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      106.627363,
+      20.803121
+     ]
+    },
+    "properties": {
+     "id": "node/13452720480",
+     "gid": "openstreetmap:venue:node/13452720480",
+     "layer": "venue",
+     "source": "openstreetmap",
+     "source_id": "node/13452720480",
+     "country_code": "VN",
+     "name": "1258 Trần Nhân Tông",
+     "confidence": 0.7,
+     "distance": 0.145,
+     "accuracy": "point",
+     "country": "Vietnam",
+     "country_gid": "whosonfirst:country:85632763",
+     "country_a": "VNM",
+     "region": "Hai Phong",
+     "region_gid": "whosonfirst:region:85680645",
+     "region_a": "HP",
+     "county": "Kien An",
+     "county_gid": "whosonfirst:county:1108781283",
+     "label": "1258 Trần Nhân Tông, HP, Vietnam",
+     "category": [
+      "transport",
+      "transport:public"
+     ]
+    }
+   }
+  ],
+  "bbox": [
+   106.624938,
+   20.802922,
+   106.627363,
+   20.803788
+  ]
+ }
+}

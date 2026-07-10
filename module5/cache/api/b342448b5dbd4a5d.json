@@ -1,0 +1,85 @@
+{
+ "label": "nearby-search",
+ "key": "GET https://tasco-maps.dnpwater.vn/geocode/v1/nearby?point.lat=20.805056821901502&point.lon=106.51983266710924&boundary.circle.radius=8&size=20&categories=food ",
+ "cachedAt": "2026-07-10T10:44:08.236Z",
+ "response": {
+  "geocoding": {
+   "version": "0.2",
+   "attribution": "http://tasco-maps.dnpwater.vn/attribution",
+   "query": {
+    "size": 20,
+    "private": false,
+    "point.lat": 20.805056821901502,
+    "point.lon": 106.51983266710924,
+    "boundary.circle.radius": 5,
+    "boundary.circle.lat": 20.805056821901502,
+    "boundary.circle.lon": 106.51983266710924,
+    "categories": [
+     "food"
+    ],
+    "lang": {
+     "name": "English",
+     "iso6391": "en",
+     "iso6393": "eng",
+     "via": "default",
+     "defaulted": true
+    },
+    "querySize": 40
+   },
+   "warnings": [
+    "invalid language provided via header"
+   ],
+   "engine": {
+    "name": "Pelias",
+    "author": "Mapzen",
+    "version": "1.0"
+   },
+   "timestamp": 1783680248286
+  },
+  "type": "FeatureCollection",
+  "features": [
+   {
+    "type": "Feature",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      106.553148,
+      20.832942
+     ]
+    },
+    "properties": {
+     "id": "node/4328997889",
+     "gid": "openstreetmap:venue:node/4328997889",
+     "layer": "venue",
+     "source": "openstreetmap",
+     "source_id": "node/4328997889",
+     "country_code": "VN",
+     "name": "Bao an restaurant and hotel",
+     "confidence": 0.5,
+     "distance": 4.653,
+     "accuracy": "point",
+     "country": "Vietnam",
+     "country_gid": "whosonfirst:country:85632763",
+     "country_a": "VNM",
+     "region": "Hai Phong",
+     "region_gid": "whosonfirst:region:85680645",
+     "region_a": "HP",
+     "county": "An Lao",
+     "county_gid": "whosonfirst:county:1108781281",
+     "label": "Bao an restaurant and hotel, HP, Vietnam",
+     "category": [
+      "food",
+      "retail",
+      "nightlife"
+     ]
+    }
+   }
+  ],
+  "bbox": [
+   106.553148,
+   20.832942,
+   106.553148,
+   20.832942
+  ]
+ }
+}

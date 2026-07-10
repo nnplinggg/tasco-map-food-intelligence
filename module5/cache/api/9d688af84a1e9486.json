@@ -1,0 +1,193 @@
+{
+ "label": "reverse-geocoding",
+ "key": "GET https://tasco-maps.dnpwater.vn/geocode/v1/reverse?point.lat=20.850385591465805&point.lon=106.03500428504418&size=1 ",
+ "cachedAt": "2026-07-10T10:52:21.293Z",
+ "response": {
+  "geocoding": {
+   "version": "0.2",
+   "attribution": "http://tasco-maps.dnpwater.vn/attribution",
+   "query": {
+    "size": 1,
+    "private": false,
+    "point.lat": 20.850385591465805,
+    "point.lon": 106.03500428504418,
+    "boundary.circle.lat": 20.850385591465805,
+    "boundary.circle.lon": 106.03500428504418,
+    "lang": {
+     "name": "English",
+     "iso6391": "en",
+     "iso6393": "eng",
+     "via": "default",
+     "defaulted": true
+    },
+    "querySize": 2
+   },
+   "warnings": [
+    "invalid language provided via header"
+   ],
+   "engine": {
+    "name": "Pelias",
+    "author": "Mapzen",
+    "version": "1.0"
+   },
+   "timestamp": 1783680741342
+  },
+  "type": "FeatureCollection",
+  "features": [
+   {
+    "type": "Feature",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      106.028138,
+      20.850133
+     ]
+    },
+    "properties": {
+     "id": "toll:ttp-quoc-lo-39-nut-giao-hung-yen-20-850133-106-028138",
+     "gid": "tasco:venue:toll:ttp-quoc-lo-39-nut-giao-hung-yen-20-850133-106-028138",
+     "layer": "venue",
+     "source": "tasco",
+     "source_id": "toll:ttp-quoc-lo-39-nut-giao-hung-yen-20-850133-106-028138",
+     "country_code": "VN",
+     "name": "TTP Quốc lộ 39 - Nút giao Hưng Yên",
+     "street": "Nút Giao Yên Mỹ, Lý Thường Kiệt, Yên Mỹ, Hưng Yên, Việt Nam",
+     "confidence": 0.6,
+     "distance": 0.715,
+     "accuracy": "point",
+     "country": "Việt Nam",
+     "country_gid": "tasco:country:VNM",
+     "country_a": "VN",
+     "region": "Hung Yen",
+     "region_gid": "whosonfirst:region:85680649",
+     "region_a": "HY",
+     "county": "Yen My",
+     "county_gid": "whosonfirst:county:1108781299",
+     "label": "TTP Quốc lộ 39 - Nút giao Hưng Yên, HY, Việt Nam",
+     "addendum": {
+      "tasco": {
+       "category": "toll_etc",
+       "address": "Nút Giao Yên Mỹ, Lý Thường Kiệt, Yên Mỹ, Hưng Yên, Việt Nam",
+       "source": "tasco",
+       "status": "active",
+       "pricing_info": "Có bảng giá vé lượt, vé tháng, vé quý",
+       "pricing_detail": [
+        {
+         "Name": "Vé Lượt",
+         "Prices": [
+          {
+           "Name": "Xe < 12 chỗ, xe tải < 2 tấn; xe buýt công cộng: QL39 Hưng Yên <-> Đầu tuyến HN",
+           "Price": "40000"
+          },
+          {
+           "Name": "Xe < 12 chỗ, xe tải < 2 tấn; xe buýt công cộng: QL39 Hưng Yên <-> QL38B Hải Dương",
+           "Price": "50000"
+          },
+          {
+           "Name": "Xe < 12 chỗ, xe tải < 2 tấn; xe buýt công cộng: QL39 Hưng Yên <-> QL10 Hải Phòng",
+           "Price": "110000"
+          },
+          {
+           "Name": "Xe < 12 chỗ, xe tải < 2 tấn; xe buýt công cộng: QL39 Hưng Yên <-> Cuối tuyến HP",
+           "Price": "150000"
+          },
+          {
+           "Name": "Xe < 12 chỗ, xe tải < 2 tấn; xe buýt công cộng: QL39 Hưng Yên <-> Đình Vũ",
+           "Price": "170000"
+          },
+          {
+           "Name": "Xe 12-30 chỗ; xe tải 2 đến <4 tấn: QL39 Hưng Yên <-> Đầu tuyến HN",
+           "Price": "60000"
+          },
+          {
+           "Name": "Xe 12-30 chỗ; xe tải 2 đến <4 tấn: QL39 Hưng Yên <-> QL38B Hải Dương",
+           "Price": "70000"
+          },
+          {
+           "Name": "Xe 12-30 chỗ; xe tải 2 đến <4 tấn: QL39 Hưng Yên <-> QL10 Hải Phòng",
+           "Price": "140000"
+          },
+          {
+           "Name": "Xe 12-30 chỗ; xe tải 2 đến <4 tấn: QL39 Hưng Yên <-> Cuối tuyến HP",
+           "Price": "200000"
+          },
+          {
+           "Name": "Xe 12-30 chỗ; xe tải 2 đến <4 tấn: QL39 Hưng Yên <-> Đình Vũ",
+           "Price": "220000"
+          },
+          {
+           "Name": "Xe >= 31 chỗ; xe tải 4 đến <10 tấn: QL39 Hưng Yên <-> Đầu tuyến HN",
+           "Price": "70000"
+          },
+          {
+           "Name": "Xe >= 31 chỗ; xe tải 4 đến <10 tấn: QL39 Hưng Yên <-> QL38B Hải Dương",
+           "Price": "90000"
+          },
+          {
+           "Name": "Xe >= 31 chỗ; xe tải 4 đến <10 tấn: QL39 Hưng Yên <-> QL10 Hải Phòng",
+           "Price": "170000"
+          },
+          {
+           "Name": "Xe >= 31 chỗ; xe tải 4 đến <10 tấn: QL39 Hưng Yên <-> Cuối tuyến HP",
+           "Price": "250000"
+          },
+          {
+           "Name": "Xe >= 31 chỗ; xe tải 4 đến <10 tấn: QL39 Hưng Yên <-> Đình Vũ",
+           "Price": "280000"
+          },
+          {
+           "Name": "Xe tải 10 đến <18 tấn; xe Container 20 fit: QL39 Hưng Yên <-> Đầu tuyến HN",
+           "Price": "110000"
+          },
+          {
+           "Name": "Xe tải 10 đến <18 tấn; xe Container 20 fit: QL39 Hưng Yên <-> QL38B Hải Dương",
+           "Price": "150000"
+          },
+          {
+           "Name": "Xe tải 10 đến <18 tấn; xe Container 20 fit: QL39 Hưng Yên <-> QL10 Hải Phòng",
+           "Price": "280000"
+          },
+          {
+           "Name": "Xe tải 10 đến <18 tấn; xe Container 20 fit: QL39 Hưng Yên <-> Cuối tuyến HP",
+           "Price": "400000"
+          },
+          {
+           "Name": "Xe tải 10 đến <18 tấn; xe Container 20 fit: QL39 Hưng Yên <-> Đình Vũ",
+           "Price": "440000"
+          },
+          {
+           "Name": "Xe tải >= 18 tấn; xe Container 40 fit: QL39 Hưng Yên <-> Đầu tuyến HN",
+           "Price": "150000"
+          },
+          {
+           "Name": "Xe tải >= 18 tấn; xe Container 40 fit: QL39 Hưng Yên <-> QL38B Hải Dương",
+           "Price": "200000"
+          },
+          {
+           "Name": "Xe tải >= 18 tấn; xe Container 40 fit: QL39 Hưng Yên <-> QL10 Hải Phòng",
+           "Price": "380000"
+          },
+          {
+           "Name": "Xe tải >= 18 tấn; xe Container 40 fit: QL39 Hưng Yên <-> Cuối tuyến HP",
+           "Price": "550000"
+          },
+          {
+           "Name": "Xe tải >= 18 tấn; xe Container 40 fit: QL39 Hưng Yên <-> Đình Vũ",
+           "Price": "580000"
+          }
+         ]
+        }
+       ]
+      }
+     }
+    }
+   }
+  ],
+  "bbox": [
+   106.028138,
+   20.850133,
+   106.028138,
+   20.850133
+  ]
+ }
+}

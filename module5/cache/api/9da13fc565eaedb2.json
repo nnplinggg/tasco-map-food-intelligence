@@ -1,0 +1,76 @@
+{
+ "label": "reverse-geocoding",
+ "key": "GET https://tasco-maps.dnpwater.vn/geocode/v1/reverse?point.lat=20.84465519786484&point.lon=106.38669709003487&size=1 ",
+ "cachedAt": "2026-07-10T10:52:24.468Z",
+ "response": {
+  "geocoding": {
+   "version": "0.2",
+   "attribution": "http://tasco-maps.dnpwater.vn/attribution",
+   "query": {
+    "size": 1,
+    "private": false,
+    "point.lat": 20.84465519786484,
+    "point.lon": 106.38669709003487,
+    "boundary.circle.lat": 20.84465519786484,
+    "boundary.circle.lon": 106.38669709003487,
+    "lang": {
+     "name": "English",
+     "iso6391": "en",
+     "iso6393": "eng",
+     "via": "default",
+     "defaulted": true
+    },
+    "querySize": 2
+   },
+   "warnings": [
+    "invalid language provided via header"
+   ],
+   "engine": {
+    "name": "Pelias",
+    "author": "Mapzen",
+    "version": "1.0"
+   },
+   "timestamp": 1783680744517
+  },
+  "type": "FeatureCollection",
+  "features": [
+   {
+    "type": "Feature",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      106.38298,
+      20.839678
+     ]
+    },
+    "properties": {
+     "id": "node/11750787918",
+     "gid": "openstreetmap:venue:node/11750787918",
+     "layer": "venue",
+     "source": "openstreetmap",
+     "source_id": "node/11750787918",
+     "country_code": "VN",
+     "name": "Chùa Đống Duyên",
+     "confidence": 0.6,
+     "distance": 0.676,
+     "accuracy": "point",
+     "country": "Vietnam",
+     "country_gid": "whosonfirst:country:85632763",
+     "country_a": "VNM",
+     "region": "Hai Duong",
+     "region_gid": "whosonfirst:region:85680637",
+     "region_a": "HD",
+     "county": "Tu Ky",
+     "county_gid": "whosonfirst:county:1108781255",
+     "label": "Chùa Đống Duyên, HD, Vietnam"
+    }
+   }
+  ],
+  "bbox": [
+   106.38298,
+   20.839678,
+   106.38298,
+   20.839678
+  ]
+ }
+}

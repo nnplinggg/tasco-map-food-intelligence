@@ -1,0 +1,83 @@
+{
+ "label": "reverse-geocoding",
+ "key": "GET https://tasco-maps.dnpwater.vn/geocode/v1/reverse?point.lat=20.950904&point.lon=107.078427&size=1 ",
+ "cachedAt": "2026-07-10T10:43:15.280Z",
+ "response": {
+  "geocoding": {
+   "version": "0.2",
+   "attribution": "http://tasco-maps.dnpwater.vn/attribution",
+   "query": {
+    "size": 1,
+    "private": false,
+    "point.lat": 20.950904,
+    "point.lon": 107.078427,
+    "boundary.circle.lat": 20.950904,
+    "boundary.circle.lon": 107.078427,
+    "lang": {
+     "name": "English",
+     "iso6391": "en",
+     "iso6393": "eng",
+     "via": "default",
+     "defaulted": true
+    },
+    "querySize": 2
+   },
+   "warnings": [
+    "invalid language provided via header"
+   ],
+   "engine": {
+    "name": "Pelias",
+    "author": "Mapzen",
+    "version": "1.0"
+   },
+   "timestamp": 1783680195335
+  },
+  "type": "FeatureCollection",
+  "features": [
+   {
+    "type": "Feature",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      107.078388,
+      20.951109
+     ]
+    },
+    "properties": {
+     "id": "polyline:184745",
+     "gid": "openstreetmap:street:polyline:184745",
+     "layer": "street",
+     "source": "openstreetmap",
+     "source_id": "polyline:184745",
+     "country_code": "VN",
+     "name": "Thương Mại",
+     "street": "Thương Mại",
+     "confidence": 0.8,
+     "distance": 0.023,
+     "accuracy": "centroid",
+     "country": "Vietnam",
+     "country_gid": "whosonfirst:country:85632763",
+     "country_a": "VNM",
+     "region": "Quang Ninh",
+     "region_gid": "whosonfirst:region:85680583",
+     "region_a": "QN",
+     "county": "Ha Long",
+     "county_gid": "whosonfirst:county:1108781111",
+     "label": "Thương Mại, QN, Vietnam"
+    },
+    "bbox": [
+     107.078233,
+     20.950169,
+     107.078608,
+     20.952061
+    ]
+   }
+  ],
+  "bbox": [
+   107.078233,
+   20.950169,
+   107.078608,
+   20.952061
+  ]
+ }
+}

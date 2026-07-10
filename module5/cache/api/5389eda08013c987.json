@@ -1,0 +1,786 @@
+{
+ "label": "nearby-search",
+ "key": "GET https://tasco-maps.dnpwater.vn/geocode/v1/nearby?point.lat=20.92879&point.lon=105.972964&boundary.circle.radius=4&size=20&categories=food ",
+ "cachedAt": "2026-07-10T10:43:14.223Z",
+ "response": {
+  "geocoding": {
+   "version": "0.2",
+   "attribution": "http://tasco-maps.dnpwater.vn/attribution",
+   "query": {
+    "size": 20,
+    "private": false,
+    "point.lat": 20.92879,
+    "point.lon": 105.972964,
+    "boundary.circle.radius": 4,
+    "boundary.circle.lat": 20.92879,
+    "boundary.circle.lon": 105.972964,
+    "categories": [
+     "food"
+    ],
+    "lang": {
+     "name": "English",
+     "iso6391": "en",
+     "iso6393": "eng",
+     "via": "default",
+     "defaulted": true
+    },
+    "querySize": 40
+   },
+   "warnings": [
+    "invalid language provided via header"
+   ],
+   "engine": {
+    "name": "Pelias",
+    "author": "Mapzen",
+    "version": "1.0"
+   },
+   "timestamp": 1783680194275
+  },
+  "type": "FeatureCollection",
+  "features": [
+   {
+    "type": "Feature",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      105.962301,
+      20.919793
+     ]
+    },
+    "properties": {
+     "id": "way/1480749979",
+     "gid": "openstreetmap:venue:way/1480749979",
+     "layer": "venue",
+     "source": "openstreetmap",
+     "source_id": "way/1480749979",
+     "country_code": "VN",
+     "name": "Chợ Châu",
+     "confidence": 0.5,
+     "distance": 1.494,
+     "accuracy": "point",
+     "country": "Vietnam",
+     "country_gid": "whosonfirst:country:85632763",
+     "country_a": "VNM",
+     "region": "Hung Yen",
+     "region_gid": "whosonfirst:region:85680649",
+     "region_a": "HY",
+     "county": "Van Giang",
+     "county_gid": "whosonfirst:county:1108781297",
+     "label": "Chợ Châu, HY, Vietnam",
+     "category": [
+      "food",
+      "retail"
+     ]
+    },
+    "bbox": [
+     105.9619733,
+     20.9195991,
+     105.962509,
+     20.9199758
+    ]
+   },
+   {
+    "type": "Feature",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      105.95851,
+      20.941018
+     ]
+    },
+    "properties": {
+     "id": "node/13284616875",
+     "gid": "openstreetmap:venue:node/13284616875",
+     "layer": "venue",
+     "source": "openstreetmap",
+     "source_id": "node/13284616875",
+     "country_code": "VN",
+     "name": "Gia Phú",
+     "confidence": 0.5,
+     "distance": 2.028,
+     "accuracy": "point",
+     "country": "Vietnam",
+     "country_gid": "whosonfirst:country:85632763",
+     "country_a": "VNM",
+     "region": "Hung Yen",
+     "region_gid": "whosonfirst:region:85680649",
+     "region_a": "HY",
+     "county": "Van Giang",
+     "county_gid": "whosonfirst:county:1108781297",
+     "label": "Gia Phú, HY, Vietnam",
+     "category": [
+      "food",
+      "retail",
+      "nightlife",
+      "food:cuisine:vietnamese"
+     ]
+    }
+   },
+   {
+    "type": "Feature",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      105.957864,
+      20.942267
+     ]
+    },
+    "properties": {
+     "id": "node/13284616889",
+     "gid": "openstreetmap:venue:node/13284616889",
+     "layer": "venue",
+     "source": "openstreetmap",
+     "source_id": "node/13284616889",
+     "country_code": "VN",
+     "name": "Chợ xã Nghĩa Trụ",
+     "confidence": 0.5,
+     "distance": 2.172,
+     "accuracy": "point",
+     "country": "Vietnam",
+     "country_gid": "whosonfirst:country:85632763",
+     "country_a": "VNM",
+     "region": "Hung Yen",
+     "region_gid": "whosonfirst:region:85680649",
+     "region_a": "HY",
+     "county": "Van Giang",
+     "county_gid": "whosonfirst:county:1108781297",
+     "label": "Chợ xã Nghĩa Trụ, HY, Vietnam",
+     "category": [
+      "food",
+      "retail"
+     ]
+    }
+   },
+   {
+    "type": "Feature",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      105.951854,
+      20.932389
+     ]
+    },
+    "properties": {
+     "id": "node/13038657789",
+     "gid": "openstreetmap:venue:node/13038657789",
+     "layer": "venue",
+     "source": "openstreetmap",
+     "source_id": "node/13038657789",
+     "country_code": "VN",
+     "name": "chợ Sở Đông",
+     "confidence": 0.5,
+     "distance": 2.231,
+     "accuracy": "point",
+     "country": "Vietnam",
+     "country_gid": "whosonfirst:country:85632763",
+     "country_a": "VNM",
+     "region": "Hung Yen",
+     "region_gid": "whosonfirst:region:85680649",
+     "region_a": "HY",
+     "county": "Van Giang",
+     "county_gid": "whosonfirst:county:1108781297",
+     "label": "chợ Sở Đông, HY, Vietnam",
+     "category": [
+      "food",
+      "retail"
+     ]
+    }
+   },
+   {
+    "type": "Feature",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      105.957323,
+      20.943632
+     ]
+    },
+    "properties": {
+     "id": "node/13321407676",
+     "gid": "openstreetmap:venue:node/13321407676",
+     "layer": "venue",
+     "source": "openstreetmap",
+     "source_id": "node/13321407676",
+     "country_code": "VN",
+     "name": "Quyên Caffé!",
+     "confidence": 0.5,
+     "distance": 2.318,
+     "accuracy": "point",
+     "country": "Vietnam",
+     "country_gid": "whosonfirst:country:85632763",
+     "country_a": "VNM",
+     "region": "Hung Yen",
+     "region_gid": "whosonfirst:region:85680649",
+     "region_a": "HY",
+     "county": "Van Giang",
+     "county_gid": "whosonfirst:county:1108781297",
+     "label": "Quyên Caffé!, HY, Vietnam",
+     "category": [
+      "food",
+      "retail",
+      "food:coffee_shop"
+     ]
+    }
+   },
+   {
+    "type": "Feature",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      105.957299,
+      20.943736
+     ]
+    },
+    "properties": {
+     "id": "node/13321407681",
+     "gid": "openstreetmap:venue:node/13321407681",
+     "layer": "venue",
+     "source": "openstreetmap",
+     "source_id": "node/13321407681",
+     "country_code": "VN",
+     "name": "Cơm Phương Thảo",
+     "confidence": 0.5,
+     "distance": 2.328,
+     "accuracy": "point",
+     "country": "Vietnam",
+     "country_gid": "whosonfirst:country:85632763",
+     "country_a": "VNM",
+     "region": "Hung Yen",
+     "region_gid": "whosonfirst:region:85680649",
+     "region_a": "HY",
+     "county": "Van Giang",
+     "county_gid": "whosonfirst:county:1108781297",
+     "label": "Cơm Phương Thảo, HY, Vietnam",
+     "category": [
+      "food",
+      "retail",
+      "nightlife",
+      "food:cuisine:vietnamese"
+     ]
+    }
+   },
+   {
+    "type": "Feature",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      105.975532,
+      20.950916
+     ]
+    },
+    "properties": {
+     "id": "node/13414965018",
+     "gid": "openstreetmap:venue:node/13414965018",
+     "layer": "venue",
+     "source": "openstreetmap",
+     "source_id": "node/13414965018",
+     "country_code": "VN",
+     "name": "Jollibee",
+     "confidence": 0.5,
+     "distance": 2.477,
+     "accuracy": "point",
+     "country": "Vietnam",
+     "country_gid": "whosonfirst:country:85632763",
+     "country_a": "VNM",
+     "region": "Hung Yen",
+     "region_gid": "whosonfirst:region:85680649",
+     "region_a": "HY",
+     "county": "Van Lam",
+     "county_gid": "whosonfirst:county:1108781295",
+     "label": "Jollibee, HY, Vietnam",
+     "category": [
+      "food",
+      "retail",
+      "food:burger"
+     ],
+     "addendum": {
+      "osm": {
+       "brand": "Jollibee"
+      }
+     }
+    }
+   },
+   {
+    "type": "Feature",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      105.975077,
+      20.951022
+     ]
+    },
+    "properties": {
+     "id": "node/13414965014",
+     "gid": "openstreetmap:venue:node/13414965014",
+     "layer": "venue",
+     "source": "openstreetmap",
+     "source_id": "node/13414965014",
+     "country_code": "VN",
+     "name": "De Baekje",
+     "confidence": 0.5,
+     "distance": 2.485,
+     "accuracy": "point",
+     "country": "Vietnam",
+     "country_gid": "whosonfirst:country:85632763",
+     "country_a": "VNM",
+     "region": "Hung Yen",
+     "region_gid": "whosonfirst:region:85680649",
+     "region_a": "HY",
+     "county": "Van Lam",
+     "county_gid": "whosonfirst:county:1108781295",
+     "label": "De Baekje, HY, Vietnam",
+     "category": [
+      "food",
+      "retail",
+      "nightlife"
+     ]
+    }
+   },
+   {
+    "type": "Feature",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      105.975923,
+      20.950992
+     ]
+    },
+    "properties": {
+     "id": "node/13414965019",
+     "gid": "openstreetmap:venue:node/13414965019",
+     "layer": "venue",
+     "source": "openstreetmap",
+     "source_id": "node/13414965019",
+     "country_code": "VN",
+     "name": "Dookki",
+     "confidence": 0.5,
+     "distance": 2.491,
+     "accuracy": "point",
+     "country": "Vietnam",
+     "country_gid": "whosonfirst:country:85632763",
+     "country_a": "VNM",
+     "region": "Hung Yen",
+     "region_gid": "whosonfirst:region:85680649",
+     "region_a": "HY",
+     "county": "Van Lam",
+     "county_gid": "whosonfirst:county:1108781295",
+     "label": "Dookki, HY, Vietnam",
+     "category": [
+      "food",
+      "retail",
+      "nightlife"
+     ]
+    }
+   },
+   {
+    "type": "Feature",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      105.974757,
+      20.951112
+     ]
+    },
+    "properties": {
+     "id": "node/13414965013",
+     "gid": "openstreetmap:venue:node/13414965013",
+     "layer": "venue",
+     "source": "openstreetmap",
+     "source_id": "node/13414965013",
+     "country_code": "VN",
+     "name": "Buffet BBQ by VinPalace",
+     "confidence": 0.5,
+     "distance": 2.492,
+     "accuracy": "point",
+     "country": "Vietnam",
+     "country_gid": "whosonfirst:country:85632763",
+     "country_a": "VNM",
+     "region": "Hung Yen",
+     "region_gid": "whosonfirst:region:85680649",
+     "region_a": "HY",
+     "county": "Van Lam",
+     "county_gid": "whosonfirst:county:1108781295",
+     "label": "Buffet BBQ by VinPalace, HY, Vietnam",
+     "category": [
+      "food",
+      "retail",
+      "nightlife"
+     ]
+    }
+   },
+   {
+    "type": "Feature",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      105.981278,
+      20.949799
+     ]
+    },
+    "properties": {
+     "id": "node/13449358141",
+     "gid": "openstreetmap:venue:node/13449358141",
+     "layer": "venue",
+     "source": "openstreetmap",
+     "source_id": "node/13449358141",
+     "country_code": "VN",
+     "name": "Vstyl.vn",
+     "confidence": 0.5,
+     "distance": 2.493,
+     "accuracy": "point",
+     "country": "Vietnam",
+     "country_gid": "whosonfirst:country:85632763",
+     "country_a": "VNM",
+     "region": "Hung Yen",
+     "region_gid": "whosonfirst:region:85680649",
+     "region_a": "HY",
+     "county": "Van Lam",
+     "county_gid": "whosonfirst:county:1108781295",
+     "label": "Vstyl.vn, HY, Vietnam",
+     "category": [
+      "retail",
+      "food"
+     ]
+    }
+   },
+   {
+    "type": "Feature",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      105.973837,
+      20.951212
+     ]
+    },
+    "properties": {
+     "id": "node/13415034993",
+     "gid": "openstreetmap:venue:node/13415034993",
+     "layer": "venue",
+     "source": "openstreetmap",
+     "source_id": "node/13415034993",
+     "country_code": "VN",
+     "name": "AEON Văn Giang",
+     "confidence": 0.5,
+     "distance": 2.498,
+     "accuracy": "point",
+     "country": "Vietnam",
+     "country_gid": "whosonfirst:country:85632763",
+     "country_a": "VNM",
+     "region": "Hung Yen",
+     "region_gid": "whosonfirst:region:85680649",
+     "region_a": "HY",
+     "county": "Van Lam",
+     "county_gid": "whosonfirst:county:1108781295",
+     "label": "AEON Văn Giang, HY, Vietnam",
+     "category": [
+      "retail",
+      "food"
+     ]
+    }
+   },
+   {
+    "type": "Feature",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      105.974292,
+      20.951234
+     ]
+    },
+    "properties": {
+     "id": "node/13414965012",
+     "gid": "openstreetmap:venue:node/13414965012",
+     "layer": "venue",
+     "source": "openstreetmap",
+     "source_id": "node/13414965012",
+     "country_code": "VN",
+     "name": "RAMEN BUTA SHAMOJI",
+     "confidence": 0.5,
+     "distance": 2.502,
+     "accuracy": "point",
+     "country": "Vietnam",
+     "country_gid": "whosonfirst:country:85632763",
+     "country_a": "VNM",
+     "region": "Hung Yen",
+     "region_gid": "whosonfirst:region:85680649",
+     "region_a": "HY",
+     "county": "Van Lam",
+     "county_gid": "whosonfirst:county:1108781295",
+     "label": "RAMEN BUTA SHAMOJI, HY, Vietnam",
+     "category": [
+      "food",
+      "retail",
+      "nightlife"
+     ]
+    }
+   },
+   {
+    "type": "Feature",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      105.975145,
+      20.951255
+     ]
+    },
+    "properties": {
+     "id": "node/13414965017",
+     "gid": "openstreetmap:venue:node/13414965017",
+     "layer": "venue",
+     "source": "openstreetmap",
+     "source_id": "node/13414965017",
+     "country_code": "VN",
+     "name": "Bingxue",
+     "confidence": 0.5,
+     "distance": 2.511,
+     "accuracy": "point",
+     "country": "Vietnam",
+     "country_gid": "whosonfirst:country:85632763",
+     "country_a": "VNM",
+     "region": "Hung Yen",
+     "region_gid": "whosonfirst:region:85680649",
+     "region_a": "HY",
+     "county": "Van Lam",
+     "county_gid": "whosonfirst:county:1108781295",
+     "label": "Bingxue, HY, Vietnam",
+     "category": [
+      "food",
+      "retail"
+     ]
+    }
+   },
+   {
+    "type": "Feature",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      105.975611,
+      20.951249
+     ]
+    },
+    "properties": {
+     "id": "node/13414965021",
+     "gid": "openstreetmap:venue:node/13414965021",
+     "layer": "venue",
+     "source": "openstreetmap",
+     "source_id": "node/13414965021",
+     "country_code": "VN",
+     "name": "SSAL BOBBY Ocean City",
+     "confidence": 0.5,
+     "distance": 2.515,
+     "accuracy": "point",
+     "country": "Vietnam",
+     "country_gid": "whosonfirst:country:85632763",
+     "country_a": "VNM",
+     "region": "Hung Yen",
+     "region_gid": "whosonfirst:region:85680649",
+     "region_a": "HY",
+     "county": "Van Lam",
+     "county_gid": "whosonfirst:county:1108781295",
+     "label": "SSAL BOBBY Ocean City, HY, Vietnam",
+     "category": [
+      "food",
+      "retail",
+      "nightlife"
+     ]
+    }
+   },
+   {
+    "type": "Feature",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      105.974864,
+      20.95137
+     ]
+    },
+    "properties": {
+     "id": "node/13414965016",
+     "gid": "openstreetmap:venue:node/13414965016",
+     "layer": "venue",
+     "source": "openstreetmap",
+     "source_id": "node/13414965016",
+     "country_code": "VN",
+     "name": "Highlands Coffee",
+     "street": "Đại lộ Ngọc Trai",
+     "confidence": 0.5,
+     "distance": 2.521,
+     "accuracy": "point",
+     "country": "Vietnam",
+     "country_gid": "whosonfirst:country:85632763",
+     "country_a": "VNM",
+     "region": "Hung Yen",
+     "region_gid": "whosonfirst:region:85680649",
+     "region_a": "HY",
+     "county": "Van Lam",
+     "county_gid": "whosonfirst:county:1108781295",
+     "label": "Highlands Coffee, HY, Vietnam",
+     "category": [
+      "food",
+      "retail"
+     ],
+     "addendum": {
+      "osm": {
+       "brand": "Highlands Coffee"
+      }
+     }
+    }
+   },
+   {
+    "type": "Feature",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      105.973672,
+      20.951469
+     ]
+    },
+    "properties": {
+     "id": "node/13414965006",
+     "gid": "openstreetmap:venue:node/13414965006",
+     "layer": "venue",
+     "source": "openstreetmap",
+     "source_id": "node/13414965006",
+     "country_code": "VN",
+     "name": "Hankki Deli 한끼델리",
+     "confidence": 0.5,
+     "distance": 2.526,
+     "accuracy": "point",
+     "country": "Vietnam",
+     "country_gid": "whosonfirst:country:85632763",
+     "country_a": "VNM",
+     "region": "Hung Yen",
+     "region_gid": "whosonfirst:region:85680649",
+     "region_a": "HY",
+     "county": "Van Lam",
+     "county_gid": "whosonfirst:county:1108781295",
+     "label": "Hankki Deli 한끼델리, HY, Vietnam",
+     "category": [
+      "food",
+      "retail",
+      "nightlife"
+     ]
+    }
+   },
+   {
+    "type": "Feature",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      105.975813,
+      20.951337
+     ]
+    },
+    "properties": {
+     "id": "node/13414965020",
+     "gid": "openstreetmap:venue:node/13414965020",
+     "layer": "venue",
+     "source": "openstreetmap",
+     "source_id": "node/13414965020",
+     "country_code": "VN",
+     "name": "Wau Haus Burger & Drinks",
+     "confidence": 0.5,
+     "distance": 2.527,
+     "accuracy": "point",
+     "country": "Vietnam",
+     "country_gid": "whosonfirst:country:85632763",
+     "country_a": "VNM",
+     "region": "Hung Yen",
+     "region_gid": "whosonfirst:region:85680649",
+     "region_a": "HY",
+     "county": "Van Lam",
+     "county_gid": "whosonfirst:county:1108781295",
+     "label": "Wau Haus Burger & Drinks, HY, Vietnam",
+     "category": [
+      "food",
+      "retail",
+      "food:coffee_shop"
+     ]
+    }
+   },
+   {
+    "type": "Feature",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      105.975247,
+      20.951467
+     ]
+    },
+    "properties": {
+     "id": "node/13414965000",
+     "gid": "openstreetmap:venue:node/13414965000",
+     "layer": "venue",
+     "source": "openstreetmap",
+     "source_id": "node/13414965000",
+     "country_code": "VN",
+     "name": "Mixue",
+     "street": "Đại lộ Ngọc Trai",
+     "confidence": 0.5,
+     "distance": 2.536,
+     "accuracy": "point",
+     "country": "Vietnam",
+     "country_gid": "whosonfirst:country:85632763",
+     "country_a": "VNM",
+     "region": "Hung Yen",
+     "region_gid": "whosonfirst:region:85680649",
+     "region_a": "HY",
+     "county": "Van Lam",
+     "county_gid": "whosonfirst:county:1108781295",
+     "label": "Mixue, HY, Vietnam",
+     "category": [
+      "food",
+      "retail"
+     ],
+     "addendum": {
+      "osm": {
+       "brand": "Mixue Ice Cream & Tea"
+      }
+     }
+    }
+   },
+   {
+    "type": "Feature",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      105.973606,
+      20.951574
+     ]
+    },
+    "properties": {
+     "id": "node/13414965007",
+     "gid": "openstreetmap:venue:node/13414965007",
+     "layer": "venue",
+     "source": "openstreetmap",
+     "source_id": "node/13414965007",
+     "country_code": "VN",
+     "name": "Byblos Crepe and Cheese",
+     "confidence": 0.5,
+     "distance": 2.537,
+     "accuracy": "point",
+     "country": "Vietnam",
+     "country_gid": "whosonfirst:country:85632763",
+     "country_a": "VNM",
+     "region": "Hung Yen",
+     "region_gid": "whosonfirst:region:85680649",
+     "region_a": "HY",
+     "county": "Van Lam",
+     "county_gid": "whosonfirst:county:1108781295",
+     "label": "Byblos Crepe and Cheese, HY, Vietnam",
+     "category": [
+      "food",
+      "retail",
+      "nightlife"
+     ]
+    }
+   }
+  ],
+  "bbox": [
+   105.951854,
+   20.9195991,
+   105.981278,
+   20.951574
+  ]
+ }
+}

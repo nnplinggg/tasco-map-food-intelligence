@@ -1,0 +1,347 @@
+{
+ "label": "nearby-search",
+ "key": "GET https://tasco-maps.dnpwater.vn/geocode/v1/nearby?point.lat=20.992614214639236&point.lon=106.98708413648404&boundary.circle.radius=6&size=20&categories=food ",
+ "cachedAt": "2026-07-10T10:52:32.872Z",
+ "response": {
+  "geocoding": {
+   "version": "0.2",
+   "attribution": "http://tasco-maps.dnpwater.vn/attribution",
+   "query": {
+    "size": 20,
+    "private": false,
+    "point.lat": 20.992614214639236,
+    "point.lon": 106.98708413648404,
+    "boundary.circle.radius": 5,
+    "boundary.circle.lat": 20.992614214639236,
+    "boundary.circle.lon": 106.98708413648404,
+    "categories": [
+     "food"
+    ],
+    "lang": {
+     "name": "English",
+     "iso6391": "en",
+     "iso6393": "eng",
+     "via": "default",
+     "defaulted": true
+    },
+    "querySize": 40
+   },
+   "warnings": [
+    "invalid language provided via header"
+   ],
+   "engine": {
+    "name": "Pelias",
+    "author": "Mapzen",
+    "version": "1.0"
+   },
+   "timestamp": 1783680752920
+  },
+  "type": "FeatureCollection",
+  "features": [
+   {
+    "type": "Feature",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      106.99818,
+      20.980494
+     ]
+    },
+    "properties": {
+     "id": "way/676796150",
+     "gid": "openstreetmap:venue:way/676796150",
+     "layer": "venue",
+     "source": "openstreetmap",
+     "source_id": "way/676796150",
+     "country_code": "VN",
+     "name": "Chợ Hà Khẩu",
+     "confidence": 0.5,
+     "distance": 1.775,
+     "accuracy": "point",
+     "country": "Vietnam",
+     "country_gid": "whosonfirst:country:85632763",
+     "country_a": "VNM",
+     "region": "Quang Ninh",
+     "region_gid": "whosonfirst:region:85680583",
+     "region_a": "QN",
+     "county": "Ha Long",
+     "county_gid": "whosonfirst:county:1108781111",
+     "label": "Chợ Hà Khẩu, QN, Vietnam",
+     "category": [
+      "food",
+      "retail"
+     ]
+    },
+    "bbox": [
+     106.9976521,
+     20.9801298,
+     106.9986927,
+     20.9807033
+    ]
+   },
+   {
+    "type": "Feature",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      106.988461,
+      21.022864
+     ]
+    },
+    "properties": {
+     "id": "way/677419395",
+     "gid": "openstreetmap:venue:way/677419395",
+     "layer": "venue",
+     "source": "openstreetmap",
+     "source_id": "way/677419395",
+     "country_code": "VN",
+     "name": "Chợ Trới",
+     "confidence": 0.5,
+     "distance": 3.37,
+     "accuracy": "point",
+     "country": "Vietnam",
+     "country_gid": "whosonfirst:country:85632763",
+     "country_a": "VNM",
+     "region": "Quang Ninh",
+     "region_gid": "whosonfirst:region:85680583",
+     "region_a": "QN",
+     "county": "Hoanh Bo",
+     "county_gid": "whosonfirst:county:1108781133",
+     "label": "Chợ Trới, QN, Vietnam",
+     "category": [
+      "food",
+      "retail"
+     ]
+    },
+    "bbox": [
+     106.9877574,
+     21.0223541,
+     106.9891964,
+     21.0235384
+    ]
+   },
+   {
+    "type": "Feature",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      107.012556,
+      20.973145
+     ]
+    },
+    "properties": {
+     "id": "node/13017062701",
+     "gid": "openstreetmap:venue:node/13017062701",
+     "layer": "venue",
+     "source": "openstreetmap",
+     "source_id": "node/13017062701",
+     "country_code": "VN",
+     "name": "An Phát",
+     "confidence": 0.5,
+     "distance": 3.421,
+     "accuracy": "point",
+     "country": "Vietnam",
+     "country_gid": "whosonfirst:country:85632763",
+     "country_a": "VNM",
+     "region": "Quang Ninh",
+     "region_gid": "whosonfirst:region:85680583",
+     "region_a": "QN",
+     "county": "Ha Long",
+     "county_gid": "whosonfirst:county:1108781111",
+     "label": "An Phát, QN, Vietnam",
+     "category": [
+      "food",
+      "retail",
+      "nightlife"
+     ]
+    }
+   },
+   {
+    "type": "Feature",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      107.020426,
+      20.979008
+     ]
+    },
+    "properties": {
+     "id": "node/4890935584",
+     "gid": "openstreetmap:venue:node/4890935584",
+     "layer": "venue",
+     "source": "openstreetmap",
+     "source_id": "node/4890935584",
+     "country_code": "VN",
+     "name": "Quán ăn vặt Ba Sói",
+     "confidence": 0.5,
+     "distance": 3.782,
+     "accuracy": "point",
+     "country": "Vietnam",
+     "country_gid": "whosonfirst:country:85632763",
+     "country_a": "VNM",
+     "region": "Quang Ninh",
+     "region_gid": "whosonfirst:region:85680583",
+     "region_a": "QN",
+     "county": "Ha Long",
+     "county_gid": "whosonfirst:county:1108781111",
+     "label": "Quán ăn vặt Ba Sói, QN, Vietnam",
+     "category": [
+      "food",
+      "retail",
+      "nightlife"
+     ],
+     "addendum": {
+      "osm": {
+       "phone": "0904461211",
+       "opening_hours": "24/7"
+      }
+     }
+    }
+   },
+   {
+    "type": "Feature",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      106.997251,
+      20.959352
+     ]
+    },
+    "properties": {
+     "id": "node/12998531401",
+     "gid": "openstreetmap:venue:node/12998531401",
+     "layer": "venue",
+     "source": "openstreetmap",
+     "source_id": "node/12998531401",
+     "country_code": "VN",
+     "name": "Vựa Hải Sản Bãi Cháy",
+     "confidence": 0.5,
+     "distance": 3.851,
+     "accuracy": "point",
+     "country": "Vietnam",
+     "country_gid": "whosonfirst:country:85632763",
+     "country_a": "VNM",
+     "region": "Quang Ninh",
+     "region_gid": "whosonfirst:region:85680583",
+     "region_a": "QN",
+     "county": "Ha Long",
+     "county_gid": "whosonfirst:county:1108781111",
+     "label": "Vựa Hải Sản Bãi Cháy, QN, Vietnam",
+     "category": [
+      "food",
+      "retail",
+      "nightlife"
+     ],
+     "addendum": {
+      "osm": {
+       "website": "https://vuahaisanbaichay.vn",
+       "phone": "0819822822"
+      }
+     }
+    }
+   },
+   {
+    "type": "Feature",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      107.004185,
+      20.955972
+     ]
+    },
+    "properties": {
+     "id": "node/5761407821",
+     "gid": "openstreetmap:venue:node/5761407821",
+     "layer": "venue",
+     "source": "openstreetmap",
+     "source_id": "node/5761407821",
+     "name": "Quán Cà Phê Eleven Coffee",
+     "housenumber": "HO1-2",
+     "postalcode": "200000",
+     "confidence": 0.5,
+     "distance": 4.449,
+     "accuracy": "point",
+     "label": "Quán Cà Phê Eleven Coffee",
+     "category": [
+      "food",
+      "retail"
+     ],
+     "addendum": {
+      "osm": {
+       "phone": "0914954747",
+       "opening_hours": "24/7"
+      }
+     }
+    }
+   },
+   {
+    "type": "Feature",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      106.971923,
+      20.953823
+     ]
+    },
+    "properties": {
+     "id": "node/7168795429",
+     "gid": "openstreetmap:venue:node/7168795429",
+     "layer": "venue",
+     "source": "openstreetmap",
+     "source_id": "node/7168795429",
+     "country_code": "VN",
+     "name": "Pearl Coffee",
+     "confidence": 0.5,
+     "distance": 4.597,
+     "accuracy": "point",
+     "country": "Vietnam",
+     "country_gid": "whosonfirst:country:85632763",
+     "country_a": "VNM",
+     "region": "Quang Ninh",
+     "region_gid": "whosonfirst:region:85680583",
+     "region_a": "QN",
+     "county": "Ha Long",
+     "county_gid": "whosonfirst:county:1108781111",
+     "label": "Pearl Coffee, QN, Vietnam",
+     "category": [
+      "food",
+      "retail"
+     ]
+    }
+   },
+   {
+    "type": "Feature",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      107.018766,
+      20.959418
+     ]
+    },
+    "properties": {
+     "id": "node/995293185",
+     "gid": "openstreetmap:venue:node/995293185",
+     "layer": "venue",
+     "source": "openstreetmap",
+     "source_id": "node/995293185",
+     "name": "Cua Vàng",
+     "confidence": 0.5,
+     "distance": 4.95,
+     "accuracy": "point",
+     "label": "Cua Vàng",
+     "category": [
+      "food",
+      "retail",
+      "nightlife"
+     ]
+    }
+   }
+  ],
+  "bbox": [
+   106.971923,
+   20.953823,
+   107.020426,
+   21.0235384
+  ]
+ }
+}

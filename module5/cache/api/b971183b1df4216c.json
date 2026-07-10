@@ -1,0 +1,83 @@
+{
+ "label": "reverse-geocoding",
+ "key": "GET https://tasco-maps.dnpwater.vn/geocode/v1/reverse?point.lat=21.025619331464274&point.lon=105.8995607092895&size=1 ",
+ "cachedAt": "2026-07-10T10:52:19.163Z",
+ "response": {
+  "geocoding": {
+   "version": "0.2",
+   "attribution": "http://tasco-maps.dnpwater.vn/attribution",
+   "query": {
+    "size": 1,
+    "private": false,
+    "point.lat": 21.025619331464274,
+    "point.lon": 105.8995607092895,
+    "boundary.circle.lat": 21.025619331464274,
+    "boundary.circle.lon": 105.8995607092895,
+    "lang": {
+     "name": "English",
+     "iso6391": "en",
+     "iso6393": "eng",
+     "via": "default",
+     "defaulted": true
+    },
+    "querySize": 2
+   },
+   "warnings": [
+    "invalid language provided via header"
+   ],
+   "engine": {
+    "name": "Pelias",
+    "author": "Mapzen",
+    "version": "1.0"
+   },
+   "timestamp": 1783680739211
+  },
+  "type": "FeatureCollection",
+  "features": [
+   {
+    "type": "Feature",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      105.899685,
+      21.025842
+     ]
+    },
+    "properties": {
+     "id": "polyline:43611",
+     "gid": "openstreetmap:street:polyline:43611",
+     "layer": "street",
+     "source": "openstreetmap",
+     "source_id": "polyline:43611",
+     "country_code": "VN",
+     "name": "Lối vào Xe máy",
+     "street": "Lối vào Xe máy",
+     "confidence": 0.8,
+     "distance": 0.028,
+     "accuracy": "centroid",
+     "country": "Vietnam",
+     "country_gid": "whosonfirst:country:85632763",
+     "country_a": "VNM",
+     "region": "Ha Noi",
+     "region_gid": "whosonfirst:region:85680653",
+     "region_a": "HI",
+     "county": "Long Bien",
+     "county_gid": "whosonfirst:county:1108780791",
+     "label": "Lối vào Xe máy, HI, Vietnam"
+    },
+    "bbox": [
+     105.899637,
+     21.025742,
+     105.899733,
+     21.025941
+    ]
+   }
+  ],
+  "bbox": [
+   105.899637,
+   21.025742,
+   105.899733,
+   21.025941
+  ]
+ }
+}

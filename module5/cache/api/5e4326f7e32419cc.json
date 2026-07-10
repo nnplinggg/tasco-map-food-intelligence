@@ -1,0 +1,87 @@
+{
+ "label": "reverse-geocoding",
+ "key": "GET https://tasco-maps.dnpwater.vn/geocode/v1/reverse?point.lat=21.028833&point.lon=105.854165&size=1 ",
+ "cachedAt": "2026-07-10T10:43:14.822Z",
+ "response": {
+  "geocoding": {
+   "version": "0.2",
+   "attribution": "http://tasco-maps.dnpwater.vn/attribution",
+   "query": {
+    "size": 1,
+    "private": false,
+    "point.lat": 21.028833,
+    "point.lon": 105.854165,
+    "boundary.circle.lat": 21.028833,
+    "boundary.circle.lon": 105.854165,
+    "lang": {
+     "name": "English",
+     "iso6391": "en",
+     "iso6393": "eng",
+     "via": "default",
+     "defaulted": true
+    },
+    "querySize": 2
+   },
+   "warnings": [
+    "invalid language provided via header"
+   ],
+   "engine": {
+    "name": "Pelias",
+    "author": "Mapzen",
+    "version": "1.0"
+   },
+   "timestamp": 1783680194877
+  },
+  "type": "FeatureCollection",
+  "features": [
+   {
+    "type": "Feature",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      105.85429,
+      21.028621
+     ]
+    },
+    "properties": {
+     "id": "node/13583967658",
+     "gid": "openstreetmap:address:node/13583967658",
+     "layer": "address",
+     "source": "openstreetmap",
+     "source_id": "node/13583967658",
+     "country_code": "VN",
+     "name": "17 Phố Trần Nguyên Hãn",
+     "housenumber": "17",
+     "street": "Phố Trần Nguyên Hãn",
+     "confidence": 0.8,
+     "distance": 0.027,
+     "accuracy": "point",
+     "country": "Vietnam",
+     "country_gid": "whosonfirst:country:85632763",
+     "country_a": "VNM",
+     "region": "Ha Noi",
+     "region_gid": "whosonfirst:region:85680653",
+     "region_a": "HI",
+     "county": "Hoan Kiem",
+     "county_gid": "whosonfirst:county:1108780787",
+     "locality": "Hanoi",
+     "locality_gid": "whosonfirst:locality:421177479",
+     "label": "17 Phố Trần Nguyên Hãn, Hanoi, HI, Vietnam",
+     "addendum": {
+      "osm": {
+       "wikidata": "Q20809613",
+       "wikipedia": "vi:Hội đồng nhân dân thành phố Hà Nội",
+       "website": "http://dbndhanoi.gov.vn/"
+      }
+     }
+    }
+   }
+  ],
+  "bbox": [
+   105.85429,
+   21.028621,
+   105.85429,
+   21.028621
+  ]
+ }
+}

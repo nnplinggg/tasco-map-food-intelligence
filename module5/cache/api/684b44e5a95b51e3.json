@@ -1,0 +1,154 @@
+{
+ "label": "nearby-search",
+ "key": "GET https://tasco-maps.dnpwater.vn/geocode/v1/nearby?point.lat=20.808821&point.lon=106.625951&boundary.circle.radius=0.4&size=3&categories=transport ",
+ "cachedAt": "2026-07-10T10:47:25.575Z",
+ "response": {
+  "geocoding": {
+   "version": "0.2",
+   "attribution": "http://tasco-maps.dnpwater.vn/attribution",
+   "query": {
+    "size": 3,
+    "private": false,
+    "point.lat": 20.808821,
+    "point.lon": 106.625951,
+    "boundary.circle.radius": 0.4,
+    "boundary.circle.lat": 20.808821,
+    "boundary.circle.lon": 106.625951,
+    "categories": [
+     "transport"
+    ],
+    "lang": {
+     "name": "English",
+     "iso6391": "en",
+     "iso6393": "eng",
+     "via": "default",
+     "defaulted": true
+    },
+    "querySize": 20
+   },
+   "warnings": [
+    "invalid language provided via header"
+   ],
+   "engine": {
+    "name": "Pelias",
+    "author": "Mapzen",
+    "version": "1.0"
+   },
+   "timestamp": 1783680445626
+  },
+  "type": "FeatureCollection",
+  "features": [
+   {
+    "type": "Feature",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      106.625946,
+      20.809149
+     ]
+    },
+    "properties": {
+     "id": "node/13452352336",
+     "gid": "openstreetmap:venue:node/13452352336",
+     "layer": "venue",
+     "source": "openstreetmap",
+     "source_id": "node/13452352336",
+     "country_code": "VN",
+     "name": "Cửa hàng Điện máy xanh",
+     "confidence": 0.8,
+     "distance": 0.037,
+     "accuracy": "point",
+     "country": "Vietnam",
+     "country_gid": "whosonfirst:country:85632763",
+     "country_a": "VNM",
+     "region": "Hai Phong",
+     "region_gid": "whosonfirst:region:85680645",
+     "region_a": "HP",
+     "county": "Kien An",
+     "county_gid": "whosonfirst:county:1108781283",
+     "label": "Cửa hàng Điện máy xanh, HP, Vietnam",
+     "category": [
+      "transport",
+      "transport:public"
+     ]
+    }
+   },
+   {
+    "type": "Feature",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      106.625726,
+      20.809388
+     ]
+    },
+    "properties": {
+     "id": "node/13452334247",
+     "gid": "openstreetmap:venue:node/13452334247",
+     "layer": "venue",
+     "source": "openstreetmap",
+     "source_id": "node/13452334247",
+     "country_code": "VN",
+     "name": "Công ty May II",
+     "confidence": 0.8,
+     "distance": 0.067,
+     "accuracy": "point",
+     "country": "Vietnam",
+     "country_gid": "whosonfirst:country:85632763",
+     "country_a": "VNM",
+     "region": "Hai Phong",
+     "region_gid": "whosonfirst:region:85680645",
+     "region_a": "HP",
+     "county": "Kien An",
+     "county_gid": "whosonfirst:county:1108781283",
+     "label": "Công ty May II, HP, Vietnam",
+     "category": [
+      "transport",
+      "transport:public"
+     ]
+    }
+   },
+   {
+    "type": "Feature",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      106.624156,
+      20.809043
+     ]
+    },
+    "properties": {
+     "id": "node/13452583260",
+     "gid": "openstreetmap:venue:node/13452583260",
+     "layer": "venue",
+     "source": "openstreetmap",
+     "source_id": "node/13452583260",
+     "country_code": "VN",
+     "name": "Đối diện cổng B Đại học Hải Phòng",
+     "confidence": 0.7,
+     "distance": 0.188,
+     "accuracy": "point",
+     "country": "Vietnam",
+     "country_gid": "whosonfirst:country:85632763",
+     "country_a": "VNM",
+     "region": "Hai Phong",
+     "region_gid": "whosonfirst:region:85680645",
+     "region_a": "HP",
+     "county": "Kien An",
+     "county_gid": "whosonfirst:county:1108781283",
+     "label": "Đối diện cổng B Đại học Hải Phòng, HP, Vietnam",
+     "category": [
+      "transport",
+      "transport:public"
+     ]
+    }
+   }
+  ],
+  "bbox": [
+   106.624156,
+   20.809043,
+   106.625946,
+   20.809388
+  ]
+ }
+}

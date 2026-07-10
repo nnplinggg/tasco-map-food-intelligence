@@ -1,0 +1,85 @@
+{
+ "label": "reverse-geocoding",
+ "key": "GET https://tasco-maps.dnpwater.vn/geocode/v1/reverse?point.lat=21.035073884734647&point.lon=105.85500160678461&size=1 ",
+ "cachedAt": "2026-07-10T10:52:18.689Z",
+ "response": {
+  "geocoding": {
+   "version": "0.2",
+   "attribution": "http://tasco-maps.dnpwater.vn/attribution",
+   "query": {
+    "size": 1,
+    "private": false,
+    "point.lat": 21.035073884734647,
+    "point.lon": 105.85500160678461,
+    "boundary.circle.lat": 21.035073884734647,
+    "boundary.circle.lon": 105.85500160678461,
+    "lang": {
+     "name": "English",
+     "iso6391": "en",
+     "iso6393": "eng",
+     "via": "default",
+     "defaulted": true
+    },
+    "querySize": 2
+   },
+   "warnings": [
+    "invalid language provided via header"
+   ],
+   "engine": {
+    "name": "Pelias",
+    "author": "Mapzen",
+    "version": "1.0"
+   },
+   "timestamp": 1783680738736
+  },
+  "type": "FeatureCollection",
+  "features": [
+   {
+    "type": "Feature",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      105.854639,
+      21.035224
+     ]
+    },
+    "properties": {
+     "id": "polyline:102461",
+     "gid": "openstreetmap:street:polyline:102461",
+     "layer": "street",
+     "source": "openstreetmap",
+     "source_id": "polyline:102461",
+     "country_code": "VN",
+     "name": "Đường Trần Nhật Duật",
+     "street": "Đường Trần Nhật Duật",
+     "confidence": 0.8,
+     "distance": 0.041,
+     "accuracy": "centroid",
+     "country": "Vietnam",
+     "country_gid": "whosonfirst:country:85632763",
+     "country_a": "VNM",
+     "region": "Ha Noi",
+     "region_gid": "whosonfirst:region:85680653",
+     "region_a": "HI",
+     "county": "Hoan Kiem",
+     "county_gid": "whosonfirst:county:1108780787",
+     "locality": "Hanoi",
+     "locality_gid": "whosonfirst:locality:421177479",
+     "label": "Đường Trần Nhật Duật, Hanoi, HI, Vietnam"
+    },
+    "bbox": [
+     105.854583,
+     21.033888,
+     105.855346,
+     21.035316
+    ]
+   }
+  ],
+  "bbox": [
+   105.854583,
+   21.033888,
+   105.855346,
+   21.035316
+  ]
+ }
+}

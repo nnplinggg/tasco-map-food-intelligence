@@ -1,0 +1,76 @@
+{
+ "label": "reverse-geocoding",
+ "key": "GET https://tasco-maps.dnpwater.vn/geocode/v1/reverse?point.lat=20.993633320110018&point.lon=105.93496866056496&size=1 ",
+ "cachedAt": "2026-07-10T10:50:36.146Z",
+ "response": {
+  "geocoding": {
+   "version": "0.2",
+   "attribution": "http://tasco-maps.dnpwater.vn/attribution",
+   "query": {
+    "size": 1,
+    "private": false,
+    "point.lat": 20.993633320110018,
+    "point.lon": 105.93496866056496,
+    "boundary.circle.lat": 20.993633320110018,
+    "boundary.circle.lon": 105.93496866056496,
+    "lang": {
+     "name": "English",
+     "iso6391": "en",
+     "iso6393": "eng",
+     "via": "default",
+     "defaulted": true
+    },
+    "querySize": 2
+   },
+   "warnings": [
+    "invalid language provided via header"
+   ],
+   "engine": {
+    "name": "Pelias",
+    "author": "Mapzen",
+    "version": "1.0"
+   },
+   "timestamp": 1783680636197
+  },
+  "type": "FeatureCollection",
+  "features": [
+   {
+    "type": "Feature",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      105.936714,
+      20.99386
+     ]
+    },
+    "properties": {
+     "id": "node/12551000115",
+     "gid": "openstreetmap:venue:node/12551000115",
+     "layer": "venue",
+     "source": "openstreetmap",
+     "source_id": "node/12551000115",
+     "country_code": "VN",
+     "name": "Hồ San Hô - BBQ-B15",
+     "confidence": 0.7,
+     "distance": 0.183,
+     "accuracy": "point",
+     "country": "Vietnam",
+     "country_gid": "whosonfirst:country:85632763",
+     "country_a": "VNM",
+     "region": "Ha Noi",
+     "region_gid": "whosonfirst:region:85680653",
+     "region_a": "HI",
+     "county": "Gia Lam",
+     "county_gid": "whosonfirst:county:1108780809",
+     "label": "Hồ San Hô - BBQ-B15, HI, Vietnam"
+    }
+   }
+  ],
+  "bbox": [
+   105.936714,
+   20.99386,
+   105.936714,
+   20.99386
+  ]
+ }
+}
