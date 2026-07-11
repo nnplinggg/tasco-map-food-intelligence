@@ -14,6 +14,57 @@
 - Base URL + auth (Bearer / X-API-Key) đọc từ config/env, không hardcode (yêu cầu trong API doc trang 2).
 - Lỗi trả theo format `{ "error": { "code", "message", "details" }, "requestId" }`.
 
+### 0.1 Đối chiếu API doc — 2 tầng thật vs tự build, và phạm vi cố tình bỏ qua
+
+So với `docs/hackathon/tasco_maps_hackathon_api_documentation.md` (bản text của PDF gốc):
+
+- **2 tầng khác nhau, đừng nhầm lẫn:** `tasco-maps.dnpwater.vn/geocode` + `/route` là backend **thật**
+  (Pelias + Valhalla) — chỉ Module 5 gọi trực tiếp vì cần dữ liệu địa lý ngoài 30 quán benchmark. Còn
+  `GET /v1/search`, `GET /v1/poi/{id}`, `GET /v1/autocomplete` là **contract shape team tự implement**
+  trên chính 30 POI + Menu CSV — không có backend Tasco nào sẵn "biết" `RES001` hay
+  `recommended_segments`. Mock server BTC (`docs/hackathon/mock_api_server.js`) là bản tham chiếu của
+  tầng contract này, không phải nguồn dữ liệu thật.
+
+- **`GET /v1/poi/{id}` là 1 endpoint DÙNG CHUNG cho Module 2/3/4, không phải 3 endpoint riêng.** Khi gọi
+  `include=menu,reviews,ai_summary` (đường gọi thật của benchmark Comparison Q8 — chạm cả 4 module trên
+  2 quán), response phải gộp đủ cả 3 phần mở rộng cùng lúc:
+
+  ```json
+  {
+    "poi": {
+      "id": "poi:res011", "type": "poi", "name": "Sushi Sakura",
+      "address": "35 Lê Lợi, Lộc Thọ, Nha Trang", "category": "restaurant",
+      "coordinates": { "lat": 12.215726, "lon": 109.173122 },
+      "openingHours": "10:00-02:00",
+      "score": 0.74,
+      "source": "dataset",
+      "menu": { "ocrId": "OCR011", "items": ["...xem spec 02 mục 3"] },
+      "reviewInsights": { "reviewCount": 5, "strengths": ["...xem spec 03 mục 3"] },
+      "aiSummary": "...",
+      "qualityScore": { "overall": 0.74, "...": "xem spec 04 mục 3" }
+    }
+  }
+  ```
+
+- **`openingHours` luôn có mặt trong response, KHÔNG gate theo `include=hours`** — vì logic lọc
+  `open_at` ở mục 4 cần field này ngay từ bước lọc POI cơ bản, trước khi biết `include` của bất kỳ
+  query nào. Đây là diễn giải khác literal text API doc (doc liệt kê `hours` như 1 lựa chọn optional
+  trong `include`) — quyết định có chủ đích, ghi lại để không ai "sửa cho đúng doc" rồi làm hỏng filter.
+
+- **`include=menu` (spec 02) mở rộng enum gốc của doc.** API doc gốc chỉ liệt kê
+  `reviews,photos,hours,ai_summary` cho tham số `include` — `menu` không nằm trong đó. Team thêm giá
+  trị này theo đúng tinh thần "field mở rộng được phép ở tầng response" mà doc đã cho phép (tiền lệ
+  `aiSummary`, `openingHours`), áp dụng tương tự cho tham số `include`.
+
+- **Cố tình KHÔNG implement — có lý do cụ thể, không phải bỏ sót:**
+  - `include=photos` — không có Photo Dataset nào trong hackathon; response không có key `photos`
+    (không lỗi, không bịa placeholder).
+  - `GET /v1/autocomplete` — 0/15 câu benchmark cần gõ-dở tìm kiếm tức thời; cắt để dồn giờ cho 4 module
+    core, cùng logic ưu tiên đã thống nhất ở mục 5 `00-team-brief.md`.
+  - `bbox` param của `/v1/search` — 30 POI tĩnh, không cần phân trang theo viewport bản đồ.
+  - `category` param của `/v1/search` — filter category đã có qua FilterSpec riêng (mục 4 bên dưới),
+    không cần lặp lại qua param `category` cấp ngoài của doc.
+
 ## 1. Mục tiêu
 
 Biến câu hỏi tiếng Việt tự nhiên ("Gia đình có trẻ nhỏ muốn ăn tối ở Hà Nội") thành kết quả nhà hàng đã lọc và xếp hạng, dựa trên tầng dữ liệu ngữ nghĩa (dietary, segment, giờ mở cửa, giá món) thay vì text-matching thô — giải quyết trực tiếp "difficult to search by dishes or preferences" trong brief.

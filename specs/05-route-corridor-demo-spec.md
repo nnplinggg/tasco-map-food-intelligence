@@ -175,3 +175,15 @@ kiểm thử nội bộ:
 | Test cách ly (chạy lại eval Module 1/3/4, xác nhận không lệch) | 1.0 |
 | Demo script + honesty note trong UI | 0.5-1.0 |
 | **Tổng** | **3.5-4.0** |
+
+## 9. Đối chiếu API doc — dư địa tận dụng thêm (chưa làm, TODO nếu dư giờ)
+
+So với `docs/hackathon/tasco_maps_hackathon_api_documentation.md`, có vài tham số API đã tồn tại nhưng
+module chưa dùng tới — ghi lại để không quên, không phải việc bắt buộc:
+
+| Tham số/field trong doc | Trạng thái hiện tại | Cơ hội |
+|---|---|---|
+| `nearby-search?openNow=boolean` | Chưa thử — hiện tại gate theo khung giờ bữa ăn (`atHour`) vì giả định quán ven đường không có `opening_hours` thật | **Đáng thử trước khi kết luận**: nếu Pelias trả field giờ mở cho một số venue, có thể lọc "đang mở cửa" thật thay vì suy luận qua giờ bữa — nâng độ chính xác của gợi ý |
+| `category` filter của `nearby-search` chỉ nhận `hotel/restaurant/cafe/parking` | Không có category nào cho trạm sạc EV | Bằng chứng thêm (không chỉ lý do "tốn giờ mock") cho quyết định đã chốt: loại hẳn hướng trạm sạc EV — API production cũng không có category này |
+| `avoidTolls`/`avoidHighways` trong `POST /v1/route` | Chưa dùng — mọi route hiện tính bình thường qua tuyến có trạm thu phí | Có thể làm demo phụ "so sánh route né trạm thu phí (chậm hơn, không có gợi ý dừng) vs route qua trạm (có gợi ý)" — làm rõ giá trị của tín hiệu VETC. Không ưu tiên, chỉ ghi lại ý tưởng |
+| Header khuyến nghị `X-Timezone: Asia/Ho_Chi_Minh` | `atHour` hiện truyền tay qua query string (mô phỏng) | Nếu tích hợp thật, nên đọc giờ hệ thống theo timezone chuẩn từ header này thay vì tham số tự do — nhất quán với quy ước API doc |

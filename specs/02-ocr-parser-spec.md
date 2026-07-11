@@ -28,7 +28,7 @@ Biến text OCR thô, lộn xộn, mất dấu ("Pho bò tái .... 80.397 VND") 
 
 ## 3. Output schema
 
-Menu có cấu trúc gắn vào POI qua endpoint chi tiết `GET /v1/poi/{id}?include=menu` — theo đúng pattern API doc (response POI được phép có field mở rộng như `aiSummary`, `openingHours`):
+Menu có cấu trúc gắn vào POI qua endpoint chi tiết `GET /v1/poi/{id}?include=menu` — theo đúng pattern API doc (response POI được phép có field mở rộng như `aiSummary`, `openingHours`). Lưu ý: `menu` không nằm trong enum `include` gốc của doc (`reviews,photos,hours,ai_summary`) — đây là extension team tự thêm, cùng chỗ ghép chung với Module 3/4 trên 1 endpoint `/v1/poi/{id}` (xem ví dụ gộp ở mục 0.1 của `01-semantic-search-spec.md`):
 
 ```json
 {
