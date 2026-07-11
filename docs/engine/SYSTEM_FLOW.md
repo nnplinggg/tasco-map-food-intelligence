@@ -109,6 +109,42 @@ cộng thêm 2 tier chỉ Tasco làm được (business-verified, driver-confirm
 
 ---
 
+## 2.5 USER INPUT — preference vào engine bằng đường nào (theo hành vi map THẬT)
+
+**Nguyên tắc:** trên map không ai viết câu dài. Hành vi thật: mở app → **gõ 2-3 ký tự** →
+tap suggest → đi. Vậy nên personalization phải chạy được với input gần bằng 0 —
+phần nặng do ngữ cảnh gánh. Xếp theo độ ưu tiên build:
+
+```mermaid
+flowchart LR
+    K1["User gõ prefix ngắn\n'ca…'"] --> AC["ST-Autocomplete\nP(intent | prefix, GIỜ, VỊ TRÍ/TUYẾN)"]
+    AC --> CHIP["Chips gợi ý:\n7h → Cà phê ☕\n11h45 → Cơm cá · Canh cá\n(trên tuyến → quán dọc corridor)"]
+    CHIP --> TAP["1 tap chọn"]
+    K2["CTX tự có (zero input):\natHour · route · vehicle · vị trí"] --> FS
+    K3["Onboarding 10 giây (HARD-only):\ndị ứng · chay/halal · trẻ nhỏ"] --> FS
+    K4["Learned (ngầm):\ndwell quán quen · cuisine hay bấm\n· 1-tap confirm sau bữa"] --> FS
+    TAP --> FS["FilterSpec"]
+    FS --> RANK["HARD → CTX → SOFT → LLM rerank (§5)"]
+```
+
+| # | Kênh | User làm gì | Engine lấy được gì | Evidence / ghi chú |
+|---|---|---|---|---|
+| **1** | **CTX — ngữ cảnh chuyến đi** | **không gì cả** | `atHour` → meal-window · route → detour · `vehicle=car` → parking bắt buộc | tài sản riêng của map đang dẫn đường; Foody/web không có |
+| **2** | **Prefix + Spatial-Temporal Autocomplete** | gõ `"ca"` + 1 tap | intent theo giờ/vị trí: 7h → *cà phê*; 11h45 → *cơm cá, canh cá*; đang trên tuyến → ưu tiên dọc corridor | [Baidu MST-PAC](https://openreview.net/forum?id=bood9f1ewz): **17.9% user cùng prefix nhưng intent khác theo giờ/nơi** — đúng hiện tượng này |
+| **3** | **Onboarding chips 10 giây** | 3-4 tap, 1 lần duy nhất | chỉ field loại **HARD** (dị ứng, chay/halal, nhà có trẻ nhỏ) — vì đoán sai loại này là nguy hiểm, còn lại tuyệt đối không hỏi | pattern Apple Maps thumbs-up/down: input rẻ nhất có thể |
+| **4** | **Learned — hành vi ngầm** | không gì cả (dùng app là đủ) | dwell ≥25' → `repeat_pois` · quán hay bấm chỉ đường → `cuisine_affinity` · 1-tap sau bữa → khẩu vị + data tier 2 | Amap Repeat-Customer ranking; DoorDash consumer memory. Hackathon = profile JSON tĩnh (badge SIM) |
+| — | ~~Chatbot NL tự do~~ | *"tìm quán hợp 4 người 2 trẻ nhỏ…"* | **BACKLOG** — không phải hành vi map thường ngày | vẫn giữ `/assistant` vì benchmark 15 câu chấm Q&A tự nhiên + demo giám khảo; nhưng KHÔNG phải luồng chính của product UX |
+
+**Cách autocomplete hackathon (không cần train):** bảng prior `P(intent | khung giờ)` từ taxonomy
+(sáng: cà phê/phở/bánh mì · trưa: cơm/bún · tối: nhậu/lẩu · khuya: cháo/phở đêm) × match prefix
+có dấu lẫn không dấu (`ca` → cà phê, cá, cà ri) × boost intent có quán dọc corridor hiện tại.
+Hoà thì hỏi Gemini Flash 1 call. Chọn chip xong → FilterSpec đi tiếp đúng luồng §5, không nhánh riêng.
+
+**Điểm bán hàng của §2.5:** cùng 2 ký tự `"ca"`, Tasco Maps trả kết quả khác nhau lúc 7h ở phố
+và 11h45 trên cao tốc — Google Maps VN hiện suggest tĩnh, không route-aware.
+
+---
+
 ## 3. PIPELINE PHƯƠNG NGỮ VIỆT (điểm không ai có)
 
 TikTok/Threads text → **(1) chuẩn hoá slang/teencode** ("ngon vãi", "peak thế", "mặn vừa miệng",
@@ -234,7 +270,7 @@ sống khi mất mạng (pattern Module 5).
 | Behavior ranking từ hành vi di chuyển (Tire-Wear/Repeat) | [Amap Street Stars — SCMP](https://www.scmp.com/tech/big-tech/article/3325225/amap-alibabas-answer-google-maps-sees-over-40-million-users-test-new-ranking-service), [iChongqing](https://www.ichongqing.info/2025/09/12/alibabas-amap-launches-worlds-first-ai-driven-consumer-ranking-based-on-user-behavior/) — 40M user, 1.6M cơ sở | `S_behavior`, T5 |
 | Repeat vs Explore cần 2 chế độ | [Meituan/Tsinghua RecSys'24](https://dl.acm.org/doi/10.1145/3640457.3688119) | mode switch §5 |
 | Ranker cổ điển + LLM rerank/giải thích/KG | [DoorDash KDD'25](https://careersatdoordash.com/blog/doordash-kdd-llm-assisted-personalization-framework/), [DoorDash KG](https://careersatdoordash.com/blog/building-doordashs-product-knowledge-graph-with-large-language-models/) | ④ §5, S3 |
-| Query đổi intent theo giờ/vị trí (17.9%) | [Baidu MST-PAC](https://openreview.net/forum?id=bood9f1ewz) | CTX meal-window |
+| Query đổi intent theo giờ/vị trí (17.9%) | [Baidu MST-PAC](https://openreview.net/forum?id=bood9f1ewz) | CTX meal-window + **ST-Autocomplete §2.5** ("ca" 7h → cà phê, 11h45 → cơm cá) |
 | Geofence trigger +3% conversion | [Grab engineering](https://engineering.grab.com/) | T5 push |
 | Gọi điện tự động xác minh thuộc tính POI quy mô lớn | [Baidu DuIVRS CIKM'22](https://dl.acm.org/doi/10.1145/3511808.3557131) | roadmap tier 1 (bot Zalo/phone) |
 | Ranking bằng engagement map-native (directions requests) | [Apple Maps ranking factors](https://www.localseoguide.com/apple-maps-ranking-factors-2/) | `S_behavior` |
