@@ -179,38 +179,72 @@ tìm POI khác nhau theo giờ/vị trí.
 
 ## 5. RANKING + PERSONALIZED MATCHING (chọn lọc theo lợi thế Tasco)
 
-Chọn đúng 4 cơ chế từ nghiên cứu — mỗi cái một lý do, bỏ phần còn lại (graph learning, user
-foundation model… để slide roadmap, không build):
-
-1. **HARD → CTX → SOFT** (thiết kế 2 chiều của ta) — vì nó chạy được bằng rule + embedding, không cần training data.
-2. **Behavior rank "Bảng xếp hạng Bánh xe"** (Amap Street Stars: Tire-Wear + Repeat Customer ranking, 40M user test) — vì tín hiệu này Tasco *sở hữu* (điều hướng + VETC), Foody/Google VN không giả được.
-3. **Repeat/Explore mode split** (Meituan RecSys'24: hai hành vi cần hai recommender) — vì map ra ngữ cảnh lái xe cực tự nhiên: đường đi làm = repeat, đi lễ/du lịch = explore.
-4. **LLM rerank top-K kèm giải thích** (DoorDash KDD'25: ranker cổ điển lo scale, LLM lo ngữ nghĩa + explanation) — vì đã có sẵn trong S6 proposal, chỉ thêm trường `explanation`.
+### 5.1 Luồng 4 bước
 
 ```
 ỨNG VIÊN = S5 recall (BM25 + vector + corridor)                      # rộng
-① HARD gate  : halal / allergen / dietary / budget_pp / open-now(atHour)
-               / car_parking nếu vehicle=car                          # fail → loại
-               → nếu RỖNG: trả lời trung thực + đề xuất nới lỏng CÓ NHÃN
+① HARD gate  : halal / allergen / dietary / budget_pp
+               / car_parking nếu vehicle=car
+               / MỞ CỬA LÚC ĐẾN NƠI: open(now + ETA_poi), không phải open(now)
+               → fail = loại; RỖNG = trả lời trung thực + đề xuất nới lỏng CÓ NHÃN
                  (bẫy Halal-HCM xử lý tại đây, không phải tại LLM)
-② CTX inject : atHour → meal-window · position_on_route → detour_min (Valhalla THẬT)
-               · party.kids > 0 → family_facilities từ SOFT thành HARD
-③ SOFT score :
-   0.30 · S_semantic   (Jina v3 + reranker: query ↔ name+menu+aspects)
-   0.20 · S_behavior   (Bánh-xe: dwell_repeat + detour_willingness; hackathon = SIM)
-   0.20 · S_match      (khớp schema 2 chiều: spice, speed, group, view…)
-   0.15 · S_route      (1 − detour_min / detour_cap)                  (THẬT, chỉ Tasco có)
-   0.10 · S_quality    (S4 score — POI đáng tin được ưu tiên)
-   0.05 · S_buzz       (tier 4b, decay tuần; chỉ reinforce)
-   mode=repeat  → S_behavior +0.10, S_buzz −0.05 (lấy từ trọng số semantic)
-   mode=explore → S_buzz +0.05, S_behavior −0.10
+② CTX inject : xem bảng 5.2 — mọi feature phụ thuộc thời gian đánh giá tại
+               t_arrival = now + ETA(poi) (Valhalla đã tính khi lấy detour, 0 call thêm)
+③ SOFT score : Σ wᵢ·Sᵢ — xem bảng 5.3; component thiếu data → BỎ và
+               RENORMALIZE trọng số còn lại (wᵢ' = wᵢ/Σ w_có_data), không điền 0.5 giả
 ④ LLM rerank : top-20 → Gemini Flash structured → thứ tự cuối + explanation tiếng Việt
                ("cách tuyến 4 phút, có chỗ đỗ ô tô [nguồn: chủ quán], TikTok tuần này khen món lẩu")
+               (DoorDash KDD'25: ranker cổ điển lo scale, LLM lo ngữ nghĩa + giải thích)
 ```
 
-Trọng số là default hackathon (chưa tune — nói thẳng với giám khảo). Điều quan trọng không phải
-con số mà là **cấu trúc**: 0.35 tổng trọng số (`S_behavior + S_route`) đến từ tín hiệu chỉ
-map/hạ tầng Tasco sinh ra được — đối thủ muốn copy công thức cũng không có input.
+### 5.2 CTX — ngữ cảnh tự inject (0 input từ user, 0 API call thêm)
+
+Nguyên tắc feasibility: CTX chỉ được dùng dữ liệu **đã có sẵn tại thời điểm query**
+(trip state + cache enrichment) — không thêm latency, không thêm chi phí.
+
+| CTX feature | Từ đâu (THẬT/SIM) | Tác động | Evidence |
+|---|---|---|---|
+| **t_arrival = now + ETA** — mọi check giờ giấc tính tại *lúc đến nơi* | Valhalla ETA (THẬT — đã có từ call detour) | `open-at-arrival` vào HARD; quán "còn 20 phút nữa đóng" bị loại dù đang mở | chuẩn ngành navigation; điểm khác là ta nối nó vào food ranking |
+| Khung giờ bữa từ `atHour` | đồng hồ chuyến (Module 5 đã build) | gate push + prior intent (§2.5) | [Baidu MST-PAC](https://openreview.net/forum?id=bood9f1ewz): 17.9% cùng query đổi intent theo giờ |
+| Detour phút thật `position_on_route → detour_min` | Valhalla route 2 lần (THẬT) | nuôi `S_route` | Grab xếp hạng theo proximity/ETA ([Personalising GrabFood recs](https://www.grab.com/inside-grab/stories/personalising-food-recommendations-on-grabfood/)) |
+| **Độ đông lúc đến** `occupancy(t_arrival)` | `popularTimesHistogram` từ Apify Google Places (THẬT, cache từ T2) | nuôi `S_crowd` — gia đình 2 trẻ nhỏ không nên được gợi ý quán full 12h15 | field có thật trong [Apify actor](https://apify.com/compass/crawler-google-places); Google có data nhưng không nối vào push dọc tuyến |
+| `vehicle=car` → parking escalate | trip state | `car_parking` SOFT → HARD | nỗi đau VN chưa ai structure (BUSINESS_CASE §2) |
+| `party.kids > 0` → family escalate | profile/query | `family_facilities` SOFT → HARD | thiết kế 2 chiều §2 |
+| **Mode repeat/explore** | tuyến này đã đi ≥3 lần trong 90d → repeat; corridor mới/kỳ lễ → explore (hackathon: SIM từ profile) | đổi trọng số 5.3 | [Meituan RecSys'24](https://dl.acm.org/doi/10.1145/3640457.3688119): repeat và explore cần recommender khác nhau |
+
+Bỏ có chủ đích: thời tiết (thêm API + giá trị mơ hồ cho ngách B), giá xăng, sự kiện — YAGNI.
+
+### 5.3 SOFT — giải thích từng feature, trọng số, và vì sao
+
+6 component, chia 4 **thể loại feature** (mỗi loại một vai trò, không giẫm nhau):
+
+| # | Loại | Component (wᵢ default) | Tính thế nào | Vì sao trọng số này | Evidence |
+|---|---|---|---|---|---|
+| 1 | **Relevance** (query↔POI) | `S_semantic` (**0.30**) | Jina v3 embed + reranker: query/chip ↔ `name+menu+aspects` | Lớn nhất vì ~9/15 câu benchmark là search/match — chấm điểm trực tiếp vào đây; và mọi hệ lớn đều đặt relevance làm xương sống | [DoorDash](https://careersatdoordash.com/blog/doordash-llms-to-build-content-embeddings-for-search-and-recommendations/): chất lượng embedding là bottleneck của personalization |
+| 2 | **Preference match** (2 chiều, có provenance) | `S_match` (**0.20**) | `Σ_f w_f · match(need_f, attr_f) · conf_f` — **nhân với confidence của field từ resolver**: `car_parking` do driver xác nhận (0.85) đóng góp nhiều hơn agentic đoán (0.60). Sub-weight theo occasion: gia đình → family 0.25, spice 0.20, speed 0.15, group 0.10, air_con 0.10, takeaway/payment/specialty 0.20 | Cao nhì vì đây là differentiator structured-amenity của ta; nhân confidence làm ranking *thừa kế* độ tin của cascade — không hệ VN nào làm | thiết kế riêng, nhất quán với provenance model; cùng họ với [DoorDash KG attribute matching](https://careersatdoordash.com/blog/building-doordashs-product-knowledge-graph-with-large-language-models/) |
+| 3a | **Map-native context** | `S_route` (**0.15**) | `exp(−detour_min/5)` — 0 phút = 1.0, 5 phút ≈ 0.37, giảm mượt (không cliff như linear cap) | Tín hiệu THẬT 100% ngay hackathon (Valhalla), và là chi phí *của user này*; đủ lớn để "gần tuyến" thắng khi các mặt khác hoà | Grab dùng proximity làm ranking factor chính ([nguồn](https://www.grab.com/inside-grab/stories/personalising-food-recommendations-on-grabfood/)) |
+| 3b | | `S_crowd` (**0.05**) | `1 − occupancy(t_arrival)/100` từ popular times; không có data → renormalize | Nhỏ vì data phủ không đều; nhưng khi có thì cực thuyết phục trong demo ("12h15 quán này full — gợi ý quán bên kia trạm") | field `popularTimesHistogram` ([Apify](https://apify.com/compass/crawler-google-places)) |
+| 4 | **Behavioral (visit-truth)** | `S_behavior` (**0.15**) | production: `0.4·repeat_rate + 0.3·tire_wear + 0.3·dwell_completion` (+ directions-requests khi có app). *Khác `S_route`: đây là mức sẵn-lòng-đi-xa của NGƯỜI KHÁC (chất lượng quán), còn S_route là chi phí của user này* | **Hạ từ 0.20 → 0.15 vì trung thực**: hackathon 100% SIM, launch cũng cold-start; kiến trúc renormalize xử lý sạch việc này (thiếu → tự chia lại). Là component sẽ TĂNG dần khi VETC data thật đổ vào | [Amap Street Stars](https://www.scmp.com/tech/big-tech/article/3325225/amap-alibabas-answer-google-maps-sees-over-40-million-users-test-new-ranking-service): Tire-Wear + Repeat Customer ranking, 40M user; [Apple Maps](https://www.localseoguide.com/apple-maps-ranking-factors-2/): directions-requests làm ranking signal |
+| 5 | **Trust** | `S_quality` (**0.10**) | S4 score (completeness × agreement × freshness) | POI đáng tin được ưu tiên → tạo incentive cho quán claim/verify (flywheel tier 1) | cùng logic Apple ưu tiên listing NAP-consistent |
+| 6 | **Social buzz** | `S_buzz` (**0.05**) | tier 4b, decay nửa-đời 2 tuần; **chỉ reinforce** segment tier cao đã có | Nhỏ + decay vì slang/social dễ nhiễu; vai trò là tie-break và nuôi explore | pipeline §3 (ViSoBERT/ViGSA); [Zomato Fiducia](https://arxiv.org/pdf/1903.10117): review sentiment → dish-level recs |
+
+**Mode switch** (Meituan RecSys'24):
+
+| | S_semantic | S_behavior | S_buzz | ý nghĩa |
+|---|---|---|---|---|
+| `repeat` (đường quen) | 0.25 | **0.25** | 0.00 | "quán quen trên tuyến của bạn" — behavior là vua |
+| `explore` (đi lễ/tuyến mới) | 0.35 | 0.05 | **0.10** | đặc sản vùng + đang hot lên đầu |
+
+### 5.4 Guard benchmark (bắt buộc, nhất quán CLAUDE.md)
+
+Khi trả lời **15 câu eval**: `S_behavior` và mọi input SIM bị **zero + renormalize** —
+điểm benchmark chỉ được tính từ data thật (CSV, menu, review, enrichment web thật).
+SIM chỉ sống trong demo flow có badge. Cơ chế renormalize dùng chung cho cả cold-start
+production, nên không phải code path riêng cho demo.
+
+**Câu chốt cấu trúc:** 0.35 tổng trọng số (`S_route + S_crowd + S_behavior`) đến từ tín hiệu
+map/hạ tầng sinh ra — đối thủ muốn copy công thức cũng không có input; và tỷ trọng này
+**tự tăng** khi Tasco launch (behavior data thật đổ vào thay vì renormalize đi chỗ khác).
 
 ---
 
