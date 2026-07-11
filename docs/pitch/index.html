@@ -1,0 +1,500 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tasco Maps — Restaurant & Menu Intelligence</title>
+<style>
+  *{margin:0;padding:0;}
+  img{max-width:100%;}
+  :root {
+    --asphalt-900:#14181f; --asphalt-850:#181d25; --asphalt-800:#1c2230;
+    --asphalt-700:#262d3b; --asphalt-600:#333c4c;
+    --line:#2b3444; --line-soft:#222a37;
+    --paper:#eef0f2; --paper-2:#e4e7ea;
+    --ink:#e9ecf1; --ink-dim:#aab3c0; --ink-faint:#7c8797;
+    --amber:#f5a524; --amber-soft:#ffc65c; --amber-deep:#e07b1e;
+    --green:#2fbd8f; --coral:#f2705b;
+    --bg:var(--asphalt-900); --panel:var(--asphalt-850); --panel-2:var(--asphalt-800);
+    --border:var(--line); --border-soft:var(--line-soft);
+    --tx:var(--ink); --tx-dim:var(--ink-dim); --tx-faint:var(--ink-faint);
+    --accent:var(--amber); --accent-soft:var(--amber-soft);
+    --shadow:0 24px 60px -30px rgba(0,0,0,.7);
+    --mono:ui-monospace,"SF Mono",SFMono-Regular,Menlo,Consolas,monospace;
+    --sans:system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+    --maxw:1080px;
+  }
+  @media (prefers-color-scheme: light) {
+    :root {
+      --bg:var(--paper); --panel:#ffffff; --panel-2:#f7f8f9;
+      --border:#d7dbe0; --border-soft:#e3e6ea;
+      --tx:#1a2230; --tx-dim:#4a5568; --tx-faint:#6b7688;
+      --amber:#c9791a; --amber-soft:#e8971f; --amber-deep:#a85f10;
+      --green:#0f9a6a; --coral:#d8452e;
+      --shadow:0 24px 50px -32px rgba(30,40,60,.35);
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg:var(--asphalt-900); --panel:var(--asphalt-850); --panel-2:var(--asphalt-800);
+    --border:var(--line); --border-soft:var(--line-soft);
+    --tx:var(--ink); --tx-dim:var(--ink-dim); --tx-faint:var(--ink-faint);
+    --amber:#f5a524; --amber-soft:#ffc65c; --amber-deep:#e07b1e;
+    --green:#2fbd8f; --coral:#f2705b;
+    --shadow:0 24px 60px -30px rgba(0,0,0,.7);
+  }
+  :root[data-theme="light"] {
+    --bg:var(--paper); --panel:#ffffff; --panel-2:#f7f8f9;
+    --border:#d7dbe0; --border-soft:#e3e6ea;
+    --tx:#1a2230; --tx-dim:#4a5568; --tx-faint:#6b7688;
+    --amber:#c9791a; --amber-soft:#e8971f; --amber-deep:#a85f10;
+    --green:#0f9a6a; --coral:#d8452e;
+    --shadow:0 24px 50px -32px rgba(30,40,60,.35);
+  }
+
+  * { box-sizing:border-box; }
+  html { scroll-behavior:smooth; }
+  @media (prefers-reduced-motion: reduce){ html{scroll-behavior:auto;} }
+  body {
+    margin:0; background:var(--bg); color:var(--tx);
+    font-family:var(--sans); line-height:1.6;
+    -webkit-font-smoothing:antialiased; text-rendering:optimizeLegibility;
+    overflow-x:hidden;
+  }
+  .wrap { max-width:var(--maxw); margin:0 auto; padding:0 24px; }
+  section { padding:76px 0; border-top:1px solid var(--border-soft); }
+  section:first-of-type { border-top:none; }
+
+  h1,h2,h3 { margin:0; text-wrap:balance; letter-spacing:-.02em; line-height:1.08; font-weight:800; }
+  .eyebrow {
+    font-family:var(--mono); font-size:12px; letter-spacing:.18em; text-transform:uppercase;
+    color:var(--amber); display:inline-flex; align-items:center; gap:10px; margin-bottom:18px;
+  }
+  .eyebrow::before { content:""; width:26px; height:2px; background:var(--amber); display:inline-block; }
+  p { margin:0 0 14px; max-width:64ch; color:var(--tx-dim); }
+  strong { color:var(--tx); font-weight:650; }
+  .mono { font-family:var(--mono); }
+
+  /* ---- HERO ---- */
+  .hero { position:relative; padding:104px 0 84px; border-top:none; overflow:hidden; }
+  .hero-grid { position:relative; z-index:2; }
+  .kicker {
+    font-family:var(--mono); font-size:12.5px; letter-spacing:.16em; text-transform:uppercase;
+    color:var(--tx-faint); margin-bottom:26px; display:flex; flex-wrap:wrap; gap:8px 18px; align-items:center;
+  }
+  .kicker b { color:var(--amber); font-weight:600; }
+  .tag { border:1px solid var(--border); border-radius:999px; padding:4px 11px; color:var(--tx-dim); }
+  .hero h1 { font-size:clamp(38px,6.4vw,74px); letter-spacing:-.035em; }
+  .hero h1 .hl { color:var(--amber); }
+  .lede { font-size:clamp(17px,2vw,21px); max-width:60ch; margin-top:26px; color:var(--tx-dim); }
+  .lede b { color:var(--tx); font-weight:600; }
+
+  .routebar { position:relative; margin:46px 0 8px; }
+  .routebar svg { width:100%; height:74px; display:block; overflow:visible; }
+  .statrow { display:grid; grid-template-columns:repeat(4,1fr); gap:1px; background:var(--border);
+    border:1px solid var(--border); border-radius:14px; overflow:hidden; margin-top:34px; }
+  .stat { background:var(--panel); padding:20px 20px 18px; }
+  .stat .n { font-family:var(--mono); font-size:clamp(26px,3.6vw,36px); font-weight:600; letter-spacing:-.02em;
+    color:var(--tx); font-variant-numeric:tabular-nums; }
+  .stat .l { font-size:12.5px; color:var(--tx-faint); margin-top:4px; line-height:1.35; }
+  .stat .n em { font-style:normal; color:var(--amber); }
+
+  /* ---- generic ---- */
+  .lead-h2 { font-size:clamp(26px,3.8vw,40px); }
+  .grid2 { display:grid; grid-template-columns:1.15fr .85fr; gap:44px; align-items:start; }
+  .prose h2 { margin-bottom:18px; }
+
+  .painlist { list-style:none; padding:0; margin:8px 0 0; display:flex; flex-direction:column; gap:14px; }
+  .painlist li { display:flex; gap:14px; align-items:flex-start; color:var(--tx-dim); font-size:15px; }
+  .painlist .k { font-family:var(--mono); color:var(--coral); font-size:12px; padding-top:2px; white-space:nowrap; }
+
+  .sidecard { background:var(--panel); border:1px solid var(--border); border-radius:16px; padding:24px; box-shadow:var(--shadow); }
+  .sidecard h3 { font-size:14px; font-family:var(--mono); letter-spacing:.08em; text-transform:uppercase; color:var(--tx-faint); font-weight:600; margin-bottom:16px; }
+  .datalist { display:flex; flex-direction:column; gap:0; }
+  .datalist .row { display:flex; justify-content:space-between; align-items:baseline; gap:16px;
+    padding:11px 0; border-bottom:1px solid var(--border-soft); }
+  .datalist .row:last-child { border-bottom:none; }
+  .datalist .row .lab { color:var(--tx-dim); font-size:14px; }
+  .datalist .row .val { font-family:var(--mono); font-weight:600; color:var(--tx); font-variant-numeric:tabular-nums; white-space:nowrap; }
+  .datalist .row .val small { color:var(--amber); font-weight:600; }
+
+  /* ---- modules ---- */
+  .mods { display:grid; grid-template-columns:repeat(2,1fr); gap:16px; margin-top:8px; }
+  .mod { position:relative; background:var(--panel); border:1px solid var(--border); border-radius:16px;
+    padding:24px 24px 22px; display:flex; flex-direction:column; gap:12px; transition:border-color .25s, transform .25s; }
+  .mod:hover { border-color:var(--amber); transform:translateY(-3px); }
+  .mod .top { display:flex; align-items:center; gap:12px; }
+  .mod .mnum { font-family:var(--mono); font-size:12px; color:var(--bg); background:var(--amber);
+    font-weight:700; padding:3px 9px; border-radius:6px; letter-spacing:.04em; }
+  .mod h3 { font-size:19px; letter-spacing:-.02em; }
+  .mod .role { font-family:var(--mono); font-size:11.5px; letter-spacing:.06em; text-transform:uppercase; color:var(--tx-faint); }
+  .mod p { font-size:14px; margin:0; color:var(--tx-dim); }
+  .mod .how { font-size:13px; color:var(--tx-dim); border-top:1px solid var(--border-soft); padding-top:12px; margin-top:2px; }
+  .mod .how b { color:var(--amber); font-weight:600; font-family:var(--mono); font-size:12px; }
+  .mod .pts { margin-top:auto; display:flex; gap:8px; flex-wrap:wrap; padding-top:6px; }
+  .chip { font-family:var(--mono); font-size:11.5px; padding:4px 9px; border-radius:999px;
+    border:1px solid var(--border); color:var(--tx-dim); }
+  .chip.hot { border-color:var(--amber); color:var(--amber); }
+  .mod.core-star { grid-column:span 2; }
+  .mod.core-star .top { justify-content:space-between; }
+  .mod.core-star .banner { font-family:var(--mono); font-size:11px; color:var(--green); border:1px solid var(--green);
+    padding:3px 9px; border-radius:999px; letter-spacing:.04em; }
+
+  /* ---- flow / architecture ---- */
+  .flow { display:grid; grid-template-columns:repeat(5,1fr); gap:0; margin-top:26px;
+    border:1px solid var(--border); border-radius:14px; overflow:hidden; background:var(--border); }
+  .flow .node { background:var(--panel); padding:18px 16px; display:flex; flex-direction:column; gap:6px; position:relative; }
+  .flow .node .s { font-family:var(--mono); font-size:11px; color:var(--amber); letter-spacing:.06em; }
+  .flow .node .t { font-size:14px; font-weight:650; color:var(--tx); letter-spacing:-.01em; }
+  .flow .node .d { font-size:12px; color:var(--tx-faint); line-height:1.4; }
+
+  /* ---- differentiator / corridor ---- */
+  .diff { background:
+      radial-gradient(120% 80% at 85% -10%, rgba(245,165,36,.10), transparent 60%),
+      var(--panel-2); border-top:1px solid var(--border); }
+  .corridor { margin-top:30px; border:1px solid var(--border); border-radius:18px; background:var(--panel);
+    padding:26px 28px 30px; box-shadow:var(--shadow); position:relative; overflow:hidden; }
+  .corridor .rail { position:relative; margin:10px 0 6px; padding-top:8px; }
+  .corridor svg { width:100%; height:96px; display:block; overflow:visible; }
+  .three { display:grid; grid-template-columns:repeat(3,1fr); gap:16px; margin-top:26px; }
+  .three .card { border:1px solid var(--border); border-radius:13px; padding:18px; background:var(--panel-2); }
+  .three .card .n { font-family:var(--mono); color:var(--amber); font-size:12px; letter-spacing:.06em; }
+  .three .card h4 { margin:8px 0 6px; font-size:16px; letter-spacing:-.01em; }
+  .three .card p { font-size:13px; margin:0; color:var(--tx-dim); }
+  .honest { display:flex; gap:14px; align-items:flex-start; margin-top:26px; padding:18px 20px;
+    border:1px dashed var(--border); border-radius:12px; background:transparent; }
+  .honest .lab { font-family:var(--mono); font-size:11px; letter-spacing:.08em; text-transform:uppercase;
+    color:var(--coral); border:1px solid var(--coral); border-radius:6px; padding:3px 8px; white-space:nowrap; }
+  .honest p { margin:0; font-size:13.5px; }
+  .honest p b { color:var(--tx); }
+
+  .realmock { display:grid; grid-template-columns:1fr 1fr; gap:14px; margin-top:22px; }
+  .rm { border:1px solid var(--border); border-radius:12px; padding:16px 18px; background:var(--panel); }
+  .rm h4 { font-family:var(--mono); font-size:12px; letter-spacing:.06em; text-transform:uppercase; margin-bottom:10px; display:flex; align-items:center; gap:8px; }
+  .rm.real h4 { color:var(--green); }
+  .rm.mock h4 { color:var(--coral); }
+  .rm .dot { width:8px; height:8px; border-radius:50%; }
+  .rm.real .dot { background:var(--green); }
+  .rm.mock .dot { background:var(--coral); }
+  .rm ul { margin:0; padding-left:18px; }
+  .rm li { font-size:13px; color:var(--tx-dim); margin-bottom:5px; }
+
+  /* ---- business value ---- */
+  .valuegrid { display:grid; grid-template-columns:repeat(3,1fr); gap:16px; margin-top:10px; }
+  .value { border:1px solid var(--border); border-radius:15px; padding:22px; background:var(--panel); }
+  .value .ic { font-family:var(--mono); font-size:12px; color:var(--amber); letter-spacing:.05em; margin-bottom:10px; }
+  .value h3 { font-size:17px; letter-spacing:-.01em; margin-bottom:8px; }
+  .value p { font-size:13.5px; margin:0; }
+
+  /* ---- benchmark strip ---- */
+  .bench { display:flex; flex-wrap:wrap; gap:8px; margin-top:22px; }
+  .qpill { font-family:var(--mono); font-size:12px; padding:6px 12px; border-radius:999px;
+    border:1px solid var(--border); color:var(--tx-dim); background:var(--panel); }
+  .qpill.trap { border-color:var(--coral); color:var(--coral); }
+  .traps { display:grid; grid-template-columns:1fr 1fr; gap:14px; margin-top:22px; }
+  .trap { border-left:2px solid var(--coral); background:var(--panel); border-radius:0 12px 12px 0; padding:14px 18px; }
+  .trap h4 { font-size:14px; margin-bottom:5px; color:var(--coral); font-family:var(--mono); letter-spacing:.02em; }
+  .trap p { font-size:13px; margin:0; }
+
+  /* ---- plan / timeline ---- */
+  .plan { display:flex; flex-direction:column; gap:0; margin-top:12px; border:1px solid var(--border); border-radius:14px; overflow:hidden; }
+  .prow { display:grid; grid-template-columns:120px 1fr auto; gap:20px; align-items:center;
+    padding:16px 22px; background:var(--panel); border-bottom:1px solid var(--border-soft); }
+  .prow:last-child { border-bottom:none; }
+  .prow .who { font-family:var(--mono); font-size:12px; color:var(--amber); letter-spacing:.04em; }
+  .prow .task { font-size:14px; color:var(--tx-dim); }
+  .prow .task b { color:var(--tx); }
+  .prow .pri { font-family:var(--mono); font-size:11px; padding:3px 9px; border-radius:999px; white-space:nowrap; border:1px solid var(--border); color:var(--tx-faint); }
+  .prow .pri.p0 { border-color:var(--amber); color:var(--amber); }
+  .prow .pri.cut { border-color:var(--coral); color:var(--coral); }
+
+  .close { text-align:center; padding:88px 0 96px; }
+  .close h2 { font-size:clamp(26px,4vw,44px); letter-spacing:-.03em; max-width:20ch; margin:0 auto 18px; }
+  .close h2 .hl { color:var(--amber); }
+  .close p { margin:0 auto; max-width:52ch; }
+  .footer { border-top:1px solid var(--border-soft); padding:26px 0 60px; }
+  .footer .row { display:flex; justify-content:space-between; gap:16px; flex-wrap:wrap;
+    font-family:var(--mono); font-size:12px; color:var(--tx-faint); letter-spacing:.03em; }
+
+  .reveal { opacity:0; transform:translateY(18px); transition:opacity .7s ease, transform .7s ease; }
+  .reveal.in { opacity:1; transform:none; }
+  @media (prefers-reduced-motion: reduce){ .reveal{opacity:1; transform:none; transition:none;} }
+
+  @media (max-width: 860px){
+    .grid2{ grid-template-columns:1fr; gap:30px; }
+    .mods{ grid-template-columns:1fr; }
+    .mod.core-star{ grid-column:span 1; }
+    .statrow{ grid-template-columns:1fr 1fr; }
+    .flow{ grid-template-columns:1fr 1fr; }
+    .three,.valuegrid{ grid-template-columns:1fr; }
+    .realmock,.traps{ grid-template-columns:1fr; }
+    .prow{ grid-template-columns:1fr; gap:6px; }
+    .prow .pri{ justify-self:start; }
+  }
+</style>
+</head>
+<body>
+
+<div class="hero">
+  <div class="wrap hero-grid">
+    <div class="kicker">
+      <span class="tag">Tasco Maps AI Hackathon</span>
+      <span>Track Mobility · <b>P11</b> Restaurant &amp; Menu Intelligence</span>
+      <span>Hack day <b>10 · 07 · 2026</b></span>
+    </div>
+    <h1>Biến thông tin nhà hàng <span class="hl">lộn xộn</span> thành tri thức có cấu trúc, đáng tin — ngay trên hạ tầng đường bộ thật của&nbsp;VETC.</h1>
+    <p class="lede">Menu là ảnh, review rải rác, POI thiếu chuẩn. Chúng ta xây <b>một AI engine</b> làm sạch, cấu trúc hoá và làm giàu dữ liệu ẩm thực — rồi để Tasco làm điều <b>không ai khác làm được</b>: gợi ý đúng quán, đúng lúc, cho người đang lái xe trên đường.</p>
+
+    <div class="routebar" aria-hidden="true">
+      <svg viewBox="0 0 1000 74" preserveAspectRatio="none">
+        <line x1="8" y1="37" x2="992" y2="37" stroke="var(--border)" stroke-width="2"/>
+        <line id="routeLine" x1="8" y1="37" x2="992" y2="37" stroke="var(--amber)" stroke-width="2.5" stroke-dasharray="984" stroke-dashoffset="984"/>
+        <g font-family="var(--mono)" font-size="11" fill="var(--tx-faint)">
+          <g><circle cx="8" cy="37" r="5" fill="var(--amber)"/><text x="8" y="60" text-anchor="start">Hà Nội</text></g>
+          <g><circle cx="340" cy="37" r="4" fill="var(--panel)" stroke="var(--tx-faint)" stroke-width="2"/><text x="340" y="22" text-anchor="middle">Trạm QL10</text></g>
+          <g><circle cx="620" cy="37" r="4" fill="var(--panel)" stroke="var(--tx-faint)" stroke-width="2"/><text x="620" y="22" text-anchor="middle">Cầu Bạch Đằng</text></g>
+          <g><circle cx="812" cy="37" r="4" fill="var(--panel)" stroke="var(--tx-faint)" stroke-width="2"/><text x="812" y="22" text-anchor="middle">Đồng Đăng</text></g>
+          <g><circle cx="992" cy="37" r="5" fill="var(--amber)"/><text x="992" y="60" text-anchor="end">Hạ Long</text></g>
+        </g>
+      </svg>
+    </div>
+
+    <div class="statrow reveal">
+      <div class="stat"><div class="n">30</div><div class="l">nhà hàng POI · 7 thành phố</div></div>
+      <div class="stat"><div class="n">179</div><div class="l">món ăn ground-truth</div></div>
+      <div class="stat"><div class="n">150</div><div class="l">review có sentiment</div></div>
+      <div class="stat"><div class="n"><em>15</em></div><div class="l">câu benchmark chấm điểm</div></div>
+    </div>
+  </div>
+</div>
+
+<section class="prob">
+  <div class="wrap grid2">
+    <div class="prose reveal">
+      <div class="eyebrow">Vấn đề</div>
+      <h2 class="lead-h2">Tìm chỗ ăn ở Việt Nam vẫn là tra text thô trên dữ liệu vỡ vụn.</h2>
+      <p>Đề bài P11 nói thẳng: thông tin nhà hàng <strong>phân mảnh, nặng hình ảnh, thiếu, khó tìm theo món hay nhu cầu</strong>. Người dùng có nhu cầu cụ thể — gia đình, ăn chay, ngân sách, ăn khuya — nhưng hệ thống chỉ biết so khớp chuỗi ký tự.</p>
+      <p>Và Tasco có thứ Foody/Google Maps VN không có: <strong>route engine thật + hạ tầng vị trí thời gian thực qua VETC</strong> — nhưng năng lực đó chưa bao giờ chạm tới dữ liệu ẩm thực.</p>
+    </div>
+    <div class="reveal">
+      <ul class="painlist">
+        <li><span class="k">MENU</span><span>Tồn tại dưới dạng ảnh/PDF — không có giá, dinh dưỡng, tag ăn kiêng để máy đọc.</span></li>
+        <li><span class="k">POI</span><span>Thông tin rời rạc giữa các nguồn, không có thước đo độ đầy đủ/tin cậy.</span></li>
+        <li><span class="k">REVIEW</span><span>150 đánh giá rải rác, chưa tổng hợp thành điểm mạnh/yếu rõ ràng.</span></li>
+        <li><span class="k">SEARCH</span><span>Không có tầng ngữ nghĩa → “bún chả gần đây cho gia đình” trả về kết quả nghèo nàn.</span></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="reveal">
+      <div class="eyebrow">Giải pháp</div>
+      <h2 class="lead-h2">Một engine. Bốn năng lực lõi. Cùng trả lời một câu hỏi thật.</h2>
+      <p style="max-width:70ch">Không phải 4 tính năng rời rạc — mà 4 tầng của cùng một pipeline làm giàu dữ liệu, build <strong>song song</strong> trong ngày hack. Mỗi module tối ưu để ăn trọn một nhóm trong 15 câu benchmark.</p>
+    </div>
+
+    <div class="mods">
+      <div class="mod core-star reveal">
+        <div class="top">
+          <div style="display:flex; align-items:center; gap:12px;">
+            <span class="mnum">01</span>
+            <div><h3>Semantic Search &amp; Filter</h3><span class="role">Tìm theo món · nhu cầu · ngữ cảnh</span></div>
+          </div>
+          <span class="banner">KHÔNG BAO GIỜ CẮT · ~9/15 điểm</span>
+        </div>
+        <p>Hiểu ý định “bún chả cho gia đình, có bãi đỗ xe, mở khuya” và lọc trên POI + Menu đã cấu trúc hoá — thay vì so khớp chuỗi. Đây là trái tim của bài thi.</p>
+        <div class="how"><b>AI:</b> embedding ngữ nghĩa + rule filter (segment, amenity, giá, giờ mở) · công thức xếp hạng có tài liệu, tái lập 100%.</div>
+        <div class="pts"><span class="chip hot">Food Search</span><span class="chip hot">Family</span><span class="chip">Dietary · Halal</span><span class="chip">Budget · Late Night</span><span class="chip">Romantic · Business</span></div>
+      </div>
+
+      <div class="mod reveal">
+        <div class="top"><span class="mnum">02</span><div><h3>OCR → JSON Parser</h3><span class="role">Menu Intelligence Engine</span></div></div>
+        <p>Biến <span class="mono">raw_ocr_text</span> thô thành menu có cấu trúc: tên món, giá, tag ăn kiêng, nguyên liệu — so khớp tuyệt đối với ground truth.</p>
+        <div class="how"><b>Mẹo:</b> giá OCR dùng dấu chấm nghìn — <span class="mono">80.397 VND → 80397</span>; phục hồi dấu tiếng Việt bị mất (<span class="mono">Pho bò tái → Phở</span>).</div>
+        <div class="pts"><span class="chip">Menu Extraction</span><span class="chip">Menu Search</span><span class="chip">Menu QA</span></div>
+      </div>
+
+      <div class="mod reveal">
+        <div class="top"><span class="mnum">03</span><div><h3>Review Sentiment + Summary</h3><span class="role">Từ 150 review → insight</span></div></div>
+        <p>Phân tích cảm xúc theo khía cạnh, tổng hợp thành điểm mạnh/yếu và một AI summary sạch cho mỗi quán.</p>
+        <div class="how"><b>AI:</b> aspect-based sentiment + tóm tắt tạo sinh, bám <span class="mono">mentioned_aspects</span> làm ground truth.</div>
+        <div class="pts"><span class="chip">Review Analysis</span><span class="chip">AI Summary</span></div>
+      </div>
+
+      <div class="mod reveal">
+        <div class="top"><span class="mnum">04</span><div><h3>POI Quality Scoring</h3><span class="role">Đo độ đầy đủ &amp; tin cậy</span></div></div>
+        <p>Chấm điểm chất lượng POI <strong>cross-dataset</strong> — thiếu OCR, ít review thì điểm tin cậy thấp — biến “fragmented” thành con số.</p>
+        <div class="how"><b>Rule thuần:</b> tái lập 100%, không LLM. Cắt đầu tiên nếu bí giờ (ít điểm nhất).</div>
+        <div class="pts"><span class="chip">POI Quality</span><span class="chip">Comparison</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="diff">
+  <div class="wrap">
+    <div class="reveal">
+      <div class="eyebrow">Differentiator · Module 5</div>
+      <h2 class="lead-h2">Gợi ý điểm dừng dọc hành trình — thứ chỉ Tasco/VETC dựng nổi.</h2>
+      <p style="max-width:72ch">Gia đình lái từ Hà Nội đi Hạ Long. Đúng giờ ăn, khi xe vừa qua một trạm thu phí, app <strong>chủ động</strong> gợi ý quán <strong>phía trước trên tuyến</strong> — đã lọc sẵn có bãi đỗ ô tô, hợp trẻ em — kèm số liệu detour <strong>thật</strong>. Tài xế không rời tay lái để tra cứu.</p>
+    </div>
+
+    <div class="corridor reveal">
+      <div style="display:flex; justify-content:space-between; align-items:baseline; flex-wrap:wrap; gap:10px;">
+        <h3 style="font-size:16px; letter-spacing:-.01em;">Corridor <span class="mono" style="color:var(--amber)">hanoi-halong</span> · 158.5 km thật</h3>
+        <span class="mono" style="font-size:12px; color:var(--tx-faint)">route · geocode · nearby-search = Tasco Maps API production</span>
+      </div>
+      <div class="rail" aria-hidden="true">
+        <svg viewBox="0 0 1000 96" preserveAspectRatio="none">
+          <line x1="10" y1="52" x2="990" y2="52" stroke="var(--border)" stroke-width="3"/>
+          <line x1="10" y1="52" x2="640" y2="52" stroke="var(--amber)" stroke-width="3"/>
+          <g font-family="var(--mono)" font-size="11">
+            <g><circle cx="10" cy="52" r="6" fill="var(--amber)"/><text x="10" y="76" text-anchor="start" fill="var(--tx-faint)">km 0 · Hà Nội</text></g>
+            <g><rect x="330" y="44" width="16" height="16" rx="3" fill="var(--panel-2)" stroke="var(--amber)" stroke-width="2"/><text x="338" y="34" text-anchor="middle" fill="var(--tx-dim)">Cầu Bạch Đằng</text></g>
+            <g><circle cx="640" cy="52" r="7" fill="var(--panel)" stroke="var(--amber)" stroke-width="3"/><text x="640" y="34" text-anchor="middle" fill="var(--amber)">🍕 14 Pizza Halong</text><text x="640" y="80" text-anchor="middle" fill="var(--green)">+4 phút detour</text></g>
+            <g><circle cx="990" cy="52" r="6" fill="var(--border)"/><text x="990" y="76" text-anchor="end" fill="var(--tx-faint)">Hạ Long</text></g>
+          </g>
+        </svg>
+      </div>
+
+      <div class="three">
+        <div class="card"><div class="n">01 · HƯỚNG TUYẾN</div><h4>Chỉ gợi quán phía trước</h4><p>Detour thật qua Valhalla route API (route 2 lần: baseline vs có điểm dừng) — không phải bán kính quanh điểm như GG Maps.</p></div>
+        <div class="card"><div class="n">02 · AMENITY</div><h4>Bãi đỗ ô tô · hợp gia đình</h4><p>Structured amenity cho người đi ô tô — thứ Google Maps VN gần như không có ở dạng có cấu trúc.</p></div>
+        <div class="card"><div class="n">03 · ĐÚNG BỮA</div><h4>Đẩy chủ động, không phiền</h4><p>Chỉ đẩy trong khung giờ ăn (trưa/tối/khuya); ngoài giờ thì im lặng. Tài xế đang lái, tay bận.</p></div>
+      </div>
+
+      <div class="honest">
+        <span class="lab">Trung thực</span>
+        <p><b>Chúng ta KHÔNG bán “bí mật giao dịch VETC”.</b> GPS geofence của Google Maps xấp xỉ được việc “biết bạn gần trạm”. Trạm thu phí chỉ là <b>đồng hồ bấm giờ</b> để chọn thời điểm đẩy. Giá trị thật = giao của 3 điểm trên — và đó là câu chuyện phòng thủ được trước giám khảo kỹ thuật.</p>
+      </div>
+    </div>
+
+    <div class="realmock reveal">
+      <div class="rm real">
+        <h4><span class="dot"></span>Thật — Tasco Maps API production</h4>
+        <ul>
+          <li>Tuyến đường, quãng đường, thời gian (Valhalla)</li>
+          <li>Toạ độ 3 trạm thu phí (geocode tên thật)</li>
+          <li>Quán ăn + toạ độ quanh mỗi trạm (nearby-search)</li>
+          <li>Số liệu detour (baseline vs có điểm dừng)</li>
+        </ul>
+      </div>
+      <div class="rm mock">
+        <h4><span class="dot"></span>Mô phỏng — gắn nhãn rõ trên UI</h4>
+        <ul>
+          <li>Sự kiện “xe qua trạm” (đồng hồ demo phát)</li>
+          <li>Đồng hồ chuyến đi quyết định giờ bữa ăn</li>
+          <li>Không toạ độ/con số nào bị bịa hay hardcode</li>
+          <li>Stretch feature — cắt đầu tiên nếu bí giờ</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="reveal">
+      <div class="eyebrow">Kiến trúc &amp; AI approach</div>
+      <h2 class="lead-h2">Pipeline làm giàu dữ liệu — từ raw tới câu trả lời.</h2>
+      <p style="max-width:70ch">Mọi output tôn trọng <strong>PlaceResult DTO</strong> của API doc; base URL &amp; auth cấu hình được, không hardcode; giữ nguyên dấu tiếng Việt, ID ổn định. Phần rule-based tái lập 100%; phần LLM chỉ ở tầng ngôn ngữ tự nhiên.</p>
+    </div>
+    <div class="flow reveal">
+      <div class="node"><span class="s">RAW</span><span class="t">Nguồn vỡ vụn</span><span class="d">POI · OCR ảnh menu · review · giờ mở</span></div>
+      <div class="node"><span class="s">EXTRACT</span><span class="t">Cấu trúc hoá</span><span class="d">OCR→JSON · parse giá · phục hồi dấu</span></div>
+      <div class="node"><span class="s">ENRICH</span><span class="t">Làm giàu</span><span class="d">sentiment · summary · quality score</span></div>
+      <div class="node"><span class="s">INDEX</span><span class="t">Tầng ngữ nghĩa</span><span class="d">embedding + filter theo nhu cầu</span></div>
+      <div class="node"><span class="s">SERVE</span><span class="t">API + route</span><span class="d">/v1/search · /v1/route/rest-stops</span></div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="reveal">
+      <div class="eyebrow">Giá trị kinh doanh</div>
+      <h2 class="lead-h2">Vì sao đây là bài của Tasco — không phải “thêm một app tìm quán ăn”.</h2>
+    </div>
+    <div class="valuegrid reveal">
+      <div class="value"><div class="ic">POI ENRICHMENT</div><h3>Tài sản dữ liệu tự làm giàu</h3><p>Biến POI phân mảnh thành hồ sơ có cấu trúc, đáng tin, đo được chất lượng — tài sản dùng lại cho toàn hệ sinh thái VETC.</p></div>
+      <div class="value"><div class="ic">DISCOVERY</div><h3>Tìm theo nhu cầu thật</h3><p>Gia đình, ăn chay, ngân sách, ăn khuya — trả lời đúng ý định, không phải text-matching. Trải nghiệm khám phá ẩm thực tốt hơn hẳn.</p></div>
+      <div class="value"><div class="ic">MOBILITY MOAT</div><h3>Lợi thế route độc quyền</h3><p>Route engine + vị trí thời gian thực qua VETC ghép với tri thức ẩm thực — năng lực Foody/Google Maps VN không có ở quy mô tích hợp hạ tầng giao thông.</p></div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="reveal">
+      <div class="eyebrow">Chiến lược chấm điểm</div>
+      <h2 class="lead-h2">15 câu benchmark là bài thi thật — kể cả hai cái bẫy.</h2>
+      <p style="max-width:70ch">Toàn bộ spec tối ưu để trả đúng 15 dạng câu này trước. Và có <strong>2 câu bẫy chống hallucination</strong> — trả lời trung thực là ăn điểm, bịa là mất.</p>
+    </div>
+    <div class="bench reveal">
+      <span class="qpill">Food Search</span><span class="qpill">Family</span><span class="qpill">Dietary</span>
+      <span class="qpill trap">Halal</span><span class="qpill trap">Review Analysis</span><span class="qpill">Comparison</span>
+      <span class="qpill">POI Quality</span><span class="qpill">Budget</span><span class="qpill">Late Night</span>
+      <span class="qpill">Romantic</span><span class="qpill">Business</span><span class="qpill">Menu Search</span>
+      <span class="qpill">Menu Extraction</span><span class="qpill">Menu QA</span><span class="qpill">AI Summary</span>
+    </div>
+    <div class="traps reveal">
+      <div class="trap"><h4>BẪY · Crystal BBQ</h4><p>Câu Review Analysis hỏi về “Crystal BBQ” — quán này <strong>không tồn tại</strong> trong bất kỳ dataset nào. Phải trả <span class="mono">not_found</span>, tuyệt đối không bịa.</p></div>
+      <div class="trap"><h4>BẪY · Halal TP.HCM</h4><p>Chỉ có RES008 (Hà Nội) &amp; RES027 (Đà Lạt) là Halal — <strong>không quán Halal nào ở TP.HCM</strong>. Trả lời trung thực + gợi ý nới lỏng.</p></div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="reveal">
+      <div class="eyebrow">Kế hoạch hack day · 10·07</div>
+      <h2 class="lead-h2">5 người, 4 module song song, một thứ tự ưu tiên rõ.</h2>
+      <p style="max-width:70ch">Bốn dev bắt đầu cả 4 module <strong>cùng lúc</strong> giờ đầu — dữ liệu độc lập, không phụ thuộc tuần tự. Nếu thiếu giờ: cắt từ dưới lên.</p>
+    </div>
+    <div class="plan reveal">
+      <div class="prow"><span class="who">Strategy</span><span class="task"><b>Spec · benchmark · demo script</b> — giữ cả đội bám 15 câu, không lệch trọng tâm.</span><span class="pri">điều phối</span></div>
+      <div class="prow"><span class="who">Dev · M1</span><span class="task"><b>Semantic Search</b> — trái tim bài thi, ~9/15 điểm.</span><span class="pri p0">KHÔNG CẮT</span></div>
+      <div class="prow"><span class="who">Dev · M2</span><span class="task"><b>OCR → JSON</b> — menu intelligence, so ground truth.</span><span class="pri">core</span></div>
+      <div class="prow"><span class="who">Dev · M3</span><span class="task"><b>Review Summary</b> — sentiment + AI summary.</span><span class="pri">core</span></div>
+      <div class="prow"><span class="who">Dev · M4</span><span class="task"><b>POI Quality</b> — cross-dataset. Cắt trước nếu bí giờ.</span><span class="pri cut">cắt #2</span></div>
+      <div class="prow"><span class="who">Ai xong sớm</span><span class="task"><b>Module 5 route corridor</b> — differentiator cho demo.</span><span class="pri cut">cắt #1</span></div>
+    </div>
+  </div>
+</section>
+
+<div class="close wrap">
+  <h2>Không phải app giao đồ ăn nữa. Là <span class="hl">AI engine làm giàu tri thức ẩm thực</span> cho hệ sinh thái VETC.</h2>
+  <p>Structured. Trustworthy. Continuously enriched. Và gợi ý đúng lúc cho người đang trên đường — điều chỉ Tasco làm được.</p>
+</div>
+
+<div class="footer">
+  <div class="wrap row">
+    <span>TASCO MAPS · P11 RESTAURANT &amp; MENU INTELLIGENCE</span>
+    <span>30 POI · 179 MÓN · 150 REVIEW · 15 BENCHMARK · 4+1 MODULE</span>
+  </div>
+</div>
+
+<script>
+  (function(){
+    var io = new IntersectionObserver(function(entries){
+      entries.forEach(function(e){ if(e.isIntersecting){ e.target.classList.add('in'); io.unobserve(e.target); } });
+    }, { threshold:.12 });
+    document.querySelectorAll('.reveal').forEach(function(el){ io.observe(el); });
+
+    var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    var line = document.getElementById('routeLine');
+    if(line && !reduce){
+      var t0=null;
+      requestAnimationFrame(function anim(t){
+        if(!t0) t0=t; var p=Math.min((t-t0)/1400,1);
+        var e = 1-Math.pow(1-p,3);
+        line.setAttribute('stroke-dashoffset', String(984*(1-e)));
+        if(p<1) requestAnimationFrame(anim);
+      });
+    } else if(line){ line.setAttribute('stroke-dashoffset','0'); }
+  })();
+</script>
+
+</body>
+</html>
