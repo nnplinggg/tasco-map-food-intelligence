@@ -1,0 +1,16 @@
+Category,User Query,Expected Focus,Task Type,Difficulty
+Food Search,Tôi muốn tìm quán Phở truyền thống gần đây.,"Tìm nhà hàng có món Phở, ẩm thực Việt Nam, ưu tiên rating, khoảng cách và giá hợp lý",Restaurant Recommendation,Medium
+Menu Extraction,Trích xuất thực đơn từ OCR menu của Phở Bếp Nhà.,"OCR menu, tên món, giá, danh mục món, chuẩn hóa tiếng Việt",Menu OCR Extraction,Medium
+Family Dining,Gia đình có trẻ nhỏ muốn ăn tối ở Hà Nội. Gợi ý nhà hàng phù hợp.,"Segment Gia đình, phù hợp trẻ em, không gian sạch sẽ, giá hợp lý",Recommendation,Medium
+Dietary,Tìm nhà hàng có nhiều món chay hoặc thuần chay.,"Cuisine Chay, menu đa dạng, dietary tags",Food Search,Medium
+Halal,Tôi cần quán ăn Halal tại TP.HCM.,"Halal cuisine, TP.HCM, menu Halal",Dietary Search,Medium
+Review Analysis,Crystal BBQ thường được khách hàng khen và phàn nàn về điều gì?,"Review summary, strengths, weaknesses, sentiment",Review Analysis,Hard
+Menu QA,Pizza Roma có món nào phù hợp người ăn chay?,"Menu lookup, ingredients, dietary suitability",AI Assistant QA,Medium
+Comparison,So sánh Sushi Sakura và Little Korea BBQ cho nhóm bạn.,"Cuisine, giá, rating, menu, strengths, weaknesses, phù hợp nhóm",Comparison,Hard
+POI Quality,Nhà hàng nào có POI Quality Score thấp nhất và cần bổ sung những thông tin gì?,"POI quality scoring, missing fields, enrichment",POI Quality Scoring,Hard
+Budget,Gợi ý quán ăn có món chính dưới 100.000 VNĐ và được đánh giá từ 4.5 sao trở lên.,"Menu price, rating, recommendation",Filtering & Ranking,Medium
+Late Night,Tìm nhà hàng mở cửa sau 23:00 phù hợp đi nhóm bạn.,"Opening hours, group dining, rating",Filtering,Medium
+Romantic,Gợi ý nhà hàng phù hợp hẹn hò có view đẹp và không gian yên tĩnh.,"Romantic segment, view, atmosphere, rating",Recommendation,Medium
+Restaurant Summary,"Tạo tóm tắt AI cho Sushi Sakura dựa trên POI, menu và đánh giá khách hàng.","AI summary, cuisine, signature dishes, strengths, weaknesses, suitable customers",AI Summary,Medium
+Menu Search,Tôi muốn ăn Bún chả. Nhà hàng nào trong dataset phục vụ món này?,"Dish search, menu lookup, recommendation",Food Search,Medium
+Business Dining,Gợi ý nhà hàng phù hợp để tiếp khách hoặc gặp đối tác tại TP.HCM.,"Business segment, quiet atmosphere, rating, service quality",Recommendation,Medium

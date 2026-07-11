@@ -1,0 +1,1 @@
+# Không cần dependency. Gemini gọi qua urllib (stdlib).
