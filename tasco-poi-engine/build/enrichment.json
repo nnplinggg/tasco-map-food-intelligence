@@ -1,0 +1,147 @@
+{
+ "generated_at": "2026-07-11T08:30:46.410802+00:00",
+ "target_count": 12,
+ "mode_counts": {
+  "gap_analysis_only": 12
+ },
+ "restaurants": [
+  {
+   "restaurant_id": "RES019",
+   "name": "Taco Fiesta",
+   "gaps_before": [
+    "ocr_menu",
+    "amenities_unmapped:1"
+   ],
+   "mode": "gap_analysis_only",
+   "provider": "openai",
+   "fields": null,
+   "gap_note": "openai không tìm thấy nguồn web thật nào cho \"Taco Fiesta\" (nhiều khả năng đây là POI tổng hợp cho hackathon, không tồn tại ngoài đời) -> không enrich, giữ nguyên gap: ocr_menu, amenities_unmapped:1."
+  },
+  {
+   "restaurant_id": "RES020",
+   "name": "Dimsum House",
+   "gaps_before": [
+    "ocr_menu"
+   ],
+   "mode": "gap_analysis_only",
+   "provider": "openai",
+   "fields": null,
+   "gap_note": "openai không tìm thấy nguồn web thật nào cho \"Dimsum House\" (nhiều khả năng đây là POI tổng hợp cho hackathon, không tồn tại ngoài đời) -> không enrich, giữ nguyên gap: ocr_menu."
+  },
+  {
+   "restaurant_id": "RES021",
+   "name": "Mì Quảng Cô Ba",
+   "gaps_before": [
+    "ocr_menu",
+    "amenities_unmapped:1"
+   ],
+   "mode": "gap_analysis_only",
+   "provider": "openai",
+   "fields": null,
+   "gap_note": "openai không tìm thấy nguồn web thật nào cho \"Mì Quảng Cô Ba\" (nhiều khả năng đây là POI tổng hợp cho hackathon, không tồn tại ngoài đời) -> không enrich, giữ nguyên gap: ocr_menu, amenities_unmapped:1."
+  },
+  {
+   "restaurant_id": "RES022",
+   "name": "Curry Garden",
+   "gaps_before": [
+    "ocr_menu"
+   ],
+   "mode": "gap_analysis_only",
+   "provider": "openai",
+   "fields": null,
+   "gap_note": "openai không tìm thấy nguồn web thật nào cho \"Curry Garden\" (nhiều khả năng đây là POI tổng hợp cho hackathon, không tồn tại ngoài đời) -> không enrich, giữ nguyên gap: ocr_menu."
+  },
+  {
+   "restaurant_id": "RES023",
+   "name": "Steak & Wine Bistro",
+   "gaps_before": [
+    "ocr_menu"
+   ],
+   "mode": "gap_analysis_only",
+   "provider": "openai",
+   "fields": null,
+   "gap_note": "openai không tìm thấy nguồn web thật nào cho \"Steak & Wine Bistro\" (nhiều khả năng đây là POI tổng hợp cho hackathon, không tồn tại ngoài đời) -> không enrich, giữ nguyên gap: ocr_menu."
+  },
+  {
+   "restaurant_id": "RES024",
+   "name": "Chè Huế Ngọt Ngào",
+   "gaps_before": [
+    "ocr_menu",
+    "amenities_unmapped:1"
+   ],
+   "mode": "gap_analysis_only",
+   "provider": "openai",
+   "fields": null,
+   "gap_note": "openai không tìm thấy nguồn web thật nào cho \"Chè Huế Ngọt Ngào\" (nhiều khả năng đây là POI tổng hợp cho hackathon, không tồn tại ngoài đời) -> không enrich, giữ nguyên gap: ocr_menu, amenities_unmapped:1."
+  },
+  {
+   "restaurant_id": "RES025",
+   "name": "Sea View Grill",
+   "gaps_before": [
+    "ocr_menu",
+    "amenities_unmapped:1"
+   ],
+   "mode": "gap_analysis_only",
+   "provider": "openai",
+   "fields": null,
+   "gap_note": "openai không tìm thấy nguồn web thật nào cho \"Sea View Grill\" (nhiều khả năng đây là POI tổng hợp cho hackathon, không tồn tại ngoài đời) -> không enrich, giữ nguyên gap: ocr_menu, amenities_unmapped:1."
+  },
+  {
+   "restaurant_id": "RES026",
+   "name": "Noodle Bar 24h",
+   "gaps_before": [
+    "ocr_menu",
+    "amenities_unmapped:1"
+   ],
+   "mode": "gap_analysis_only",
+   "provider": "openai",
+   "fields": null,
+   "gap_note": "openai không tìm thấy nguồn web thật nào cho \"Noodle Bar 24h\" (nhiều khả năng đây là POI tổng hợp cho hackathon, không tồn tại ngoài đời) -> không enrich, giữ nguyên gap: ocr_menu, amenities_unmapped:1."
+  },
+  {
+   "restaurant_id": "RES027",
+   "name": "Lotus Halal Kitchen",
+   "gaps_before": [
+    "ocr_menu",
+    "amenities_unmapped:1"
+   ],
+   "mode": "gap_analysis_only",
+   "provider": "openai",
+   "fields": null,
+   "gap_note": "openai không tìm thấy nguồn web thật nào cho \"Lotus Halal Kitchen\" (nhiều khả năng đây là POI tổng hợp cho hackathon, không tồn tại ngoài đời) -> không enrich, giữ nguyên gap: ocr_menu, amenities_unmapped:1."
+  },
+  {
+   "restaurant_id": "RES028",
+   "name": "Green Bowl Salad",
+   "gaps_before": [
+    "ocr_menu"
+   ],
+   "mode": "gap_analysis_only",
+   "provider": "openai",
+   "fields": null,
+   "gap_note": "openai không tìm thấy nguồn web thật nào cho \"Green Bowl Salad\" (nhiều khả năng đây là POI tổng hợp cho hackathon, không tồn tại ngoài đời) -> không enrich, giữ nguyên gap: ocr_menu."
+  },
+  {
+   "restaurant_id": "RES029",
+   "name": "Bánh Xèo Miền Trung",
+   "gaps_before": [
+    "ocr_menu"
+   ],
+   "mode": "gap_analysis_only",
+   "provider": "openai",
+   "fields": null,
+   "gap_note": "openai không tìm thấy nguồn web thật nào cho \"Bánh Xèo Miền Trung\" (nhiều khả năng đây là POI tổng hợp cho hackathon, không tồn tại ngoài đời) -> không enrich, giữ nguyên gap: ocr_menu."
+  },
+  {
+   "restaurant_id": "RES030",
+   "name": "Little Korea BBQ",
+   "gaps_before": [
+    "ocr_menu"
+   ],
+   "mode": "gap_analysis_only",
+   "provider": "openai",
+   "fields": null,
+   "gap_note": "openai không tìm thấy nguồn web thật nào cho \"Little Korea BBQ\" (nhiều khả năng đây là POI tổng hợp cho hackathon, không tồn tại ngoài đời) -> không enrich, giữ nguyên gap: ocr_menu."
+  }
+ ]
+}

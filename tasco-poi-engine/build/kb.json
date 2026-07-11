@@ -1,6 +1,6 @@
 {
  "meta": {
-  "built_at": "2026-07-11T04:21:16.910587+00:00",
+  "built_at": "2026-07-11T06:15:57.182537+00:00",
   "poi_count": 30,
   "menu_item_count": 179,
   "review_count": 150,
@@ -17,32 +17,32 @@
     "value": "Phở Bếp Nhà",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "name_norm": "pho bep nha",
    "category": {
     "value": "Nhà hàng",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "city": {
     "value": "Hà Nội",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "district": {
     "value": "Hoàn Kiếm",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "address": {
     "value": "2 Trần Phú, Hoàn Kiếm, Hà Nội",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "coordinates": {
     "value": {
@@ -51,43 +51,43 @@
     },
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "cuisine_type": {
     "value": "Việt Nam",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "price_level": {
     "value": "Bình dân",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "avg_price_vnd": {
     "value": 68289,
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "rating": {
     "value": 3.8,
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "review_count": {
     "value": 608,
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "popularity_score": {
     "value": 55,
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "opening_hours": {
     "value": {
@@ -98,7 +98,7 @@
     },
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "amenities": {
     "value": [
@@ -111,7 +111,7 @@
     ],
     "source": "taxonomy_s3",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "amenities_raw": "View đẹp, Đặt bàn trước, Wi-Fi miễn phí, Nhạc nhẹ, Bãi đỗ xe, Phù hợp trẻ em",
    "amenities_unmapped": [],
@@ -124,7 +124,7 @@
     ],
     "source": "taxonomy_s3",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "segments_raw": "Gia đình, Ăn nhanh, Du lịch, Tiết kiệm",
    "segments_unmapped": [],
@@ -134,7 +134,7 @@
     ],
     "source": "cross_dataset",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "diet_evidence": {
     "declared_cuisine": [],
@@ -148,7 +148,7 @@
     "value": "Phở Bếp Nhà là nhà hàng tại Hoàn Kiếm, Hà Nội, chuyên ẩm thực Việt Nam. Quán có view đẹp, đặt bàn trước, wi-fi miễn phí, nhạc nhẹ, bãi đỗ xe và phù hợp cho gia đình, ăn nhanh, du lịch.",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "known_strengths": {
     "value": [
@@ -158,7 +158,7 @@
     ],
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "known_weaknesses": {
     "value": [
@@ -167,7 +167,7 @@
     ],
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "menu": {
     "value": [
@@ -289,7 +289,7 @@
     ],
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "menu_stats": {
     "item_count": 7,
@@ -306,7 +306,7 @@
     "value": "Khoai tây chiên .... 85.585 VND\nBánh flan .... 52.942 VND\nPho bò tái .... 80.397 VND\nBun chả .... 100.845 VND\nGỏi cuốn .... 67.781 VND",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "ocr_rule_parsed": [
     {
@@ -395,7 +395,7 @@
     ],
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "quality": {
     "dataset_score": 0.88,
@@ -416,32 +416,32 @@
     "value": "Bún Chả Phố Cổ",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "name_norm": "bun cha pho co",
    "category": {
     "value": "Nhà hàng",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "city": {
     "value": "TP. Hồ Chí Minh",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "district": {
     "value": "Quận 1",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "address": {
     "value": "26 Võ Nguyên Giáp, Quận 1, TP. Hồ Chí Minh",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "coordinates": {
     "value": {
@@ -450,43 +450,43 @@
     },
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "cuisine_type": {
     "value": "Việt Nam",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "price_level": {
     "value": "Bình dân",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "avg_price_vnd": {
     "value": 99797,
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "rating": {
     "value": 4.8,
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "review_count": {
     "value": 734,
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "popularity_score": {
     "value": 46,
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "opening_hours": {
     "value": {
@@ -497,7 +497,7 @@
     },
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "amenities": {
     "value": [
@@ -511,7 +511,7 @@
     ],
     "source": "taxonomy_s3",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "amenities_raw": "View đẹp, Máy lạnh, Wi-Fi miễn phí, Giao hàng, Phù hợp trẻ em, Bãi đỗ xe, Không gian ngoài trời",
    "amenities_unmapped": [],
@@ -523,7 +523,7 @@
     ],
     "source": "taxonomy_s3",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "segments_raw": "Du lịch, Ăn nhanh, Ăn chay, Gia đình",
    "segments_unmapped": [
@@ -535,7 +535,7 @@
     ],
     "source": "cross_dataset",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "diet_evidence": {
     "declared_cuisine": [],
@@ -549,7 +549,7 @@
     "value": "Bún Chả Phố Cổ là nhà hàng tại Quận 1, TP. Hồ Chí Minh, chuyên ẩm thực Việt Nam. Quán có view đẹp, máy lạnh, wi-fi miễn phí, giao hàng, phù hợp trẻ em và phù hợp cho du lịch, ăn nhanh, ăn chay.",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "known_strengths": {
     "value": [
@@ -559,7 +559,7 @@
     ],
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "known_weaknesses": {
     "value": [
@@ -568,7 +568,7 @@
     ],
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "menu": {
     "value": [
@@ -690,7 +690,7 @@
     ],
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "menu_stats": {
     "item_count": 7,
@@ -703,7 +703,7 @@
     "value": "Pho bò tái .... 85.382 VND\nBánh flan .... 47.434 VND\nBun chả .... 97.965 VND\nKhoai tây chiên .... 63.906 VND\nMì Quảng gà .... 82.810 VND",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "ocr_rule_parsed": [
     {
@@ -792,7 +792,7 @@
     ],
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "quality": {
     "dataset_score": 0.97,
@@ -813,32 +813,32 @@
     "value": "Cơm Tấm Sài Gòn Xưa",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "name_norm": "com tam sai gon xua",
    "category": {
     "value": "Nhà hàng",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "city": {
     "value": "Đà Nẵng",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "district": {
     "value": "Sơn Trà",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "address": {
     "value": "55 Hùng Vương, Sơn Trà, Đà Nẵng",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "coordinates": {
     "value": {
@@ -847,43 +847,43 @@
     },
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "cuisine_type": {
     "value": "Việt Nam",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "price_level": {
     "value": "Trung bình",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "avg_price_vnd": {
     "value": 279680,
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "rating": {
     "value": 4.1,
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "review_count": {
     "value": 474,
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "popularity_score": {
     "value": 82,
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "opening_hours": {
     "value": {
@@ -894,7 +894,7 @@
     },
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "amenities": {
     "value": [
@@ -907,7 +907,7 @@
     ],
     "source": "taxonomy_s3",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "amenities_raw": "Phù hợp trẻ em, Mở cửa khuya, Không gian ngoài trời, Phòng riêng, Giao hàng, Đặt bàn trước",
    "amenities_unmapped": [],
@@ -920,7 +920,7 @@
     ],
     "source": "taxonomy_s3",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "segments_raw": "Ăn chay, Ăn nhanh, Du lịch, Hẹn hò, Gia đình",
    "segments_unmapped": [
@@ -932,7 +932,7 @@
     ],
     "source": "cross_dataset",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "diet_evidence": {
     "declared_cuisine": [],
@@ -946,7 +946,7 @@
     "value": "Cơm Tấm Sài Gòn Xưa là nhà hàng tại Sơn Trà, Đà Nẵng, chuyên ẩm thực Việt Nam. Quán có phù hợp trẻ em, mở cửa khuya, không gian ngoài trời, phòng riêng, giao hàng và phù hợp cho ăn chay, ăn nhanh, du lịch.",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "known_strengths": {
     "value": [
@@ -956,7 +956,7 @@
     ],
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "known_weaknesses": {
     "value": [
@@ -965,7 +965,7 @@
     ],
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "menu": {
     "value": [
@@ -1089,7 +1089,7 @@
     ],
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "menu_stats": {
     "item_count": 7,
@@ -1105,7 +1105,7 @@
     "value": "Com tấm sườn .... 95.055 VND\nBun chả .... 107.848 VND\nNước suối .... 20.053 VND\nPho bò tái .... 90.467 VND\nGỏi cuốn .... 69.600 VND",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "ocr_rule_parsed": [
     {
@@ -1194,7 +1194,7 @@
     ],
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "quality": {
     "dataset_score": 0.88,
@@ -1215,32 +1215,32 @@
     "value": "Nhà Hàng Biển Xanh",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "name_norm": "nha hang bien xanh",
    "category": {
     "value": "Nhà hàng",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "city": {
     "value": "Nha Trang",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "district": {
     "value": "Lộc Thọ",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "address": {
     "value": "175 Võ Nguyên Giáp, Lộc Thọ, Nha Trang",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "coordinates": {
     "value": {
@@ -1249,43 +1249,43 @@
     },
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "cuisine_type": {
     "value": "Hải sản",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "price_level": {
     "value": "Trung bình",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "avg_price_vnd": {
     "value": 184651,
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "rating": {
     "value": 4.8,
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "review_count": {
     "value": 984,
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "popularity_score": {
     "value": 49,
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "opening_hours": {
     "value": {
@@ -1296,7 +1296,7 @@
     },
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "amenities": {
     "value": [
@@ -1309,7 +1309,7 @@
     ],
     "source": "taxonomy_s3",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "amenities_raw": "Mở cửa khuya, View đẹp, Đặt bàn trước, Có ghế trẻ em, Nhạc nhẹ, Thanh toán thẻ, Bãi đỗ xe",
    "amenities_unmapped": [
@@ -1319,7 +1319,7 @@
     "value": [],
     "source": "taxonomy_s3",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "segments_raw": "Ăn chay, Cao cấp",
    "segments_unmapped": [
@@ -1332,7 +1332,7 @@
     ],
     "source": "cross_dataset",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "diet_evidence": {
     "declared_cuisine": [],
@@ -1346,7 +1346,7 @@
     "value": "Nhà Hàng Biển Xanh là nhà hàng tại Lộc Thọ, Nha Trang, chuyên ẩm thực Hải sản. Quán có mở cửa khuya, view đẹp, đặt bàn trước, có ghế trẻ em, nhạc nhẹ và phù hợp cho ăn chay, cao cấp.",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "known_strengths": {
     "value": [
@@ -1356,7 +1356,7 @@
     ],
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "known_weaknesses": {
     "value": [
@@ -1365,7 +1365,7 @@
     ],
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "menu": {
     "value": [
@@ -1470,7 +1470,7 @@
     ],
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "menu_stats": {
     "item_count": 6,
@@ -1486,7 +1486,7 @@
     "value": "Mực hấp gừng .... 180.120 VND\nLẩu hải sản .... 432.848 VND\nTrà đào cam sả .... 62.701 VND\nCá nướng giấy bạc .... 277.971 VND\nNước suối .... 20.066 VND",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "ocr_rule_parsed": [
     {
@@ -1575,7 +1575,7 @@
     ],
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "quality": {
     "dataset_score": 0.86,
@@ -1598,32 +1598,32 @@
     "value": "Mộc Vegan Bistro",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "name_norm": "moc vegan bistro",
    "category": {
     "value": "Nhà hàng chay",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "city": {
     "value": "Hạ Long",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "district": {
     "value": "Bãi Cháy",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "address": {
     "value": "139 Hùng Vương, Bãi Cháy, Hạ Long",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "coordinates": {
     "value": {
@@ -1632,43 +1632,43 @@
     },
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "cuisine_type": {
     "value": "Chay",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "price_level": {
     "value": "Bình dân",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "avg_price_vnd": {
     "value": 65014,
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "rating": {
     "value": 4.3,
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "review_count": {
     "value": 1178,
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "popularity_score": {
     "value": 95,
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "opening_hours": {
     "value": {
@@ -1679,7 +1679,7 @@
     },
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "amenities": {
     "value": [
@@ -1693,7 +1693,7 @@
     ],
     "source": "taxonomy_s3",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "amenities_raw": "Bãi đỗ xe, Máy lạnh, Đặt bàn trước, Phòng riêng, Giao hàng, Wi-Fi miễn phí, Thanh toán thẻ",
    "amenities_unmapped": [],
@@ -1704,7 +1704,7 @@
     ],
     "source": "taxonomy_s3",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "segments_raw": "Ăn chay, Hẹn hò, Nhóm bạn",
    "segments_unmapped": [
@@ -1716,7 +1716,7 @@
     ],
     "source": "cross_dataset",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "diet_evidence": {
     "declared_cuisine": [
@@ -1732,7 +1732,7 @@
     "value": "Mộc Vegan Bistro là nhà hàng chay tại Bãi Cháy, Hạ Long, chuyên ẩm thực Chay. Quán có bãi đỗ xe, máy lạnh, đặt bàn trước, phòng riêng, giao hàng và phù hợp cho ăn chay, hẹn hò, nhóm bạn.",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "known_strengths": {
     "value": [
@@ -1742,7 +1742,7 @@
     ],
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "known_weaknesses": {
     "value": [
@@ -1751,7 +1751,7 @@
     ],
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "menu": {
     "value": [
@@ -1862,7 +1862,7 @@
     ],
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "menu_stats": {
     "item_count": 6,
@@ -1878,7 +1878,7 @@
     "value": "Com sen chay .... 112.164 VND\nNước suối .... 20.561 VND\nGỏi cuốn chay .... 60.487 VND\nKhoai tây chiên .... 74.805 VND\nBun Huế chay .... 85.279 VND",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "ocr_rule_parsed": [
     {
@@ -1967,7 +1967,7 @@
     ],
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "quality": {
     "dataset_score": 0.95,
@@ -1988,32 +1988,32 @@
     "value": "Gà Nướng Lá Chanh",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "name_norm": "ga nuong la chanh",
    "category": {
     "value": "Nhà hàng",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "city": {
     "value": "Đà Lạt",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "district": {
     "value": "Phường 1",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "address": {
     "value": "177 Trần Phú, Phường 1, Đà Lạt",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "coordinates": {
     "value": {
@@ -2022,43 +2022,43 @@
     },
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "cuisine_type": {
     "value": "Việt Nam",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "price_level": {
     "value": "Trung bình",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "avg_price_vnd": {
     "value": 135184,
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "rating": {
     "value": 3.8,
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "review_count": {
     "value": 788,
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "popularity_score": {
     "value": 96,
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "opening_hours": {
     "value": {
@@ -2069,7 +2069,7 @@
     },
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "amenities": {
     "value": [
@@ -2080,7 +2080,7 @@
     ],
     "source": "taxonomy_s3",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "amenities_raw": "Bãi đỗ xe, Mở cửa khuya, Giao hàng, Có ghế trẻ em, Phù hợp trẻ em",
    "amenities_unmapped": [
@@ -2093,7 +2093,7 @@
     ],
     "source": "taxonomy_s3",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "segments_raw": "Cao cấp, Hẹn hò, Gia đình",
    "segments_unmapped": [
@@ -2105,7 +2105,7 @@
     ],
     "source": "cross_dataset",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "diet_evidence": {
     "declared_cuisine": [],
@@ -2119,7 +2119,7 @@
     "value": "Gà Nướng Lá Chanh là nhà hàng tại Phường 1, Đà Lạt, chuyên ẩm thực Việt Nam. Quán có bãi đỗ xe, mở cửa khuya, giao hàng, có ghế trẻ em, phù hợp trẻ em và phù hợp cho cao cấp, hẹn hò, gia đình.",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "known_strengths": {
     "value": [
@@ -2129,7 +2129,7 @@
     ],
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "known_weaknesses": {
     "value": [
@@ -2138,7 +2138,7 @@
     ],
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "menu": {
     "value": [
@@ -2263,7 +2263,7 @@
     ],
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "menu_stats": {
     "item_count": 7,
@@ -2279,7 +2279,7 @@
     "value": "Bun chả .... 107.640 VND\nMì Quảng gà .... 81.184 VND\nPho bò tái .... 98.936 VND\nCom tấm sườn .... 116.764 VND\nTrà đào cam sả .... 62.995 VND",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "ocr_rule_parsed": [
     {
@@ -2368,7 +2368,7 @@
     ],
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "quality": {
     "dataset_score": 0.95,
@@ -2391,32 +2391,32 @@
     "value": "Hải Sản Sóng Vàng",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "name_norm": "hai san song vang",
    "category": {
     "value": "Nhà hàng",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "city": {
     "value": "Huế",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "district": {
     "value": "Phú Hội",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "address": {
     "value": "139 Trần Phú, Phú Hội, Huế",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "coordinates": {
     "value": {
@@ -2425,43 +2425,43 @@
     },
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "cuisine_type": {
     "value": "Hải sản",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "price_level": {
     "value": "Bình dân",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "avg_price_vnd": {
     "value": 79451,
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "rating": {
     "value": 4.8,
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "review_count": {
     "value": 969,
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "popularity_score": {
     "value": 47,
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "opening_hours": {
     "value": {
@@ -2472,7 +2472,7 @@
     },
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "amenities": {
     "value": [
@@ -2483,7 +2483,7 @@
     ],
     "source": "taxonomy_s3",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "amenities_raw": "View đẹp, Phù hợp trẻ em, Không gian ngoài trời, Có ghế trẻ em, Nhạc nhẹ",
    "amenities_unmapped": [
@@ -2497,7 +2497,7 @@
     ],
     "source": "taxonomy_s3",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "segments_raw": "Gia đình, Ăn nhanh, Ăn chay, Tiết kiệm",
    "segments_unmapped": [
@@ -2509,7 +2509,7 @@
     ],
     "source": "cross_dataset",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "diet_evidence": {
     "declared_cuisine": [],
@@ -2523,7 +2523,7 @@
     "value": "Hải Sản Sóng Vàng là nhà hàng tại Phú Hội, Huế, chuyên ẩm thực Hải sản. Quán có view đẹp, phù hợp trẻ em, không gian ngoài trời, có ghế trẻ em, nhạc nhẹ và phù hợp cho gia đình, ăn nhanh, ăn chay.",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "known_strengths": {
     "value": [
@@ -2533,7 +2533,7 @@
     ],
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "known_weaknesses": {
     "value": [
@@ -2542,7 +2542,7 @@
     ],
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "menu": {
     "value": [
@@ -2650,7 +2650,7 @@
     ],
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "menu_stats": {
     "item_count": 6,
@@ -2666,7 +2666,7 @@
     "value": "Lẩu hải sản .... 343.923 VND\nKhoai tây chiên .... 71.170 VND\nBánh flan .... 41.943 VND\nTôm nướng muối ớt .... 255.154 VND\nMực hấp gừng .... 221.160 VND",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "ocr_rule_parsed": [
     {
@@ -2755,7 +2755,7 @@
     ],
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "quality": {
     "dataset_score": 0.91,
@@ -2778,32 +2778,32 @@
     "value": "The Coffee & Brunch",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "name_norm": "the coffee & brunch",
    "category": {
     "value": "Quán cà phê",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "city": {
     "value": "Hà Nội",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "district": {
     "value": "Hoàn Kiếm",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "address": {
     "value": "119 Trần Phú, Hoàn Kiếm, Hà Nội",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "coordinates": {
     "value": {
@@ -2812,43 +2812,43 @@
     },
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "cuisine_type": {
     "value": "Halal",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "price_level": {
     "value": "Trung bình",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "avg_price_vnd": {
     "value": 144726,
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "rating": {
     "value": 4.0,
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "review_count": {
     "value": 1013,
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "popularity_score": {
     "value": 91,
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "opening_hours": {
     "value": {
@@ -2859,7 +2859,7 @@
     },
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "amenities": {
     "value": [
@@ -2874,7 +2874,7 @@
     ],
     "source": "taxonomy_s3",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "amenities_raw": "Thanh toán thẻ, Đặt bàn trước, Mở cửa khuya, Giao hàng, Wi-Fi miễn phí, Bãi đỗ xe, Phù hợp trẻ em, Không gian ngoài trời",
    "amenities_unmapped": [],
@@ -2885,7 +2885,7 @@
     ],
     "source": "taxonomy_s3",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "segments_raw": "Ăn nhanh, Ăn chay, Gia đình",
    "segments_unmapped": [
@@ -2898,7 +2898,7 @@
     ],
     "source": "cross_dataset",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "diet_evidence": {
     "declared_cuisine": [
@@ -2915,7 +2915,7 @@
     "value": "The Coffee & Brunch là quán cà phê tại Hoàn Kiếm, Hà Nội, chuyên ẩm thực Halal. Quán có thanh toán thẻ, đặt bàn trước, mở cửa khuya, giao hàng, wi-fi miễn phí và phù hợp cho ăn nhanh, ăn chay, gia đình.",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "known_strengths": {
     "value": [
@@ -2925,7 +2925,7 @@
     ],
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "known_weaknesses": {
     "value": [
@@ -2934,7 +2934,7 @@
     ],
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "menu": {
     "value": [
@@ -3028,7 +3028,7 @@
     ],
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "menu_stats": {
     "item_count": 5,
@@ -3041,7 +3041,7 @@
     "value": "Bánh mì gà halal .... 65.693 VND\nCà ri bò halal .... 159.527 VND\nNước suối .... 20.266 VND\nKhoai tây chiên .... 74.668 VND\nCom gà halal .... 126.825 VND",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "ocr_rule_parsed": [
     {
@@ -3130,7 +3130,7 @@
     ],
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "quality": {
     "dataset_score": 0.87,
@@ -3151,32 +3151,32 @@
     "value": "Lẩu Nấm An Nhiên",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "name_norm": "lau nam an nhien",
    "category": {
     "value": "Nhà hàng",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "city": {
     "value": "TP. Hồ Chí Minh",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "district": {
     "value": "Quận 1",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "address": {
     "value": "15 Hùng Vương, Quận 1, TP. Hồ Chí Minh",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "coordinates": {
     "value": {
@@ -3185,43 +3185,43 @@
     },
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "cuisine_type": {
     "value": "Hải sản",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "price_level": {
     "value": "Bình dân",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "avg_price_vnd": {
     "value": 62224,
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "rating": {
     "value": 3.8,
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "review_count": {
     "value": 1152,
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "popularity_score": {
     "value": 93,
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "opening_hours": {
     "value": {
@@ -3232,7 +3232,7 @@
     },
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "amenities": {
     "value": [
@@ -3246,7 +3246,7 @@
     ],
     "source": "taxonomy_s3",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "amenities_raw": "Giao hàng, Có ghế trẻ em, Không gian ngoài trời, Đặt bàn trước, Wi-Fi miễn phí, Phòng riêng, Nhạc nhẹ, Phù hợp trẻ em",
    "amenities_unmapped": [
@@ -3260,7 +3260,7 @@
     ],
     "source": "taxonomy_s3",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "segments_raw": "Cao cấp, Nhóm bạn, Ăn nhanh, Gia đình",
    "segments_unmapped": [
@@ -3272,7 +3272,7 @@
     ],
     "source": "cross_dataset",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "diet_evidence": {
     "declared_cuisine": [],
@@ -3286,7 +3286,7 @@
     "value": "Lẩu Nấm An Nhiên là nhà hàng tại Quận 1, TP. Hồ Chí Minh, chuyên ẩm thực Hải sản. Quán có giao hàng, có ghế trẻ em, không gian ngoài trời, đặt bàn trước, wi-fi miễn phí và phù hợp cho cao cấp, nhóm bạn, ăn nhanh.",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "known_strengths": {
     "value": [
@@ -3296,7 +3296,7 @@
     ],
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "known_weaknesses": {
     "value": [
@@ -3305,7 +3305,7 @@
     ],
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "menu": {
     "value": [
@@ -3412,7 +3412,7 @@
     ],
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "menu_stats": {
     "item_count": 6,
@@ -3427,7 +3427,7 @@
     "value": "Lẩu hải sản .... 324.002 VND\nTrà đào cam sả .... 51.409 VND\nCá nướng giấy bạc .... 291.609 VND\nTôm nướng muối ớt .... 258.308 VND\nKhoai tây chiên .... 80.660 VND",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "ocr_rule_parsed": [
     {
@@ -3516,7 +3516,7 @@
     ],
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "quality": {
     "dataset_score": 0.87,
@@ -3539,32 +3539,32 @@
     "value": "Pizza Roma",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "name_norm": "pizza roma",
    "category": {
     "value": "Nhà hàng",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "city": {
     "value": "Đà Nẵng",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "district": {
     "value": "Sơn Trà",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "address": {
     "value": "81 Trần Phú, Sơn Trà, Đà Nẵng",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "coordinates": {
     "value": {
@@ -3573,43 +3573,43 @@
     },
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "cuisine_type": {
     "value": "Ý",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "price_level": {
     "value": "Cao cấp",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "avg_price_vnd": {
     "value": 546248,
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "rating": {
     "value": 3.8,
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "review_count": {
     "value": 1021,
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "popularity_score": {
     "value": 72,
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "opening_hours": {
     "value": {
@@ -3620,7 +3620,7 @@
     },
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "amenities": {
     "value": [
@@ -3632,7 +3632,7 @@
     ],
     "source": "taxonomy_s3",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "amenities_raw": "Phòng riêng, Bãi đỗ xe, View đẹp, Mở cửa khuya, Không gian ngoài trời",
    "amenities_unmapped": [],
@@ -3644,7 +3644,7 @@
     ],
     "source": "taxonomy_s3",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "segments_raw": "Ăn nhanh, Gia đình, Nhóm bạn, Cao cấp",
    "segments_unmapped": [
@@ -3656,7 +3656,7 @@
     ],
     "source": "cross_dataset",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "diet_evidence": {
     "declared_cuisine": [],
@@ -3670,7 +3670,7 @@
     "value": "Pizza Roma là nhà hàng tại Sơn Trà, Đà Nẵng, chuyên ẩm thực Ý. Quán có phòng riêng, bãi đỗ xe, view đẹp, mở cửa khuya, không gian ngoài trời và phù hợp cho ăn nhanh, gia đình, nhóm bạn.",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "known_strengths": {
     "value": [
@@ -3680,7 +3680,7 @@
     ],
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "known_weaknesses": {
     "value": [
@@ -3689,7 +3689,7 @@
     ],
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "menu": {
     "value": [
@@ -3783,7 +3783,7 @@
     ],
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "menu_stats": {
     "item_count": 5,
@@ -3799,7 +3799,7 @@
     "value": "Pizza Margherita .... 207.965 VND\nBánh flan .... 45.691 VND\nNước suối .... 24.778 VND\nTiramisu .... 110.064 VND\nPasta Carbonara .... 232.378 VND",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "ocr_rule_parsed": [
     {
@@ -3888,7 +3888,7 @@
     ],
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "quality": {
     "dataset_score": 0.94,
@@ -3909,32 +3909,32 @@
     "value": "Sushi Sakura",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "name_norm": "sushi sakura",
    "category": {
     "value": "Nhà hàng",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "city": {
     "value": "Nha Trang",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "district": {
     "value": "Lộc Thọ",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "address": {
     "value": "35 Lê Lợi, Lộc Thọ, Nha Trang",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "coordinates": {
     "value": {
@@ -3943,43 +3943,43 @@
     },
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "cuisine_type": {
     "value": "Nhật",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "price_level": {
     "value": "Trung bình",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "avg_price_vnd": {
     "value": 139204,
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "rating": {
     "value": 4.1,
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "review_count": {
     "value": 193,
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "popularity_score": {
     "value": 40,
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "opening_hours": {
     "value": {
@@ -3990,7 +3990,7 @@
     },
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "amenities": {
     "value": [
@@ -4003,7 +4003,7 @@
     ],
     "source": "taxonomy_s3",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "amenities_raw": "Phù hợp trẻ em, Máy lạnh, Phòng riêng, Thanh toán thẻ, Bãi đỗ xe, Không gian ngoài trời",
    "amenities_unmapped": [],
@@ -4014,7 +4014,7 @@
     ],
     "source": "taxonomy_s3",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "segments_raw": "Cao cấp, Nhóm bạn, Gia đình",
    "segments_unmapped": [
@@ -4026,7 +4026,7 @@
     ],
     "source": "cross_dataset",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "diet_evidence": {
     "declared_cuisine": [],
@@ -4040,7 +4040,7 @@
     "value": "Sushi Sakura là nhà hàng tại Lộc Thọ, Nha Trang, chuyên ẩm thực Nhật. Quán có phù hợp trẻ em, máy lạnh, phòng riêng, thanh toán thẻ, bãi đỗ xe và phù hợp cho cao cấp, nhóm bạn, gia đình.",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "known_strengths": {
     "value": [
@@ -4050,7 +4050,7 @@
     ],
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "known_weaknesses": {
     "value": [
@@ -4059,7 +4059,7 @@
     ],
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "menu": {
     "value": [
@@ -4147,7 +4147,7 @@
     ],
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "menu_stats": {
     "item_count": 5,
@@ -4163,7 +4163,7 @@
     "value": "Tempura tôm .... 145.470 VND\nSushi cá hồi .... 263.093 VND\nNước suối .... 22.601 VND\nRamen tonkotsu .... 215.244 VND\nTrà đào cam sả .... 63.026 VND",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "ocr_rule_parsed": [
     {
@@ -4252,7 +4252,7 @@
     ],
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "quality": {
     "dataset_score": 0.86,
@@ -4273,32 +4273,32 @@
     "value": "Bánh Mì Corner",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "name_norm": "banh mi corner",
    "category": {
     "value": "Ăn nhanh",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "city": {
     "value": "Hạ Long",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "district": {
     "value": "Bãi Cháy",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "address": {
     "value": "177 Trần Phú, Bãi Cháy, Hạ Long",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "coordinates": {
     "value": {
@@ -4307,43 +4307,43 @@
     },
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "cuisine_type": {
     "value": "Chay",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "price_level": {
     "value": "Trung bình",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "avg_price_vnd": {
     "value": 189201,
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "rating": {
     "value": 4.0,
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "review_count": {
     "value": 476,
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "popularity_score": {
     "value": 85,
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "opening_hours": {
     "value": {
@@ -4354,7 +4354,7 @@
     },
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "amenities": {
     "value": [
@@ -4368,7 +4368,7 @@
     ],
     "source": "taxonomy_s3",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "amenities_raw": "Máy lạnh, Wi-Fi miễn phí, Bãi đỗ xe, Đặt bàn trước, Có ghế trẻ em, Mở cửa khuya, Giao hàng, Phòng riêng",
    "amenities_unmapped": [
@@ -4383,7 +4383,7 @@
     ],
     "source": "taxonomy_s3",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "segments_raw": "Nhóm bạn, Hẹn hò, Du lịch, Ăn nhanh, Ăn chay",
    "segments_unmapped": [
@@ -4395,7 +4395,7 @@
     ],
     "source": "cross_dataset",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "diet_evidence": {
     "declared_cuisine": [
@@ -4411,7 +4411,7 @@
     "value": "Bánh Mì Corner là ăn nhanh tại Bãi Cháy, Hạ Long, chuyên ẩm thực Chay. Quán có máy lạnh, wi-fi miễn phí, bãi đỗ xe, đặt bàn trước, có ghế trẻ em và phù hợp cho nhóm bạn, hẹn hò, du lịch.",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "known_strengths": {
     "value": [
@@ -4421,7 +4421,7 @@
     ],
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "known_weaknesses": {
     "value": [
@@ -4430,7 +4430,7 @@
     ],
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "menu": {
     "value": [
@@ -4544,7 +4544,7 @@
     ],
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "menu_stats": {
     "item_count": 6,
@@ -4561,7 +4561,7 @@
     "value": "Lẩu nấm chay .... 204.541 VND\nNước suối .... 20.158 VND\nBánh flan .... 55.388 VND\nBun Huế chay .... 86.768 VND\nGỏi cuốn chay .... 67.900 VND",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "ocr_rule_parsed": [
     {
@@ -4650,7 +4650,7 @@
     ],
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "quality": {
     "dataset_score": 0.98,
@@ -4673,32 +4673,32 @@
     "value": "Quán Chay Sen Trắng",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "name_norm": "quan chay sen trang",
    "category": {
     "value": "Nhà hàng chay",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "city": {
     "value": "Đà Lạt",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "district": {
     "value": "Phường 1",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "address": {
     "value": "106 Hai Bà Trưng, Phường 1, Đà Lạt",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "coordinates": {
     "value": {
@@ -4707,43 +4707,43 @@
     },
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "cuisine_type": {
     "value": "Chay",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "price_level": {
     "value": "Trung bình",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "avg_price_vnd": {
     "value": 130458,
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "rating": {
     "value": 3.9,
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "review_count": {
     "value": 306,
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "popularity_score": {
     "value": 42,
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "opening_hours": {
     "value": {
@@ -4754,7 +4754,7 @@
     },
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "amenities": {
     "value": [
@@ -4766,7 +4766,7 @@
     ],
     "source": "taxonomy_s3",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "amenities_raw": "Nhạc nhẹ, Không gian ngoài trời, Có ghế trẻ em, Bãi đỗ xe, Thanh toán thẻ, Đặt bàn trước",
    "amenities_unmapped": [
@@ -4780,7 +4780,7 @@
     ],
     "source": "taxonomy_s3",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "segments_raw": "Hẹn hò, Ăn nhanh, Tiết kiệm, Công tác, Ăn chay",
    "segments_unmapped": [
@@ -4793,7 +4793,7 @@
     ],
     "source": "cross_dataset",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "diet_evidence": {
     "declared_cuisine": [
@@ -4809,7 +4809,7 @@
     "value": "Quán Chay Sen Trắng là nhà hàng chay tại Phường 1, Đà Lạt, chuyên ẩm thực Chay. Quán có nhạc nhẹ, không gian ngoài trời, có ghế trẻ em, bãi đỗ xe, thanh toán thẻ và phù hợp cho hẹn hò, ăn nhanh, tiết kiệm.",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "known_strengths": {
     "value": [
@@ -4819,7 +4819,7 @@
     ],
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "known_weaknesses": {
     "value": [
@@ -4828,7 +4828,7 @@
     ],
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "menu": {
     "value": [
@@ -4943,7 +4943,7 @@
     ],
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "menu_stats": {
     "item_count": 6,
@@ -4959,7 +4959,7 @@
     "value": "Lẩu nấm chay .... 260.077 VND\nGỏi cuốn chay .... 73.344 VND\nCom sen chay .... 99.819 VND\nBun Huế chay .... 88.926 VND\nBánh flan .... 47.746 VND",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "ocr_rule_parsed": [
     {
@@ -5048,7 +5048,7 @@
     ],
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "quality": {
     "dataset_score": 0.98,
@@ -5071,32 +5071,32 @@
     "value": "Rooftop Garden Dining",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "name_norm": "rooftop garden dining",
    "category": {
     "value": "Nhà hàng",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "city": {
     "value": "Huế",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "district": {
     "value": "Phú Hội",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "address": {
     "value": "67 Trần Phú, Phú Hội, Huế",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "coordinates": {
     "value": {
@@ -5105,43 +5105,43 @@
     },
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "cuisine_type": {
     "value": "Chay",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "price_level": {
     "value": "Bình dân",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "avg_price_vnd": {
     "value": 111694,
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "rating": {
     "value": 4.6,
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "review_count": {
     "value": 266,
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "popularity_score": {
     "value": 64,
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "opening_hours": {
     "value": {
@@ -5152,7 +5152,7 @@
     },
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "amenities": {
     "value": [
@@ -5168,7 +5168,7 @@
     ],
     "source": "taxonomy_s3",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "amenities_raw": "Thanh toán thẻ, Máy lạnh, Không gian ngoài trời, Nhạc nhẹ, Wi-Fi miễn phí, View đẹp, Giao hàng, Phòng riêng, Phù hợp trẻ em",
    "amenities_unmapped": [],
@@ -5181,7 +5181,7 @@
     ],
     "source": "taxonomy_s3",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "segments_raw": "Nhóm bạn, Du lịch, Gia đình, Hẹn hò, Ăn chay",
    "segments_unmapped": [
@@ -5193,7 +5193,7 @@
     ],
     "source": "cross_dataset",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "diet_evidence": {
     "declared_cuisine": [
@@ -5209,7 +5209,7 @@
     "value": "Rooftop Garden Dining là nhà hàng tại Phú Hội, Huế, chuyên ẩm thực Chay. Quán có thanh toán thẻ, máy lạnh, không gian ngoài trời, nhạc nhẹ, wi-fi miễn phí và phù hợp cho nhóm bạn, du lịch, gia đình.",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "known_strengths": {
     "value": [
@@ -5219,7 +5219,7 @@
     ],
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "known_weaknesses": {
     "value": [
@@ -5228,7 +5228,7 @@
     ],
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "menu": {
     "value": [
@@ -5343,7 +5343,7 @@
     ],
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "menu_stats": {
     "item_count": 6,
@@ -5360,7 +5360,7 @@
     "value": "Trà đào cam sả .... 55.329 VND\nGỏi cuốn chay .... 69.964 VND\nBun Huế chay .... 93.739 VND\nNước suối .... 20.262 VND\nCom sen chay .... 102.473 VND",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "ocr_rule_parsed": [
     {
@@ -5449,7 +5449,7 @@
     ],
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "quality": {
     "dataset_score": 0.97,
@@ -5470,32 +5470,32 @@
     "value": "BBQ Street House",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "name_norm": "bbq street house",
    "category": {
     "value": "Nhà hàng",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "city": {
     "value": "Hà Nội",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "district": {
     "value": "Hoàn Kiếm",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "address": {
     "value": "32 Hai Bà Trưng, Hoàn Kiếm, Hà Nội",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "coordinates": {
     "value": {
@@ -5504,43 +5504,43 @@
     },
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "cuisine_type": {
     "value": "Hải sản",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "price_level": {
     "value": "Trung bình",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "avg_price_vnd": {
     "value": 278914,
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "rating": {
     "value": 4.4,
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "review_count": {
     "value": 752,
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "popularity_score": {
     "value": 86,
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "opening_hours": {
     "value": {
@@ -5551,7 +5551,7 @@
     },
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "amenities": {
     "value": [
@@ -5563,7 +5563,7 @@
     ],
     "source": "taxonomy_s3",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "amenities_raw": "Đặt bàn trước, View đẹp, Không gian ngoài trời, Máy lạnh, Wi-Fi miễn phí",
    "amenities_unmapped": [],
@@ -5573,7 +5573,7 @@
     ],
     "source": "taxonomy_s3",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "segments_raw": "Ăn chay, Ăn nhanh",
    "segments_unmapped": [
@@ -5585,7 +5585,7 @@
     ],
     "source": "cross_dataset",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "diet_evidence": {
     "declared_cuisine": [],
@@ -5599,7 +5599,7 @@
     "value": "BBQ Street House là nhà hàng tại Hoàn Kiếm, Hà Nội, chuyên ẩm thực Hải sản. Quán có đặt bàn trước, view đẹp, không gian ngoài trời, máy lạnh, wi-fi miễn phí và phù hợp cho ăn chay, ăn nhanh.",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "known_strengths": {
     "value": [
@@ -5609,7 +5609,7 @@
     ],
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "known_weaknesses": {
     "value": [
@@ -5618,7 +5618,7 @@
     ],
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "menu": {
     "value": [
@@ -5728,7 +5728,7 @@
     ],
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "menu_stats": {
     "item_count": 6,
@@ -5743,7 +5743,7 @@
     "value": "Trà đào cam sả .... 61.937 VND\nMực hấp gừng .... 193.945 VND\nCá nướng giấy bạc .... 247.728 VND\nTôm nướng muối ớt .... 262.040 VND\nLẩu hải sản .... 370.092 VND",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "ocr_rule_parsed": [
     {
@@ -5832,7 +5832,7 @@
     ],
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "quality": {
     "dataset_score": 0.89,
@@ -5853,32 +5853,32 @@
     "value": "Bún Bò Cố Đô",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "name_norm": "bun bo co do",
    "category": {
     "value": "Nhà hàng",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "city": {
     "value": "TP. Hồ Chí Minh",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "district": {
     "value": "Quận 1",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "address": {
     "value": "189 Trần Phú, Quận 1, TP. Hồ Chí Minh",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "coordinates": {
     "value": {
@@ -5887,43 +5887,43 @@
     },
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "cuisine_type": {
     "value": "Việt Nam",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "price_level": {
     "value": "Bình dân",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "avg_price_vnd": {
     "value": 75144,
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "rating": {
     "value": 4.2,
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "review_count": {
     "value": 650,
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "popularity_score": {
     "value": 75,
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "opening_hours": {
     "value": {
@@ -5934,7 +5934,7 @@
     },
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "amenities": {
     "value": [
@@ -5949,7 +5949,7 @@
     ],
     "source": "taxonomy_s3",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "amenities_raw": "Nhạc nhẹ, Mở cửa khuya, Phòng riêng, View đẹp, Máy lạnh, Đặt bàn trước, Phù hợp trẻ em, Wi-Fi miễn phí",
    "amenities_unmapped": [],
@@ -5961,7 +5961,7 @@
     ],
     "source": "taxonomy_s3",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "segments_raw": "Tiết kiệm, Du lịch, Gia đình",
    "segments_unmapped": [],
@@ -5971,7 +5971,7 @@
     ],
     "source": "cross_dataset",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "diet_evidence": {
     "declared_cuisine": [],
@@ -5985,7 +5985,7 @@
     "value": "Bún Bò Cố Đô là nhà hàng tại Quận 1, TP. Hồ Chí Minh, chuyên ẩm thực Việt Nam. Quán có nhạc nhẹ, mở cửa khuya, phòng riêng, view đẹp, máy lạnh và phù hợp cho tiết kiệm, du lịch, gia đình.",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "known_strengths": {
     "value": [
@@ -5995,7 +5995,7 @@
     ],
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "known_weaknesses": {
     "value": [
@@ -6004,7 +6004,7 @@
     ],
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "menu": {
     "value": [
@@ -6127,7 +6127,7 @@
     ],
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "menu_stats": {
     "item_count": 7,
@@ -6143,7 +6143,7 @@
     "value": "Trà đào cam sả .... 51.298 VND\nBun chả .... 101.681 VND\nKhoai tây chiên .... 68.247 VND\nGỏi cuốn .... 61.717 VND\nMì Quảng gà .... 75.578 VND",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "ocr_rule_parsed": [
     {
@@ -6232,7 +6232,7 @@
     ],
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "quality": {
     "dataset_score": 0.91,
@@ -6253,32 +6253,32 @@
     "value": "Café Trứng 1980",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "name_norm": "cafe trung 1980",
    "category": {
     "value": "Quán cà phê",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "city": {
     "value": "Đà Nẵng",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "district": {
     "value": "Sơn Trà",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "address": {
     "value": "46 Hai Bà Trưng, Sơn Trà, Đà Nẵng",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "coordinates": {
     "value": {
@@ -6287,43 +6287,43 @@
     },
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "cuisine_type": {
     "value": "Hàn",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "price_level": {
     "value": "Trung bình",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "avg_price_vnd": {
     "value": 172200,
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "rating": {
     "value": 3.8,
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "review_count": {
     "value": 526,
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "popularity_score": {
     "value": 83,
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "opening_hours": {
     "value": {
@@ -6334,7 +6334,7 @@
     },
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "amenities": {
     "value": [
@@ -6346,7 +6346,7 @@
     ],
     "source": "taxonomy_s3",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "amenities_raw": "Wi-Fi miễn phí, Không gian ngoài trời, Giao hàng, View đẹp, Bãi đỗ xe",
    "amenities_unmapped": [],
@@ -6357,7 +6357,7 @@
     ],
     "source": "taxonomy_s3",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "segments_raw": "Ăn nhanh, Tiết kiệm, Ăn chay, Cao cấp",
    "segments_unmapped": [
@@ -6370,7 +6370,7 @@
     ],
     "source": "cross_dataset",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "diet_evidence": {
     "declared_cuisine": [],
@@ -6384,7 +6384,7 @@
     "value": "Café Trứng 1980 là quán cà phê tại Sơn Trà, Đà Nẵng, chuyên ẩm thực Hàn. Quán có wi-fi miễn phí, không gian ngoài trời, giao hàng, view đẹp, bãi đỗ xe và phù hợp cho ăn nhanh, tiết kiệm, ăn chay.",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "known_strengths": {
     "value": [
@@ -6394,7 +6394,7 @@
     ],
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "known_weaknesses": {
     "value": [
@@ -6403,7 +6403,7 @@
     ],
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "menu": {
     "value": [
@@ -6490,7 +6490,7 @@
     ],
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "menu_stats": {
     "item_count": 5,
@@ -6505,7 +6505,7 @@
     "value": "Khoai tây chiên .... 71.925 VND\nCanh kimchi .... 137.099 VND\nThịt nướng Hàn Quốc .... 386.155 VND\nTrà đào cam sả .... 64.588 VND\nBibimbap .... 172.430 VND",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "ocr_rule_parsed": [
     {
@@ -6594,7 +6594,7 @@
     ],
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "quality": {
     "dataset_score": 0.9,
@@ -6615,32 +6615,32 @@
     "value": "Nhà Hàng Gia Đình Việt",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "name_norm": "nha hang gia dinh viet",
    "category": {
     "value": "Nhà hàng",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "city": {
     "value": "Nha Trang",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "district": {
     "value": "Lộc Thọ",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "address": {
     "value": "70 Lê Lợi, Lộc Thọ, Nha Trang",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "coordinates": {
     "value": {
@@ -6649,43 +6649,43 @@
     },
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "cuisine_type": {
     "value": "Hải sản",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "price_level": {
     "value": "Cao cấp",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "avg_price_vnd": {
     "value": 601206,
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "rating": {
     "value": 4.2,
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "review_count": {
     "value": 996,
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "popularity_score": {
     "value": 82,
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "opening_hours": {
     "value": {
@@ -6696,7 +6696,7 @@
     },
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "amenities": {
     "value": [
@@ -6711,7 +6711,7 @@
     ],
     "source": "taxonomy_s3",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "amenities_raw": "Phù hợp trẻ em, Giao hàng, Phòng riêng, Mở cửa khuya, View đẹp, Máy lạnh, Đặt bàn trước, Bãi đỗ xe",
    "amenities_unmapped": [],
@@ -6722,7 +6722,7 @@
     ],
     "source": "taxonomy_s3",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "segments_raw": "Ăn chay, Cao cấp, Du lịch, Gia đình",
    "segments_unmapped": [
@@ -6735,7 +6735,7 @@
     ],
     "source": "cross_dataset",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "diet_evidence": {
     "declared_cuisine": [],
@@ -6749,7 +6749,7 @@
     "value": "Nhà Hàng Gia Đình Việt là nhà hàng tại Lộc Thọ, Nha Trang, chuyên ẩm thực Hải sản. Quán có phù hợp trẻ em, giao hàng, phòng riêng, mở cửa khuya, view đẹp và phù hợp cho ăn chay, cao cấp, du lịch.",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "known_strengths": {
     "value": [
@@ -6759,7 +6759,7 @@
     ],
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "known_weaknesses": {
     "value": [
@@ -6768,7 +6768,7 @@
     ],
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "menu": {
     "value": [
@@ -6874,7 +6874,7 @@
     ],
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "menu_stats": {
     "item_count": 6,
@@ -6891,7 +6891,7 @@
     "value": "Tôm nướng muối ớt .... 257.246 VND\nMực hấp gừng .... 212.479 VND\nBánh flan .... 53.363 VND\nLẩu hải sản .... 327.567 VND\nNước suối .... 20.617 VND",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "ocr_rule_parsed": [
     {
@@ -6980,7 +6980,7 @@
     ],
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "quality": {
     "dataset_score": 0.88,
@@ -7001,32 +7001,32 @@
     "value": "Taco Fiesta",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "name_norm": "taco fiesta",
    "category": {
     "value": "Nhà hàng",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "city": {
     "value": "Hạ Long",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "district": {
     "value": "Bãi Cháy",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "address": {
     "value": "140 Hùng Vương, Bãi Cháy, Hạ Long",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "coordinates": {
     "value": {
@@ -7035,43 +7035,43 @@
     },
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "cuisine_type": {
     "value": "Chay",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "price_level": {
     "value": "Bình dân",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "avg_price_vnd": {
     "value": 58418,
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "rating": {
     "value": 4.0,
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "review_count": {
     "value": 357,
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "popularity_score": {
     "value": 85,
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "opening_hours": {
     "value": {
@@ -7082,7 +7082,7 @@
     },
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "amenities": {
     "value": [
@@ -7095,7 +7095,7 @@
     ],
     "source": "taxonomy_s3",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "amenities_raw": "Phù hợp trẻ em, Giao hàng, Đặt bàn trước, Wi-Fi miễn phí, Không gian ngoài trời, Nhạc nhẹ, Có ghế trẻ em",
    "amenities_unmapped": [
@@ -7109,7 +7109,7 @@
     ],
     "source": "taxonomy_s3",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "segments_raw": "Gia đình, Tiết kiệm, Ăn nhanh, Ăn chay",
    "segments_unmapped": [
@@ -7121,7 +7121,7 @@
     ],
     "source": "cross_dataset",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "diet_evidence": {
     "declared_cuisine": [
@@ -7137,7 +7137,7 @@
     "value": "Taco Fiesta là nhà hàng tại Bãi Cháy, Hạ Long, chuyên ẩm thực Chay. Quán có phù hợp trẻ em, giao hàng, đặt bàn trước, wi-fi miễn phí, không gian ngoài trời và phù hợp cho gia đình, tiết kiệm, ăn nhanh.",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "known_strengths": {
     "value": [
@@ -7147,7 +7147,7 @@
     ],
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "known_weaknesses": {
     "value": [
@@ -7156,7 +7156,7 @@
     ],
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "menu": {
     "value": [
@@ -7271,7 +7271,7 @@
     ],
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "menu_stats": {
     "item_count": 6,
@@ -7288,7 +7288,7 @@
     "value": null,
     "source": "tasco_csv",
     "confidence": 0.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "ocr_rule_parsed": [],
    "reviews": {
@@ -7356,7 +7356,7 @@
     ],
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "quality": {
     "dataset_score": 0.95,
@@ -7380,32 +7380,32 @@
     "value": "Dimsum House",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "name_norm": "dimsum house",
    "category": {
     "value": "Nhà hàng",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "city": {
     "value": "Đà Lạt",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "district": {
     "value": "Phường 1",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "address": {
     "value": "87 Võ Nguyên Giáp, Phường 1, Đà Lạt",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "coordinates": {
     "value": {
@@ -7414,43 +7414,43 @@
     },
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "cuisine_type": {
     "value": "Âu",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "price_level": {
     "value": "Cao cấp",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "avg_price_vnd": {
     "value": 525047,
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "rating": {
     "value": 4.3,
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "review_count": {
     "value": 841,
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "popularity_score": {
     "value": 61,
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "opening_hours": {
     "value": {
@@ -7461,7 +7461,7 @@
     },
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "amenities": {
     "value": [
@@ -7474,7 +7474,7 @@
     ],
     "source": "taxonomy_s3",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "amenities_raw": "View đẹp, Phù hợp trẻ em, Wi-Fi miễn phí, Đặt bàn trước, Nhạc nhẹ, Bãi đỗ xe",
    "amenities_unmapped": [],
@@ -7485,7 +7485,7 @@
     ],
     "source": "taxonomy_s3",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "segments_raw": "Cao cấp, Hẹn hò, Gia đình",
    "segments_unmapped": [
@@ -7497,7 +7497,7 @@
     ],
     "source": "cross_dataset",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "diet_evidence": {
     "declared_cuisine": [],
@@ -7511,7 +7511,7 @@
     "value": "Dimsum House là nhà hàng tại Phường 1, Đà Lạt, chuyên ẩm thực Âu. Quán có view đẹp, phù hợp trẻ em, wi-fi miễn phí, đặt bàn trước, nhạc nhẹ và phù hợp cho cao cấp, hẹn hò, gia đình.",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "known_strengths": {
     "value": [
@@ -7521,7 +7521,7 @@
     ],
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "known_weaknesses": {
     "value": [
@@ -7530,7 +7530,7 @@
     ],
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "menu": {
     "value": [
@@ -7621,7 +7621,7 @@
     ],
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "menu_stats": {
     "item_count": 5,
@@ -7636,7 +7636,7 @@
     "value": null,
     "source": "tasco_csv",
     "confidence": 0.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "ocr_rule_parsed": [],
    "reviews": {
@@ -7704,7 +7704,7 @@
     ],
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "quality": {
     "dataset_score": 0.91,
@@ -7727,32 +7727,32 @@
     "value": "Mì Quảng Cô Ba",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "name_norm": "mi quang co ba",
    "category": {
     "value": "Nhà hàng",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "city": {
     "value": "Huế",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "district": {
     "value": "Phú Hội",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "address": {
     "value": "197 Lê Lợi, Phú Hội, Huế",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "coordinates": {
     "value": {
@@ -7761,43 +7761,43 @@
     },
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "cuisine_type": {
     "value": "Việt Nam",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "price_level": {
     "value": "Cao cấp",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "avg_price_vnd": {
     "value": 397556,
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "rating": {
     "value": 4.7,
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "review_count": {
     "value": 1008,
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "popularity_score": {
     "value": 41,
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "opening_hours": {
     "value": {
@@ -7808,7 +7808,7 @@
     },
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "amenities": {
     "value": [
@@ -7820,7 +7820,7 @@
     ],
     "source": "taxonomy_s3",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "amenities_raw": "Có ghế trẻ em, Nhạc nhẹ, Wi-Fi miễn phí, Mở cửa khuya, Không gian ngoài trời, Phù hợp trẻ em",
    "amenities_unmapped": [
@@ -7834,7 +7834,7 @@
     ],
     "source": "taxonomy_s3",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "segments_raw": "Hẹn hò, Ăn nhanh, Gia đình",
    "segments_unmapped": [],
@@ -7844,7 +7844,7 @@
     ],
     "source": "cross_dataset",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "diet_evidence": {
     "declared_cuisine": [],
@@ -7858,7 +7858,7 @@
     "value": "Mì Quảng Cô Ba là nhà hàng tại Phú Hội, Huế, chuyên ẩm thực Việt Nam. Quán có có ghế trẻ em, nhạc nhẹ, wi-fi miễn phí, mở cửa khuya, không gian ngoài trời và phù hợp cho hẹn hò, ăn nhanh, gia đình.",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "known_strengths": {
     "value": [
@@ -7868,7 +7868,7 @@
     ],
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "known_weaknesses": {
     "value": [
@@ -7877,7 +7877,7 @@
     ],
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "menu": {
     "value": [
@@ -7999,7 +7999,7 @@
     ],
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "menu_stats": {
     "item_count": 7,
@@ -8015,7 +8015,7 @@
     "value": null,
     "source": "tasco_csv",
     "confidence": 0.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "ocr_rule_parsed": [],
    "reviews": {
@@ -8083,7 +8083,7 @@
     ],
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "quality": {
     "dataset_score": 0.94,
@@ -8107,32 +8107,32 @@
     "value": "Curry Garden",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "name_norm": "curry garden",
    "category": {
     "value": "Nhà hàng",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "city": {
     "value": "Hà Nội",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "district": {
     "value": "Hoàn Kiếm",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "address": {
     "value": "126 Nguyễn Huệ, Hoàn Kiếm, Hà Nội",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "coordinates": {
     "value": {
@@ -8141,43 +8141,43 @@
     },
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "cuisine_type": {
     "value": "Chay",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "price_level": {
     "value": "Bình dân",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "avg_price_vnd": {
     "value": 90888,
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "rating": {
     "value": 4.9,
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "review_count": {
     "value": 266,
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "popularity_score": {
     "value": 77,
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "opening_hours": {
     "value": {
@@ -8188,7 +8188,7 @@
     },
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "amenities": {
     "value": [
@@ -8203,7 +8203,7 @@
     ],
     "source": "taxonomy_s3",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "amenities_raw": "Đặt bàn trước, Mở cửa khuya, Không gian ngoài trời, Bãi đỗ xe, Nhạc nhẹ, View đẹp, Thanh toán thẻ, Phòng riêng",
    "amenities_unmapped": [],
@@ -8215,7 +8215,7 @@
     ],
     "source": "taxonomy_s3",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "segments_raw": "Công tác, Gia đình, Hẹn hò, Nhóm bạn, Ăn chay",
    "segments_unmapped": [
@@ -8228,7 +8228,7 @@
     ],
     "source": "cross_dataset",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "diet_evidence": {
     "declared_cuisine": [
@@ -8244,7 +8244,7 @@
     "value": "Curry Garden là nhà hàng tại Hoàn Kiếm, Hà Nội, chuyên ẩm thực Chay. Quán có đặt bàn trước, mở cửa khuya, không gian ngoài trời, bãi đỗ xe, nhạc nhẹ và phù hợp cho công tác, gia đình, hẹn hò.",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "known_strengths": {
     "value": [
@@ -8254,7 +8254,7 @@
     ],
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "known_weaknesses": {
     "value": [
@@ -8263,7 +8263,7 @@
     ],
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "menu": {
     "value": [
@@ -8377,7 +8377,7 @@
     ],
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "menu_stats": {
     "item_count": 6,
@@ -8393,7 +8393,7 @@
     "value": null,
     "source": "tasco_csv",
     "confidence": 0.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "ocr_rule_parsed": [],
    "reviews": {
@@ -8461,7 +8461,7 @@
     ],
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "quality": {
     "dataset_score": 0.97,
@@ -8484,32 +8484,32 @@
     "value": "Steak & Wine Bistro",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "name_norm": "steak & wine bistro",
    "category": {
     "value": "Nhà hàng",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "city": {
     "value": "TP. Hồ Chí Minh",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "district": {
     "value": "Quận 1",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "address": {
     "value": "88 Lê Lợi, Quận 1, TP. Hồ Chí Minh",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "coordinates": {
     "value": {
@@ -8518,43 +8518,43 @@
     },
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "cuisine_type": {
     "value": "Chay",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "price_level": {
     "value": "Trung bình",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "avg_price_vnd": {
     "value": 241863,
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "rating": {
     "value": 4.2,
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "review_count": {
     "value": 1113,
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "popularity_score": {
     "value": 81,
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "opening_hours": {
     "value": {
@@ -8565,7 +8565,7 @@
     },
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "amenities": {
     "value": [
@@ -8579,7 +8579,7 @@
     ],
     "source": "taxonomy_s3",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "amenities_raw": "Thanh toán thẻ, Không gian ngoài trời, Bãi đỗ xe, Máy lạnh, Giao hàng, Mở cửa khuya, Đặt bàn trước",
    "amenities_unmapped": [],
@@ -8593,7 +8593,7 @@
     ],
     "source": "taxonomy_s3",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "segments_raw": "Tiết kiệm, Du lịch, Gia đình, Ăn nhanh, Hẹn hò, Ăn chay",
    "segments_unmapped": [
@@ -8605,7 +8605,7 @@
     ],
     "source": "cross_dataset",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "diet_evidence": {
     "declared_cuisine": [
@@ -8621,7 +8621,7 @@
     "value": "Steak & Wine Bistro là nhà hàng tại Quận 1, TP. Hồ Chí Minh, chuyên ẩm thực Chay. Quán có thanh toán thẻ, không gian ngoài trời, bãi đỗ xe, máy lạnh, giao hàng và phù hợp cho tiết kiệm, du lịch, gia đình.",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "known_strengths": {
     "value": [
@@ -8631,7 +8631,7 @@
     ],
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "known_weaknesses": {
     "value": [
@@ -8640,7 +8640,7 @@
     ],
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "menu": {
     "value": [
@@ -8752,7 +8752,7 @@
     ],
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "menu_stats": {
     "item_count": 6,
@@ -8767,7 +8767,7 @@
     "value": null,
     "source": "tasco_csv",
     "confidence": 0.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "ocr_rule_parsed": [],
    "reviews": {
@@ -8835,7 +8835,7 @@
     ],
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "quality": {
     "dataset_score": 0.96,
@@ -8858,32 +8858,32 @@
     "value": "Chè Huế Ngọt Ngào",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "name_norm": "che hue ngot ngao",
    "category": {
     "value": "Ăn nhanh",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "city": {
     "value": "Đà Nẵng",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "district": {
     "value": "Sơn Trà",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "address": {
     "value": "141 Lê Lợi, Sơn Trà, Đà Nẵng",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "coordinates": {
     "value": {
@@ -8892,43 +8892,43 @@
     },
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "cuisine_type": {
     "value": "Healthy",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "price_level": {
     "value": "Bình dân",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "avg_price_vnd": {
     "value": 103271,
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "rating": {
     "value": 3.7,
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "review_count": {
     "value": 436,
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "popularity_score": {
     "value": 45,
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "opening_hours": {
     "value": {
@@ -8939,7 +8939,7 @@
     },
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "amenities": {
     "value": [
@@ -8952,7 +8952,7 @@
     ],
     "source": "taxonomy_s3",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "amenities_raw": "Mở cửa khuya, Giao hàng, Nhạc nhẹ, Có ghế trẻ em, View đẹp, Wi-Fi miễn phí, Phù hợp trẻ em",
    "amenities_unmapped": [
@@ -8966,7 +8966,7 @@
     ],
     "source": "taxonomy_s3",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "segments_raw": "Tiết kiệm, Ăn nhanh, Gia đình",
    "segments_unmapped": [],
@@ -8976,7 +8976,7 @@
     ],
     "source": "cross_dataset",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "diet_evidence": {
     "declared_cuisine": [],
@@ -8990,7 +8990,7 @@
     "value": "Chè Huế Ngọt Ngào là ăn nhanh tại Sơn Trà, Đà Nẵng, chuyên ẩm thực Healthy. Quán có mở cửa khuya, giao hàng, nhạc nhẹ, có ghế trẻ em, view đẹp và phù hợp cho tiết kiệm, ăn nhanh, gia đình.",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "known_strengths": {
     "value": [
@@ -9000,7 +9000,7 @@
     ],
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "known_weaknesses": {
     "value": [
@@ -9009,7 +9009,7 @@
     ],
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "menu": {
     "value": [
@@ -9102,7 +9102,7 @@
     ],
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "menu_stats": {
     "item_count": 5,
@@ -9117,7 +9117,7 @@
     "value": null,
     "source": "tasco_csv",
     "confidence": 0.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "ocr_rule_parsed": [],
    "reviews": {
@@ -9185,7 +9185,7 @@
     ],
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "quality": {
     "dataset_score": 0.99,
@@ -9209,32 +9209,32 @@
     "value": "Sea View Grill",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "name_norm": "sea view grill",
    "category": {
     "value": "Nhà hàng",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "city": {
     "value": "Nha Trang",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "district": {
     "value": "Lộc Thọ",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "address": {
     "value": "179 Trần Phú, Lộc Thọ, Nha Trang",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "coordinates": {
     "value": {
@@ -9243,43 +9243,43 @@
     },
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "cuisine_type": {
     "value": "Hải sản",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "price_level": {
     "value": "Bình dân",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "avg_price_vnd": {
     "value": 74267,
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "rating": {
     "value": 4.0,
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "review_count": {
     "value": 439,
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "popularity_score": {
     "value": 60,
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "opening_hours": {
     "value": {
@@ -9290,7 +9290,7 @@
     },
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "amenities": {
     "value": [
@@ -9304,7 +9304,7 @@
     ],
     "source": "taxonomy_s3",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "amenities_raw": "Máy lạnh, Mở cửa khuya, View đẹp, Phù hợp trẻ em, Có ghế trẻ em, Bãi đỗ xe, Đặt bàn trước, Giao hàng",
    "amenities_unmapped": [
@@ -9318,7 +9318,7 @@
     ],
     "source": "taxonomy_s3",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "segments_raw": "Hẹn hò, Nhóm bạn, Gia đình",
    "segments_unmapped": [],
@@ -9328,7 +9328,7 @@
     ],
     "source": "cross_dataset",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "diet_evidence": {
     "declared_cuisine": [],
@@ -9342,7 +9342,7 @@
     "value": "Sea View Grill là nhà hàng tại Lộc Thọ, Nha Trang, chuyên ẩm thực Hải sản. Quán có máy lạnh, mở cửa khuya, view đẹp, phù hợp trẻ em, có ghế trẻ em và phù hợp cho hẹn hò, nhóm bạn, gia đình.",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "known_strengths": {
     "value": [
@@ -9352,7 +9352,7 @@
     ],
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "known_weaknesses": {
     "value": [
@@ -9361,7 +9361,7 @@
     ],
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "menu": {
     "value": [
@@ -9466,7 +9466,7 @@
     ],
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "menu_stats": {
     "item_count": 6,
@@ -9485,7 +9485,7 @@
     "value": null,
     "source": "tasco_csv",
     "confidence": 0.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "ocr_rule_parsed": [],
    "reviews": {
@@ -9553,7 +9553,7 @@
     ],
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "quality": {
     "dataset_score": 0.92,
@@ -9577,32 +9577,32 @@
     "value": "Noodle Bar 24h",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "name_norm": "noodle bar 24h",
    "category": {
     "value": "Nhà hàng",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "city": {
     "value": "Hạ Long",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "district": {
     "value": "Bãi Cháy",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "address": {
     "value": "107 Hùng Vương, Bãi Cháy, Hạ Long",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "coordinates": {
     "value": {
@@ -9611,43 +9611,43 @@
     },
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "cuisine_type": {
     "value": "Việt Nam",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "price_level": {
     "value": "Trung bình",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "avg_price_vnd": {
     "value": 168329,
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "rating": {
     "value": 4.4,
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "review_count": {
     "value": 1006,
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "popularity_score": {
     "value": 70,
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "opening_hours": {
     "value": {
@@ -9658,7 +9658,7 @@
     },
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "amenities": {
     "value": [
@@ -9671,7 +9671,7 @@
     ],
     "source": "taxonomy_s3",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "amenities_raw": "Giao hàng, Bãi đỗ xe, Mở cửa khuya, Đặt bàn trước, Có ghế trẻ em, Nhạc nhẹ, Máy lạnh",
    "amenities_unmapped": [
@@ -9683,7 +9683,7 @@
     ],
     "source": "taxonomy_s3",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "segments_raw": "Hẹn hò, Ăn chay",
    "segments_unmapped": [
@@ -9695,7 +9695,7 @@
     ],
     "source": "cross_dataset",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "diet_evidence": {
     "declared_cuisine": [],
@@ -9709,7 +9709,7 @@
     "value": "Noodle Bar 24h là nhà hàng tại Bãi Cháy, Hạ Long, chuyên ẩm thực Việt Nam. Quán có giao hàng, bãi đỗ xe, mở cửa khuya, đặt bàn trước, có ghế trẻ em và phù hợp cho hẹn hò, ăn chay.",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "known_strengths": {
     "value": [
@@ -9719,7 +9719,7 @@
     ],
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "known_weaknesses": {
     "value": [
@@ -9728,7 +9728,7 @@
     ],
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "menu": {
     "value": [
@@ -9848,7 +9848,7 @@
     ],
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "menu_stats": {
     "item_count": 7,
@@ -9865,7 +9865,7 @@
     "value": null,
     "source": "tasco_csv",
     "confidence": 0.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "ocr_rule_parsed": [],
    "reviews": {
@@ -9933,7 +9933,7 @@
     ],
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "quality": {
     "dataset_score": 0.92,
@@ -9957,32 +9957,32 @@
     "value": "Lotus Halal Kitchen",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "name_norm": "lotus halal kitchen",
    "category": {
     "value": "Nhà hàng",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "city": {
     "value": "Đà Lạt",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "district": {
     "value": "Phường 1",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "address": {
     "value": "177 Hùng Vương, Phường 1, Đà Lạt",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "coordinates": {
     "value": {
@@ -9991,43 +9991,43 @@
     },
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "cuisine_type": {
     "value": "Halal",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "price_level": {
     "value": "Cao cấp",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "avg_price_vnd": {
     "value": 578125,
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "rating": {
     "value": 4.2,
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "review_count": {
     "value": 951,
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "popularity_score": {
     "value": 59,
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "opening_hours": {
     "value": {
@@ -10038,7 +10038,7 @@
     },
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "amenities": {
     "value": [
@@ -10050,7 +10050,7 @@
     ],
     "source": "taxonomy_s3",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "amenities_raw": "View đẹp, Mở cửa khuya, Bãi đỗ xe, Không gian ngoài trời, Có ghế trẻ em, Phù hợp trẻ em",
    "amenities_unmapped": [
@@ -10064,7 +10064,7 @@
     ],
     "source": "taxonomy_s3",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "segments_raw": "Hẹn hò, Ăn nhanh, Gia đình",
    "segments_unmapped": [],
@@ -10075,7 +10075,7 @@
     ],
     "source": "cross_dataset",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "diet_evidence": {
     "declared_cuisine": [
@@ -10092,7 +10092,7 @@
     "value": "Lotus Halal Kitchen là nhà hàng tại Phường 1, Đà Lạt, chuyên ẩm thực Halal. Quán có view đẹp, mở cửa khuya, bãi đỗ xe, không gian ngoài trời, có ghế trẻ em và phù hợp cho hẹn hò, ăn nhanh, gia đình.",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "known_strengths": {
     "value": [
@@ -10102,7 +10102,7 @@
     ],
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "known_weaknesses": {
     "value": [
@@ -10111,7 +10111,7 @@
     ],
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "menu": {
     "value": [
@@ -10206,7 +10206,7 @@
     ],
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "menu_stats": {
     "item_count": 5,
@@ -10223,7 +10223,7 @@
     "value": null,
     "source": "tasco_csv",
     "confidence": 0.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "ocr_rule_parsed": [],
    "reviews": {
@@ -10291,7 +10291,7 @@
     ],
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "quality": {
     "dataset_score": 0.9,
@@ -10315,32 +10315,32 @@
     "value": "Green Bowl Salad",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "name_norm": "green bowl salad",
    "category": {
     "value": "Nhà hàng",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "city": {
     "value": "Huế",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "district": {
     "value": "Phú Hội",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "address": {
     "value": "180 Võ Nguyên Giáp, Phú Hội, Huế",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "coordinates": {
     "value": {
@@ -10349,43 +10349,43 @@
     },
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "cuisine_type": {
     "value": "Nhật",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "price_level": {
     "value": "Cao cấp",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "avg_price_vnd": {
     "value": 607710,
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "rating": {
     "value": 4.5,
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "review_count": {
     "value": 974,
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "popularity_score": {
     "value": 44,
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "opening_hours": {
     "value": {
@@ -10396,7 +10396,7 @@
     },
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "amenities": {
     "value": [
@@ -10409,7 +10409,7 @@
     ],
     "source": "taxonomy_s3",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "amenities_raw": "Đặt bàn trước, Bãi đỗ xe, Phù hợp trẻ em, Không gian ngoài trời, Phòng riêng, Máy lạnh",
    "amenities_unmapped": [],
@@ -10420,7 +10420,7 @@
     ],
     "source": "taxonomy_s3",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "segments_raw": "Gia đình, Hẹn hò",
    "segments_unmapped": [],
@@ -10430,7 +10430,7 @@
     ],
     "source": "cross_dataset",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "diet_evidence": {
     "declared_cuisine": [],
@@ -10444,7 +10444,7 @@
     "value": "Green Bowl Salad là nhà hàng tại Phú Hội, Huế, chuyên ẩm thực Nhật. Quán có đặt bàn trước, bãi đỗ xe, phù hợp trẻ em, không gian ngoài trời, phòng riêng và phù hợp cho gia đình, hẹn hò.",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "known_strengths": {
     "value": [
@@ -10454,7 +10454,7 @@
     ],
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "known_weaknesses": {
     "value": [
@@ -10463,7 +10463,7 @@
     ],
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "menu": {
     "value": [
@@ -10553,7 +10553,7 @@
     ],
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "menu_stats": {
     "item_count": 5,
@@ -10568,7 +10568,7 @@
     "value": null,
     "source": "tasco_csv",
     "confidence": 0.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "ocr_rule_parsed": [],
    "reviews": {
@@ -10636,7 +10636,7 @@
     ],
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "quality": {
     "dataset_score": 0.94,
@@ -10659,32 +10659,32 @@
     "value": "Bánh Xèo Miền Trung",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "name_norm": "banh xeo mien trung",
    "category": {
     "value": "Nhà hàng",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "city": {
     "value": "Hà Nội",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "district": {
     "value": "Hoàn Kiếm",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "address": {
     "value": "112 Hai Bà Trưng, Hoàn Kiếm, Hà Nội",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "coordinates": {
     "value": {
@@ -10693,43 +10693,43 @@
     },
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "cuisine_type": {
     "value": "Việt Nam",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "price_level": {
     "value": "Trung bình",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "avg_price_vnd": {
     "value": 278259,
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "rating": {
     "value": 3.8,
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "review_count": {
     "value": 126,
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "popularity_score": {
     "value": 96,
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "opening_hours": {
     "value": {
@@ -10740,7 +10740,7 @@
     },
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "amenities": {
     "value": [
@@ -10752,7 +10752,7 @@
     ],
     "source": "taxonomy_s3",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "amenities_raw": "Bãi đỗ xe, Không gian ngoài trời, Nhạc nhẹ, View đẹp, Wi-Fi miễn phí",
    "amenities_unmapped": [],
@@ -10764,7 +10764,7 @@
     ],
     "source": "taxonomy_s3",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "segments_raw": "Nhóm bạn, Gia đình, Tiết kiệm, Công tác",
    "segments_unmapped": [
@@ -10776,7 +10776,7 @@
     ],
     "source": "cross_dataset",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "diet_evidence": {
     "declared_cuisine": [],
@@ -10790,7 +10790,7 @@
     "value": "Bánh Xèo Miền Trung là nhà hàng tại Hoàn Kiếm, Hà Nội, chuyên ẩm thực Việt Nam. Quán có bãi đỗ xe, không gian ngoài trời, nhạc nhẹ, view đẹp, wi-fi miễn phí và phù hợp cho nhóm bạn, gia đình, tiết kiệm.",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "known_strengths": {
     "value": [
@@ -10800,7 +10800,7 @@
     ],
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "known_weaknesses": {
     "value": [
@@ -10809,7 +10809,7 @@
     ],
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "menu": {
     "value": [
@@ -10932,7 +10932,7 @@
     ],
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "menu_stats": {
     "item_count": 7,
@@ -10948,7 +10948,7 @@
     "value": null,
     "source": "tasco_csv",
     "confidence": 0.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "ocr_rule_parsed": [],
    "reviews": {
@@ -11016,7 +11016,7 @@
     ],
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "quality": {
     "dataset_score": 0.99,
@@ -11039,32 +11039,32 @@
     "value": "Little Korea BBQ",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "name_norm": "little korea bbq",
    "category": {
     "value": "Nhà hàng",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "city": {
     "value": "TP. Hồ Chí Minh",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "district": {
     "value": "Quận 1",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "address": {
     "value": "160 Võ Nguyên Giáp, Quận 1, TP. Hồ Chí Minh",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "coordinates": {
     "value": {
@@ -11073,43 +11073,43 @@
     },
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "cuisine_type": {
     "value": "Hàn",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "price_level": {
     "value": "Bình dân",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "avg_price_vnd": {
     "value": 71079,
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "rating": {
     "value": 4.2,
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "review_count": {
     "value": 702,
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "popularity_score": {
     "value": 82,
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "opening_hours": {
     "value": {
@@ -11120,7 +11120,7 @@
     },
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "amenities": {
     "value": [
@@ -11135,7 +11135,7 @@
     ],
     "source": "taxonomy_s3",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "amenities_raw": "Máy lạnh, Nhạc nhẹ, Đặt bàn trước, Phù hợp trẻ em, Wi-Fi miễn phí, Giao hàng, View đẹp, Phòng riêng",
    "amenities_unmapped": [],
@@ -11146,7 +11146,7 @@
     ],
     "source": "taxonomy_s3",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "segments_raw": "Tiết kiệm, Gia đình",
    "segments_unmapped": [],
@@ -11156,7 +11156,7 @@
     ],
     "source": "cross_dataset",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "diet_evidence": {
     "declared_cuisine": [],
@@ -11170,7 +11170,7 @@
     "value": "Little Korea BBQ là nhà hàng tại Quận 1, TP. Hồ Chí Minh, chuyên ẩm thực Hàn. Quán có máy lạnh, nhạc nhẹ, đặt bàn trước, phù hợp trẻ em, wi-fi miễn phí và phù hợp cho tiết kiệm, gia đình.",
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "known_strengths": {
     "value": [
@@ -11180,7 +11180,7 @@
     ],
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "known_weaknesses": {
     "value": [
@@ -11189,7 +11189,7 @@
     ],
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "menu": {
     "value": [
@@ -11276,7 +11276,7 @@
     ],
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "menu_stats": {
     "item_count": 5,
@@ -11292,7 +11292,7 @@
     "value": null,
     "source": "tasco_csv",
     "confidence": 0.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "ocr_rule_parsed": [],
    "reviews": {
@@ -11360,7 +11360,7 @@
     ],
     "source": "tasco_csv",
     "confidence": 1.0,
-    "fetched_at": "2026-07-11T04:21:16.910587+00:00"
+    "fetched_at": "2026-07-11T06:15:57.182537+00:00"
    },
    "quality": {
     "dataset_score": 0.92,

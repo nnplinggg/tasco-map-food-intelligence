@@ -1,0 +1,16 @@
+{
+ "request": {
+  "model": "gpt-4o-mini-search-preview",
+  "web_search_options": {},
+  "messages": [
+   {
+    "role": "user",
+    "content": "Tìm thông tin THẬT trên web cho nhà hàng \"Little Korea BBQ\" (Hàn), địa chỉ \"160 Võ Nguyên Giáp, Quận 1, TP. Hồ Chí Minh\", thành phố TP. Hồ Chí Minh, Việt Nam.\nCần: giờ mở cửa, tiện ích nổi bật (chỗ đỗ xe, wifi, phòng riêng, ...), 2-3 món phổ biến/được nhắc tới nhiều.\nCHỈ trả lời dựa trên nguồn tìm được thật. Nếu KHÔNG tìm thấy nhà hàng này trên web (có thể vì đây là dữ liệu tổng hợp, không tồn tại thật), để giá trị null/rỗng — TUYỆT ĐỐI không bịa hay đoán.\nTrả lời NGẮN GỌN, đúng 1 khối JSON, không giải thích thêm:\n{\"opening_hours\": string|null, \"amenities\": [string], \"popular_dishes\": [string]}"
+   }
+  ]
+ },
+ "response": {
+  "text": "{\"opening_hours\": null, \"amenities\": [], \"popular_dishes\": []}",
+  "sources": []
+ }
+}

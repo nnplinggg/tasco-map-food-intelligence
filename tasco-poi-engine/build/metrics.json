@@ -1,0 +1,393 @@
+{
+ "generated_at": "2026-07-11T08:35:35.494131+00:00",
+ "poi_count": 30,
+ "before": 0.863,
+ "after": 0.863,
+ "gaps_closed": 0,
+ "enrichment_targets": 12,
+ "enrichment_mode_counts": {
+  "gap_analysis_only": 12
+ },
+ "per_restaurant_changed": [],
+ "per_restaurant": [
+  {
+   "restaurant_id": "RES001",
+   "name": "Phở Bếp Nhà",
+   "gaps_before": [],
+   "gaps_closed": [],
+   "gaps_after": [],
+   "enrichment_mode": "not_targeted",
+   "enrichment_note": null,
+   "quality_before": 0.862,
+   "quality_after": 0.862
+  },
+  {
+   "restaurant_id": "RES002",
+   "name": "Bún Chả Phố Cổ",
+   "gaps_before": [],
+   "gaps_closed": [],
+   "gaps_after": [],
+   "enrichment_mode": "not_targeted",
+   "enrichment_note": null,
+   "quality_before": 0.895,
+   "quality_after": 0.895
+  },
+  {
+   "restaurant_id": "RES003",
+   "name": "Cơm Tấm Sài Gòn Xưa",
+   "gaps_before": [],
+   "gaps_closed": [],
+   "gaps_after": [],
+   "enrichment_mode": "not_targeted",
+   "enrichment_note": null,
+   "quality_before": 0.826,
+   "quality_after": 0.826
+  },
+  {
+   "restaurant_id": "RES004",
+   "name": "Nhà Hàng Biển Xanh",
+   "gaps_before": [],
+   "gaps_closed": [],
+   "gaps_after": [],
+   "enrichment_mode": "not_targeted",
+   "enrichment_note": null,
+   "quality_before": 0.962,
+   "quality_after": 0.962
+  },
+  {
+   "restaurant_id": "RES005",
+   "name": "Mộc Vegan Bistro",
+   "gaps_before": [],
+   "gaps_closed": [],
+   "gaps_after": [],
+   "enrichment_mode": "not_targeted",
+   "enrichment_note": null,
+   "quality_before": 1.0,
+   "quality_after": 1.0
+  },
+  {
+   "restaurant_id": "RES006",
+   "name": "Gà Nướng Lá Chanh",
+   "gaps_before": [],
+   "gaps_closed": [],
+   "gaps_after": [],
+   "enrichment_mode": "not_targeted",
+   "enrichment_note": null,
+   "quality_before": 0.91,
+   "quality_after": 0.91
+  },
+  {
+   "restaurant_id": "RES007",
+   "name": "Hải Sản Sóng Vàng",
+   "gaps_before": [],
+   "gaps_closed": [],
+   "gaps_after": [],
+   "enrichment_mode": "not_targeted",
+   "enrichment_note": null,
+   "quality_before": 0.958,
+   "quality_after": 0.958
+  },
+  {
+   "restaurant_id": "RES008",
+   "name": "The Coffee & Brunch",
+   "gaps_before": [],
+   "gaps_closed": [],
+   "gaps_after": [],
+   "enrichment_mode": "not_targeted",
+   "enrichment_note": null,
+   "quality_before": 0.969,
+   "quality_after": 0.969
+  },
+  {
+   "restaurant_id": "RES009",
+   "name": "Lẩu Nấm An Nhiên",
+   "gaps_before": [],
+   "gaps_closed": [],
+   "gaps_after": [],
+   "enrichment_mode": "not_targeted",
+   "enrichment_note": null,
+   "quality_before": 1.0,
+   "quality_after": 1.0
+  },
+  {
+   "restaurant_id": "RES010",
+   "name": "Pizza Roma",
+   "gaps_before": [],
+   "gaps_closed": [],
+   "gaps_after": [],
+   "enrichment_mode": "not_targeted",
+   "enrichment_note": null,
+   "quality_before": 0.972,
+   "quality_after": 0.972
+  },
+  {
+   "restaurant_id": "RES011",
+   "name": "Sushi Sakura",
+   "gaps_before": [],
+   "gaps_closed": [],
+   "gaps_after": [],
+   "enrichment_mode": "not_targeted",
+   "enrichment_note": null,
+   "quality_before": 0.751,
+   "quality_after": 0.751
+  },
+  {
+   "restaurant_id": "RES012",
+   "name": "Bánh Mì Corner",
+   "gaps_before": [],
+   "gaps_closed": [],
+   "gaps_after": [],
+   "enrichment_mode": "not_targeted",
+   "enrichment_note": null,
+   "quality_before": 0.827,
+   "quality_after": 0.827
+  },
+  {
+   "restaurant_id": "RES013",
+   "name": "Quán Chay Sen Trắng",
+   "gaps_before": [],
+   "gaps_closed": [],
+   "gaps_after": [],
+   "enrichment_mode": "not_targeted",
+   "enrichment_note": null,
+   "quality_before": 0.781,
+   "quality_after": 0.781
+  },
+  {
+   "restaurant_id": "RES014",
+   "name": "Rooftop Garden Dining",
+   "gaps_before": [],
+   "gaps_closed": [],
+   "gaps_after": [],
+   "enrichment_mode": "not_targeted",
+   "enrichment_note": null,
+   "quality_before": 0.771,
+   "quality_after": 0.771
+  },
+  {
+   "restaurant_id": "RES015",
+   "name": "BBQ Street House",
+   "gaps_before": [],
+   "gaps_closed": [],
+   "gaps_after": [],
+   "enrichment_mode": "not_targeted",
+   "enrichment_note": null,
+   "quality_before": 0.9,
+   "quality_after": 0.9
+  },
+  {
+   "restaurant_id": "RES016",
+   "name": "Bún Bò Cố Đô",
+   "gaps_before": [],
+   "gaps_closed": [],
+   "gaps_after": [],
+   "enrichment_mode": "not_targeted",
+   "enrichment_note": null,
+   "quality_before": 0.873,
+   "quality_after": 0.873
+  },
+  {
+   "restaurant_id": "RES017",
+   "name": "Café Trứng 1980",
+   "gaps_before": [],
+   "gaps_closed": [],
+   "gaps_after": [],
+   "enrichment_mode": "not_targeted",
+   "enrichment_note": null,
+   "quality_before": 0.84,
+   "quality_after": 0.84
+  },
+  {
+   "restaurant_id": "RES018",
+   "name": "Nhà Hàng Gia Đình Việt",
+   "gaps_before": [],
+   "gaps_closed": [],
+   "gaps_after": [],
+   "enrichment_mode": "not_targeted",
+   "enrichment_note": null,
+   "quality_before": 0.965,
+   "quality_after": 0.965
+  },
+  {
+   "restaurant_id": "RES019",
+   "name": "Taco Fiesta",
+   "gaps_before": [
+    "ocr_menu"
+   ],
+   "gaps_closed": [],
+   "gaps_after": [
+    "ocr_menu"
+   ],
+   "enrichment_mode": "gap_analysis_only",
+   "enrichment_note": "openai không tìm thấy nguồn web thật nào cho \"Taco Fiesta\" (nhiều khả năng đây là POI tổng hợp cho hackathon, không tồn tại ngoài đời) -> không enrich, giữ nguyên gap: ocr_menu, amenities_unmapped:1.",
+   "quality_before": 0.732,
+   "quality_after": 0.732
+  },
+  {
+   "restaurant_id": "RES020",
+   "name": "Dimsum House",
+   "gaps_before": [
+    "ocr_menu"
+   ],
+   "gaps_closed": [],
+   "gaps_after": [
+    "ocr_menu"
+   ],
+   "enrichment_mode": "gap_analysis_only",
+   "enrichment_note": "openai không tìm thấy nguồn web thật nào cho \"Dimsum House\" (nhiều khả năng đây là POI tổng hợp cho hackathon, không tồn tại ngoài đời) -> không enrich, giữ nguyên gap: ocr_menu.",
+   "quality_before": 0.861,
+   "quality_after": 0.861
+  },
+  {
+   "restaurant_id": "RES021",
+   "name": "Mì Quảng Cô Ba",
+   "gaps_before": [
+    "ocr_menu"
+   ],
+   "gaps_closed": [],
+   "gaps_after": [
+    "ocr_menu"
+   ],
+   "enrichment_mode": "gap_analysis_only",
+   "enrichment_note": "openai không tìm thấy nguồn web thật nào cho \"Mì Quảng Cô Ba\" (nhiều khả năng đây là POI tổng hợp cho hackathon, không tồn tại ngoài đời) -> không enrich, giữ nguyên gap: ocr_menu, amenities_unmapped:1.",
+   "quality_before": 0.905,
+   "quality_after": 0.905
+  },
+  {
+   "restaurant_id": "RES022",
+   "name": "Curry Garden",
+   "gaps_before": [
+    "ocr_menu"
+   ],
+   "gaps_closed": [],
+   "gaps_after": [
+    "ocr_menu"
+   ],
+   "enrichment_mode": "gap_analysis_only",
+   "enrichment_note": "openai không tìm thấy nguồn web thật nào cho \"Curry Garden\" (nhiều khả năng đây là POI tổng hợp cho hackathon, không tồn tại ngoài đời) -> không enrich, giữ nguyên gap: ocr_menu.",
+   "quality_before": 0.708,
+   "quality_after": 0.708
+  },
+  {
+   "restaurant_id": "RES023",
+   "name": "Steak & Wine Bistro",
+   "gaps_before": [
+    "ocr_menu"
+   ],
+   "gaps_closed": [],
+   "gaps_after": [
+    "ocr_menu"
+   ],
+   "enrichment_mode": "gap_analysis_only",
+   "enrichment_note": "openai không tìm thấy nguồn web thật nào cho \"Steak & Wine Bistro\" (nhiều khả năng đây là POI tổng hợp cho hackathon, không tồn tại ngoài đời) -> không enrich, giữ nguyên gap: ocr_menu.",
+   "quality_before": 0.933,
+   "quality_after": 0.933
+  },
+  {
+   "restaurant_id": "RES024",
+   "name": "Chè Huế Ngọt Ngào",
+   "gaps_before": [
+    "ocr_menu"
+   ],
+   "gaps_closed": [],
+   "gaps_after": [
+    "ocr_menu"
+   ],
+   "enrichment_mode": "gap_analysis_only",
+   "enrichment_note": "openai không tìm thấy nguồn web thật nào cho \"Chè Huế Ngọt Ngào\" (nhiều khả năng đây là POI tổng hợp cho hackathon, không tồn tại ngoài đời) -> không enrich, giữ nguyên gap: ocr_menu, amenities_unmapped:1.",
+   "quality_before": 0.753,
+   "quality_after": 0.753
+  },
+  {
+   "restaurant_id": "RES025",
+   "name": "Sea View Grill",
+   "gaps_before": [
+    "ocr_menu"
+   ],
+   "gaps_closed": [],
+   "gaps_after": [
+    "ocr_menu"
+   ],
+   "enrichment_mode": "gap_analysis_only",
+   "enrichment_note": "openai không tìm thấy nguồn web thật nào cho \"Sea View Grill\" (nhiều khả năng đây là POI tổng hợp cho hackathon, không tồn tại ngoài đời) -> không enrich, giữ nguyên gap: ocr_menu, amenities_unmapped:1.",
+   "quality_before": 0.754,
+   "quality_after": 0.754
+  },
+  {
+   "restaurant_id": "RES026",
+   "name": "Noodle Bar 24h",
+   "gaps_before": [
+    "ocr_menu"
+   ],
+   "gaps_closed": [],
+   "gaps_after": [
+    "ocr_menu"
+   ],
+   "enrichment_mode": "gap_analysis_only",
+   "enrichment_note": "openai không tìm thấy nguồn web thật nào cho \"Noodle Bar 24h\" (nhiều khả năng đây là POI tổng hợp cho hackathon, không tồn tại ngoài đời) -> không enrich, giữ nguyên gap: ocr_menu, amenities_unmapped:1.",
+   "quality_before": 0.905,
+   "quality_after": 0.905
+  },
+  {
+   "restaurant_id": "RES027",
+   "name": "Lotus Halal Kitchen",
+   "gaps_before": [
+    "ocr_menu"
+   ],
+   "gaps_closed": [],
+   "gaps_after": [
+    "ocr_menu"
+   ],
+   "enrichment_mode": "gap_analysis_only",
+   "enrichment_note": "openai không tìm thấy nguồn web thật nào cho \"Lotus Halal Kitchen\" (nhiều khả năng đây là POI tổng hợp cho hackathon, không tồn tại ngoài đời) -> không enrich, giữ nguyên gap: ocr_menu, amenities_unmapped:1.",
+   "quality_before": 0.89,
+   "quality_after": 0.89
+  },
+  {
+   "restaurant_id": "RES028",
+   "name": "Green Bowl Salad",
+   "gaps_before": [
+    "ocr_menu"
+   ],
+   "gaps_closed": [],
+   "gaps_after": [
+    "ocr_menu"
+   ],
+   "enrichment_mode": "gap_analysis_only",
+   "enrichment_note": "openai không tìm thấy nguồn web thật nào cho \"Green Bowl Salad\" (nhiều khả năng đây là POI tổng hợp cho hackathon, không tồn tại ngoài đời) -> không enrich, giữ nguyên gap: ocr_menu.",
+   "quality_before": 0.896,
+   "quality_after": 0.896
+  },
+  {
+   "restaurant_id": "RES029",
+   "name": "Bánh Xèo Miền Trung",
+   "gaps_before": [
+    "ocr_menu"
+   ],
+   "gaps_closed": [],
+   "gaps_after": [
+    "ocr_menu"
+   ],
+   "enrichment_mode": "gap_analysis_only",
+   "enrichment_note": "openai không tìm thấy nguồn web thật nào cho \"Bánh Xèo Miền Trung\" (nhiều khả năng đây là POI tổng hợp cho hackathon, không tồn tại ngoài đời) -> không enrich, giữ nguyên gap: ocr_menu.",
+   "quality_before": 0.671,
+   "quality_after": 0.671
+  },
+  {
+   "restaurant_id": "RES030",
+   "name": "Little Korea BBQ",
+   "gaps_before": [
+    "ocr_menu"
+   ],
+   "gaps_closed": [],
+   "gaps_after": [
+    "ocr_menu"
+   ],
+   "enrichment_mode": "gap_analysis_only",
+   "enrichment_note": "openai không tìm thấy nguồn web thật nào cho \"Little Korea BBQ\" (nhiều khả năng đây là POI tổng hợp cho hackathon, không tồn tại ngoài đời) -> không enrich, giữ nguyên gap: ocr_menu.",
+   "quality_before": 0.824,
+   "quality_after": 0.824
+  }
+ ],
+ "honest_summary": "0 gap đóng được: 12/12 quán gap là POI tổng hợp cho hackathon, không có trên web thật (grounded search đúng đắn từ chối bịa, kể cả khi thử model mạnh hơn). before == after là kết quả THẬT, không phải lỗi enrichment."
+}

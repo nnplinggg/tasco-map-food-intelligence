@@ -167,6 +167,61 @@ def batch(prompts: list[str], workers: int = 6, schema: dict | None = None) -> l
         return list(ex.map(fn, prompts))
 
 
+def gen_grounded(prompt: str, temperature: float = 0.2, max_tokens: int = 800) -> dict | None:
+    """text -> {"text": str, "sources": [{"title","url"}]}, CÓ Google Search grounding.
+
+    Dùng cho enrichment (engine/enrich.py): tìm thông tin THẬT trên web thay vì
+    LLM tự bịa. Nếu Gemini không trả groundingMetadata (không tìm được gì thật
+    trên web) -> sources rỗng -> caller PHẢI coi là "không có bằng chứng",
+    không được tin nội dung text dù nó nghe hợp lý.
+
+    Trả None nếu không gọi được (thiếu key / lỗi mạng) -> caller tự fallback.
+    """
+    payload = {
+        "contents": [{"parts": [{"text": prompt}]}],
+        "tools": [{"google_search": {}}],
+        "generationConfig": {"temperature": temperature, "maxOutputTokens": max_tokens},
+    }
+    k = _key(payload)
+    hit = _cache_get(k)
+    if hit is not None:
+        return hit
+    if not KEY:
+        return None
+
+    url = f"{BASE}/{MODEL}:generateContent?key={KEY}"
+    body = json.dumps(payload).encode()
+    for attempt in range(3):
+        try:
+            req = urllib.request.Request(
+                url, data=body, headers={"Content-Type": "application/json"})
+            with urllib.request.urlopen(req, timeout=60) as r:
+                data = json.loads(r.read())
+            cand = data["candidates"][0]
+            text = cand["content"]["parts"][0]["text"].strip()
+            chunks = (cand.get("groundingMetadata") or {}).get("groundingChunks") or []
+            sources = [
+                {"title": c["web"]["title"], "url": c["web"]["uri"]}
+                for c in chunks if "web" in c
+            ]
+            result = {"text": text, "sources": sources}
+            _cache_put(k, payload, result)
+            return result
+        except urllib.error.HTTPError as e:
+            if e.code in (429, 500, 503) and attempt < 2:
+                time.sleep(2 ** attempt * 2)
+                continue
+            print(f"  [gemini gen_grounded HTTP {e.code}] {e.read()[:200]!r}")
+            return None
+        except Exception as e:
+            if attempt < 2:
+                time.sleep(2 ** attempt)
+                continue
+            print(f"  [gemini gen_grounded fail] {e}")
+            return None
+    return None
+
+
 def cache_stats() -> dict:
     n = len(list(CACHE.glob("*.json"))) if CACHE.exists() else 0
     return {"cached_calls": n, "mode": CACHE_MODE, "model": MODEL, "key_set": bool(KEY)}
